@@ -26,9 +26,8 @@ and associated publications using [Preston](https://preston.guoda.bio), a biodiv
 
 to update the data associated with the Dillen 2018 corpus, install Preston, jq, and re-run:
 
-```
-$ ./build.sh 
-[...]
+```shell
+./build.sh 
 ```
 
 Depending on your network connectivity and Zenodo server response times, this process may take a while. If you don't want to rely on the internet, suggest to use the clone feature described next. 
@@ -37,11 +36,13 @@ Depending on your network connectivity and Zenodo server response times, this pr
 ### clone
 To work with the image corpus (and it's associated images) locally, suggest to run:
 
-```
-$ preston clone --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org
+```shell
+preston clone --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org
 ```
 
 Please note that the associated (heavy) images are stored in Zenodo, whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository.
+
+Alternatively, you can use git/github to clone the metadata, then retrieve the (heavy) image object from Zenodo if needed:
 
 ### find 
 
@@ -49,11 +50,16 @@ You can use the generated index.json to find the specimen records that you are i
 
 For instance, you can use jq in combination with ```head``` to find the first 2 specimen record of genus ```Abelia``` 
 
-```
-$ cat index.json\
+```shell
+cat index.json\
 | jq --compact-output '.["@graph"][] | select(.["dwc:genus"] == "Abelia")'\
 | head -n2\
 | jq .
+```
+
+with expected output:
+
+```json
 {
   "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
   "dwc:scientificName": "Abelia forrestii (Diels) W.W.Sm.",

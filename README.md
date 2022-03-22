@@ -8,6 +8,7 @@ and associated publications using [Preston](https://preston.guoda.bio), a biodiv
 
 :warning: this is an experimental data repository :warning: 
 
+:warning: note that the Zenodo remote functionality is still under development; see https://github.com/bio-guoda/preston/issues/152 :warning:
 
 ## contents
 

@@ -34,7 +34,7 @@ Depending on your network connectivity and Zenodo server response times, this pr
 
 
 ### clone
-To work with the image corpus (and it's associated images) locally, suggest to run:
+To work with a previously captured version of the image corpus (and it's associated images) locally, suggest to run:
 
 ```shell
 preston clone --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org

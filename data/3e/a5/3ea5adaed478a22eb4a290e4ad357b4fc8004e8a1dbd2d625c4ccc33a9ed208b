@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Verbena bonariensis L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914327",
+            "dwc:catalogNumber": "K000914327",
+            "dwc:genus": "Verbena",
+            "dwc:specificEpithet": "bonariensis",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2008,
+            "dwc:eventDate": "2008-07-22",
+            "dwc:locality": "Kew Gardens; Herbaceous",
+            "dwc:recordedBy": "Cope, T.A.",
+            "dwc:decimalLatitude": 51.48,
+            "dwc:decimalLongitude": -0.31,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914327",
+            "dwc:month": 7,
+            "dwc:day": 22,
+            "dcterms:modified": "2013-12-05",
+            "dwc:recordNumber": "RBG 183",
+            "dwc:habitat": "just above the waterline on the retaining wall of the Palm House Pond (zone 187, OS monad 18.76-18.77)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Verbenaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "VERBENACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Argentinian Vervain; Naturalized from a recent hardy display",
+            "dwc:georeferenceProtocol": "Within Park",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914327",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914327",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/571120.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Parmeliopsis capitata R.C.Harris ex J.W.Hinds & P.L.Hinds",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9503747",
+            "dwc:catalogNumber": "HA.H9503747",
+            "dwc:genus": "Parmeliopsis",
+            "dwc:specificEpithet": "capitata",
+            "dwc:country": "US",
+            "dwc:year": 1956,
+            "dwc:eventDate": "1956-08-01/1956-08-31",
+            "dwc:locality": "Spruce Knob",
+            "dwc:recordedBy": "Hale, M. E.",
+            "dwc:decimalLatitude": 38.6997,
+            "dwc:decimalLongitude": -79.5328,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:stateProvince": "West Virginia",
+            "dwc:identifiedBy": "Ahti, Teuvo",
+            "dwc:dateIdentified": "1998",
+            "dwc:continent": "Northern America",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5318827",
+            "dwc:month": 8,
+            "dwc:county": "Pendleton County",
+            "dcterms:modified": "1530276722",
+            "dwc:habitat": "On twigs of Picea rubens in mountains.",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:otherCatalogNumbers": "H9503747",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "West Virginia: top of Spruce Knob, Pendleton Co.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "38.699722 -79.532778 WGS84",
+            "dwc:scientificNameAuthorship": "R.C.Harris ex J.W.Hinds & P.L.Hinds",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Parmeliopsis capitata",
+            "dwc:measurementRemarks": "Divaricatic and usnic acids.",
+            "dwc:verbatimLongitude": "-79.532778",
+            "dwc:verbatimLatitude": "38.699722",
+            "dwc:georeferenceRemarks": "Coordinates: Spruce Knob.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/HA.H9503747",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

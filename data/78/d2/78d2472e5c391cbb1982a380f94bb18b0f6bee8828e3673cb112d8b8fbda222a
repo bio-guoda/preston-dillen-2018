@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Frullania holokelensis Verd.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0103417",
+            "dwc:catalogNumber": "PC0103417",
+            "dwc:genus": "Frullania",
+            "dwc:specificEpithet": "holokelensis",
+            "dwc:country": "United States",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-08-01",
+            "dwc:recordedBy": "Faurie, U.J.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0103417",
+            "dwc:month": 8,
+            "dcterms:modified": "2015-09-30",
+            "dwc:verbatimLocality": "Iles Sandwich : insula Maui, Haleakala",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Marchantiophyta",
+            "dwc:order": "Porellales",
+            "dwc:family": "Frullaniaceae",
+            "dwc:class": "Jungermanniopsida",
+            "dwc:collectionCode": "PC",
+            "dwc:institutionCode": "MNHN",
+            "dwc:occurrenceRemarks": "Avec F. meyeniana Lindenb.",
+            "dwc:fieldNumber": "217",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0103417",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Jubulaceae",
+            "@id": "SONNERAT|1278100",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Frullania",
+            "dwc:dateIdentified": "9-1977",
+            "dwc:higherClassification": "Frullania;Jubulaceae",
+            "dwc:specificEpithet": "subhamata",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Frullania subhamata Lehm.",
+            "dwc:identifiedBy": "Hattori",
+            "dwc:scientificNameAuthorship": "Lehm.",
+            "dwc:taxonID": "SONNERAT|278013",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Jubulaceae",
+            "@id": "SONNERAT|1278101",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Frullania",
+            "dwc:higherClassification": "Frullania;Jubulaceae",
+            "dwc:specificEpithet": "holokelensis",
+            "dwc:scientificName": "Frullania holokelensis Steph. ex Verd.",
+            "dwc:scientificNameAuthorship": "Steph. ex Verd.",
+            "dwc:taxonID": "SONNERAT|278023",
+            "@type": "dwc:Identification"
+        },
+        {
+            "@id": "25937BE78E174F759AA4390CCB1892D9",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, MB",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443564730771A2JkB3VBqFu5qgmS",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, MB",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443565795477Zafe6DhlwTlW3fh3",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum valdiviense Dunal",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "2322b3e9-2667-4f4d-a045-8c7acaeab676",
+            "dwc:catalogNumber": "BM000942945",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "valdiviense",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1975,
+            "dwc:eventDate": "1975-05-13",
+            "dwc:locality": "Hillier's Arboretum",
+            "dwc:recordedBy": "M Hillier",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:identifiedBy": "Sandra (Sandy) Diane Knapp",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "5453183",
+            "dwc:month": 5,
+            "dwc:day": 13,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "1195",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5453183",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Angiosperm; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England",
+            "dwc:fieldNumber": "1195",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/2322b3e9-2667-4f4d-a045-8c7acaeab676",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/bbd36b0eb7646b06f54b5ec8cfbcabe4d2c4a46a/contents/preview",
+            "dcterms:title": "BM000942945",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex flava L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU303584",
+            "dwc:catalogNumber": "TU303584",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "flava",
+            "dwc:country": "Estonia",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-07-10",
+            "dwc:locality": "Jıgeva raj, Kuremaa",
+            "dwc:recordedBy": "H. J‰‰r",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1971-07-10",
+            "dwc:identifiedBy": "H. J‰‰r",
+            "dwc:dateIdentified": "1971-07-10T00:00:00.000+0000",
+            "dcterms:identifier": "TU303584",
+            "dwc:month": 7,
+            "dwc:day": 10,
+            "dwc:habitat": "habitat: j‰rve lıunakaldast 10 m",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Monocotyledonae; Poales; Cyperaceae; Carex",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/519039",
+            "dwc:eventID": 774094,
+            "dwc:taxonID": 3425,
+            "dwc:locationID": 691183,
+            "dwc:identificationID": 803785,
+            "dwc:vernacularName": "kollane tarn",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/519039",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/49/29/492934CDC0E532F1F70AD201F8743293FADB1B65EED4854DC27723BD2C988F55.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1477202",
+            "dcterms:title": "TU303584.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

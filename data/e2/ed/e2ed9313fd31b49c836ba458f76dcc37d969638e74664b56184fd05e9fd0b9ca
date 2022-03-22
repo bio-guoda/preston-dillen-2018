@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Polygala chinensis L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2170803",
+            "dwc:catalogNumber": "L.2170803",
+            "dwc:genus": "Polygala",
+            "dwc:specificEpithet": "chinensis",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Java, Batavia, Pal Merah.",
+            "dwc:recordedBy": "Backer CA",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1903/02/28 | 1903/02/01",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2170803",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Polygalaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Fabales|Polygalaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2170803",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

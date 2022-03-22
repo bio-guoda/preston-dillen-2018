@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Populus nigra L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU302322",
+            "dwc:catalogNumber": "TU302322",
+            "dwc:genus": "Populus",
+            "dwc:specificEpithet": "nigra",
+            "dwc:country": "Estonia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-06-04",
+            "dwc:locality": "Põlva raj., Kanepi",
+            "dwc:recordedBy": "L. Pihlapuu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1972-06-04",
+            "dwc:identifiedBy": "L. Pihlapuu",
+            "dwc:dateIdentified": "1972-06-04T00:00:00.000+0000",
+            "dcterms:identifier": "TU302322",
+            "dwc:month": 6,
+            "dwc:day": 4,
+            "dwc:habitat": "habitat: Kooliõuel ilupuuna",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Salicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Malpighiales; Salicaceae; Populus",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/484651",
+            "dwc:eventID": 739706,
+            "dwc:taxonID": 6495,
+            "dwc:locationID": 656795,
+            "dwc:identificationID": 753385,
+            "dwc:vernacularName": "must pappel",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/484651",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/FC/64/FC6413A959E68D17577469582FBA60FBE256473FB8547666DE19F27DF28F5B20.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1469934",
+            "dcterms:title": "TU302322.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

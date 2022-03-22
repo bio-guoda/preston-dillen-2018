@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Corydalis laelia Prain",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BT",
+            "dwc:occurrenceID": "25d3ca93-f0cc-476a-9962-f7577c319f28",
+            "dwc:catalogNumber": "BM000551636",
+            "dwc:genus": "Corydalis",
+            "dwc:specificEpithet": "laelia",
+            "dwc:country": "Bhutan",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-05-21",
+            "dwc:recordedBy": "S Bowes Lyon",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "D.G. Long",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "4978383",
+            "dwc:month": 5,
+            "dwc:day": 21,
+            "dwc:recordNumber": "6050",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4978383",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Papaveraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Angiosperm; Papaveraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; Bhutan",
+            "dwc:fieldNumber": "6050",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/25d3ca93-f0cc-476a-9962-f7577c319f28",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/e3d7eab811d100ce04d1b50bbca0427724b2edeb/contents/preview",
+            "dcterms:title": "BM000551636",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

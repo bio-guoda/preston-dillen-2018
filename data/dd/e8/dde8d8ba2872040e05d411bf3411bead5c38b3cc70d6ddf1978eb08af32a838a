@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Kielmeyera rubriflora",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100217275",
+            "dwc:catalogNumber": "B 10 0217275",
+            "dwc:genus": "Kielmeyera",
+            "dwc:specificEpithet": "rubriflora",
+            "dwc:country": "Brazil",
+            "dwc:year": 1963,
+            "dwc:eventDate": "1963-03-31",
+            "dwc:recordedBy": "Pereira",
+            "setID": "B",
+            "dwc:verbatimEventDate": "31.3.1963",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "7484",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "GUTTIFERAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; GUTTIFERAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100217275",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

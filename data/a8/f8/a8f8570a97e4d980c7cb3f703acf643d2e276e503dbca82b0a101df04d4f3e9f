@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum mauritianum Scop.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "c4fa5db8-8046-4b1c-9db4-bfa554cd9727",
+            "dwc:catalogNumber": "BM000942848",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "mauritianum",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1998,
+            "dwc:eventDate": "1998-09-23",
+            "dwc:locality": "Hertz, grown at Ware.",
+            "dwc:recordedBy": "C.G. Hanson",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "5453116",
+            "dwc:month": 9,
+            "dwc:day": 23,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "91-06A",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5453116",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England",
+            "dwc:fieldNumber": "91-06A",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/c4fa5db8-8046-4b1c-9db4-bfa554cd9727",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/64a7c087586f9e608aec282020b1f1bdaae3ebed/contents/preview",
+            "dcterms:title": "BM000942848",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

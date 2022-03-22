@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mammea griseo-flavescens P.F.Stevens",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MG",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1522881",
+            "dwc:catalogNumber": "WAG.1522881",
+            "dwc:genus": "Mammea",
+            "dwc:specificEpithet": "griseo-flavescens",
+            "dwc:country": "Madagascar",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-04-29",
+            "dwc:locality": "Col de Manangotry, E of Andohahely Forest Reserve = Res. Nat. 11.",
+            "dwc:recordedBy": "Leeuwenberg AJM; Floret JJ; Lowry II PP; Rajemisa R",
+            "dwc:decimalLatitude": -24.7333,
+            "dwc:decimalLongitude": 46.8667,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1988/04/29",
+            "dc:typeStatus": "TYPE",
+            "dwc:stateProvince": "Toliara (Tulear)",
+            "dwc:identifiedBy": "Stevens PF",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "WAG.1522881",
+            "dwc:month": 4,
+            "dwc:day": 29,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Calophyllaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Malpighiales|Guttiferae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1522881",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex salina Wahlenb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "1b4ee5f4-da73-457a-b1b1-d0f39b594dbe",
+            "dwc:catalogNumber": "BM000908904",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "salina",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1920,
+            "dwc:eventDate": "1920-08-01",
+            "dwc:recordedBy": "George Claridge Druce; b.1850; d.1932; Druce",
+            "dwc:decimalLatitude": 58.4301,
+            "dwc:decimalLongitude": -3.464,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dwc:stateProvince": "Scotland",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "4867545",
+            "dwc:month": 8,
+            "dwc:recordNumber": "2599",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4867545",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Cyperaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; Scotland",
+            "dwc:fieldNumber": "2599",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/1b4ee5f4-da73-457a-b1b1-d0f39b594dbe",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/20691665d1bf1ecdc88eb92a7a5c33cf2da7156a/contents/preview",
+            "dcterms:title": "BM000908904C",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/c1a61e7a6c38d250ae4966c2ea1a800de7a2dbd1/contents/preview",
+            "dcterms:title": "BM000908904C",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

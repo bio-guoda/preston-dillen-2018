@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris",
+            "dwc:taxonRank": "genus",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1314",
+            "dwc:catalogNumber": "EIG.1314",
+            "dwc:genus": "Dryopteris",
+            "dwc:country": "United States",
+            "dwc:year": 1967,
+            "dwc:eventDate": "1967-07-28",
+            "dwc:locality": "Chugah Mountains, Richardson Highway Mile 23 from Valdez, near Thompson Pass, Blueberry Lake Campground",
+            "dwc:recordedBy": "Ahti, Teuvo",
+            "setID": "H",
+            "dwc:verbatimEventDate": "28.07.1967",
+            "dwc:stateProvince": "Alaska",
+            "dwc:continent": "North America",
+            "dcterms:identifier": "http://tun.fi/MY.691204",
+            "dwc:month": 7,
+            "dwc:day": 28,
+            "dcterms:modified": "1492083459",
+            "dwc:recordNumber": "23047",
+            "dwc:otherCatalogNumbers": "H1124076",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Chugah Mts., Richardson Hwy Mile 23 (from Valdez), near Thompson Pass, Blueberry Lake Campground, alt. 2500 ft.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris",
+            "dwc:verbatimRecordedBy": "Ahti, Teuvo",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1314",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

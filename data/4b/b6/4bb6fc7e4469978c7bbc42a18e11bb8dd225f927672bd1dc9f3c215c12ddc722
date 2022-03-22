@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Paepalanthus incanus (Bong.) Körn.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000965982",
+            "dwc:catalogNumber": "K000965982",
+            "dwc:genus": "Actinocephalus",
+            "dwc:specificEpithet": "incanus",
+            "dwc:country": "Brazil",
+            "dwc:year": 1931,
+            "dwc:eventDate": "1931-05-03",
+            "dwc:recordedBy": "Mexia, Y.E.J.",
+            "setID": "K",
+            "dwc:identifiedBy": "Standley",
+            "dcterms:identifier": "K000965982",
+            "dwc:month": 5,
+            "dwc:day": 3,
+            "dcterms:modified": "2014-08-01",
+            "dwc:recordNumber": "5748",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Eriocaulaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "ERIOCAULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "[Duplicate K000965981] Sheet 2. Flora of Brazil",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000965982",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000965982",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/560775.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

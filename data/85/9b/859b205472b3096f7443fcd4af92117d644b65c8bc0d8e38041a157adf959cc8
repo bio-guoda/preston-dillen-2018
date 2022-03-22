@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rhododendron bagobonum J.J.Copel.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MY",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200007337",
+            "dwc:catalogNumber": "L  0007337",
+            "dwc:genus": "Rhododendron",
+            "dwc:specificEpithet": "bagobonum",
+            "dwc:country": "Malaysia",
+            "dwc:locality": "Sarawak (Borneo) Mt. Penrissen",
+            "dwc:recordedBy": "Shelford RWC",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1899/05/31 | 1899/05/01",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Borneo",
+            "dwc:identifiedBy": "Sleumer HO",
+            "dwc:dateIdentified": "1957-02-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0007337",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Ericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Ericales|Ericaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200007337",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

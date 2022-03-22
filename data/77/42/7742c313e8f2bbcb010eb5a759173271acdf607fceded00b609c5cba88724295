@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum cleistogamum Symon",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "2d8c6086-5f2c-4663-a62a-d008cd4c4daa",
+            "dwc:catalogNumber": "BM000846844",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "cleistogamum",
+            "dwc:country": "Australia",
+            "dwc:year": 1914,
+            "dwc:eventDate": "1914-12-01",
+            "dwc:locality": "Kellerberrin",
+            "dwc:recordedBy": "L O. Weidenbach",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:identifiedBy": "David Eric Symon",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "5448581",
+            "dwc:month": 12,
+            "dcterms:modified": "2017-08-22",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448581",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/2d8c6086-5f2c-4663-a62a-d008cd4c4daa",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/859f82da9a677158d2fafedabe931ec9923dd206/contents/preview",
+            "dcterms:title": "BM000846844",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cladonia iberica Burgaz & Ahti",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ES",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9503781",
+            "dwc:catalogNumber": "HA.H9503781",
+            "dwc:genus": "Cladonia",
+            "dwc:specificEpithet": "iberica",
+            "dwc:country": "ES",
+            "dwc:year": 1989,
+            "dwc:eventDate": "1989-12-04",
+            "dwc:recordedBy": "Burgaz, A. R.",
+            "dwc:decimalLatitude": 40.5764,
+            "dwc:decimalLongitude": -4.0019,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Paratype",
+            "dwc:stateProvince": "Community of Madrid",
+            "dwc:identifiedBy": "Ahti, Teuvo",
+            "dwc:dateIdentified": "1992",
+            "dwc:continent": "Europe",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5311556",
+            "dwc:month": 12,
+            "dwc:day": 4,
+            "dwc:county": "Galapagar",
+            "dcterms:modified": "1530276615",
+            "dwc:habitat": "On soil from Junipso oxycedri - Quercetum rotundifoliae woods.",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:identificationRemarks": "atypical, another unknown",
+            "dwc:verbatimElevation": "800",
+            "dwc:otherCatalogNumbers": "H9503781",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "Spain. Madrid province, Galapagar.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "40.576389 -4.001944 WGS84",
+            "dwc:scientificNameAuthorship": "Burgaz & Ahti",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Cladonia iberica",
+            "dwc:measurementRemarks": "A.R. Burgaz (TLC): without fumarprotocetraric, only atranorin.; T. Ahti & S. Stenroos 1993 (TLC no. 13662): 2 fatty acids, 1 fat A1-2, 1 fat A3 B5, 1 unknowns UV+, atranorin.",
+            "dwc:verbatimLongitude": "-4.001944",
+            "dwc:verbatimLatitude": "40.576389",
+            "dwc:georeferenceRemarks": "Coordinates: Galapagar.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/HA.H9503781",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

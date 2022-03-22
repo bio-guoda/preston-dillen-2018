@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Hoya solaniflora Schltr.",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100271815",
+            "dwc:catalogNumber": "B 10 0271815",
+            "dwc:genus": "Hoya",
+            "dwc:specificEpithet": "solaniflora",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1976,
+            "dwc:eventDate": "1976-02-27",
+            "dwc:locality": "West-Irian. Eipomek-Tal. Auf der Terasse zwischen Eipomek und Mumye unterhalb von Malingdam.",
+            "dwc:recordedBy": "P. Hiepko & W. Schultze-Motel",
+            "dwc:decimalLatitude": -4.4167,
+            "dwc:decimalLongitude": 140.0167,
+            "setID": "B",
+            "dwc:verbatimEventDate": "27.02.1976",
+            "dwc:dateIdentified": "20.05.1991",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "1207",
+            "dwc:habitat": "Bergwald",
+            "dwc:scientificNameAuthorship": "Schltr.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ASCLEPIADACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ASCLEPIADACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "1900 m",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100271815",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ipomoea tubata Nees",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000944863",
+            "dwc:catalogNumber": "K000944863",
+            "dwc:genus": "Turbina",
+            "dwc:specificEpithet": "tubata",
+            "dwc:country": "Brazil",
+            "dwc:locality": "25km NE of Brasilia near Corrego Landim.",
+            "dwc:recordedBy": "Hunt, D.R.; Ramos, J.F.",
+            "setID": "K",
+            "dwc:identifiedBy": "Verdcourt, B.",
+            "dcterms:identifier": "K000944863",
+            "dcterms:modified": "2013-08-09",
+            "dwc:recordNumber": "5477",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Convolvulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CONVOLVULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "N.Y. Sandwith Bequest Collection. Central Brazilian Plateau. States of Minas Gerais, Goias and Brasília D.F.",
+            "dwc:higherGeography": "Brasília",
+            "dwc:municipality": "Brasília",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1025,
+            "dwc:elevationAccuracy": 125,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000944863",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000944863",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/497508.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

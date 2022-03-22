@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Acridocarpus ballyi Launert",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "KE",
+            "dwc:occurrenceID": "43298286-0ea3-4999-abec-7bb712a456e7",
+            "dwc:catalogNumber": "BM000574146",
+            "dwc:genus": "Acridocarpus",
+            "dwc:specificEpithet": "ballyi",
+            "dwc:country": "Kenya",
+            "dwc:year": 1975,
+            "dwc:eventDate": "1975-06-14",
+            "dwc:recordedBy": "Peter René Oscar Bally",
+            "dwc:decimalLatitude": 0.5299,
+            "dwc:decimalLongitude": 37.8579,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Charles Cavender (Chuck) Davis",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "4671266",
+            "dwc:month": 6,
+            "dwc:day": 14,
+            "dcterms:modified": "2017-10-20",
+            "dwc:recordNumber": "16871",
+            "dwc:habitat": "Arid semidesert, on rocky hills and in sandy plain",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4671266",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Malpighiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Africa; Kenya",
+            "dwc:fieldNumber": "16871",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 150,
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/43298286-0ea3-4999-abec-7bb712a456e7",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/cc74b21d7cdbe22117251f3107d310dc20dedb73/contents/preview",
+            "dcterms:title": "BM000574146",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

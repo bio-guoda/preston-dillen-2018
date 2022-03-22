@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Harpullia cupanioides Roxb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2303656",
+            "dwc:catalogNumber": "L.2303656",
+            "dwc:genus": "Harpullia",
+            "dwc:specificEpithet": "cupanioides",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1896,
+            "dwc:eventDate": "1896-09-08",
+            "dwc:locality": "Java, Semarang, Kedoengdjati",
+            "dwc:recordedBy": "Koorders SH",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1896/09/08",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2303656",
+            "dwc:month": 9,
+            "dwc:day": 8,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Sapindaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Sapindales|Sapindaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2303656",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Echium versicolor H.Lindb.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "MA",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1406936",
+            "dwc:catalogNumber": "HA.H1406936",
+            "dwc:genus": "Echium",
+            "dwc:specificEpithet": "versicolor",
+            "dwc:country": "MA",
+            "dwc:year": 1926,
+            "dwc:eventDate": "1926-06-03",
+            "dwc:locality": "Near Tinitine",
+            "dwc:recordedBy": "Lindberg, H. (3501)",
+            "setID": "H",
+            "dc:typeStatus": "Type",
+            "dwc:stateProvince": "Marrakech-Tensift-Al Haouz",
+            "dwc:identifiedBy": "Harald Lindberg",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.106544",
+            "dwc:month": 6,
+            "dwc:day": 3,
+            "dcterms:modified": "1382503594",
+            "dwc:habitat": "in decliv. sicc. lapid. calc.",
+            "dwc:verbatimElevation": "1 300 meters",
+            "dwc:otherCatalogNumbers": "H1406936",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:verbatimLocality": "Atlas Magnum, in convalle fl. Aït Messane, in decliv. sicc. lapid. calc. pr. pag. Tinitine.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "31.1838, -7.9413",
+            "dwc:scientificNameAuthorship": "H.Lindb.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Echium versicolor",
+            "dwc:organismRemarks": "Not on sheet Expedition sisältö: Harald Lindberg, Iter Maroccanum 1926",
+            "dwc:verbatimRecordedBy": "Harald Lindberg",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H1406936",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

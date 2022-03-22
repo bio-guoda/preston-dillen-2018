@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Osmunda regalis",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "FI",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1108790",
+            "dwc:catalogNumber": "H.1108790",
+            "dwc:genus": "Osmunda",
+            "dwc:specificEpithet": "regalis",
+            "dwc:country": "Finland",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-06-21",
+            "dwc:recordedBy": "Alanko, Pentti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "21.06.1971",
+            "dcterms:identifier": "http://tun.fi/MY.745441",
+            "dwc:month": 6,
+            "dwc:day": 21,
+            "dcterms:modified": "1492084454",
+            "dwc:recordNumber": "17,076",
+            "dwc:otherCatalogNumbers": "H1108790",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Nylandia, Elimäki, Arboretum Mustila, (60º44'N 26º29'E)",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Osmunda regalis",
+            "dwc:organismRemarks": "Nylandia, Elimäki, Arboretum Mustila",
+            "dwc:establishmentMeans": "MY.provenanceCultivated",
+            "dwc:verbatimRecordedBy": "Alanko, Pentti",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/H.1108790",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Triglochin dubia R.Br.",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100089598",
+            "dwc:catalogNumber": "B 10 0089598",
+            "dwc:genus": "Triglochin",
+            "dwc:specificEpithet": "dubia",
+            "dwc:country": "Australia",
+            "dwc:year": 1994,
+            "dwc:eventDate": "1994-04-24",
+            "dwc:locality": "Old Darling Downs. c. 5 km NE of Chinchilla.",
+            "dwc:recordedBy": "S. W. L. Jacobs",
+            "dwc:decimalLatitude": -26.6925,
+            "dwc:decimalLongitude": 150.6922,
+            "setID": "B",
+            "dwc:verbatimEventDate": "24.04.1994",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "7108",
+            "dwc:scientificNameAuthorship": "R.Br.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "JUNCAGINACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; JUNCAGINACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100089598",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

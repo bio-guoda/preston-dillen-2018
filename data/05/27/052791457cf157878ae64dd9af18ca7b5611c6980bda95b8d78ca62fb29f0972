@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Saxifraga graeca Boiss. & Heldr. ex Boiss.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02785357",
+            "dwc:catalogNumber": "P02785357",
+            "dwc:genus": "Saxifraga",
+            "dwc:specificEpithet": "graeca",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02785357",
+            "dcterms:modified": "2017-11-21",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Saxifragales",
+            "dwc:family": "Saxifragaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02785357",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Saxifragaceae",
+            "@id": "SONNERAT|4511120",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Saxifraga",
+            "dwc:higherClassification": "Saxifraga;Saxifragaceae",
+            "dwc:specificEpithet": "graeca",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Saxifraga graeca Boiss. & Heldr.",
+            "dwc:scientificNameAuthorship": "Boiss. & Heldr.",
+            "dwc:taxonID": "SONNERAT|723395",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "7B8C358D9DD8452396ACB6F6D1A07FDA",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441344046751gYbuZ2DKzLhjl2p6",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Polysiphonia crassicollis Børgesen",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NZ",
+            "dwc:occurrenceID": "c8dbfcb5-e718-4a5a-9e49-c2ee7cbe4bac",
+            "dwc:catalogNumber": "BM001067777",
+            "dwc:genus": "Polysiphonia",
+            "dwc:specificEpithet": "crassicollis",
+            "dwc:country": "New Zealand",
+            "dwc:recordedBy": "Anon.",
+            "setID": "BM",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "2320362",
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "S.N.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2320362",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Ceramiales",
+            "dwc:family": "Rhodomelaceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Rhodomelaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Oceania; New Zealand",
+            "dwc:fieldNumber": "S.N.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/c8dbfcb5-e718-4a5a-9e49-c2ee7cbe4bac",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/c6b7995eb24bcd6c4765233d911fb5161d6eed06/contents/preview",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:title": "BM001067777",
+            "dcterms:format": "image/tiff",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

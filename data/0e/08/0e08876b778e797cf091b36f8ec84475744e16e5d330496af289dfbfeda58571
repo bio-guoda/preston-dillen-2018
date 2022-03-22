@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Potamogeton L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00390104",
+            "dwc:catalogNumber": "E00390104",
+            "dwc:genus": "Potamogeton",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1995,
+            "dwc:eventDate": "1995-09-22",
+            "dwc:locality": "Lewis, Loch Arnol (NB3401)",
+            "dwc:recordedBy": "Day, J.J. & Stewart, N.F.",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1995-09-22",
+            "dwc:stateProvince": "Scotland",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00390104",
+            "dwc:month": 9,
+            "dwc:day": 22,
+            "dwc:county": "(VC 110) Outer Hebrides",
+            "dcterms:modified": "2015-07-24",
+            "dwc:recordNumber": "173/95",
+            "dwc:otherCatalogNumbers": "BGBASE:429532",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Alismatales",
+            "dwc:family": "Potamogetonaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Britain and Ireland",
+            "dwc:startDayOfYear": 265,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00390104",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00390104 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00390104",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMzkwLzEwNC85NDUwNzMuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00390104",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

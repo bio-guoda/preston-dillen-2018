@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex hartmanii Cajander",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "SE",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1003478",
+            "dwc:catalogNumber": "HA.H1003478",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "hartmanii",
+            "dwc:country": "SE",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-01-01/1972-12-31",
+            "dwc:locality": "Gotland: Ardre, Helgmyr.",
+            "dwc:recordedBy": "Englund, B.",
+            "setID": "H",
+            "dc:typeStatus": "Lectotype",
+            "dwc:identifiedBy": "Aarno Kalela",
+            "dwc:dateIdentified": "1972",
+            "dcterms:identifier": "http://tun.fi/MY.101176",
+            "dcterms:modified": "1382503558",
+            "dwc:otherCatalogNumbers": "H1003478",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "Cajander",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Carex hartmanii",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/HA.H1003478",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mimosa calothamnos Benth.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000851624",
+            "dwc:catalogNumber": "K000851624",
+            "dwc:genus": "Mimosa",
+            "dwc:specificEpithet": "calothamnos",
+            "dwc:country": "Brazil",
+            "dwc:year": 1976,
+            "dwc:eventDate": "1976-09-29",
+            "dwc:locality": "Reserva do Instituto Florestal, São José dos Alpes.",
+            "dwc:recordedBy": "Felippe, G.M.; Shepherd, G.J.; Cruz, N.D.; Semir, J.; Davis, P.H.; Kinoshita, L.S.",
+            "setID": "K",
+            "dcterms:identifier": "K000851624",
+            "dwc:month": 9,
+            "dwc:day": 29,
+            "dcterms:modified": "2012-12-07",
+            "dwc:recordNumber": "3021",
+            "dwc:habitat": "Beira da Mata. Campo limpo.",
+            "dwc:eventRemarks": "Estames amarelos, perianto esverdeado.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Plantas do Brasil.",
+            "dwc:higherGeography": "Campos do Jordão",
+            "dwc:municipality": "Campos do Jordão",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1900,
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K000851624",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:genus": "Mimosa",
+            "dwc:taxonRemarks": "Sordida group.",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:specificEpithet": "furfuracea",
+            "dwc:scientificName": "Mimosa furfuracea Benth.",
+            "dwc:scientificNameAuthorship": "Benth.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:genus": "Mimosa",
+            "dwc:taxonRemarks": "Ex. num. cit. Barneby exsiccatae:792.",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:specificEpithet": "aurivillus",
+            "dwc:scientificName": "Mimosa aurivillus Mart. var. calothamnos (Benth.) Barneby",
+            "dwc:scientificNameAuthorship": "Mart.",
+            "dwc:infraspecificEpithet": "calothamnos",
+            "dwc:taxonRank": "var.",
+            "dwc:dateIdentified": "1991-00-00",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:genus": "Mimosa",
+            "dwc:taxonRemarks": "Taxonomic Revision and Phylogenetic Studies of Mimosa sect. Calothamnos Barneby (Leguminosae- Mimosoideae).",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:specificEpithet": "calothamnus",
+            "dwc:scientificName": "Mimosa calothamnus Mart.",
+            "dwc:scientificNameAuthorship": "Mart.",
+            "dwc:dateIdentified": "2008-10-29",
+            "dwc:identifiedBy": "Savassi-Coutinho, A.P.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000851624",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/431771.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

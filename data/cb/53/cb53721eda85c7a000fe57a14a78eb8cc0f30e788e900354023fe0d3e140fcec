@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Sapium glandulosum (L.) Morong",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00716827",
+            "dwc:catalogNumber": "P00716827",
+            "dwc:genus": "Sapium",
+            "dwc:specificEpithet": "glandulosum",
+            "dwc:country": "Brazil",
+            "dwc:year": 1842,
+            "dwc:eventDate": "1842-01-01",
+            "dwc:recordedBy": "Blanchet, J.S.",
+            "setID": "P",
+            "dwc:identifiedBy": "Kruijt",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00716827",
+            "dcterms:modified": "2009-03-05",
+            "dwc:verbatimLocality": "Province de Bahia : Moritiba",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Euphorbiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "3546",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00716827",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Euphorbiaceae",
+            "@id": "SONNERAT|1197230",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Sapium",
+            "dwc:dateIdentified": "04-1989",
+            "dwc:higherClassification": "Sapium;Euphorbiaceae",
+            "dwc:specificEpithet": "glandulosum",
+            "dwc:scientificName": "Sapium glandulosum (L.) Morong.",
+            "dwc:identifiedBy": "Kruijt",
+            "dwc:scientificNameAuthorship": "(L.) Morong.",
+            "dwc:taxonID": "SONNERAT|32366",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Euphorbiaceae",
+            "@id": "SONNERAT|1197231",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Sapium",
+            "dwc:dateIdentified": "07-1989",
+            "dwc:higherClassification": "Sapium;Euphorbiaceae",
+            "dwc:specificEpithet": "lanceolatum",
+            "dwc:scientificName": "Sapium lanceolatum (Müll.Arg.) Huber",
+            "dwc:identifiedBy": "Kruijt",
+            "dwc:scientificNameAuthorship": "(Müll.Arg.) Huber",
+            "dwc:taxonID": "SONNERAT|255278",
+            "dwc:typeStatus": "isosyntype",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "14DE66D8DCAE478AA8E16C1B58F112CE",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, SM",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443287929793bTzlhaRO33ZlFj7n",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

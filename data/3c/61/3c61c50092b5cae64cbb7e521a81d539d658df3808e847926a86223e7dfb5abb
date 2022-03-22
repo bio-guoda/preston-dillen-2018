@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Knautia arvensis Coult.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914396",
+            "dwc:catalogNumber": "K000914396",
+            "dwc:genus": "Knautia",
+            "dwc:specificEpithet": "arvensis",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2009,
+            "dwc:eventDate": "2009-06-03",
+            "dwc:locality": "Kew Gardens; West Arboretum",
+            "dwc:recordedBy": "Cope, T.A.",
+            "dwc:decimalLatitude": 51.48,
+            "dwc:decimalLongitude": -0.31,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914396",
+            "dwc:month": 6,
+            "dwc:day": 3,
+            "dcterms:modified": "2014-01-20",
+            "dwc:recordNumber": "RBG 396",
+            "dwc:habitat": "in the Robinsonian Meadow in front of 'Climbers & Creepers' (zone 224, OS monad 18.77)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Dipsacales",
+            "dwc:family": "Caprifoliaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CAPRIFOLIACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Field Scabious; Part 1",
+            "dwc:georeferenceProtocol": "Within Park",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914396",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914396",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/641193.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

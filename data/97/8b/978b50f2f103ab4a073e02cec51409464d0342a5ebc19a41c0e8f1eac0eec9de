@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hordeum marinum Huds.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000790059",
+            "dwc:catalogNumber": "K000790059",
+            "dwc:genus": "Hordeum",
+            "dwc:specificEpithet": "marinum",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1937,
+            "dwc:eventDate": "1937-07-23",
+            "dwc:locality": "Holbeach St Matthew, on sea coast bank",
+            "dwc:recordedBy": "Johnston, H.B.",
+            "setID": "K",
+            "dwc:identifiedBy": "Jacobsen, N.",
+            "dcterms:identifier": "K000790059",
+            "dwc:month": 7,
+            "dwc:day": 23,
+            "dcterms:modified": "2012-03-28",
+            "dwc:recordNumber": "3038",
+            "dwc:habitat": "on sea coast bank",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "South Lincolnshire",
+            "dwc:municipality": "South Lincolnshire",
+            "dwc:taxonRemarks": "ssp marinum Sea Barley",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000790059",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000790059",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/369654.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

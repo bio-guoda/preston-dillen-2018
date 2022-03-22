@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum perforatum subsp. perforatum",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "af7c0f74-5087-44f2-a4fc-f9a68f74b16d",
+            "dwc:catalogNumber": "BM001205608",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "perforatum",
+            "dwc:country": "Canada",
+            "dwc:year": 1957,
+            "dwc:eventDate": "1957-06-09",
+            "dwc:recordedBy": "William Bird",
+            "dwc:infraspecificEpithet": "perforatum",
+            "setID": "BM",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "8104145",
+            "dwc:month": 6,
+            "dwc:day": 9,
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "3171",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8104145",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Canada",
+            "dwc:fieldNumber": "3171",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/af7c0f74-5087-44f2-a4fc-f9a68f74b16d",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/ef7c536239092d40eb820bcb347394f13c900584/contents/preview",
+            "dcterms:title": "BM001205608",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

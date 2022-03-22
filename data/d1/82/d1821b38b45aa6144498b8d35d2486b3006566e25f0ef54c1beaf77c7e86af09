@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rumex pulcher L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3193500",
+            "dwc:catalogNumber": "L.3193500",
+            "dwc:genus": "Rumex",
+            "dwc:specificEpithet": "pulcher",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1924,
+            "dwc:eventDate": "1924-06-29",
+            "dwc:locality": "Alkmaar. Stortplaats bij spoorlijn.",
+            "dwc:recordedBy": "Kloos Jr AW",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1924/06/29",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3193500",
+            "dwc:month": 6,
+            "dwc:day": 29,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Polygonaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophyllales|Polygonaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3193500",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

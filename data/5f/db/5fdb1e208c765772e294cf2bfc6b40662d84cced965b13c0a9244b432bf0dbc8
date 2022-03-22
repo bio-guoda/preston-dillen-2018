@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Indigofera tritoides Baker",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "SA",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2052123",
+            "dwc:catalogNumber": "L.2052123",
+            "dwc:genus": "Microcharis",
+            "dwc:specificEpithet": "tritoides",
+            "dwc:country": "Saudi Arabia",
+            "dwc:year": 1835,
+            "dwc:eventDate": "1835-10-30",
+            "dwc:locality": "pope Dschedda.",
+            "dwc:recordedBy": "Schimper GHW",
+            "dwc:decimalLatitude": 21.5167,
+            "dwc:decimalLongitude": 39.2167,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1835/10/30",
+            "dc:typeStatus": "SYNTYPE",
+            "dwc:stateProvince": "Makkah Al-Mokarramah",
+            "dwc:identifiedBy": "Muller FM",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2052123",
+            "dwc:month": 10,
+            "dwc:day": 30,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Fabales|Leguminosae-Pap.",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2052123",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

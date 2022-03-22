@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lysinema ciliatum R.Br.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00644937",
+            "dwc:catalogNumber": "P00644937",
+            "dwc:genus": "Lysinema",
+            "dwc:specificEpithet": "ciliatum",
+            "dwc:country": "Australia",
+            "dwc:year": 1802,
+            "dwc:eventDate": "1802-01-01",
+            "dwc:recordedBy": "Brown, R.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00644937",
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Lucky Bay",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Ericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "552",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00644937",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Ericaceae",
+            "@id": "SONNERAT|1157073",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Lysinema",
+            "dwc:dateIdentified": "2008",
+            "dwc:higherClassification": "Lysinema;Ericaceae",
+            "dwc:specificEpithet": "pentapetalum",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Lysinema pentapetalum R.Br.",
+            "dwc:identifiedBy": "Barrett",
+            "dwc:scientificNameAuthorship": "R.Br.",
+            "dwc:taxonID": "SONNERAT|54134",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Ericaceae",
+            "@id": "SONNERAT|1157077",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Lysinema",
+            "dwc:higherClassification": "Lysinema;Ericaceae",
+            "dwc:specificEpithet": "ciliatum",
+            "dwc:scientificName": "Lysinema ciliatum R.Br.",
+            "dwc:scientificNameAuthorship": "R.Br.",
+            "dwc:taxonID": "SONNERAT|241781",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "A68D1DFBD46345D7B67E0492FB9DB2E0",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Muséum National d'Histoire Naturelle, MJ",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443145000135yCkzRIJrJBEAd8r7",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

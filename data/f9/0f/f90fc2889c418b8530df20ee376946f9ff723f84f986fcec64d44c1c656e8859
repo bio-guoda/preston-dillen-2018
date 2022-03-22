@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum empetrifolium Willd.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "e2546994-ec0b-478a-ac17-abfc41fe84d4",
+            "dwc:catalogNumber": "BM001202010",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "empetrifolium",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1977,
+            "dwc:eventDate": "1977-09-01",
+            "dwc:recordedBy": "Anon.",
+            "setID": "BM",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "8098433",
+            "dwc:month": 9,
+            "dwc:recordNumber": "C11686",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8098433",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom",
+            "dwc:fieldNumber": "C11686",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/e2546994-ec0b-478a-ac17-abfc41fe84d4",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/88dbff7eacd8798628978c7b086b53b4a5d4f35a/contents/preview",
+            "dcterms:title": "BM001202010",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

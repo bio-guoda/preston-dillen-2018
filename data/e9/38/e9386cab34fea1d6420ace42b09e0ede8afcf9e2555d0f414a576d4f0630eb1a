@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cetraria iberica A.Crespo & Barreno",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "SP",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9504301",
+            "dwc:catalogNumber": "HA.H9504301",
+            "dwc:genus": "Cetraria",
+            "dwc:specificEpithet": "iberica",
+            "dwc:country": "SP",
+            "dwc:year": 1977,
+            "dwc:eventDate": "1977-05-01/1977-05-31",
+            "dwc:decimalLatitude": 41.0022,
+            "dwc:decimalLongitude": -3.2475,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:stateProvince": "Province of Guadalajara",
+            "dwc:continent": "Europe",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5318640",
+            "dwc:month": 5,
+            "dwc:county": "Tamajón",
+            "dcterms:modified": "1530276720",
+            "dwc:habitat": "Ad ramos fruticis (Cistus ladaniferus).",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:verbatimElevation": "1050",
+            "dwc:otherCatalogNumbers": "H9504301",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "Hispania. Guadalajara, Tamajón.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "41.002222 -3.2475 WGS84",
+            "dwc:scientificNameAuthorship": "A.Crespo & Barreno",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Cetraria iberica",
+            "dwc:verbatimLongitude": "-3.2475",
+            "dwc:verbatimLatitude": "41.002222",
+            "dwc:georeferenceRemarks": "Coordinates: Tamajón.",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H9504301",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

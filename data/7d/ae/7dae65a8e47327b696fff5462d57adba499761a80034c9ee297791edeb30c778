@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Monvillea paxtoniana (Monv. ex Salm-Dyck) Borg",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PY",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/U%20%200105446",
+            "dwc:catalogNumber": "U  0105446",
+            "dwc:genus": "Cereus",
+            "dwc:specificEpithet": "paxtoniana",
+            "dwc:country": "Paraguay",
+            "dwc:locality": "Paraguay, Alto Paraguay, Puerto Casado.",
+            "dwc:recordedBy": "Ritter F",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1963/01/31 | 1963/01/01",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Alto Paraguay",
+            "dwc:continent": "SOUTH_AMERICA",
+            "dcterms:identifier": "U  0105446",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Cactaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophyllales|Cactaceae",
+            "dwc:verbatimTaxonRank": "var.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/U%20%200105446",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

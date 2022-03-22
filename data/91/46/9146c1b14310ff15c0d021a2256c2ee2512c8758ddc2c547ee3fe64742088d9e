@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Athyrium subrigescens",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.5251",
+            "dwc:catalogNumber": "EIG.5251",
+            "dwc:genus": "Athyrium",
+            "dwc:specificEpithet": "subrigescens",
+            "dwc:country": "China",
+            "dwc:year": 1974,
+            "dwc:eventDate": "1974-05-26/1974-05-29",
+            "dwc:locality": "Nanhutashan Mountain.",
+            "dwc:recordedBy": "Kuo, C. M.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "26/29.05.1974",
+            "dwc:stateProvince": "Northeastern",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.719808",
+            "dwc:month": 5,
+            "dwc:county": "Yilan",
+            "dcterms:modified": "1492084052",
+            "dwc:recordNumber": "5103",
+            "dwc:otherCatalogNumbers": "H1228017",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "ILAN CO.: Nanhutashan",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Athyrium subrigescens",
+            "dwc:verbatimRecordedBy": "Kuo, C. M.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.5251",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

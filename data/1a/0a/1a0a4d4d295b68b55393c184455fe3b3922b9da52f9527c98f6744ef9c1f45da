@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Poa pratensis subsp. alpigena (Lindm.) Hiitonen",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "NP",
+            "dwc:occurrenceID": "6e604e5c-c148-4819-8fbc-93d4275541a8",
+            "dwc:catalogNumber": "BM000521755",
+            "dwc:genus": "Poa",
+            "dwc:specificEpithet": "pratensis",
+            "dwc:country": "Nepal",
+            "dwc:year": 1973,
+            "dwc:eventDate": "1973-11-06",
+            "dwc:recordedBy": "S. Einarsson, L. Skärby & B. Wetterhall",
+            "dwc:infraspecificEpithet": "alpigena",
+            "dwc:decimalLatitude": 28.253,
+            "dwc:decimalLongitude": 83.9385,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Robert J. Soreng",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "4678315",
+            "dwc:month": 11,
+            "dwc:day": 6,
+            "dwc:recordNumber": "2769",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4678315",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Poaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; Nepal",
+            "dwc:georeferenceProtocol": "Google Earth",
+            "dwc:fieldNumber": "2769",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/6e604e5c-c148-4819-8fbc-93d4275541a8",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/fa9668f526f29428b5f8b00350254798938f554a/contents/preview",
+            "dcterms:title": "BM000521755",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Edwardsia grandiflora Salisb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NZ",
+            "dwc:occurrenceID": "7dab523f-d6b2-4a8f-958c-fc801c3dedb3",
+            "dwc:catalogNumber": "BM001209655",
+            "dwc:genus": "Sophora",
+            "dwc:specificEpithet": "grandiflora",
+            "dwc:country": "New Zealand",
+            "dwc:year": 1769,
+            "dwc:eventDate": "1769-01-01",
+            "dwc:recordedBy": "Joseph Banks, Daniel Carl Solander",
+            "setID": "BM",
+            "dwc:identifiedBy": "Pu-Chiu Tsoong",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "7986989",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:7986989",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Fabaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Oceania; New Zealand",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/7dab523f-d6b2-4a8f-958c-fc801c3dedb3",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/5a44ec8ba7ef3b5b9e9fc4148a4c7e347677a902/contents/preview",
+            "dcterms:title": "BM001209655",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

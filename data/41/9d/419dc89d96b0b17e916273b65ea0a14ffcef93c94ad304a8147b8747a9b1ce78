@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Aesculus hippocastanum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914265",
+            "dwc:catalogNumber": "K000914265",
+            "dwc:genus": "Aesculus",
+            "dwc:specificEpithet": "hippocastanum",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2009,
+            "dwc:eventDate": "2009-04-29",
+            "dwc:locality": "Kew Gardens; South Arboretum: in a shubbery between Unicorn Gate and the Gallery (zone 482)",
+            "dwc:recordedBy": "Cope, T.A.",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914265",
+            "dwc:month": 4,
+            "dwc:day": 29,
+            "dcterms:modified": "2013-07-29",
+            "dwc:recordNumber": "RBG 339",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Sapindaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "SAPINDACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Horse-chestnut; Sapling",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914265",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914265",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/517072.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

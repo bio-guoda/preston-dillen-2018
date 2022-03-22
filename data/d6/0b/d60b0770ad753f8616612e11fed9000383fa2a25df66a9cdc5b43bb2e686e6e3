@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Robinsonia gracilis Decne.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CL",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00594847",
+            "dwc:catalogNumber": "P00594847",
+            "dwc:genus": "Robinsonia",
+            "dwc:specificEpithet": "gracilis",
+            "dwc:country": "Chile",
+            "dwc:year": 1830,
+            "dwc:eventDate": "1830-05-01",
+            "dwc:recordedBy": "Bertero, C.L.G.",
+            "setID": "P",
+            "dc:typeStatus": "TYPE",
+            "dwc:identifiedBy": "Decaisne",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00594847",
+            "dwc:month": 5,
+            "dwc:day": 1,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "In silvatius frigidis montium ditiorum ad cacumen insl. Juan Fernandez",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:occurrenceRemarks": "Herbier du Chili donné par M. Gay 2",
+            "dwc:fieldNumber": "1510",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00594847",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Asteraceae",
+            "@id": "SONNERAT|692421",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Robinsonia",
+            "dwc:higherClassification": "Robinsonia;Asteraceae",
+            "dwc:specificEpithet": "gracilis",
+            "dwc:identificationRemarks": "! Ann. Sc. nat., 2 (1) 1834",
+            "dwc:typeStatus": "type",
+            "dwc:scientificName": "Robinsonia gracilis Decne.",
+            "dwc:identifiedBy": "Decaisne",
+            "dwc:scientificNameAuthorship": "Decne.",
+            "dwc:taxonID": "SONNERAT|119422",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Asteraceae",
+            "@id": "SONNERAT|692422",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Senecio",
+            "dwc:higherClassification": "Senecio;Asteraceae",
+            "dwc:specificEpithet": "stenophyllus",
+            "dwc:scientificName": "Senecio stenophyllus Bertero",
+            "dwc:identifiedBy": "Decaisne",
+            "dwc:scientificNameAuthorship": "Bertero",
+            "dwc:taxonID": "SONNERAT|119424",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "44D04D2031C649149E61E3B80433F625",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, OD",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1442628110702pzzqSvQpYlXVmmrU",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

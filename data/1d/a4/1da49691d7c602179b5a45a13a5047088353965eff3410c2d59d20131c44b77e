@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Spiraea japonica var. acuminata Franch.",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00205836",
+            "dwc:catalogNumber": "E00205836",
+            "dwc:genus": "Spiraea",
+            "dwc:specificEpithet": "japonica",
+            "dwc:country": "China",
+            "dwc:year": 1998,
+            "dwc:eventDate": "1998-11-02",
+            "dwc:recordedBy": "Li, Heng",
+            "dwc:infraspecificEpithet": "acuminata",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1998-11-02",
+            "dwc:stateProvince": "Yunnan Province",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00205836",
+            "dwc:month": 11,
+            "dwc:day": 2,
+            "dcterms:modified": "2005-11-17",
+            "dwc:recordNumber": "11349",
+            "dwc:otherCatalogNumbers": "BGBASE:221310",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Rosales",
+            "dwc:family": "Rosaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Inner China, Korea and Taiwan",
+            "dwc:startDayOfYear": 306,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00205836",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00205836 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00205836",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMjA1LzgzNi83MzM5MDYuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00205836",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

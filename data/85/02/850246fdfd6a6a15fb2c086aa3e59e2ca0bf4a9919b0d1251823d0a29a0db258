@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Xyris mentiens Lock",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "TZ",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000009199590",
+            "dwc:catalogNumber": "BR0000009199590",
+            "dwc:genus": "Xyris",
+            "dwc:specificEpithet": "mentiens",
+            "dwc:country": "Tanzania, United Republic of",
+            "dwc:year": 2000,
+            "dwc:eventDate": "2000-05-29",
+            "dwc:locality": "Mpanda - Uvinza road, Uzondo Plateau",
+            "dwc:recordedBy": "Bidgood S., Leliyo G. & Vollesen K.",
+            "dwc:decimalLatitude": -5.4833,
+            "dwc:decimalLongitude": 30.5333,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000009199590",
+            "dwc:month": 5,
+            "dwc:day": 29,
+            "dcterms:modified": "2006-01-20",
+            "dwc:recordNumber": "4531",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Xyridaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "eng",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000009199590",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000009199590",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

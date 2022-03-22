@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pseudocyphellaria durvillei (Delise) Vain. var. normalis Räsänen",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CL",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9500180",
+            "dwc:catalogNumber": "HA.H9500180",
+            "dwc:genus": "Pseudocyphellaria",
+            "dwc:specificEpithet": "durvillei",
+            "dwc:country": "CL",
+            "dwc:year": 1930,
+            "dwc:eventDate": "1930-01-01/1930-12-31",
+            "dwc:locality": "Prov. de Chiloé, Peninsula Mitre [?Taitao], Puerto Barroso.",
+            "dwc:recordedBy": "Roivainen, H.",
+            "dwc:infraspecificEpithet": "normalis",
+            "setID": "H",
+            "dc:typeStatus": "Lectotype",
+            "dwc:identifiedBy": "V. Räsänen",
+            "dwc:dateIdentified": "1930",
+            "dcterms:identifier": "http://tun.fi/MY.133646",
+            "dcterms:modified": "1382504180",
+            "dwc:otherCatalogNumbers": "H9500180",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "(Delise) Vain.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Pseudocyphellaria durvillei var. normalis",
+            "dwc:organismRemarks": "1662.",
+            "dwc:measurementRemarks": "Th. K+ + flavesc. fulvesc.",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H9500180",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

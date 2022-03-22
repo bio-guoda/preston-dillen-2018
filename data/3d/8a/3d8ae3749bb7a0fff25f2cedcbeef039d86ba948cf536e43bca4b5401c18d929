@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Alopecurus geniculatus L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3071287",
+            "dwc:catalogNumber": "L.3071287",
+            "dwc:genus": "Alopecurus",
+            "dwc:specificEpithet": "geniculatus",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Wieringen. K4.25.23.",
+            "dwc:recordedBy": "Unreadable",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1928/08/31 | 1928/08/01",
+            "dwc:stateProvince": "Noord-Holland",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3071287",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3071287",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

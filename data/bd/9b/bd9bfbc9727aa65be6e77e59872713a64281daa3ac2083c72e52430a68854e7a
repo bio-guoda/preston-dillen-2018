@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Symphytum officinale L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00529387",
+            "dwc:catalogNumber": "P00529387",
+            "dwc:genus": "Symphytum",
+            "dwc:specificEpithet": "officinale",
+            "dwc:country": "France",
+            "dwc:year": 1877,
+            "dwc:eventDate": "1877-06-20",
+            "dwc:recordedBy": "Poli, H. de",
+            "setID": "P",
+            "dwc:stateProvince": "52 Haute-Marne",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00529387",
+            "dwc:month": 6,
+            "dwc:day": 20,
+            "dwc:county": "bourbonne-les-bains",
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Fontaine-Maynard, près Bourbonne (Haute-Marne)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Boraginales",
+            "dwc:family": "Boraginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00529387",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|5701856",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Symphytum",
+            "dwc:higherClassification": "Symphytum;Boraginaceae",
+            "dwc:specificEpithet": "officinale",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Symphytum officinale L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|10087",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|596020",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Symphytum",
+            "dwc:higherClassification": "Symphytum;Boraginaceae",
+            "dwc:specificEpithet": "officinale",
+            "dwc:scientificName": "Symphytum officinale L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|10087",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "B25870E3FE0F48648BEF66FDC0BDFD7F",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441367911747LixNn4AubPPBBXlF",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

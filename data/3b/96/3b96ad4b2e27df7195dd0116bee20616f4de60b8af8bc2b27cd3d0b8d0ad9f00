@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Potamogeton crispus L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000203580",
+            "dwc:catalogNumber": "K000203580",
+            "dwc:genus": "Potamogeton",
+            "dwc:specificEpithet": "crispus",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1890,
+            "dwc:eventDate": "1890-08-04",
+            "dwc:locality": "The canal, Loughborough",
+            "dwc:recordedBy": "Cooper, Mrs.",
+            "setID": "K",
+            "dcterms:identifier": "K000203580",
+            "dwc:month": 8,
+            "dwc:day": 4,
+            "dcterms:modified": "2013-08-08",
+            "dwc:recordNumber": "1709",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Alismatales",
+            "dwc:family": "Potamogetonaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "POTAMOGETONACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Fryer 1709; on same sheet as K000203579",
+            "dwc:taxonRemarks": "Determination as on label: Potamogeton undulatus Wolfg. v. cooperi mihi. = crispus x perfoliatus.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000203580",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:infraspecificEpithet": "cooperi",
+            "dwc:taxonRank": "var.",
+            "dwc:family": "POTAMOGETONACEAE",
+            "dwc:genus": "Potamogeton",
+            "dwc:taxonRemarks": "Determination as on label: Potamogeton undulatus Wolfg. v. cooperi mihi. = crispus x perfoliatus.",
+            "dwc:higherClassification": "POTAMOGETONACEAE",
+            "dwc:specificEpithet": "undulatus",
+            "dwc:scientificName": "Potamogeton undulatus Wolfg. ex Schult. & Schult.f. var. cooperi",
+            "dwc:scientificNameAuthorship": "Wolfg. ex Schult. & Schult.f.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "POTAMOGETONACEAE",
+            "dwc:genus": "Potamogeton",
+            "dwc:higherClassification": "POTAMOGETONACEAE",
+            "dwc:specificEpithet": "cooperi",
+            "dwc:scientificName": "Potamogeton cooperi (Fryer) Fryer",
+            "dwc:scientificNameAuthorship": "(Fryer) Fryer",
+            "dwc:dateIdentified": "1937-00-00",
+            "dwc:identifiedBy": "Dandy, J.E.; Taylor, G.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000203580",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/291181.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

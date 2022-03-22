@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium demerkense",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7443",
+            "dwc:catalogNumber": "EIG.7443",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "demerkense",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-01-30",
+            "dwc:locality": "Simien National Park, Geech. On the banks of the tributary of Djinn Bahr.",
+            "dwc:recordedBy": "Heinonen, Kirsti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "30.01.1972",
+            "dwc:stateProvince": "Amhara",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.727059",
+            "dwc:month": 1,
+            "dwc:day": 30,
+            "dwc:county": "North Gondar",
+            "dcterms:modified": "1492084201",
+            "dwc:recordNumber": "1067",
+            "dwc:otherCatalogNumbers": "H1074243",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Begemder. 3600 m above sea",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium demerkense",
+            "dwc:verbatimRecordedBy": "Heinonen, Kirsti",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7443",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

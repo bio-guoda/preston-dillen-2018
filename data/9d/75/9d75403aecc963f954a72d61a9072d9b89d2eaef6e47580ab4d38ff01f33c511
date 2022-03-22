@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Papaver rhoeas L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU301945",
+            "dwc:catalogNumber": "TU301945",
+            "dwc:genus": "Papaver",
+            "dwc:specificEpithet": "rhoeas",
+            "dwc:country": "Estonia",
+            "dwc:year": 1978,
+            "dwc:eventDate": "1978-09-03",
+            "dwc:locality": "Pärnus, Tammsaare tn.",
+            "dwc:recordedBy": "Silvia Sepp",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1978-09-03",
+            "dwc:identifiedBy": "Silvia Sepp",
+            "dwc:dateIdentified": "1978-09-03T00:00:00.000+0000",
+            "dcterms:identifier": "TU301945",
+            "dwc:month": 9,
+            "dwc:day": 3,
+            "dwc:habitat": "habitat: Aiast mõned",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Papaveraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Ranunculales; Papaveraceae; Papaver",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/482744",
+            "dwc:eventID": 737799,
+            "dwc:taxonID": 6097,
+            "dwc:locationID": 654888,
+            "dwc:identificationID": 749597,
+            "dwc:vernacularName": "kukemagun",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/482744",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/D7/82/D7825C2385AE9D989125F2CFF22EB98F819D5819B0B425CCFBB2D5A337097FEB.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1475888",
+            "dcterms:title": "TU301945.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

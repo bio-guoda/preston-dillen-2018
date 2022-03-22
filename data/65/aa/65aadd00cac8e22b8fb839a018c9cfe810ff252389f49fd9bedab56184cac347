@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Marsea celebris S.Moore",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "b7df9cc0-11b4-429c-bbf1-7e7f2078327c",
+            "dwc:catalogNumber": "BM000903857",
+            "dwc:genus": "Conyza",
+            "dwc:specificEpithet": "celebris",
+            "dwc:locality": "Nearest Named Place: Locality Unknown",
+            "dwc:recordedBy": "George Francis Scott-Elliot",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "H Beentje",
+            "dcterms:identifier": "4528905",
+            "dcterms:modified": "2017-08-21",
+            "dwc:recordNumber": "6907",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4528905",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Asteraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:fieldNumber": "6907",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/b7df9cc0-11b4-429c-bbf1-7e7f2078327c",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/9c2cf505a4f91011e1db8fed8311ac1c3e6a866c/contents/preview",
+            "dcterms:title": "BM000903857",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pimpinella saxifraga L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3345043",
+            "dwc:catalogNumber": "L.3345043",
+            "dwc:genus": "Pimpinella",
+            "dwc:specificEpithet": "saxifraga",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1918,
+            "dwc:eventDate": "1918-07-19",
+            "dwc:locality": "Arnhem (b/d Elech Centr).",
+            "dwc:recordedBy": "Soest JL van",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1918/07/19",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3345043",
+            "dwc:month": 7,
+            "dwc:day": 19,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Apiales",
+            "dwc:family": "Apiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Apiales|Umbelliferae",
+            "dwc:verbatimTaxonRank": "var.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3345043",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

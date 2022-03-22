@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Themeda arguens (L.) Hack.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1339282",
+            "dwc:catalogNumber": "L.1339282",
+            "dwc:genus": "Themeda",
+            "dwc:specificEpithet": "arguens",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1948,
+            "dwc:eventDate": "1948-09-28",
+            "dwc:locality": "Borneo, res. Pontianak, Nampawah, Andjoengan",
+            "dwc:recordedBy": "Enoh M",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1948/09/28",
+            "dwc:stateProvince": "Borneo",
+            "dwc:identifiedBy": "Veldkamp JF",
+            "dwc:dateIdentified": "2015-01-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1339282",
+            "dwc:month": 9,
+            "dwc:day": 28,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1339282",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

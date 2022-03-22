@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Begonia susaniae Sosef",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GA",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008864185",
+            "dwc:catalogNumber": "BR0000008864185",
+            "dwc:genus": "Begonia",
+            "dwc:specificEpithet": "susaniae",
+            "dwc:country": "Gabon",
+            "dwc:year": 1978,
+            "dwc:eventDate": "1978-08-15",
+            "dwc:locality": "About 11 km. along the road from Asok to the Hydroelectric power station in the Tchimbélé River",
+            "dwc:recordedBy": "Breteler F.J. & de Wilde J.J.F.E.",
+            "setID": "BR",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008864185",
+            "dwc:month": 8,
+            "dwc:day": 15,
+            "dcterms:modified": "2006-03-06",
+            "dwc:recordNumber": "25",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Cucurbitales",
+            "dwc:family": "Begoniaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "eng",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008864185",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008864185",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

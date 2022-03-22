@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Myrcia sylvatica DC.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000344568",
+            "dwc:catalogNumber": "K000344568",
+            "dwc:genus": "Myrcia",
+            "dwc:specificEpithet": "sylvatica",
+            "dwc:country": "Brazil",
+            "dwc:year": 1987,
+            "dwc:eventDate": "1987-11-11",
+            "dwc:locality": "Area de Mineracao Rio Norte, 5km da vila residencial.",
+            "dwc:recordedBy": "Cid Ferreira, C.A.",
+            "dwc:decimalLatitude": -1.47,
+            "dwc:decimalLongitude": -56.38,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Kawasaki, M.L.",
+            "dcterms:identifier": "K000344568",
+            "dwc:month": 11,
+            "dwc:day": 11,
+            "dcterms:modified": "2008-07-09",
+            "dwc:recordNumber": "9530",
+            "dwc:habitat": "Campina arbera, solo arenoso branco",
+            "dwc:eventRemarks": "Tree 5m., immature fruit green.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Myrtaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "MYRTACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Oriximina",
+            "dwc:municipality": "Oriximina",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K000344568",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000344568",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/842307.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

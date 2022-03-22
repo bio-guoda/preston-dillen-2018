@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Apostasia nuda R.Br.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1533936",
+            "dwc:catalogNumber": "L.1533936",
+            "dwc:genus": "Apostasia",
+            "dwc:specificEpithet": "nuda",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Sumatra.",
+            "dwc:recordedBy": "Korthals PW",
+            "setID": "L",
+            "dwc:stateProvince": "Sumatra",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1533936",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asparagales|Orchidaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1533936",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ditassa oxyphylla Turcz.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000095578",
+            "dwc:catalogNumber": "K000095578",
+            "dwc:genus": "Ditassa",
+            "dwc:specificEpithet": "oxyphylla",
+            "dwc:country": "Brazil",
+            "dwc:year": 1995,
+            "dwc:eventDate": "1995-03-08",
+            "dwc:locality": "Reserva Biológica de Serra Negra.",
+            "dwc:recordedBy": "Oliveira, M.; Gomes, A.P.S.; Souza, G.M.; Laurênio, A.",
+            "setID": "K",
+            "dc:typeStatus": "ISOLECTOTYPE",
+            "dwc:identifiedBy": "Goydes, D.J.",
+            "dcterms:identifier": "K000095578",
+            "dwc:month": 3,
+            "dwc:day": 8,
+            "dcterms:modified": "2015-02-02",
+            "dwc:recordNumber": "62",
+            "dwc:habitat": "Data not transcribed",
+            "dwc:eventRemarks": "Data not transcribed",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Apocynaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "APOCYNACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Brajos de Altitude de Pernambuco. Programa de Plantas do Nordeste/Darwin Initiative/RBG KEW/UFRPE",
+            "dwc:higherGeography": "Inajá",
+            "dwc:municipality": "Inajá",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K000095578",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000095578",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/579097.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

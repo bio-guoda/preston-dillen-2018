@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum umbelliferum Eschsch.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "74f79737-190c-4a0a-9a42-38c223f18391",
+            "dwc:catalogNumber": "BM000934857",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "umbelliferum",
+            "dwc:country": "United States",
+            "dwc:year": 1927,
+            "dwc:eventDate": "1927-01-01",
+            "dwc:locality": "Lake Tahoe.",
+            "dwc:recordedBy": "Godman, Godman",
+            "setID": "BM",
+            "dwc:stateProvince": "California",
+            "dwc:identifiedBy": "Sandra (Sandy) Diane Knapp",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "4341665",
+            "dcterms:modified": "2017-08-22",
+            "dwc:recordNumber": "247",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4341665",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Angiosperm; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; United States; California",
+            "dwc:fieldNumber": "247",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/74f79737-190c-4a0a-9a42-38c223f18391",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/f4692e8654974b13713bfeee497a18bf6864a897/contents/preview",
+            "dcterms:title": "BM000934857",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

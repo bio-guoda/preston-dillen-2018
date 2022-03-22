@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Geranium cristatum Steven",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AZ",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1366864",
+            "dwc:catalogNumber": "HA.H1366864",
+            "dwc:genus": "Geranium",
+            "dwc:specificEpithet": "cristatum",
+            "dwc:country": "AZ",
+            "dwc:year": 1997,
+            "dwc:eventDate": "1997-01-01/1997-12-31",
+            "dwc:locality": "Jucharibasch [Yukhari-bash].",
+            "dwc:recordedBy": "Steven, C.",
+            "setID": "H",
+            "dc:typeStatus": "Isolectotype",
+            "dwc:identifiedBy": "C. Aedo",
+            "dwc:dateIdentified": "1997",
+            "dcterms:identifier": "http://tun.fi/MY.105702",
+            "dcterms:modified": "1382503588",
+            "dwc:otherCatalogNumbers": "H1366864",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "Steven",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Geranium cristatum",
+            "dwc:organismRemarks": "In Aedo 1998, country is erraneously given as Georgia.",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/HA.H1366864",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

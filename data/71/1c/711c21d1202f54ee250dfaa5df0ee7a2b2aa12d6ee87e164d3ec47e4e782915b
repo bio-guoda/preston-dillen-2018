@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Syngonanthus longipes Gleason",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GY",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000640239",
+            "dwc:catalogNumber": "K000640239",
+            "dwc:genus": "Syngonanthus",
+            "dwc:specificEpithet": "longipes",
+            "dwc:country": "Guyana",
+            "dwc:year": 1884,
+            "dwc:eventDate": "1884-12-02",
+            "dwc:locality": "Roraima bepiditiris  Spelemoolia Village  ArapooRuiri",
+            "dwc:recordedBy": "Thurn, E.F.",
+            "setID": "K",
+            "dc:typeStatus": "PARATYPE",
+            "dwc:identifiedBy": "Giulietti, A.M.",
+            "dcterms:identifier": "K000640239",
+            "dwc:month": 12,
+            "dwc:day": 2,
+            "dcterms:modified": "2009-07-09",
+            "dwc:recordNumber": "33",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Eriocaulaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "ERIOCAULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Set A",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000640239",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "ERIOCAULACEAE",
+            "dwc:genus": "Paepalanthus",
+            "dwc:taxonRemarks": "Author citation as on label: [no author]  near (no 194",
+            "dwc:higherClassification": "ERIOCAULACEAE",
+            "dwc:specificEpithet": "densiflorus",
+            "dwc:scientificName": "Paepalanthus densiflorus Körn.",
+            "dwc:scientificNameAuthorship": "Körn.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "ERIOCAULACEAE",
+            "dwc:genus": "Paepalanthus",
+            "dwc:taxonRemarks": "Author citation as on label: [no author]",
+            "dwc:higherClassification": "ERIOCAULACEAE",
+            "dwc:specificEpithet": "schomburgkii",
+            "dwc:scientificName": "Paepalanthus schomburgkii Klotzsch ex Körn.",
+            "dwc:scientificNameAuthorship": "Klotzsch ex Körn.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000640239",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/259909.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

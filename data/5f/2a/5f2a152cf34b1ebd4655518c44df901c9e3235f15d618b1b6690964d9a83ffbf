@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Froelichia humboldtiana Seub.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001209032",
+            "dwc:catalogNumber": "K001209032",
+            "dwc:genus": "Froelichia",
+            "dwc:specificEpithet": "humboldtiana",
+            "dwc:country": "Brazil",
+            "dwc:year": 1992,
+            "dwc:eventDate": "1992-02-20",
+            "dwc:locality": "Dunas de Itapuã e Lagoa de Abaeté.",
+            "dwc:recordedBy": "Guedes, L.M.; Hind, D.J.N.",
+            "setID": "K",
+            "dcterms:identifier": "K001209032",
+            "dwc:month": 2,
+            "dwc:day": 20,
+            "dcterms:modified": "2015-12-16",
+            "dwc:recordNumber": "72",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Amaranthaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "AMARANTHACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Salvador",
+            "dwc:municipality": "Salvador",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K001209032",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001209032",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/782975.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

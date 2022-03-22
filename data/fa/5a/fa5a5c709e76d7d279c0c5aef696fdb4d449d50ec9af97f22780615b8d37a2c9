@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Cicerbita taliensis (Franch.) Beauverd",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100176994",
+            "dwc:catalogNumber": "B 10 0176994",
+            "dwc:genus": "Cicerbita",
+            "dwc:specificEpithet": "taliensis",
+            "dwc:country": "China",
+            "dwc:year": 1984,
+            "dwc:eventDate": "1984-07-31",
+            "dwc:locality": "Kunming Municipality, Xishan, between Taihua and Hating temples, broad-leaved evergreen, coniferous and deciduous forest.",
+            "dwc:recordedBy": "B. Bartholomew & al.",
+            "dwc:decimalLatitude": 24.9667,
+            "dwc:decimalLongitude": 102.6333,
+            "setID": "B",
+            "dwc:verbatimEventDate": "31.7.1984",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "1542",
+            "dwc:scientificNameAuthorship": "Beauverd",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "2100-2350 m",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100176994",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

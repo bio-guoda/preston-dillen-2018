@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Scutellaria altissima A.Ham., 1832",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000026806631V",
+            "dwc:catalogNumber": "BR0000026806631V",
+            "dwc:genus": "Scutellaria",
+            "dwc:specificEpithet": "altissima",
+            "dwc:country": "Belgium",
+            "dwc:year": 1974,
+            "dwc:eventDate": "1974-07-07",
+            "dwc:locality": "Pailhe",
+            "dwc:recordedBy": "Symoens J.",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000026806631V",
+            "dwc:month": 7,
+            "dwc:day": 7,
+            "dcterms:modified": "2017-04-26",
+            "dwc:recordNumber": "E 655",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "unchecked name",
+            "dcterms:language": "nld",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000026806631V",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000026806631V",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

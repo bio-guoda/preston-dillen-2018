@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Elymus repens (L.) Gould",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU304279",
+            "dwc:catalogNumber": "TU304279",
+            "dwc:genus": "Elymus",
+            "dwc:specificEpithet": "repens",
+            "dwc:country": "Estonia",
+            "dwc:year": 1954,
+            "dwc:eventDate": "1954-07-10",
+            "dwc:locality": "Tartu",
+            "dwc:recordedBy": "A. Remmel",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1954-07-10",
+            "dwc:identifiedBy": "L. Viljasoo",
+            "dwc:dateIdentified": "1954-07-10T00:00:00.000+0000",
+            "dcterms:identifier": "TU304279",
+            "dwc:month": 7,
+            "dwc:day": 10,
+            "dwc:habitat": "habitat: raudtee tamm",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Monocotyledonae; Poales; Poaceae; Elymus",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dwc:occurrenceRemarks": "Ex Herb A. Remmel",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/543746",
+            "dwc:eventID": 798801,
+            "dwc:taxonID": 4524,
+            "dwc:locationID": 715769,
+            "dwc:identificationID": 839336,
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/543746",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/2F/32/2F3209B54F3C7A9458A458BF6D71AF9955B86A813026E87AF7E9826E2A55DA1D.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1484534",
+            "dcterms:title": "TU304279.tif",
+            "dcterms:created": "2015-04",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

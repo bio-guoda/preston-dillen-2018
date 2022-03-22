@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Omphalocarpum mortehanii De Wild.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CD",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008966520",
+            "dwc:catalogNumber": "BR0000008966520",
+            "dwc:genus": "Omphalocarpum",
+            "dwc:specificEpithet": "mortehanii",
+            "dwc:country": "Congo, Democratic Republic of the",
+            "dwc:year": 1913,
+            "dwc:eventDate": "1913-09-01",
+            "dwc:locality": "Dundusana",
+            "dwc:recordedBy": "Mortehan M.",
+            "dwc:decimalLatitude": 2.8833,
+            "dwc:decimalLongitude": 22.3833,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008966520",
+            "dwc:month": 9,
+            "dcterms:modified": "2014-01-22",
+            "dwc:recordNumber": "484",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Sapotaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008966520",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008966520",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

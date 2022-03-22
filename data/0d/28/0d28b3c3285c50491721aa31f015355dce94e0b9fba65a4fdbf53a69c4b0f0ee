@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum ×cyathiflorum N.Robson",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "6c1ea400-67a9-4ead-b195-d61cbc3de61e",
+            "dwc:catalogNumber": "BM001202113",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "cyathiflorum",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1977,
+            "dwc:eventDate": "1977-09-06",
+            "dwc:recordedBy": "Anon.",
+            "setID": "BM",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "8098605",
+            "dwc:month": 9,
+            "dwc:day": 6,
+            "dwc:recordNumber": "C11684",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8098605",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom",
+            "dwc:fieldNumber": "C11684",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/6c1ea400-67a9-4ead-b195-d61cbc3de61e",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/e5746596ecb4d84d7a1cdb523519501716033b84/contents/preview",
+            "dcterms:title": "BM001202113",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

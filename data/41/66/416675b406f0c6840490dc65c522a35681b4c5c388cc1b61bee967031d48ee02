@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Barbula sulcata Geh.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CV",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H3300713",
+            "dwc:catalogNumber": "HA.H3300713",
+            "dwc:genus": "Barbula",
+            "dwc:specificEpithet": "sulcata",
+            "dwc:country": "CV",
+            "dwc:year": 1864,
+            "dwc:eventDate": "1864-01-01/1864-12-31",
+            "dwc:locality": "Monte Gordo, São Nicolau",
+            "dwc:recordedBy": "Lowe (16)",
+            "dwc:decimalLatitude": 16.62,
+            "dwc:decimalLongitude": -24.35,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Type",
+            "dwc:stateProvince": "Barlavento",
+            "dwc:identifiedBy": "Geheeb, Adalbert",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.118866",
+            "dcterms:modified": "1382503775",
+            "dwc:habitat": "Ad rupes.",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:verbatimElevation": "4500 feet",
+            "dwc:otherCatalogNumbers": "H3300713",
+            "dwc:collectionID": "http://tun.fi/HR.189",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:verbatimLocality": "Insul. Capit. viril.: São Nicolaõ, Mte. Gordo, sterilum.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "16.62 -24.35 WGS84",
+            "dwc:scientificNameAuthorship": "Geh.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Barbula sulcata",
+            "dwc:organismRemarks": "1878 in herb. Kew. Teste Hampe!",
+            "dwc:verbatimLongitude": "-24.35",
+            "dwc:verbatimLatitude": "16.62",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H3300713",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

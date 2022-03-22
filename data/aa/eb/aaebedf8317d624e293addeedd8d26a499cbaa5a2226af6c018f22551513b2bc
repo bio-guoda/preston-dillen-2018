@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Antithamnion cruciatum (C.Agardh) Nägeli",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "HR",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.4029097",
+            "dwc:catalogNumber": "L.4029097",
+            "dwc:genus": "Antithamnion",
+            "dwc:specificEpithet": "cruciatum",
+            "dwc:country": "Croatia",
+            "dwc:locality": "Rovigno",
+            "dwc:recordedBy": "Unknown",
+            "setID": "L",
+            "dc:typeStatus": "LECTOTYPE",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.4029097",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Ceramiales",
+            "dwc:family": "Ceramiaceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Algae|Algae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.4029097",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

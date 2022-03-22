@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Petasites hybridus (L.) G.Gaertn., B.Mey. & Scherb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU305187",
+            "dwc:catalogNumber": "TU305187",
+            "dwc:genus": "Petasites",
+            "dwc:specificEpithet": "hybridus",
+            "dwc:country": "Estonia",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-05-01",
+            "dwc:locality": "Rakvere linn",
+            "dwc:recordedBy": "M. Nelke",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1982-05",
+            "dwc:identifiedBy": "M. Nelke",
+            "dwc:dateIdentified": "1982-05-01T00:00:00.000+0000",
+            "dcterms:identifier": "TU305187",
+            "dwc:month": 5,
+            "dwc:habitat": "habitat: rahvaaed",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Asterales; Asteraceae; Petasites",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/595058",
+            "dwc:eventID": 850129,
+            "dwc:taxonID": 6161,
+            "dwc:locationID": 767086,
+            "dwc:identificationID": 926983,
+            "dwc:vernacularName": "harilik katkujuur",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/595058",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/7D/1E/7D1EC2C09D13036D8A046E3246B31D3329091BCD2FF8FF5A7E9107D4EB2CF0E3.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1491929",
+            "dcterms:title": "TU305187.tif",
+            "dcterms:created": "2015-08",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

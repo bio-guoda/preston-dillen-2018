@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Parathelypteris simulata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1069760",
+            "dwc:catalogNumber": "H.1069760",
+            "dwc:genus": "Parathelypteris",
+            "dwc:specificEpithet": "simulata",
+            "dwc:country": "United States",
+            "dwc:year": 1973,
+            "dwc:eventDate": "1973-09-06",
+            "dwc:locality": "Whately, along Interstate Route 91, near Deerfield line",
+            "dwc:recordedBy": "Ahles, H. E.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "06.09.1973",
+            "dwc:stateProvince": "Massachusetts",
+            "dwc:continent": "North America",
+            "dcterms:identifier": "http://tun.fi/MY.744409",
+            "dwc:month": 9,
+            "dwc:day": 6,
+            "dwc:county": "Franklin County",
+            "dcterms:modified": "1492084433",
+            "dwc:recordNumber": "78635",
+            "dwc:otherCatalogNumbers": "H1069760",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Whately, along Int. Rt. 91, near Deerfield line",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Parathelypteris simulata",
+            "dwc:verbatimRecordedBy": "Ahles, H. E.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1069760",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Alyssum lanceolatum Baumgartner",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "TR",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00386021",
+            "dwc:catalogNumber": "E00386021",
+            "dwc:genus": "Alyssum",
+            "dwc:specificEpithet": "lanceolatum",
+            "dwc:country": "Turkey",
+            "dwc:year": 1898,
+            "dwc:eventDate": "1898-01-01",
+            "dwc:locality": "Turcomania. In m.Kular pr. Gaudan",
+            "dwc:recordedBy": "Litwinow, Dimitri Ivanovich",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1898",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00386021",
+            "dcterms:modified": "2010-03-22",
+            "dwc:recordNumber": "569",
+            "dwc:verbatimElevation": "7000 FT",
+            "dwc:otherCatalogNumbers": "BGBASE:425632",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Brassicales",
+            "dwc:family": "Brassicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "West Asia and Egypt",
+            "dwc:startDayOfYear": 182,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:elevation": 2134,
+            "dwc:elevationAccuracy": 0,
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "lat",
+            "@id": "http://data.rbge.org.uk/herb/E00386021",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00386021 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00386021",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMzg2LzAyMS8yOTIwOTIuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00386021",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

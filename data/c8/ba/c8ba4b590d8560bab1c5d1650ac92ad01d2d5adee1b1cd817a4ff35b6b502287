@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium flaccidum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7613",
+            "dwc:catalogNumber": "EIG.7613",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "flaccidum",
+            "dwc:country": "Australia",
+            "dwc:year": 1981,
+            "dwc:eventDate": "1981-08-31",
+            "dwc:locality": "Mount Field National Park. Russell Falls",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "setID": "H",
+            "dwc:verbatimEventDate": "31.08.1981",
+            "dwc:stateProvince": "Tasmania",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.727626",
+            "dwc:month": 8,
+            "dwc:day": 31,
+            "dcterms:modified": "1492084213",
+            "dwc:recordNumber": "10683A",
+            "dwc:otherCatalogNumbers": "H1460757",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Mt. Field National Park. E side of the mountain. Alt. c. 200 m.",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium flaccidum",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7613",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

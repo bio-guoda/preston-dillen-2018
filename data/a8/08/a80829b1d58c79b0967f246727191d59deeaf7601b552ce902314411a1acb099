@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pisum sativum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU302037",
+            "dwc:catalogNumber": "TU302037",
+            "dwc:genus": "Pisum",
+            "dwc:specificEpithet": "sativum",
+            "dwc:country": "Estonia",
+            "dwc:year": 1964,
+            "dwc:eventDate": "1964-07-20",
+            "dwc:locality": "Valga raj., Otepää kn., Lükardi",
+            "dwc:recordedBy": "L. Pihlapuu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1964-07-20",
+            "dwc:identifiedBy": "L. Pihlapuu",
+            "dwc:dateIdentified": "1964-07-20T00:00:00.000+0000",
+            "dcterms:identifier": "TU302037",
+            "dwc:month": 7,
+            "dwc:day": 20,
+            "dwc:habitat": "habitat: Põllul söödaviljana",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Fabales; Fabaceae; Pisum",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/483047",
+            "dwc:eventID": 738102,
+            "dwc:taxonID": 6330,
+            "dwc:locationID": 655191,
+            "dwc:identificationID": 750390,
+            "dwc:vernacularName": "põldhernes; harilik hernes",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/483047",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/B8/0C/B80C835690BDEC8DDEB9E2592E03E31812D0AB9D174CDB690989317170847EDF.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1480671",
+            "dcterms:title": "TU302037.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

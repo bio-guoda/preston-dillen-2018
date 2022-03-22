@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dichondra repens J.R.Forst. & G.Forst.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000021455698",
+            "dwc:catalogNumber": "BR0000021455698",
+            "dwc:genus": "Dichondra",
+            "dwc:specificEpithet": "repens",
+            "dwc:country": "Australia",
+            "dwc:locality": "S.L.",
+            "dwc:recordedBy": "Collector unknown",
+            "setID": "BR",
+            "dwc:verbatimEventDate": "S.D.",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000021455698",
+            "dcterms:modified": "2016-08-25",
+            "dwc:recordNumber": "7771",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Convolvulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "synonym",
+            "dwc:acceptedNameUsage": "Dichondra microcalyx (Hallier f.) Fabris",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000021455698",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000021455698",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

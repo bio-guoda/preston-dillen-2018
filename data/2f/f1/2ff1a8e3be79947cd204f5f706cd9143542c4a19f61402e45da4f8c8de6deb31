@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pteris cretica",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "FI",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1108799",
+            "dwc:catalogNumber": "H.1108799",
+            "dwc:genus": "Pteris",
+            "dwc:specificEpithet": "cretica",
+            "dwc:country": "Finland",
+            "dwc:year": 1970,
+            "dwc:eventDate": "1970-11-07",
+            "dwc:recordedBy": "Alanko, Pentti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "07.11.1970",
+            "dcterms:identifier": "http://tun.fi/MY.745456",
+            "dwc:month": 11,
+            "dwc:day": 7,
+            "dcterms:modified": "1492084454",
+            "dwc:recordNumber": "16,588",
+            "dwc:otherCatalogNumbers": "H1108799",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "U, Helsinki, Viikki. Origin: Hortus Botanicus, Helsinki",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Pteris cretica",
+            "dwc:organismRemarks": "Helsingin Yliopiston maatalouslaitokset, Kasvitieteen perusopetuksen laitos, rikkakasvina orkideakorissa",
+            "dwc:establishmentMeans": "MY.provenanceCultivated",
+            "dwc:verbatimRecordedBy": "Alanko, Pentti",
+            "dcterms:language": "fin",
+            "@id": "http://id.luomus.fi/H.1108799",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cystophora racemosa (Harv. ex Kütz.) J.Agardh",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "e0bff9e5-d8eb-4a94-8254-15eeee667b40",
+            "dwc:catalogNumber": "BM000804813",
+            "dwc:genus": "Cystophora",
+            "dwc:specificEpithet": "racemosa",
+            "dwc:country": "Australia",
+            "dwc:recordedBy": "E Lemprieu",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "4526090",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4526090",
+            "dwc:kingdom": "Chromista",
+            "dwc:phylum": "Ochrophyta",
+            "dwc:order": "Fucales",
+            "dwc:family": "Sargassaceae",
+            "dwc:class": "Phaeophyceae",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Cystophoraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/e0bff9e5-d8eb-4a94-8254-15eeee667b40",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/fc16a4db0ce1fc0033bac3de44876292e7365981/contents/preview",
+            "dcterms:title": "BM000804813",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium javanicum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.3012",
+            "dwc:catalogNumber": "EIG.3012",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "javanicum",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1893,
+            "dwc:eventDate": "1893-04-20",
+            "dwc:locality": "Mount Gede",
+            "dwc:recordedBy": "Möller, Hjalmar",
+            "setID": "H",
+            "dwc:verbatimEventDate": "20.04.1893",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.712431",
+            "dwc:month": 4,
+            "dwc:day": 20,
+            "dwc:county": "West Java",
+            "dcterms:modified": "1492083879",
+            "dwc:otherCatalogNumbers": "H1127470",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "PLANTAE JAVANICAE. Gedé c. 1600 m.",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium javanicum",
+            "dwc:verbatimRecordedBy": "Möller, Hjalmar",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/EIG.3012",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

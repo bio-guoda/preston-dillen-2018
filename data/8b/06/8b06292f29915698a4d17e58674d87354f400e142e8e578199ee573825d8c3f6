@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hyparrhenia bagirmica Stapf",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "TD",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00109257",
+            "dwc:catalogNumber": "P00109257",
+            "dwc:genus": "Hyparrhenia",
+            "dwc:specificEpithet": "bagirmica",
+            "dwc:country": "Chad",
+            "dwc:year": 1903,
+            "dwc:eventDate": "1903-09-01",
+            "dwc:recordedBy": "Chevalier, A.J.B.",
+            "setID": "P",
+            "dwc:identifiedBy": "Baldini",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00109257",
+            "dwc:month": 9,
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Plantes de l'Oubangui et du Chari: Baguirmi et Région du Lac Fittri Moïto, Baro Aouni",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "9795",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00109257",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Poaceae",
+            "@id": "SONNERAT|123520",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Hyparrhenia",
+            "dwc:dateIdentified": "18-12-1995",
+            "dwc:higherClassification": "Hyparrhenia;Poaceae",
+            "dwc:specificEpithet": "bagirmica",
+            "dwc:scientificName": "Hyparrhenia bagirmica (Stapf) Stapf",
+            "dwc:identifiedBy": "Baldini",
+            "dwc:scientificNameAuthorship": "(Stapf) Stapf",
+            "dwc:taxonID": "SONNERAT|27612",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Poaceae",
+            "@id": "SONNERAT|123521",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Cymbopogon",
+            "dwc:higherClassification": "Cymbopogon;Poaceae",
+            "dwc:specificEpithet": "bagirmicus",
+            "dwc:scientificName": "Cymbopogon bagirmicus Stapf",
+            "dwc:scientificNameAuthorship": "Stapf",
+            "dwc:taxonID": "SONNERAT|84020",
+            "dwc:typeStatus": "lectotype",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "376E52C3BE1D4F479EC3D30C60F36FC5",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, XF",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1442371276845UuVoDjA2xXGSloq9",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

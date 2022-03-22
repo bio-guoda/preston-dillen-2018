@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris wallichiana  subsp. wallichiana",
+            "dwc:taxonRank": "Ssp",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1060",
+            "dwc:catalogNumber": "EIG.1060",
+            "dwc:genus": "Dryopteris",
+            "dwc:specificEpithet": "wallichiana",
+            "dwc:country": "United States",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-02-25",
+            "dwc:locality": "West side of Haleakala Mountain, south of Pukalani, above Kula, Waipoli road.",
+            "dwc:recordedBy": "Fraser-Jenkins, C. R.",
+            "dwc:infraspecificEpithet": "wallichiana",
+            "setID": "H",
+            "dwc:verbatimEventDate": "25.02.1988",
+            "dwc:stateProvince": "Hawaii",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.682828",
+            "dwc:month": 2,
+            "dwc:day": 25,
+            "dwc:county": "Maui",
+            "dcterms:modified": "1492083312",
+            "dwc:recordNumber": "14783",
+            "dwc:otherCatalogNumbers": "H1669968",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "E. Maui, W side of Haleakala Mountain, S of Pukalani, above Kula, Waipoli road. Alt: c. 3500-4000 ft s.m.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris wallichiana subsp. wallichiana",
+            "dwc:verbatimRecordedBy": "Fraser-Jenkins, C. R.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1060",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

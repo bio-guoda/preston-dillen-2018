@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lepidosperma sieberi Kunth",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01702497",
+            "dwc:catalogNumber": "P01702497",
+            "dwc:genus": "Lepidosperma",
+            "dwc:specificEpithet": "sieberi",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01702497",
+            "dcterms:modified": "2015-09-03",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01702497",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Cyperaceae",
+            "@id": "SONNERAT|2847307",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Lepidosperma",
+            "dwc:higherClassification": "Lepidosperma;Cyperaceae",
+            "dwc:specificEpithet": "sieberi",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Lepidosperma sieberi Kunth",
+            "dwc:scientificNameAuthorship": "Kunth",
+            "dwc:taxonID": "SONNERAT|241805",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "FC05F95C356E4AB692CB65B85D1C2DBB",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441315374164poDinr5UYuMDXjoU",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

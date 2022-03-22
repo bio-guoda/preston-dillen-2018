@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arachniodes aristata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1349",
+            "dwc:catalogNumber": "EIG.1349",
+            "dwc:genus": "Arachniodes",
+            "dwc:specificEpithet": "aristata",
+            "dwc:country": "Australia",
+            "dwc:year": 1969,
+            "dwc:eventDate": "1969-08-03",
+            "dwc:locality": "Dingo state forest, northwest of Big Run creek, Wherrol Flat (circa 29 km northwest of Wingham)",
+            "dwc:geodeticDatum": "Dms",
+            "setID": "H",
+            "dwc:verbatimEventDate": "03.08.1969",
+            "dwc:stateProvince": "New South Wales",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.692359",
+            "dwc:month": 8,
+            "dwc:day": 3,
+            "dcterms:modified": "1492083479",
+            "dwc:recordNumber": "1904",
+            "dwc:otherCatalogNumbers": "H1225832",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Dingo State Forest, NW. of Big Run Creek, Wherrol Flat (c. 29 km NW. of Wingham). Alt c. 750 m",
+            "dwc:datasetID": "GX.2951",
+            "dwc:verbatimCoordinates": "c.31° 44'S c.152° 12'E (degrees, minutes)",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arachniodes aristata",
+            "dwc:verbatimRecordedBy": "Coveny, R.; Slade, C.",
+            "dwc:verbatimLongitude": "152° 12'",
+            "dwc:verbatimLatitude": "-31° 44'",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1349",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

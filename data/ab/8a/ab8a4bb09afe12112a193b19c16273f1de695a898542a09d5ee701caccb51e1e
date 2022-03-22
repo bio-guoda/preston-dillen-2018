@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Shorea Roxb. ex C.F.Gaertn.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06717247",
+            "dwc:catalogNumber": "P06717247",
+            "dwc:genus": "Shorea",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06717247",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malvales",
+            "dwc:family": "Dipterocarpaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06717247",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Dipterocarpaceae",
+            "@id": "SONNERAT|6553410",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Shorea",
+            "dwc:higherClassification": "Shorea;Dipterocarpaceae",
+            "dwc:specificEpithet": "sp.",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Shorea sp.",
+            "dwc:taxonID": "SONNERAT|3884690",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "B554501AE03840C78BBCF1AF294A9B71",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/14413888558270mIxPw5iKxpFMzfP",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

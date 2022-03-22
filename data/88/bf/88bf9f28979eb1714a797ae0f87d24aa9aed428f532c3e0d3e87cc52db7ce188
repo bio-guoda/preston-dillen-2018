@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Campsiandra chigo-montero Stergios",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000841990",
+            "dwc:catalogNumber": "K000841990",
+            "dwc:genus": "Campsiandra",
+            "dwc:specificEpithet": "chigo-montero",
+            "dwc:country": "Brazil",
+            "dwc:year": 1966,
+            "dwc:eventDate": "1966-11-24",
+            "dwc:locality": "Road Humaitá to Labrea, km 90.",
+            "dwc:recordedBy": "Ramos, J.F.; Pena, B.S.; Prance, G.T.",
+            "setID": "K",
+            "dwc:identifiedBy": "Stergios, B.",
+            "dcterms:identifier": "K000841990",
+            "dwc:month": 11,
+            "dwc:day": 24,
+            "dcterms:modified": "2012-11-29",
+            "dwc:recordNumber": "3281",
+            "dwc:habitat": "Low forest on terra firme",
+            "dwc:eventRemarks": "Treelet, 7m. tall. Pods green.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Plants of Brazilian Amazônia. Field work carried out in collaboration with the Instituto Agronômico do Norte, and financed in greater part by the National Science Foundation",
+            "dwc:higherGeography": "Humaitá",
+            "dwc:municipality": "Humaitá",
+            "dwc:georeferenceProtocol": "Label",
+            "dwc:taxonRemarks": "Probably, due to more plausible links with similar, more western venezuela distributions, this is more lihely Campsiandra chico-montero Sterg. Confirmado por B. Stergios 1998. Novon 6: 434 - 459",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000841990",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:infraspecificEpithet": "comosa",
+            "dwc:taxonRank": "var.",
+            "dwc:family": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:genus": "Campsiandra",
+            "dwc:dateIdentified": "1967-00-00",
+            "dwc:higherClassification": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:specificEpithet": "comosa",
+            "dwc:scientificName": "Campsiandra comosa Benth. var. comosa",
+            "dwc:identifiedBy": "Irwin, H.S.",
+            "dwc:scientificNameAuthorship": "Benth.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000841990",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/426983.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

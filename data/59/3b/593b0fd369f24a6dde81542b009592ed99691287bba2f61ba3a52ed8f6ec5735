@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Tapura guianensis Aubl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05539247",
+            "dwc:catalogNumber": "P05539247",
+            "dwc:genus": "Tapura",
+            "dwc:specificEpithet": "guianensis",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05539247",
+            "dcterms:modified": "2015-09-05",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Dichapetalaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05539247",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Dichapetalaceae",
+            "@id": "SONNERAT|7453233",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Tapura",
+            "dwc:higherClassification": "Tapura;Dichapetalaceae",
+            "dwc:specificEpithet": "guianensis",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Tapura guianensis Aubl.",
+            "dwc:scientificNameAuthorship": "Aubl.",
+            "dwc:taxonID": "SONNERAT|47485",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "85653642114A4C24A880A7A68BFAD95F",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441439645010fffAc6bAcmGkucCV",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

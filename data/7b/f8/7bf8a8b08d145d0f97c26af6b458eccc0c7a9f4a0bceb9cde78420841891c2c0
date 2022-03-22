@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Hieracium calodon subsp. pseudofallax Touton",
+            "dwc:taxonRank": "subsp.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100094275",
+            "dwc:catalogNumber": "B 10 0094275",
+            "dwc:genus": "Hieracium",
+            "dwc:specificEpithet": "calodon",
+            "dwc:country": "Germany",
+            "dwc:year": 1918,
+            "dwc:eventDate": "1918-06-03",
+            "dwc:locality": "Rheinland-Pfalz: Kiesgrube bei Sinzig.",
+            "dwc:recordedBy": "A. Schlickum",
+            "dwc:infraspecificEpithet": "pseudofallax",
+            "setID": "B",
+            "dwc:verbatimEventDate": "03.06.1918",
+            "dc:typeStatus": "syntype",
+            "dwc:continent": "Europe",
+            "dwc:scientificNameAuthorship": "Touton",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "type determination: syntypi quoad",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100094275",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

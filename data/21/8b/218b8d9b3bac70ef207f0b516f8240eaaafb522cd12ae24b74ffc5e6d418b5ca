@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vicia hirsuta (L.) Gray",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914207",
+            "dwc:catalogNumber": "K000914207",
+            "dwc:genus": "Vicia",
+            "dwc:specificEpithet": "hirsuta",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2011,
+            "dwc:eventDate": "2011-05-25",
+            "dwc:locality": "Kew Gardens; South Arboretum: in grassland in the Ancient Meadow (zone 321)",
+            "dwc:recordedBy": "Cope, T.A.",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914207",
+            "dwc:month": 5,
+            "dwc:day": 25,
+            "dcterms:modified": "2013-07-05",
+            "dwc:recordNumber": "RBG 489",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Hairy Tare",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914207",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914207",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/517015.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

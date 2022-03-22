@@ -1,0 +1,87 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Oxanthera aurantium Tanaka",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NC",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00543937",
+            "dwc:catalogNumber": "P00543937",
+            "dwc:genus": "Citrus",
+            "dwc:specificEpithet": "aurantium",
+            "dwc:country": "New Caledonia",
+            "dwc:recordedBy": "Vieillard, E.",
+            "setID": "P",
+            "dwc:identifiedBy": "Tanaka",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00543937",
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Collines arides de Gomonen près Gatope",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Rutaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "2378",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00543937",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:higherClassification": "Atalantia;Rutaceae",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Atalantia aurantium Vieillard",
+            "dwc:specificEpithet": "aurantium",
+            "dwc:taxonID": "SONNERAT|103158",
+            "dwc:genus": "Atalantia",
+            "dwc:family": "Rutaceae",
+            "@id": "SONNERAT|615479",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:scientificNameAuthorship": "Vieillard",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:higherClassification": "Oxanthera;Rutaceae",
+            "dwc:scientificName": "Oxanthera aurantium Tanaka",
+            "dwc:specificEpithet": "aurantium",
+            "dwc:taxonID": "SONNERAT|46556",
+            "dwc:genus": "Oxanthera",
+            "dwc:family": "Rutaceae",
+            "@id": "SONNERAT|615482",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:scientificNameAuthorship": "Tanaka",
+            "dwc:dateIdentified": "1927",
+            "dwc:identifiedBy": "Tanaka",
+            "dwc:identificationRemarks": "\"n°1819\"",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "FBFFC095EBE34B69BBE1D2BAD311A4E8",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "FBFFC095EBE34B69BBE1D2BAD311A4E8",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:type": "StillImage",
+            "dcterms:license": "cc-by",
+            "@id": "http://mediaphoto.mnhn.fr/media/1442470620968PKQy7ybczaau02vU",
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, JC",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

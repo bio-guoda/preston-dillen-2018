@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium donianum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2840",
+            "dwc:catalogNumber": "EIG.2840",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "donianum",
+            "dwc:country": "China",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-10-13",
+            "dwc:locality": "Wulai",
+            "setID": "H",
+            "dwc:verbatimEventDate": "13.10.1982",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.711873",
+            "dwc:month": 10,
+            "dwc:day": 13,
+            "dwc:county": "New Taipei City",
+            "dcterms:modified": "1492083866",
+            "dwc:recordNumber": "6044",
+            "dwc:otherCatalogNumbers": "H1559634",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Taipei County; Wu Lai, 20 km S. of Taipei. Alt. 450 m.",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium donianum",
+            "dwc:verbatimRecordedBy": "Zogg, E.; Gassner, H.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.2840",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

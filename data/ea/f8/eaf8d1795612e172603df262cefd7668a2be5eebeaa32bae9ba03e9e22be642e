@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium esculentum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2871",
+            "dwc:catalogNumber": "EIG.2871",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "esculentum",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-03-01/1910-03-31",
+            "dwc:recordedBy": "Mousset, J. P.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "03.1910",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.711975",
+            "dwc:month": 3,
+            "dwc:county": "Wonosari",
+            "dcterms:modified": "1492083868",
+            "dwc:otherCatalogNumbers": "H1591176",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Herbarium javanicum. Wonosari, 1150 m.",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium esculentum",
+            "dwc:verbatimRecordedBy": "Mousset, J. P.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/EIG.2871",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

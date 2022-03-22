@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Physalis patula Mill.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MX",
+            "dwc:occurrenceID": "79824bb3-48a8-4ca1-9f36-fe239bebdab9",
+            "dwc:catalogNumber": "BM000775431",
+            "dwc:genus": "Physalis",
+            "dwc:specificEpithet": "patula",
+            "dwc:country": "Mexico",
+            "dwc:year": 1731,
+            "dwc:eventDate": "1731-01-01",
+            "dwc:locality": "Vera Cruz",
+            "dwc:recordedBy": "William Houstoun",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "H. M. Lawrence",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "4510966",
+            "dcterms:modified": "2018-01-11",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4510966",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Angiosperm; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Mexico",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.nhm.ac.uk/object/79824bb3-48a8-4ca1-9f36-fe239bebdab9",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/6667563526bd79260b1f4fa7c390c1b8e9958520/contents/preview",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:title": "BM000775431",
+            "dcterms:format": "image/tiff",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/0c61ef66ec7b8c4c240cdf967c9c8b7057d0ecd8/contents/preview",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:title": "Spruce - BM000775431",
+            "dcterms:format": "image/tiff",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

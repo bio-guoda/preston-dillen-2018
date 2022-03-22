@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Primula elatior Hill",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00503637",
+            "dwc:catalogNumber": "P00503637",
+            "dwc:genus": "Primula",
+            "dwc:specificEpithet": "elatior",
+            "dwc:country": "France",
+            "dwc:year": 1925,
+            "dwc:eventDate": "1925-07-14",
+            "dwc:recordedBy": "Jovet, P.",
+            "setID": "P",
+            "dwc:stateProvince": "60 Oise",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00503637",
+            "dwc:month": 7,
+            "dwc:day": 14,
+            "dwc:county": "Senlis",
+            "dcterms:modified": "2016-01-14",
+            "dwc:verbatimLocality": "[Plusieurs communes possibles]. Forêt d'Halatte",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Primulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00503637",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Primulaceae",
+            "@id": "SONNERAT|572125",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Primula",
+            "dwc:higherClassification": "Primula;Primulaceae",
+            "dwc:specificEpithet": "elatior",
+            "dwc:scientificName": "Primula elatior (L.) Hill",
+            "dwc:scientificNameAuthorship": "(L.) Hill",
+            "dwc:taxonID": "SONNERAT|10492",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Primulaceae",
+            "@id": "SONNERAT|6070684",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Primula",
+            "dwc:higherClassification": "Primula;Primulaceae",
+            "dwc:specificEpithet": "elatior",
+            "dwc:scientificName": "Primula elatior (L.) Hill",
+            "dwc:scientificNameAuthorship": "(L.) Hill",
+            "dwc:taxonID": "SONNERAT|3777636",
+            "dwc:dateIdentified": "14-07-1925",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:identifiedBy": "Jovet",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "B1A6F094D10C4B5499ED4FC760533CFE",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441377580590RENIQhF0fxetOQl5",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

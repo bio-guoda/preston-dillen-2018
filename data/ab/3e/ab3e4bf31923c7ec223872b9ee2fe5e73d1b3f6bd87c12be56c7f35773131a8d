@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Chamaecrista ramosa var. lucida (Benth.) H.S.Irwin & Barneby",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000056711",
+            "dwc:catalogNumber": "K000056711",
+            "dwc:genus": "Chamaecrista",
+            "dwc:specificEpithet": "ramosa",
+            "dwc:country": "Brazil",
+            "dwc:year": 1980,
+            "dwc:eventDate": "1980-04-29",
+            "dwc:locality": "Chapadão Ocidental da Bahia. 30km N from Correntina on the Inhaúmas road.",
+            "dwc:recordedBy": "Hage, J.L.; Carvalho, A.M.; Bromley, G.L.; Brito, H.S.; Harley, R.M.",
+            "dwc:infraspecificEpithet": "lucida",
+            "dwc:decimalLatitude": -13.17,
+            "dwc:decimalLongitude": -44.62,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Barbosa, A.R.",
+            "dwc:dateIdentified": "2013-05-24T00:00:00.000+0000",
+            "dcterms:identifier": "K000056711",
+            "dwc:month": 4,
+            "dwc:day": 29,
+            "dcterms:modified": "2014-01-08",
+            "dwc:recordNumber": "21930",
+            "dwc:habitat": "Dry cerrado",
+            "dwc:eventRemarks": "Spreading wiry shrub to 50 cm. More information given",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Correntina",
+            "dwc:municipality": "Correntina",
+            "dwc:taxonRemarks": "Author citation as on label: (Vogel)",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 600,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000056711",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:infraspecificEpithet": "molissima",
+            "dwc:taxonRank": "var.",
+            "dwc:family": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:genus": "Chamaecrista",
+            "dwc:dateIdentified": "1981-00-00",
+            "dwc:higherClassification": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:specificEpithet": "ramosa",
+            "dwc:scientificName": "Chamaecrista ramosa (Vog.) Irwin & Barneby var. molissima (Benth.) Irwin & Barneby",
+            "dwc:identifiedBy": "Barneby, R.",
+            "dwc:scientificNameAuthorship": "(Vog.) Irwin & Barneby",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000056711",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/415694.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

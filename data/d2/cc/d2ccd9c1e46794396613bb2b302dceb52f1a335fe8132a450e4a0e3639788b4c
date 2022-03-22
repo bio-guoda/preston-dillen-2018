@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mecodium imbricatum (Bl.) Copel.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3559598",
+            "dwc:catalogNumber": "L.3559598",
+            "dwc:genus": "Hymenophyllum",
+            "dwc:specificEpithet": "imbricatum",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Java.",
+            "dwc:recordedBy": "Korthals PW",
+            "setID": "L",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3559598",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Hymenophyllales",
+            "dwc:family": "Hymenophyllaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Pteropsida|Hymenophyllales|Hymenophyllaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3559598",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

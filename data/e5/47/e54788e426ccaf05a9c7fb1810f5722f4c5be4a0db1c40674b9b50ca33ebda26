@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum bahamense L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "3a764828-efee-4606-a7b3-3940814902fa",
+            "dwc:catalogNumber": "BM000846429",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "bahamense",
+            "dwc:country": "United States",
+            "dwc:year": 1904,
+            "dwc:eventDate": "1904-05-07",
+            "dwc:locality": "Sneed's Id. [Island]",
+            "dwc:recordedBy": "Samuel Mills Tracy",
+            "setID": "BM",
+            "dwc:stateProvince": "Florida",
+            "dwc:identifiedBy": "Sandra (Sandy) Diane Knapp",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "5448429",
+            "dwc:month": 5,
+            "dwc:day": 7,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "9254",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448429",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Dicotyledones; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; United States; Florida",
+            "dwc:fieldNumber": "9254",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/3a764828-efee-4606-a7b3-3940814902fa",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/0fe220e41a8bed2dd3524fd4382c5d3855048aab/contents/preview",
+            "dcterms:title": "BM000846429",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

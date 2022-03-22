@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Erythrodermis traillii (Holmes ex Batters) Guiry & Garbary",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00718331",
+            "dwc:catalogNumber": "E00718331",
+            "dwc:genus": "Erythrodermis",
+            "dwc:specificEpithet": "traillii",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1967,
+            "dwc:eventDate": "1967-08-16",
+            "dwc:locality": "Edinburgh, Joppa",
+            "dwc:recordedBy": "Irvine, D.E.G.",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1967-08-16",
+            "dwc:stateProvince": "Scotland",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00718331",
+            "dwc:month": 8,
+            "dwc:day": 16,
+            "dwc:county": "(VC 83) Midlothian",
+            "dcterms:modified": "2015-07-16",
+            "dwc:recordNumber": "1257A",
+            "dwc:otherCatalogNumbers": "BGBASE:730454",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Gigartinales",
+            "dwc:family": "Phyllophoraceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Britain and Ireland",
+            "dwc:startDayOfYear": 228,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00718331",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00718331 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00718331",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNzE4LzMzMS84MTkyNDAuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00718331",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

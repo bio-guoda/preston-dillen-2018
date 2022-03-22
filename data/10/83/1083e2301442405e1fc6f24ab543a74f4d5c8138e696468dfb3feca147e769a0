@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Franklandia fucifolia R.Br.",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100460007",
+            "dwc:catalogNumber": "B 10 0460007",
+            "dwc:genus": "Franklandia",
+            "dwc:specificEpithet": "fucifolia",
+            "dwc:country": "Australia",
+            "dwc:year": 1960,
+            "dwc:eventDate": "1960-09-17",
+            "dwc:locality": "Western Australia, Stirling Range.",
+            "dwc:recordedBy": "L. Steenbohm & Kelly",
+            "setID": "B",
+            "dwc:verbatimEventDate": "17.09.1960",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:scientificNameAuthorship": "R.Br.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "PROTEACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; PROTEACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100460007",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

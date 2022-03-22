@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pteris heteroclita Desv.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MG",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00483447",
+            "dwc:catalogNumber": "P00483447",
+            "dwc:genus": "Pteris",
+            "dwc:specificEpithet": "heteroclita",
+            "dwc:country": "Madagascar",
+            "dwc:recordedBy": "s.c.",
+            "setID": "P",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Desvaux",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00483447",
+            "dcterms:modified": "2016-11-30",
+            "dwc:verbatimLocality": "Habitat in Madagascarica",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Pteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:occurrenceRemarks": "Herbier A.N. Desvaux",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00483447",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:identifiedBy": "Desvaux",
+            "dwc:taxonID": "SONNERAT|4897",
+            "dwc:scientificName": "Pteris heteroclita Desv.",
+            "dwc:family": "Pteridophyta",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:typeStatus": "holotype",
+            "dwc:specificEpithet": "heteroclita",
+            "dwc:higherClassification": "Pteris;Pteridophyta",
+            "@id": "SONNERAT|543517",
+            "dwc:genus": "Pteris",
+            "dwc:scientificNameAuthorship": "Desv.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "@id": "9334F244562242F1B4663D2CFEEC5F34",
+            "dcterms:subject": "e-recolnat",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "@id": "http://mediaphoto.mnhn.fr/media/14424392988489wO6brHGJ9dvt73X",
+            "dcterms:format": "image/jpeg",
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, GF",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

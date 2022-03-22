@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula aristata Wall.",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100071110",
+            "dwc:catalogNumber": "B 10 0071110",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "aristata",
+            "dwc:country": "China",
+            "dwc:year": 2001,
+            "dwc:locality": "Qinghai. Qilian Shan, 50km NW Menyuan .",
+            "dwc:recordedBy": "H. Kürschner & M. Sonnentag",
+            "dwc:decimalLatitude": 37.6367,
+            "dwc:decimalLongitude": 101.3383,
+            "setID": "B",
+            "dwc:verbatimEventDate": "23.07.2001",
+            "dwc:identifiedBy": "U. Herzschuh, H. Kürschner & M. Sonnentag",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "01-366",
+            "dwc:habitat": "alpine Grasflur",
+            "dwc:scientificNameAuthorship": "Wall.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "3260 m",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100071110",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

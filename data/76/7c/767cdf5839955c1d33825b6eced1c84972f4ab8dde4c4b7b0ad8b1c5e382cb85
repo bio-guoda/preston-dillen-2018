@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Davallia Sm.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3727830",
+            "dwc:catalogNumber": "L.3727830",
+            "dwc:genus": "Davallia",
+            "dwc:country": "Indonesia",
+            "dwc:year": 2008,
+            "dwc:eventDate": "2008-03-02",
+            "dwc:locality": "Flora of Sulawesi, Sulawesi Lore Lindu National Park, Mt. Nokilalaki.",
+            "dwc:recordedBy": "Cicuzza D",
+            "dwc:decimalLatitude": -1.2566,
+            "dwc:decimalLongitude": 120.1629,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "2008/03/02",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3727830",
+            "dwc:month": 3,
+            "dwc:day": 2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Davalliaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Pteropsida|Polypodiales|Davalliaceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3727830",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

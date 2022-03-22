@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Deparia acrostichoides",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.3703",
+            "dwc:catalogNumber": "EIG.3703",
+            "dwc:genus": "Deparia",
+            "dwc:specificEpithet": "acrostichoides",
+            "dwc:country": "United States",
+            "dwc:year": 1892,
+            "dwc:eventDate": "1892-01-01/1892-12-31",
+            "dwc:recordedBy": "Cheney, L. S.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "1892",
+            "dwc:stateProvince": "Wisconsin",
+            "dwc:continent": "North America",
+            "dcterms:identifier": "http://tun.fi/MY.714699",
+            "dcterms:modified": "1492083932",
+            "dwc:otherCatalogNumbers": "H1127374",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Deparia acrostichoides",
+            "dwc:verbatimRecordedBy": "Cheney, L. S.",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/EIG.3703",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

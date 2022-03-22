@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum nodiflorum Jacq.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "92f3d14d-f00c-4096-beb4-ada23cafa8a2",
+            "dwc:catalogNumber": "BM000846262",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "nodiflorum",
+            "dwc:country": "United States",
+            "dwc:year": 1985,
+            "dwc:eventDate": "1985-07-01",
+            "dwc:recordedBy": "George Hansen",
+            "setID": "BM",
+            "dwc:stateProvince": "California",
+            "dwc:identifiedBy": "William Thomas Stearn",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "5448315",
+            "dwc:month": 7,
+            "dcterms:modified": "2017-08-22",
+            "dwc:recordNumber": "1175",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448315",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; United States; California; Amador",
+            "dwc:fieldNumber": "1175",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 2300,
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/92f3d14d-f00c-4096-beb4-ada23cafa8a2",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/05bbacc775a62261b6a48ebed448194b048d057e/contents/preview",
+            "dcterms:title": "BM000846262",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hierochloe hirta (Schrank) Borbás",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU267668",
+            "dwc:catalogNumber": "TU267668",
+            "dwc:genus": "Anthoxanthum",
+            "dwc:specificEpithet": "hirta",
+            "dwc:country": "Estonia",
+            "dwc:year": 1994,
+            "dwc:eventDate": "1994-06-01",
+            "dwc:locality": "Voore",
+            "dwc:recordedBy": "Kadi Pae",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1994-06",
+            "dwc:identifiedBy": "S. Eilart",
+            "dwc:dateIdentified": "2009-03-31T00:00:00.000+0000",
+            "dcterms:identifier": "TU267668",
+            "dwc:month": 6,
+            "dwc:county": "Jõgeva maakond",
+            "dwc:habitat": "habitat: kraavikallas",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Monocotyledonae; Poales; Poaceae; Hierochloe",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/333158",
+            "dwc:eventID": 588211,
+            "dwc:taxonID": 5141,
+            "dwc:locationID": 505840,
+            "dwc:identificationID": 452862,
+            "dwc:vernacularName": "harjas-lõhnhein",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/333158",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/CE/34/CE347E7265795508FDE27647A7AA026C027BCCE889CDB1B97060EB6346B8DA97.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1461180",
+            "dcterms:title": "TU267668.tif",
+            "dcterms:created": "2013",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

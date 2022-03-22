@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Eugenia Mich. ex L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2509958",
+            "dwc:catalogNumber": "L.2509958",
+            "dwc:genus": "Eugenia",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1948,
+            "dwc:eventDate": "1948-09-30",
+            "dwc:locality": "Borneo; Pontianak; Mampawah.",
+            "dwc:recordedBy": "Enoh M",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1948/09/30",
+            "dwc:stateProvince": "Borneo",
+            "dwc:identifiedBy": "Unknown",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2509958",
+            "dwc:month": 9,
+            "dwc:day": 30,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Myrtaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Myrtales|Myrtaceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2509958",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

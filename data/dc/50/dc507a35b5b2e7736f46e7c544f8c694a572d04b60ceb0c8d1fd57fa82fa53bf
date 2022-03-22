@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Phagnalon viridifolium var. omanum Qaiser & Lack",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "OM",
+            "dwc:occurrenceID": "4713a55e-2903-4ba8-9f21-bb23cf17850a",
+            "dwc:catalogNumber": "BM000945885",
+            "dwc:genus": "Phagnalon",
+            "dwc:specificEpithet": "viridifolium",
+            "dwc:country": "Oman",
+            "dwc:year": 1975,
+            "dwc:eventDate": "1975-04-13",
+            "dwc:recordedBy": "James P. Mandaville",
+            "dwc:infraspecificEpithet": "omanum",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "473293",
+            "dwc:month": 4,
+            "dwc:day": 13,
+            "dwc:recordNumber": "6529",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:473293",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Magnoliophyta; Magnoliopsida; Asterales; Asteraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; Oman",
+            "dwc:fieldNumber": "6529",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/4713a55e-2903-4ba8-9f21-bb23cf17850a",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/c9c10e4e94fff47f75e455c2ba95eefd01e1b76d/contents/preview",
+            "dcterms:title": "BM000945885",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

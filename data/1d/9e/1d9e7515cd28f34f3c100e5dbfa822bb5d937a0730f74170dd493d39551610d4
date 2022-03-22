@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Onoclea sensibilis",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.6714",
+            "dwc:catalogNumber": "EIG.6714",
+            "dwc:genus": "Onoclea",
+            "dwc:specificEpithet": "sensibilis",
+            "dwc:country": "United States",
+            "dwc:locality": "New England",
+            "dwc:recordedBy": "Blake, J.",
+            "setID": "H",
+            "dwc:continent": "North America",
+            "dcterms:identifier": "http://tun.fi/MY.724656",
+            "dcterms:modified": "1492084152",
+            "dwc:otherCatalogNumbers": "H1123172",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Onoclea sensibilis",
+            "dwc:verbatimRecordedBy": "Blake, J.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.6714",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

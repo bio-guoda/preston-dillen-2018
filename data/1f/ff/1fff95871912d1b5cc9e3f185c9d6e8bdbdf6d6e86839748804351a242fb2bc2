@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Panicum riparium H.Schloz",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100076683",
+            "dwc:catalogNumber": "B 10 0076683",
+            "dwc:genus": "Panicum",
+            "dwc:specificEpithet": "riparium",
+            "dwc:country": "Germany",
+            "dwc:year": 2000,
+            "dwc:eventDate": "2000-09-14",
+            "dwc:locality": "Deutschland, Sachsen-Anhalt. Mittlere Elbe, linkes Elbufer am \"Jungenswerder\" ca. 2,1 km NW Kirche Glinde.",
+            "dwc:recordedBy": "U. Amarell",
+            "setID": "B",
+            "dwc:verbatimEventDate": "14.09.2000",
+            "dwc:identifiedBy": "H. Scholz",
+            "dwc:dateIdentified": "2001",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "HI - 691 -",
+            "dwc:habitat": "Annuellenflur im Uferbereich",
+            "dwc:scientificNameAuthorship": "H.Schloz",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "GRAMINEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; GRAMINEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100076683",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

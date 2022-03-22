@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium dameriae",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2721",
+            "dwc:catalogNumber": "EIG.2721",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "dameriae",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-02-01/1910-02-28",
+            "dwc:recordedBy": "Mousset, J. P.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "02.1910",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.711480",
+            "dwc:month": 2,
+            "dcterms:modified": "1492083858",
+            "dwc:otherCatalogNumbers": "H1591259",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Herbarium javanicum. Fundort: Pogal, Höhe: 750 m",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium dameriae",
+            "dwc:verbatimRecordedBy": "Mousset, J. P.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/EIG.2721",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lyngbya aestuarii Liebm. ex Gomont",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00703514",
+            "dwc:catalogNumber": "E00703514",
+            "dwc:genus": "Lyngbya",
+            "dwc:specificEpithet": "aestuarii",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1852,
+            "dwc:eventDate": "1852-07-12",
+            "dwc:locality": "Brodick Bay",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1852-07-12",
+            "dwc:stateProvince": "Scotland",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00703514",
+            "dwc:month": 7,
+            "dwc:day": 12,
+            "dwc:county": "(VC 100) Clyde Isles",
+            "dcterms:modified": "2015-05-07",
+            "dwc:otherCatalogNumbers": "BGBASE:720703",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Bacteria",
+            "dwc:phylum": "Cyanobacteria",
+            "dwc:order": "Nostocales",
+            "dwc:family": "Oscillatoriaceae",
+            "dwc:class": "Cyanophyceae",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Britain and Ireland",
+            "dwc:startDayOfYear": 194,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00703514",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00703514 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00703514",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNzAzLzUxNC84MDAwOTkuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00703514",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

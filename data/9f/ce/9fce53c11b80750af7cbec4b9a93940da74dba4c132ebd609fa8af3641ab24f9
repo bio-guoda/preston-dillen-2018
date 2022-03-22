@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Caryocar microcarpum Ducke",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GY",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000432519",
+            "dwc:catalogNumber": "K000432519",
+            "dwc:genus": "Caryocar",
+            "dwc:specificEpithet": "microcarpum",
+            "dwc:country": "Guyana",
+            "dwc:year": 1937,
+            "dwc:eventDate": "1937-11-21",
+            "dwc:locality": "Basin of Kuyuwini River (Essequibo tributary), about 150 miles from mouth.",
+            "dwc:recordedBy": "Smith, A.C.",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Prance, G.T.",
+            "dcterms:identifier": "K000432519",
+            "dwc:month": 11,
+            "dwc:day": 21,
+            "dcterms:modified": "2011-06-08",
+            "dwc:recordNumber": "3034",
+            "dwc:habitat": "Dense forest.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Caryocaraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CARYOCARACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "PLANTS OF BRITISH GUIANA. Coll. No. 3034, sheet 2.  Collected under the auspices of the American Museum of Natural History Terry-Holden Expedition, with the collaboration of the New York Botanical Garden.",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Isotype",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000432519",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "CARYOCARACEAE",
+            "dwc:genus": "Caryocar",
+            "dwc:taxonRemarks": "Author citation as on label: A.C. Smith   (TYPE COLL.)",
+            "dwc:higherClassification": "CARYOCARACEAE",
+            "dwc:specificEpithet": "riparium",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Caryocar riparium A.C.Sm.",
+            "dwc:scientificNameAuthorship": "A.C.Sm.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "CARYOCARACEAE",
+            "dwc:genus": "Caryocar",
+            "dwc:taxonRemarks": "Author citation as on label: A. C. Smith  Isotype",
+            "dwc:higherClassification": "CARYOCARACEAE",
+            "dwc:specificEpithet": "riparium",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Caryocar riparium A.C.Sm.",
+            "dwc:scientificNameAuthorship": "A.C.Sm.",
+            "dwc:dateIdentified": "1970-00-00",
+            "dwc:identifiedBy": "Prance, G.T.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000432519",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/165486.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

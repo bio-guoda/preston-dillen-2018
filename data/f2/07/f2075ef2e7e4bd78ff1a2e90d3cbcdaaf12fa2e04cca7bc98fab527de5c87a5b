@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Oxyanthus okuensis Cheek & Sonké",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CM",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000461241",
+            "dwc:catalogNumber": "K000461241",
+            "dwc:genus": "Oxyanthus",
+            "dwc:specificEpithet": "okuensis",
+            "dwc:country": "Cameroon",
+            "dwc:year": 1996,
+            "dwc:eventDate": "1996-06-11",
+            "dwc:locality": "South West Province, Bui Division. Gazeteer: Elak. Lake Oku.",
+            "dwc:recordedBy": "et al.; Zapfack, L.",
+            "setID": "K",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Cheek, M.",
+            "dcterms:identifier": "K000461241",
+            "dwc:month": 6,
+            "dwc:day": 11,
+            "dcterms:modified": "2008-08-18",
+            "dwc:recordNumber": "858",
+            "dwc:habitat": "Foret de montagne.",
+            "dwc:eventRemarks": "Arbuste 8m de hauteur. Feuille oppose, simple, fleur blanche.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "RUBIACEAE",
+            "dwc:institutionCode": "K",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 2300,
+            "dcterms:language": "fra",
+            "@id": "http://specimens.kew.org/herbarium/K000461241",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "RUBIACEAE",
+            "dwc:genus": "Oxyanthus",
+            "dwc:dateIdentified": "1997-08-00",
+            "dwc:taxonRemarks": "Sp. nov.?",
+            "dwc:higherClassification": "RUBIACEAE",
+            "dwc:scientificName": "Oxyanthus",
+            "dwc:identifiedBy": "Cheek, M.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000461241",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/289919.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

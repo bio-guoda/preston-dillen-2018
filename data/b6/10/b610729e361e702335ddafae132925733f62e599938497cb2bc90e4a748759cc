@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum anagalloides Cham. & Schltdl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "b3ec37df-1792-4a80-b2d6-79cc89467415",
+            "dwc:catalogNumber": "BM001205824",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "anagalloides",
+            "dwc:country": "Canada",
+            "dwc:year": 1970,
+            "dwc:eventDate": "1970-08-22",
+            "dwc:recordedBy": "A F. Szczawinski",
+            "setID": "BM",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "8104436",
+            "dwc:month": 8,
+            "dwc:day": 22,
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8104436",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Canada",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/b3ec37df-1792-4a80-b2d6-79cc89467415",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/5011f8a0b263d4040f3dcfc4198a80ff989d3720/contents/preview",
+            "dcterms:title": "BM001205824",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

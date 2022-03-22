@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Elaphoglossum pumilum Lam & Verhey ex H.J.Lam",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200051604",
+            "dwc:catalogNumber": "L  0051604",
+            "dwc:genus": "Elaphoglossum",
+            "dwc:specificEpithet": "pumilum",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Lompo Batang (Z.top van den Piek van Bonthain)Z.Celebes.",
+            "dwc:recordedBy": "Monod de Froideville C",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1938/01/31 | 1938/01/01",
+            "dc:typeStatus": "TYPE",
+            "dwc:stateProvince": "Sulawesi",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0051604",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Dryopteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Pteropsida|Polypodiales|Lomariopsidaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200051604",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

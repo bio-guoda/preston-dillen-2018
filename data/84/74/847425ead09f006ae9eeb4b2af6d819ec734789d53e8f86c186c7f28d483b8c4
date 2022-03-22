@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Iris chamaeiris Bertol.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02159617",
+            "dwc:catalogNumber": "P02159617",
+            "dwc:genus": "Iris",
+            "dwc:specificEpithet": "chamaeiris",
+            "dwc:country": "France",
+            "dwc:year": 1860,
+            "dwc:eventDate": "1860-04-01",
+            "dwc:recordedBy": "Eugène, P.",
+            "dwc:decimalLatitude": 43.5476,
+            "dwc:decimalLongitude": 5.5235,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "Provence-Alpes-Côte-d'Azur",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02159617",
+            "dwc:month": 4,
+            "dwc:day": 1,
+            "dcterms:modified": "2015-09-03",
+            "dwc:verbatimLocality": "Bertol",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Iridaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02159617",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Iridaceae",
+            "@id": "SONNERAT|2477366",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Iris",
+            "dwc:higherClassification": "Iris;Iridaceae",
+            "dwc:specificEpithet": "chamaeiris",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Iris chamaeiris Bertol.",
+            "dwc:scientificNameAuthorship": "Bertol.",
+            "dwc:taxonID": "SONNERAT|53096",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "BE12CA56D5454CEE9FFC9D6192B28B81",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "BE12CA56D5454CEE9FFC9D6192B28B81",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441308127525BxLu9VA5hndTy4Cw",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

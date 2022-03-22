@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex clavata Thunb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ZA",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000363593",
+            "dwc:catalogNumber": "K000363593",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "clavata",
+            "dwc:country": "South Africa",
+            "dwc:year": 1827,
+            "dwc:eventDate": "1827-11-26",
+            "dwc:locality": "Paarl Mountains, Paarl Div.",
+            "dwc:recordedBy": "Drege",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Reid, C.",
+            "dcterms:identifier": "K000363593",
+            "dwc:month": 11,
+            "dwc:day": 26,
+            "dcterms:modified": "2006-04-12",
+            "dwc:recordNumber": "153",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CYPERACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "With K000363592.  Drege 1840.  Herb. Benthamianum 1854.  1563 ex Clarke.",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "PRE",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 457.5,
+            "dwc:elevationAccuracy": 152.5,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000363593",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "CYPERACEAE",
+            "dwc:genus": "Carex",
+            "dwc:taxonRemarks": "Carex lutescens Kth a.",
+            "dwc:higherClassification": "CYPERACEAE",
+            "dwc:specificEpithet": "lutensis",
+            "dwc:scientificName": "Carex lutensis Kunth",
+            "dwc:scientificNameAuthorship": "Kunth",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000363593",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/125014.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

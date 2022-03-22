@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Fumaria boraei Jord.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000653715",
+            "dwc:catalogNumber": "K000653715",
+            "dwc:genus": "Fumaria",
+            "dwc:specificEpithet": "boraei",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1902,
+            "dwc:eventDate": "1902-09-16",
+            "dwc:locality": "Llanfairfechan, Caernarvon",
+            "dwc:recordedBy": "Pugsley, H.W.",
+            "setID": "K",
+            "dcterms:identifier": "K000653715",
+            "dwc:month": 9,
+            "dwc:day": 16,
+            "dcterms:modified": "2010-01-21",
+            "dwc:recordNumber": "227",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Papaveraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "PAPAVERACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000653715",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:infraspecificEpithet": "britannicum",
+            "dwc:taxonRank": "var.",
+            "dwc:family": "PAPAVERACEAE",
+            "dwc:genus": "Fumaria",
+            "dwc:taxonRemarks": "Determination as on label: Fumaria boraei Jord. v. britannicum forma longibracteata Pugsl.",
+            "dwc:higherClassification": "PAPAVERACEAE",
+            "dwc:specificEpithet": "boraei",
+            "dwc:typeStatus": "Unknown type material",
+            "dwc:scientificName": "Fumaria boraei Jord. var. britannicum Pugsley",
+            "dwc:scientificNameAuthorship": "Jord.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000653715",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/278561.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mussaendopsis beccariana Baill.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/U.1569019",
+            "dwc:catalogNumber": "U.1569019",
+            "dwc:genus": "Mussaendopsis",
+            "dwc:specificEpithet": "beccariana",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1923,
+            "dwc:eventDate": "1923-02-09",
+            "dwc:locality": "Archipel. Ind. Sumatra, Palembang, Banjoeasim en Koeboestreken. n. ind. Patin.",
+            "dwc:recordedBy": "Boschproefstation",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1923/02/09",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "U.1569019",
+            "dwc:month": 2,
+            "dwc:day": 9,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Gentianales|Rubiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/U.1569019",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

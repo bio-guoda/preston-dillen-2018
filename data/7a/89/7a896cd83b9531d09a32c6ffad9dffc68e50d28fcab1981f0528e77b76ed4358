@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Stephania tomentella L.L.Forman",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "TH",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000644766",
+            "dwc:catalogNumber": "K000644766",
+            "dwc:genus": "Stephania",
+            "dwc:specificEpithet": "tomentella",
+            "dwc:country": "Thailand",
+            "dwc:year": 1926,
+            "dwc:eventDate": "1926-04-15",
+            "dwc:locality": "Doi Tam Tu Pu  Chiangrai  Near summit West Peak  Altitude: Aneroid (approx)",
+            "dwc:recordedBy": "Garrett, H.B.G.",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "K000644766",
+            "dwc:month": 4,
+            "dwc:day": 15,
+            "dcterms:modified": "2009-12-10",
+            "dwc:recordNumber": "278",
+            "dwc:habitat": "Rising from rough limestone rocks.",
+            "dwc:eventRemarks": "Clockwise climber.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Menispermaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "MENISPERMACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Sheet 2",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 525,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000644766",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000644766",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/275644.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

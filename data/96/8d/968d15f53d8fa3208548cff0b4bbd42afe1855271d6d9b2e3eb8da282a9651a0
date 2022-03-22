@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Didymotheca stricta H.Walter",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100249923",
+            "dwc:catalogNumber": "B 10 0249923",
+            "dwc:genus": "Didymotheca",
+            "dwc:specificEpithet": "stricta",
+            "dwc:country": "Australia",
+            "dwc:year": 1901,
+            "dwc:eventDate": "1901-11-03",
+            "dwc:locality": "West-Australien: Esperance: ca. 60 km nördlich von Esperance; lichtes Gebüsch auf dürrem Sand.",
+            "dwc:recordedBy": "F. L. E. Diels",
+            "setID": "B",
+            "dwc:verbatimEventDate": "03.11.1901",
+            "dc:typeStatus": "type",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "5344b",
+            "dwc:scientificNameAuthorship": "H.Walter",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "GYROSTEMONACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; GYROSTEMONACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Didymotheca thesioides var. stricta",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100249923",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

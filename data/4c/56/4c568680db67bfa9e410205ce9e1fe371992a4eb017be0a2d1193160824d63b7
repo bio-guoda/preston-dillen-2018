@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cyclachaena xanthiifolia Fresen.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU277034",
+            "dwc:catalogNumber": "TU277034",
+            "dwc:genus": "Cyclachaena",
+            "dwc:specificEpithet": "xanthiifolia",
+            "dwc:country": "Estonia",
+            "dwc:year": 1958,
+            "dwc:eventDate": "1958-08-10",
+            "dwc:locality": "Pärnu, Rääma rabas prügipaigal hulgi.",
+            "dwc:recordedBy": "A. Remmel",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1958-08-10",
+            "dwc:identifiedBy": "A. Remmel",
+            "dwc:dateIdentified": "1958-08-10T00:00:00.000+0000",
+            "dcterms:identifier": "TU277034",
+            "dwc:month": 8,
+            "dwc:day": 10,
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Asterales; Asteraceae; Iva",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dwc:occurrenceRemarks": "Ex Herb A.Remmel.",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/447527",
+            "dwc:eventID": 702582,
+            "dwc:taxonID": 8754,
+            "dwc:locationID": 619671,
+            "dwc:identificationID": 712206,
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/447527",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/1E/39/1E39A7C56DB830DF86E8F35051FA431C49B90A536C55C953E42C95DDC9F7522F.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1473320",
+            "dcterms:title": "TU277034.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

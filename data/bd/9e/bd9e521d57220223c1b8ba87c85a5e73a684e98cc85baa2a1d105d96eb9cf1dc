@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Himatanthus semilunatus Markgr.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "VE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100242276",
+            "dwc:catalogNumber": "B 10 0242276",
+            "dwc:genus": "Himatanthus",
+            "dwc:specificEpithet": "semilunatus",
+            "dwc:country": "Venezuela",
+            "dwc:year": 1979,
+            "dwc:eventDate": "1979-04-30",
+            "dwc:locality": "Territorio Federal  Amazonas: Bosque enano sobre y",
+            "dwc:recordedBy": "Steyermark,J.A. & Bunting,G.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1979-04-30",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "102975",
+            "dwc:scientificNameAuthorship": "Markgr.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Apocynaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Apocynaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100242276",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

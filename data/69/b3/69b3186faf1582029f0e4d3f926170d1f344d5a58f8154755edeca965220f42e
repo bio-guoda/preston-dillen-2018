@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arachniodes aristata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1261",
+            "dwc:catalogNumber": "EIG.1261",
+            "dwc:genus": "Arachniodes",
+            "dwc:specificEpithet": "aristata",
+            "dwc:country": "China",
+            "dwc:year": 1987,
+            "dwc:eventDate": "1987-07-15",
+            "dwc:locality": "Hoping hsiang, trail from Ku-Kuan to Mount Po Jing Cha, south-east slopes",
+            "dwc:recordedBy": "Stenroos, Soili",
+            "setID": "H",
+            "dwc:verbatimEventDate": "15.07.1987",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.689458",
+            "dwc:month": 7,
+            "dwc:day": 15,
+            "dwc:county": "Taichung",
+            "dcterms:modified": "1492083429",
+            "dwc:recordNumber": "3574",
+            "dwc:otherCatalogNumbers": "H1658533",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Taichung Co.: Hoping-hsiang, trail from Ku-Kuan to Mt. Po Jing Cha, S-E slopes, alt. ca. 800-850 m.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arachniodes aristata",
+            "dwc:verbatimRecordedBy": "Stenroos, Soili",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1261",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

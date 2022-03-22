@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Salacia marginata Ding Hou",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PH",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200015432",
+            "dwc:catalogNumber": "L  0015432",
+            "dwc:genus": "Salacia",
+            "dwc:specificEpithet": "marginata",
+            "dwc:country": "Philippines",
+            "dwc:locality": "Victoria MountainsPanacan, Aborlan,Palawan Prov.Philippines",
+            "dwc:recordedBy": "Sulit MD",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1950/05/31 | 1950/05/01",
+            "dc:typeStatus": "TYPE",
+            "dwc:stateProvince": "Palawan",
+            "dwc:identifiedBy": "Hou D",
+            "dwc:dateIdentified": "1963-08-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0015432",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Celastrales",
+            "dwc:family": "Celastraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Celastrales|Celastraceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200015432",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

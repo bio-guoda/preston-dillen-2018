@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Elymus intermedius M.Bieb.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "GE",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1183598",
+            "dwc:catalogNumber": "HA.H1183598",
+            "dwc:genus": "Elymus",
+            "dwc:specificEpithet": "intermedius",
+            "dwc:country": "GE",
+            "dwc:year": 1985,
+            "dwc:eventDate": "1985-01-01/1985-12-31",
+            "dwc:locality": "Karajoes [Karayaeskaya step], Iberia.",
+            "dwc:recordedBy": "Not on sheet",
+            "setID": "H",
+            "dc:typeStatus": "Holotype",
+            "dwc:identifiedBy": "Signe Fredriksen",
+            "dwc:dateIdentified": "1985",
+            "dcterms:identifier": "http://tun.fi/MY.102976",
+            "dcterms:modified": "1382503569",
+            "dwc:otherCatalogNumbers": "H1183598",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "M.Bieb.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Elymus intermedius",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/HA.H1183598",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lycopodium inundatum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "2c3bf806-3e7e-4b61-a1fd-770293172f59",
+            "dwc:catalogNumber": "BM001060251",
+            "dwc:genus": "Lycopodiella",
+            "dwc:specificEpithet": "inundatum",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1880,
+            "dwc:eventDate": "1880-07-01",
+            "dwc:recordedBy": "Walter Waters Reeves",
+            "dwc:decimalLatitude": 51.3078,
+            "dwc:decimalLongitude": 0.2877,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "2422089",
+            "dwc:month": 7,
+            "dwc:recordNumber": "1651",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2422089",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lycopodiales",
+            "dwc:family": "Lycopodiaceae",
+            "dwc:class": "Lycopodiopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Pteridophyta; Lycopodiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England",
+            "dwc:fieldNumber": "1651",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/2c3bf806-3e7e-4b61-a1fd-770293172f59",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/cb975f34f0b9037fdb05731b0a278f056e30f3d2/contents/preview",
+            "dcterms:title": "BM001060251",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

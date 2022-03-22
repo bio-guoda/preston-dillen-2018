@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Astragalus vulpinus Willd.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02724277",
+            "dwc:catalogNumber": "P02724277",
+            "dwc:genus": "Astragalus",
+            "dwc:specificEpithet": "vulpinus",
+            "setID": "P",
+            "dwc:identifiedBy": "Ghahremaninejad",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02724277",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02724277",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|3411590",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Astragalus",
+            "dwc:higherClassification": "Astragalus;Fabaceae",
+            "dwc:specificEpithet": "lagocephalus",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Astragalus lagocephalus Fisch. & C.A.Mey. ex Schrenk",
+            "dwc:scientificNameAuthorship": "Fisch. & C.A.Mey. ex Schrenk",
+            "dwc:taxonID": "SONNERAT|124276",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|7884380",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Astragalus",
+            "dwc:higherClassification": "Astragalus;Fabaceae",
+            "dwc:specificEpithet": "vulpinus",
+            "dwc:scientificName": "Astragalus vulpinus Willd.",
+            "dwc:scientificNameAuthorship": "Willd.",
+            "dwc:taxonID": "SONNERAT|756028",
+            "dwc:dateIdentified": "03-2013",
+            "dwc:identifiedBy": "Ghahremaninejad",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "F164FD39D26A4B8E945426D787BFE80B",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441328650382okmsvtdpVojepwbJ",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

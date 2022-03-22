@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Trigonostemon philippinensis Stapf",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2258736",
+            "dwc:catalogNumber": "L.2258736",
+            "dwc:genus": "Trigonostemon",
+            "dwc:specificEpithet": "philippinensis",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1996,
+            "dwc:eventDate": "1996-02-03",
+            "dwc:locality": "Central Kalimantan, Camp 92 ODA, Sangai area.",
+            "dwc:recordedBy": "Ambriansyah",
+            "dwc:decimalLatitude": -1.4833,
+            "dwc:decimalLongitude": 112.5167,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1996/02/03",
+            "dwc:stateProvince": "Borneo",
+            "dwc:identifiedBy": "Yu RY",
+            "dwc:dateIdentified": "2016-02-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2258736",
+            "dwc:month": 2,
+            "dwc:day": 3,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Euphorbiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Malpighiales|Euphorbiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2258736",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

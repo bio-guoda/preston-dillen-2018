@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Stachys byzantina K.Koch",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU302707",
+            "dwc:catalogNumber": "TU302707",
+            "dwc:genus": "Stachys",
+            "dwc:specificEpithet": "byzantina",
+            "dwc:country": "Estonia",
+            "dwc:year": 1967,
+            "dwc:eventDate": "1967-07-07",
+            "dwc:locality": "Põlva raj., Kanepi",
+            "dwc:recordedBy": "L. Pihlapuu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1967-07-07",
+            "dwc:identifiedBy": "L. Pihlapuu",
+            "dwc:dateIdentified": "1967-07-07T00:00:00.000+0000",
+            "dcterms:identifier": "TU302707",
+            "dwc:month": 7,
+            "dwc:day": 7,
+            "dwc:habitat": "habitat: aias ilutaimena",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Lamiales; Lamiaceae; Stachys",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/487094",
+            "dwc:eventID": 742149,
+            "dwc:taxonID": 7455,
+            "dwc:locationID": 659238,
+            "dwc:identificationID": 758405,
+            "dwc:vernacularName": "villane nõianõges",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/487094",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/39/B4/39B4727F2C0C06C24FE4F422805263224C3C127F2B6D7E6ED504841E716AEA8D.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1473378",
+            "dcterms:title": "TU302707.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

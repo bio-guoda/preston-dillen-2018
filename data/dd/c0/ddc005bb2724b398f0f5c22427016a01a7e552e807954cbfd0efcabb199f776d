@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium maonense",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.3022",
+            "dwc:catalogNumber": "EIG.3022",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "maonense",
+            "dwc:country": "China",
+            "dwc:year": 2001,
+            "dwc:eventDate": "2001-05-17",
+            "dwc:locality": "Xizhi district, Hsinshanmenghu",
+            "dwc:recordedBy": "Her-long, Chiang",
+            "dwc:geodeticDatum": "Dms",
+            "setID": "H",
+            "dwc:verbatimEventDate": "17.05.2001",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.712464",
+            "dwc:month": 5,
+            "dwc:day": 17,
+            "dwc:county": "New Taipei City",
+            "dcterms:modified": "1492083880",
+            "dwc:otherCatalogNumbers": "H1720416",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Taipei County, Hsinshanmenghu, Altitude: 200-300m",
+            "dwc:datasetID": "GX.2951",
+            "dwc:verbatimCoordinates": "25° 07' 40'' N, 121° 38' 11'' E (degrees, minutes, seconds)",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium maonense",
+            "dwc:verbatimRecordedBy": "Her-long, Chiang",
+            "dwc:verbatimLongitude": "121° 38' 11\"",
+            "dwc:verbatimLatitude": "25° 07' 40\"",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.3022",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

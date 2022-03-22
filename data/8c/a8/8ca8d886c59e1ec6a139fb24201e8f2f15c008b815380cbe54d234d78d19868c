@@ -1,0 +1,97 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solenopsis laurentia C.Presl",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00260987",
+            "dwc:catalogNumber": "P00260987",
+            "dwc:genus": "Solenopsis",
+            "dwc:specificEpithet": "laurentia",
+            "dwc:country": "France",
+            "dwc:year": 1894,
+            "dwc:eventDate": "1894-05-01",
+            "dwc:recordedBy": "Reverchon, E.",
+            "setID": "P",
+            "dwc:stateProvince": "20 Corse",
+            "dwc:identifiedBy": "Reveillard",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00260987",
+            "dwc:month": 5,
+            "dwc:county": "Bonifacio",
+            "dcterms:modified": "2015-09-03",
+            "dwc:verbatimLocality": "Marais de Santa-Manza, près de Bonifacio",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Campanulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "3668",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00260987",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Campanulaceae",
+            "@id": "SONNERAT|297756",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Solenopsis",
+            "dwc:dateIdentified": "2002",
+            "dwc:higherClassification": "Solenopsis;Campanulaceae",
+            "dwc:specificEpithet": "laurentia",
+            "dwc:scientificName": "Solenopsis laurentia (L.) C.Presl",
+            "dwc:identifiedBy": "Reveillard",
+            "dwc:scientificNameAuthorship": "(L.) C.Presl",
+            "dwc:taxonID": "SONNERAT|52682",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Campanulaceae",
+            "@id": "SONNERAT|298296",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Laurentia",
+            "dwc:higherClassification": "Laurentia;Campanulaceae",
+            "dwc:specificEpithet": "michelii",
+            "dwc:scientificName": "Laurentia michelii A.DC.",
+            "dwc:scientificNameAuthorship": "A.DC.",
+            "dwc:taxonID": "SONNERAT|49626",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Campanulaceae",
+            "@id": "SONNERAT|4940344",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Solenopsis",
+            "dwc:higherClassification": "Solenopsis;Campanulaceae",
+            "dwc:specificEpithet": "laurentia",
+            "dwc:scientificName": "Solenopsis laurentia (L.) C.Presl",
+            "dwc:scientificNameAuthorship": "(L.) C.Presl",
+            "dwc:taxonID": "SONNERAT|52682",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "A471C7BD39C24E108EE1DE924546674E",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441352618707HVWLdjZzbGNDt8vJ",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

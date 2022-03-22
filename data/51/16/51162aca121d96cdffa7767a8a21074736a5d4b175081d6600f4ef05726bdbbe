@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Limodorum abortivum subsp. gracile B. Willing & E. Willing",
+            "dwc:taxonRank": "subspecies",
+            "dwc:countryCode": "GR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100170215",
+            "dwc:catalogNumber": "B 10 0170215",
+            "dwc:genus": "Limodorum",
+            "dwc:specificEpithet": "abortivum",
+            "dwc:country": "Greece",
+            "dwc:year": 1980,
+            "dwc:eventDate": "1980-05-18",
+            "dwc:locality": "Arkadhia, Megalopoleos, W Choremis",
+            "dwc:recordedBy": "Willing,E. & Willing,B.",
+            "dwc:infraspecificEpithet": "gracile",
+            "dwc:decimalLatitude": 37.3839,
+            "dwc:decimalLongitude": 22.0731,
+            "setID": "B",
+            "dwc:verbatimEventDate": "1980-05-18",
+            "dwc:identifiedBy": "E. Willing",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "386",
+            "dwc:scientificNameAuthorship": "B. Willing & E. Willing",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Orchidaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Orchidaceae",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Herbariumnummer in Berlin: B 10 0170215; utm: EG 93.58",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "380",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100170215",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

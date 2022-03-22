@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Sticherus flabellatus (R.Br.) St.John",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000013078010",
+            "dwc:catalogNumber": "BR0000013078010",
+            "dwc:genus": "Sticherus",
+            "dwc:specificEpithet": "flabellatus",
+            "dwc:country": "Australia",
+            "dwc:locality": "Port Jackson",
+            "dwc:recordedBy": "Linden J.J.",
+            "setID": "BR",
+            "dwc:verbatimEventDate": "S.D.",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000013078010",
+            "dcterms:modified": "2014-04-24",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gleicheniales",
+            "dwc:family": "Gleicheniaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - unidentified",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000013078010",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000013078010",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

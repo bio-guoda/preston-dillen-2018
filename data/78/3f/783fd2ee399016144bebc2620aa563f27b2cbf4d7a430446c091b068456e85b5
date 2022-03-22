@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mollinedia krukovii A.C.Sm.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/U%20%200004420",
+            "dwc:catalogNumber": "U  0004420",
+            "dwc:genus": "Mollinedia",
+            "dwc:specificEpithet": "krukovii",
+            "dwc:country": "Brazil",
+            "dwc:year": 1933,
+            "dwc:eventDate": "1933-06-14",
+            "dwc:locality": "Basin of Rio JuruaState of Amazonas; near mouth of Rio Embira (tributary of Rio Tarauaca)",
+            "dwc:recordedBy": "Krukoff BA",
+            "dwc:decimalLatitude": -7.5,
+            "dwc:decimalLongitude": -70.25,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1933/06/14",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:stateProvince": "Amazonas",
+            "dwc:identifiedBy": "Peixoto AL",
+            "dwc:dateIdentified": "1985-05-01T00:00:00.000+0000",
+            "dwc:continent": "SOUTH_AMERICA",
+            "dcterms:identifier": "U  0004420",
+            "dwc:month": 6,
+            "dwc:day": 14,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Laurales",
+            "dwc:family": "Monimiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Laurales|Monimiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/U%20%200004420",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

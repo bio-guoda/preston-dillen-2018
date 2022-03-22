@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Athyrium nigripes",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.4933",
+            "dwc:catalogNumber": "EIG.4933",
+            "dwc:genus": "Athyrium",
+            "dwc:specificEpithet": "nigripes",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1893,
+            "dwc:eventDate": "1893-04-25",
+            "dwc:recordedBy": "Möller, Hjalmar",
+            "setID": "H",
+            "dwc:verbatimEventDate": "25.04.1893",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.718752",
+            "dwc:month": 4,
+            "dwc:day": 25,
+            "dcterms:modified": "1492084026",
+            "dwc:otherCatalogNumbers": "H1127338",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Plantae Javanicae, ?, c. 2000 m",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Athyrium nigripes",
+            "dwc:verbatimRecordedBy": "Möller, Hjalmar",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/EIG.4933",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arachniodes aristata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1262",
+            "dwc:catalogNumber": "EIG.1262",
+            "dwc:genus": "Arachniodes",
+            "dwc:specificEpithet": "aristata",
+            "dwc:country": "China",
+            "dwc:year": 1987,
+            "dwc:eventDate": "1987-07-01",
+            "dwc:locality": "Hoping hsiang, Ta-huseh-shan forest recreation area, 35 km from Tungshih, trail from the entrance to forest recreation area to Mount Saolai.",
+            "dwc:recordedBy": "Hyvönen, Jaakko",
+            "setID": "H",
+            "dwc:verbatimEventDate": "01.07.1987",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.689491",
+            "dwc:month": 7,
+            "dwc:day": 1,
+            "dwc:county": "Taichung",
+            "dcterms:modified": "1492083430",
+            "dwc:recordNumber": "4186",
+            "dwc:otherCatalogNumbers": "H1658534",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Taichung Co.: Hoping-hsiang, Ta-huseh-shan forest recreation area, 35 km from Tungshih, trail from the entrance to forest recreation area to Mt. Saolai, alt. ca. 2100-2200 m.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arachniodes aristata",
+            "dwc:verbatimRecordedBy": "Hyvönen, Jaakko",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1262",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

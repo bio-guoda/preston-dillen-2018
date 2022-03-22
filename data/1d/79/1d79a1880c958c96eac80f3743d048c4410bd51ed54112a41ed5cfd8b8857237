@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Launaea resedifolia subsp. asirensis N.Kilian",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "YE",
+            "dwc:occurrenceID": "c80211e0-88a3-40eb-a415-49c071558b3e",
+            "dwc:catalogNumber": "BM000517025",
+            "dwc:genus": "Launaea",
+            "dwc:specificEpithet": "resedifolia",
+            "dwc:country": "Yemen",
+            "dwc:year": 1975,
+            "dwc:eventDate": "1975-06-13",
+            "dwc:recordedBy": "John Richard Ironside Wood",
+            "dwc:infraspecificEpithet": "asirensis",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "4970919",
+            "dwc:month": 6,
+            "dwc:day": 13,
+            "dwc:recordNumber": "Y/75/315",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4970919",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Asteraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; Yemen",
+            "dwc:fieldNumber": "Y/75/315",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/c80211e0-88a3-40eb-a415-49c071558b3e",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/b9cf5db1001e377efbe2d0250fa32b86a16cd0bf/contents/preview",
+            "dcterms:title": "BM000517025",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

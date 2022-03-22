@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hippuris vulgaris L. f. litoralis",
+            "dwc:taxonRank": "Forma",
+            "dwc:countryCode": "FI",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H0157837",
+            "dwc:catalogNumber": "HA.H0157837",
+            "dwc:genus": "Hippuris",
+            "dwc:specificEpithet": "vulgaris",
+            "dwc:country": "FI",
+            "dwc:year": 1904,
+            "dwc:eventDate": "1904-08-29",
+            "dwc:locality": "Svartbäck",
+            "dwc:recordedBy": "Brenner, V.",
+            "dwc:infraspecificEpithet": "litoralis",
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Type",
+            "dwc:stateProvince": "Uusimaa",
+            "dwc:identifiedBy": "Not on sheet",
+            "dwc:continent": "Europe",
+            "dcterms:identifier": "http://tun.fi/MY.99608",
+            "dwc:month": 8,
+            "dwc:day": 29,
+            "dwc:county": "Inkoo",
+            "dcterms:modified": "1382503549",
+            "dwc:coordinateUncertaintyInMeters": 100000,
+            "dwc:otherCatalogNumbers": "H0157837",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:verbatimLocality": "N [Nylandia], Ingå, Svartbäck grund hafsvik.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "60.0211, 23.9571",
+            "dwc:scientificNameAuthorship": "L.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Hippuris vulgaris f. litoralis",
+            "dwc:organismRemarks": "Not on sheet",
+            "dwc:verbatimRecordedBy": "Vidar Brenner",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - unidentified",
+            "@id": "http://id.luomus.fi/HA.H0157837",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

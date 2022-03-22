@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Selaginella gracillima (Kuntze) Alston",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "def8931c-b93a-45e2-8105-921b18bff729",
+            "dwc:catalogNumber": "BM001082057",
+            "dwc:genus": "Selaginella",
+            "dwc:specificEpithet": "gracillima",
+            "dwc:country": "Australia",
+            "dwc:recordedBy": "Johann Gottlieb Otto Tepper",
+            "setID": "BM",
+            "dwc:stateProvince": "South Australia",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "1916018",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:1916018",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Selaginellales",
+            "dwc:family": "Selaginellaceae",
+            "dwc:class": "Lycopodiopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Selaginellaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; South Australia",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/def8931c-b93a-45e2-8105-921b18bff729",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/7e0a99dd7e2ec1422ce2ac3220484620199cc668/contents/preview",
+            "dcterms:title": "BM001082057",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

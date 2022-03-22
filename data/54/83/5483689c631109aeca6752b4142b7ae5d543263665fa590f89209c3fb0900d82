@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rumex haematinus Kihlm.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "RU",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H0139461",
+            "dwc:catalogNumber": "HA.H0139461",
+            "dwc:genus": "Rumex",
+            "dwc:specificEpithet": "haematinus",
+            "dwc:country": "RU",
+            "dwc:year": 2006,
+            "dwc:eventDate": "2006-01-01/2006-12-31",
+            "dwc:locality": "Lapponia Varsugæ, ad rivulum Tschernowka [Chernyavka] inter Pjalitsa [Pyalitsa] et Tschapoma [Chapoma].",
+            "dwc:recordedBy": "Kihlman, A. O.",
+            "setID": "H",
+            "dc:typeStatus": "Lectotype",
+            "dwc:identifiedBy": "A. Borodina-Grabovskaya",
+            "dwc:dateIdentified": "2006",
+            "dcterms:identifier": "http://tun.fi/MY.99488",
+            "dcterms:modified": "1382503548",
+            "dwc:otherCatalogNumbers": "H0139461",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "Kihlm.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Rumex haematinus",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - multiple LA + SV",
+            "@id": "http://id.luomus.fi/HA.H0139461",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

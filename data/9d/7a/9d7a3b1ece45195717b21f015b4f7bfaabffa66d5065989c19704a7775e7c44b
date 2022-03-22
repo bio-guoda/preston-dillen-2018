@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Passiflora lutea",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100293085",
+            "dwc:catalogNumber": "B 10 0293085",
+            "dwc:genus": "Passiflora",
+            "dwc:specificEpithet": "lutea",
+            "dwc:country": "USA",
+            "dwc:year": 1942,
+            "dwc:eventDate": "1942-07-21",
+            "dwc:locality": "Kansas.",
+            "dwc:recordedBy": "W. H. Horr",
+            "setID": "B",
+            "dwc:verbatimEventDate": "21.07.1942",
+            "dwc:continent": "North America",
+            "dwc:recordNumber": "E460",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "PASSIFLORACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; PASSIFLORACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "North America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100293085",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

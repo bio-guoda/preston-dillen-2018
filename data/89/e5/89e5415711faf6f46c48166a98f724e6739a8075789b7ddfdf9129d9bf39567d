@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Libinhania fontinalis A. G. Mill., R. Sommerer & N. Kilian",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "YE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100220914",
+            "dwc:catalogNumber": "B 10 0220914",
+            "dwc:genus": "Libinhania",
+            "dwc:specificEpithet": "fontinalis",
+            "dwc:country": "Yemen",
+            "dwc:year": 1998,
+            "dwc:eventDate": "1998-10-30",
+            "dwc:locality": "Socotra, Nogad Plain, Qa'arah",
+            "dwc:recordedBy": "Miller,A.G., Hyam,R., Al Khulaidi,A.-W. A., Sulaiman,A.S. & Talib,N.M.",
+            "dwc:decimalLatitude": 12.55,
+            "dwc:decimalLongitude": 54.0167,
+            "setID": "B",
+            "dwc:verbatimEventDate": "1998-10-30",
+            "dwc:identifiedBy": "N. Kilian 2016",
+            "dwc:dateIdentified": "2016",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "16128",
+            "dwc:scientificNameAuthorship": "A. G. Mill., R. Sommerer & N. Kilian",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Asteraceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Asteraceae",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "DNA sample taken INSDC acc. no KX896051",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "130",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100220914",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

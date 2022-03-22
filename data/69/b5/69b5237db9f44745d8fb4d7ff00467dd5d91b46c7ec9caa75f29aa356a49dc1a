@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Eria ovata Lindl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PH",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200059912",
+            "dwc:catalogNumber": "L  0059912",
+            "dwc:genus": "Pinalia",
+            "dwc:specificEpithet": "ovata",
+            "dwc:country": "Philippines",
+            "dwc:locality": "PhilippinesBohol",
+            "dwc:recordedBy": "Cuming H",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1841/01/31 | 1841/01/01",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:stateProvince": "Bohol",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0059912",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asparagales|Orchidaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200059912",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

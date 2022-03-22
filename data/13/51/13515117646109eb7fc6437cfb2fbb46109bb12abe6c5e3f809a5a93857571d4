@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Draba yunnanensis var. latifolia O.E. Schulz",
+            "dwc:taxonRank": "var.",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100241565",
+            "dwc:catalogNumber": "B 10 0241565",
+            "dwc:genus": "Draba",
+            "dwc:specificEpithet": "yunnanensis",
+            "dwc:country": "China",
+            "dwc:year": 1923,
+            "dwc:eventDate": "1923-07",
+            "dwc:locality": "Eastern slopes of Likiang Snow Range, Yangtze watershed.",
+            "dwc:recordedBy": "J. F. Rock",
+            "dwc:infraspecificEpithet": "latifolia",
+            "setID": "B",
+            "dwc:verbatimEventDate": "07.1923",
+            "dc:typeStatus": "holotype",
+            "dwc:identifiedBy": "I. A. Al-Shehbaz",
+            "dwc:dateIdentified": "16.09.2008",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "9430",
+            "dwc:scientificNameAuthorship": "O.E. Schulz",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CRUCIFERAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CRUCIFERAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100241565",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

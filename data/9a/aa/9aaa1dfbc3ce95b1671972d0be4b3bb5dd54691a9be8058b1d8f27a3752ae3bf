@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Anchusa officinalis L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00596037",
+            "dwc:catalogNumber": "P00596037",
+            "dwc:genus": "Anchusa",
+            "dwc:specificEpithet": "officinalis",
+            "dwc:country": "France",
+            "dwc:year": 1938,
+            "dwc:eventDate": "1938-07-16",
+            "dwc:recordedBy": "Haffner, Mme",
+            "setID": "P",
+            "dwc:stateProvince": "24 Dordogne",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00596037",
+            "dwc:month": 7,
+            "dwc:day": 16,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Baynac [Bayac] (Dordogne)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Boraginales",
+            "dwc:family": "Boraginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00596037",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|5652783",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Anchusa",
+            "dwc:higherClassification": "Anchusa;Boraginaceae",
+            "dwc:specificEpithet": "officinalis",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Anchusa officinalis L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|57591",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|701240",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Anchusa",
+            "dwc:higherClassification": "Anchusa;Boraginaceae",
+            "dwc:specificEpithet": "officinalis",
+            "dwc:scientificName": "Anchusa officinalis L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|57591",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "8596769C35B24B24BDA1F482F1DC45C3",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441366830662ljsnepZHfE30ENUd",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

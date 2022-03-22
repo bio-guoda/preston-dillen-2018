@@ -1,0 +1,98 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Anthriscus caucalis M.Bieb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00039147",
+            "dwc:catalogNumber": "P00039147",
+            "dwc:genus": "Anthriscus",
+            "dwc:specificEpithet": "caucalis",
+            "dwc:country": "France",
+            "dwc:year": 1928,
+            "dwc:eventDate": "1928-06-21",
+            "dwc:locality": "Paris",
+            "dwc:recordedBy": "s.c.",
+            "setID": "P",
+            "dwc:stateProvince": "75 Paris",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00039147",
+            "dwc:month": 6,
+            "dwc:day": 21,
+            "dwc:county": "p16",
+            "dcterms:modified": "2015-11-06",
+            "dwc:eventRemarks": "lisière",
+            "dwc:verbatimLocality": "Bois de Boulogne lisière s/Neuilly env. du Jardin d'Acclimatation",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Apiales",
+            "dwc:family": "Apiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00039147",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Apiaceae",
+            "@id": "SONNERAT|59073",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Anthriscus",
+            "dwc:higherClassification": "Anthriscus;Apiaceae",
+            "dwc:specificEpithet": "caucalis",
+            "dwc:identificationRemarks": "Coste 1620",
+            "dwc:scientificName": "Anthriscus caucalis M.Bieb.",
+            "dwc:scientificNameAuthorship": "M.Bieb.",
+            "dwc:taxonID": "SONNERAT|12296",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Apiaceae",
+            "@id": "SONNERAT|59074",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Anthriscus",
+            "dwc:higherClassification": "Anthriscus;Apiaceae",
+            "dwc:specificEpithet": "vulgaris",
+            "dwc:scientificName": "Anthriscus vulgaris Pers.",
+            "dwc:scientificNameAuthorship": "Pers.",
+            "dwc:taxonID": "SONNERAT|15203",
+            "dwc:identifiedBy": "Jovet",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Apiaceae",
+            "@id": "SONNERAT|6067460",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Anthriscus",
+            "dwc:higherClassification": "Anthriscus;Apiaceae",
+            "dwc:specificEpithet": "caucalis",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Anthriscus caucalis M.Bieb.",
+            "dwc:scientificNameAuthorship": "M.Bieb.",
+            "dwc:taxonID": "SONNERAT|12296",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "10206CF314D240BBBCF53D35C7411266",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441377511243ykeoBdrK9bJXJiDK",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Viburnum lutescens Blume",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2973090",
+            "dwc:catalogNumber": "L.2973090",
+            "dwc:genus": "Viburnum",
+            "dwc:specificEpithet": "lutescens",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Java, Di-eng.",
+            "dwc:recordedBy": "Junghuhn FW",
+            "setID": "L",
+            "dwc:stateProvince": "Java",
+            "dwc:identifiedBy": "Kern JH",
+            "dwc:dateIdentified": "1950-06-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2973090",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Dipsacales",
+            "dwc:family": "Adoxaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Dipsacales|Caprifoliaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2973090",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

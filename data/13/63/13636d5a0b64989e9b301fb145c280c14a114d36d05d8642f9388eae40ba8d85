@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pyrrosia nummularifolia (Sw.) Ching",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3607362",
+            "dwc:catalogNumber": "L.3607362",
+            "dwc:genus": "Pyrrosia",
+            "dwc:specificEpithet": "nummularifolia",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1968,
+            "dwc:eventDate": "1968-05-14",
+            "dwc:locality": "Malesia, Sumatra, prov. Lampung, NW of Kota Angung.",
+            "dwc:recordedBy": "Jacobs M; Expedition of the Rijksherbarium Leiden",
+            "dwc:decimalLatitude": -5.3833,
+            "dwc:decimalLongitude": 104.4167,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1968/05/14",
+            "dwc:stateProvince": "Sumatra",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3607362",
+            "dwc:month": 5,
+            "dwc:day": 14,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Polypodiaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Pteropsida|Polypodiales|Polypodiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3607362",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

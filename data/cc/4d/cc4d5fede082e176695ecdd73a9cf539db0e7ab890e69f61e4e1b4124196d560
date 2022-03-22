@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium bulbiferum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7294",
+            "dwc:catalogNumber": "EIG.7294",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "bulbiferum",
+            "dwc:country": "Australia",
+            "dwc:year": 1981,
+            "dwc:eventDate": "1981-09-01",
+            "dwc:locality": "Mount Wellington. Track to Bett’s Falls",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "setID": "H",
+            "dwc:verbatimEventDate": "01.09.1981",
+            "dwc:stateProvince": "Tasmania",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.726573",
+            "dwc:month": 9,
+            "dwc:day": 1,
+            "dwc:county": "Hobart",
+            "dcterms:modified": "1492084191",
+            "dwc:recordNumber": "10681",
+            "dwc:otherCatalogNumbers": "H1460652",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Alt. c. 1700 ’",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium bulbiferum",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7294",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

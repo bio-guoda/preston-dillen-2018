@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bikinia durandii (F.Hallé & Normand) Wieringa",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GA",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/WAG0003334",
+            "dwc:catalogNumber": "WAG0003334",
+            "dwc:genus": "Bikinia",
+            "dwc:specificEpithet": "durandii",
+            "dwc:country": "Gabon",
+            "dwc:year": 1959,
+            "dwc:eventDate": "1959-09-06",
+            "dwc:locality": "N'kan (between Etsam and Méla).",
+            "dwc:recordedBy": "Saint Aubin G de",
+            "dwc:decimalLatitude": 0.65,
+            "dwc:decimalLongitude": 10.3167,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1959/09/06",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:stateProvince": "Estuaire",
+            "dwc:identifiedBy": "Wieringa JJ",
+            "dwc:dateIdentified": "1999-09-30T00:00:00.000+0000",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "WAG0003334",
+            "dwc:month": 9,
+            "dwc:day": 6,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Fabales|Leguminosae-Caes.",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/WAG0003334",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

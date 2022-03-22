@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lygodium circinnatum (Burm.) Sw.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3575783",
+            "dwc:catalogNumber": "L.3575783",
+            "dwc:genus": "Lygodium",
+            "dwc:specificEpithet": "circinnatum",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1979,
+            "dwc:eventDate": "1979-05-30",
+            "dwc:locality": "Sulawesi (Celebes), S. Sulawesi, near Gumbassa River.",
+            "dwc:recordedBy": "Hennipman E",
+            "dwc:decimalLatitude": -1,
+            "dwc:decimalLongitude": 120,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1979/05/30",
+            "dwc:stateProvince": "Sulawesi",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3575783",
+            "dwc:month": 5,
+            "dwc:day": 30,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Schizaeales",
+            "dwc:family": "Lygodiaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Pteropsida|Schizaeales|Schizaeaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3575783",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

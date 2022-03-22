@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Malva pusilla Sm.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU301687",
+            "dwc:catalogNumber": "TU301687",
+            "dwc:genus": "Malva",
+            "dwc:specificEpithet": "pusilla",
+            "dwc:country": "Estonia",
+            "dwc:year": 1975,
+            "dwc:eventDate": "1975-08-05",
+            "dwc:locality": "Põlva raj., Eoste küla, Mäe talu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1975-08-05",
+            "dwc:identifiedBy": "V. Kuusk",
+            "dwc:dateIdentified": "1982-03-01T00:00:00.000+0000",
+            "dcterms:identifier": "TU301687",
+            "dwc:month": 8,
+            "dwc:day": 5,
+            "dwc:habitat": "habitat: talu õues",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malvales",
+            "dwc:family": "Malvaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Malvales; Malvaceae; Malva",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/479748",
+            "dwc:eventID": 734803,
+            "dwc:taxonID": 5638,
+            "dwc:locationID": 651892,
+            "dwc:identificationID": 745346,
+            "dwc:vernacularName": "ümaralehine kassinaeris",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/479748",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/0F/41/0F41DB87F691807D11929D491169B0432CBEB000BEB23A61E25AF874768ADE36.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1465625",
+            "dcterms:title": "TU301687.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

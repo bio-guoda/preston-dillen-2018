@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Levenhookia preissii F.Muell.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "5662aa6c-cc32-4bd3-bc3e-bcefec58ee32",
+            "dwc:catalogNumber": "BM000984009",
+            "dwc:genus": "Levenhookia",
+            "dwc:specificEpithet": "preissii",
+            "dwc:country": "Australia",
+            "dwc:year": 1901,
+            "dwc:eventDate": "1901-12-23",
+            "dwc:recordedBy": "Cecil Rollo Payton Andrews",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:identifiedBy": "Juliet A. Wege",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "2230162",
+            "dwc:month": 12,
+            "dwc:day": 23,
+            "dwc:recordNumber": "542",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2230162",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Stylidiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Stylidiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "542",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - multiple LA + EN",
+            "@id": "http://data.nhm.ac.uk/object/5662aa6c-cc32-4bd3-bc3e-bcefec58ee32",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/92786bc8d95970b883074a198fc46c194fc77498/contents/preview",
+            "dcterms:title": "BM000984009",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

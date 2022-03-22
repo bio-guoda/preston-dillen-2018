@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Grevillea divaricata R.Br.",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100383161",
+            "dwc:catalogNumber": "B 10 0383161",
+            "dwc:genus": "Grevillea",
+            "dwc:specificEpithet": "divaricata",
+            "dwc:country": "Australia",
+            "dwc:year": 1835,
+            "dwc:eventDate": "1835",
+            "dwc:recordedBy": "A. Cunningham",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1835",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:scientificNameAuthorship": "R.Br.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "PROTEACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; PROTEACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://herbarium.bgbm.org/object/B100383161",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Plagiostachys Ridl.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1490251",
+            "dwc:catalogNumber": "L.1490251",
+            "dwc:genus": "Plagiostachys",
+            "dwc:country": "Indonesia",
+            "dwc:year": 2003,
+            "dwc:eventDate": "2003-09-08",
+            "dwc:locality": "Batu Ngarok",
+            "dwc:recordedBy": "Poulsen AD; Gala R",
+            "dwc:decimalLatitude": 4.1667,
+            "dwc:decimalLongitude": 115.7833,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "2003/09/08",
+            "dwc:stateProvince": "Borneo",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1490251",
+            "dwc:month": 9,
+            "dwc:day": 8,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Zingiberales",
+            "dwc:family": "Zingiberaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Zingiberales|Zingiberaceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1490251",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

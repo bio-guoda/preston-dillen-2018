@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium polypodioides",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.3214",
+            "dwc:catalogNumber": "EIG.3214",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "polypodioides",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-01-01/1910-01-31",
+            "dwc:recordedBy": "Moussel, J. P.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "01.1910",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.713100",
+            "dwc:month": 1,
+            "dcterms:modified": "1492083895",
+            "dwc:otherCatalogNumbers": "H1591145",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium polypodioides",
+            "dwc:verbatimRecordedBy": "Moussel, J. P.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/EIG.3214",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

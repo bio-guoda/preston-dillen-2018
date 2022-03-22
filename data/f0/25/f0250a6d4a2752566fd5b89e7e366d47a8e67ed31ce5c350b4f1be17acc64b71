@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Macrolobium fragrans Baker f.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AO",
+            "dwc:occurrenceID": "8a5b7ce1-60f5-4ce2-80d9-3accee9d1e71",
+            "dwc:catalogNumber": "BM000842241",
+            "dwc:genus": "Anthonotha",
+            "dwc:specificEpithet": "fragrans",
+            "dwc:country": "Angola",
+            "dwc:year": 1918,
+            "dwc:eventDate": "1918-11-26",
+            "dwc:recordedBy": "John Gossweiler",
+            "dwc:decimalLatitude": -12.2953,
+            "dwc:decimalLongitude": 17.5447,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "A.G. Voorhoeve",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "4522394",
+            "dwc:month": 11,
+            "dwc:day": 26,
+            "dwc:recordNumber": "7577",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4522394",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Magnoliophyta; Magnoliopsida; Fabales; Fabaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Africa; Angola",
+            "dwc:fieldNumber": "7577",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/8a5b7ce1-60f5-4ce2-80d9-3accee9d1e71",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/dd08d8a47a50b274cd91a2d2f2d1816fdeec0e0a/contents/preview",
+            "dcterms:title": "BM000842241",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

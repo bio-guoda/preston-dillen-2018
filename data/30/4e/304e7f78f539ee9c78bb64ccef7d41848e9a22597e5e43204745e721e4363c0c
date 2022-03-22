@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Calystegia silvatica Griseb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914310",
+            "dwc:catalogNumber": "K000914310",
+            "dwc:genus": "Calystegia",
+            "dwc:specificEpithet": "silvatica",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2008,
+            "dwc:eventDate": "2008-08-19",
+            "dwc:locality": "Kew Gardens;  North Arboretum: amongst shrubs in a rough grassy area at the back of the Lower Nursery (zone 120)",
+            "dwc:recordedBy": "Cope, T.A.",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914310",
+            "dwc:month": 8,
+            "dwc:day": 19,
+            "dcterms:modified": "2013-09-12",
+            "dwc:recordNumber": "RBG 227",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Convolvulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CONVOLVULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Large Bindweed",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Author citation as on label: Calystegia silvatica (Kit.) Griseb.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914310",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914310",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/549793.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

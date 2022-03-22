@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Oxalis L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000013234621",
+            "dwc:catalogNumber": "BR0000013234621",
+            "dwc:genus": "Oxalis",
+            "dwc:country": "United States",
+            "dwc:year": 1984,
+            "dwc:eventDate": "1984-09-05",
+            "dwc:locality": "Greene Co.: 3.6 km SSw of West Finley: floodplain S of Enlow Fork of Wheeling Creek",
+            "dwc:recordedBy": "Thompson S.A.",
+            "dwc:decimalLatitude": 39.95,
+            "dwc:decimalLongitude": -80.4667,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000013234621",
+            "dwc:month": 9,
+            "dwc:day": 5,
+            "dcterms:modified": "2014-02-20",
+            "dwc:recordNumber": "1941",
+            "dwc:habitat": "Primary floodplain forest",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Oxalidales",
+            "dwc:family": "Oxalidaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:locationRemarks": "Description: Low herb; fls. yellow",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "eng",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000013234621",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000013234621",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

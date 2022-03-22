@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ctenanthe ericae L.Andersson",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CO",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00689977",
+            "dwc:catalogNumber": "P00689977",
+            "dwc:genus": "Ctenanthe",
+            "dwc:specificEpithet": "ericae",
+            "dwc:country": "Colombia",
+            "dwc:year": 1974,
+            "dwc:eventDate": "1974-01-16",
+            "dwc:recordedBy": "Gasche, J.|Desplats, J.",
+            "setID": "P",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Andersson",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00689977",
+            "dwc:month": 1,
+            "dwc:day": 16,
+            "dcterms:modified": "2017-04-21",
+            "dwc:verbatimLocality": "Amazonas, rio Iagara-Parana, La Chorrera, territoire des indiens Witoto Jitomagaro, famille Kuiru (17 km en aval de La Chorrera)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Zingiberales",
+            "dwc:family": "Marantaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "147",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dwc:fieldNotes": "Herbe 1.,50 m",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00689977",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Marantaceae",
+            "@id": "SONNERAT|1265474",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:dateIdentified": "12-1985",
+            "dwc:typeStatus": "isotype",
+            "dwc:genus": "Ctenanthe",
+            "dwc:higherClassification": "Ctenanthe;Marantaceae",
+            "dwc:specificEpithet": "ericae",
+            "dwc:identificationRemarks": "Flora of Ecuador 32: 182. 1988",
+            "dwc:scientificName": "Ctenanthe ericae L.Andersson",
+            "dwc:identifiedBy": "Andersson",
+            "dwc:scientificNameAuthorship": "L.Andersson",
+            "dwc:taxonID": "SONNERAT|274797",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "2666D8AE8E464AB5961F82F28C7C99E9",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, ER",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/14435038303061h09bB116rmfMfbF",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

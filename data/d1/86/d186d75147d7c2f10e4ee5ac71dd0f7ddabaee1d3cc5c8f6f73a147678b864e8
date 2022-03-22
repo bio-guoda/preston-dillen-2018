@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Popowia pachypetala Diels",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "PG",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100365014",
+            "dwc:catalogNumber": "B 10 0365014",
+            "dwc:genus": "Popowia",
+            "dwc:specificEpithet": "pachypetala",
+            "dwc:country": "Papua New Guinea",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-10-08",
+            "dwc:locality": "\"Kaiser Wilhelmsland\"; Wälder von Keneyia, Alt.: 1",
+            "dwc:recordedBy": "Schlechter,R.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1988-10-08",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "18352",
+            "dwc:scientificNameAuthorship": "Diels",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Annonaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Annonaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "150",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100365014",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

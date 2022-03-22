@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Oenothera cambrica Rostanski",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914238",
+            "dwc:catalogNumber": "K000914238",
+            "dwc:genus": "Oenothera",
+            "dwc:specificEpithet": "cambrica",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2008,
+            "dwc:eventDate": "2008-06-18",
+            "dwc:locality": "Kew Gardens; North Arboretum: on a heap of soil stored in the Paddock opposite Wing A of the Herbarium (zone 104)",
+            "dwc:recordedBy": "Cope, T.A.",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914238",
+            "dwc:month": 6,
+            "dwc:day": 18,
+            "dcterms:modified": "2013-07-12",
+            "dwc:recordNumber": "RBG 99",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Onagraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "ONAGRACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Small-flowered Evening-primrose; Flowering specimen",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914238",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914238",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/517046.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

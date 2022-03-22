@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Adiantum raddianum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "FI",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1080985",
+            "dwc:catalogNumber": "H.1080985",
+            "dwc:genus": "Adiantum",
+            "dwc:specificEpithet": "raddianum",
+            "dwc:country": "Finland",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-03-07",
+            "dwc:recordedBy": "Alanko, Pentti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "07.03.1972",
+            "dcterms:identifier": "http://tun.fi/MY.744808",
+            "dwc:month": 3,
+            "dwc:day": 7,
+            "dcterms:modified": "1492084440",
+            "dwc:recordNumber": "19,342",
+            "dwc:otherCatalogNumbers": "H1080985",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Helsinki, Kaisaniemi, cultivated in the Botanical Garden in greenhouse B1",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Adiantum raddianum",
+            "dwc:organismRemarks": "cultivated in the Botanical Garden in greenhouse B1",
+            "dwc:establishmentMeans": "MY.provenanceCultivated",
+            "dwc:verbatimRecordedBy": "Alanko, Pentti",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1080985",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

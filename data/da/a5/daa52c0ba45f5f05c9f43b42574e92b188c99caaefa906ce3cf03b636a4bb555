@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Centaurea vavilovii Takht. & Gabrieljan",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AM",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100088308",
+            "dwc:catalogNumber": "B 10 0088308",
+            "dwc:genus": "Centaurea",
+            "dwc:specificEpithet": "vavilovii",
+            "dwc:country": "Armenia",
+            "dwc:year": 1986,
+            "dwc:eventDate": "1986-08-18",
+            "dwc:locality": "Yhezccoro?",
+            "dwc:recordedBy": "Takhtajan,A.L.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1986-08-18",
+            "dwc:identifiedBy": "E. T. Gabrieljan",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "s.n.",
+            "dwc:scientificNameAuthorship": "Takht. & Gabrieljan",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Asteraceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Asteraceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "1850",
+            "dcterms:language": "rus",
+            "@id": "http://herbarium.bgbm.org/object/B100088308",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

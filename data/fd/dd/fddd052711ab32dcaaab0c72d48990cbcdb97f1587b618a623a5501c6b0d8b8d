@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Sphaerostephanos arbusculus (Willd.) Holttum",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MU",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00482767",
+            "dwc:catalogNumber": "P00482767",
+            "dwc:genus": "Sphaerostephanos",
+            "dwc:specificEpithet": "arbusculus",
+            "dwc:country": "Mauritius",
+            "dwc:recordedBy": "Bory de St-Vincent, J.B.G.M.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00482767",
+            "dcterms:modified": "2015-09-16",
+            "dwc:verbatimLocality": "N. Le long de la rivière de Minici aux plaines de villens, dans les bois, Ile de France",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Thelypteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dwc:fieldNotes": "Son tronc s'élève en souche...envoyé à Willdenow sous le numéro 84",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00482767",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|530848",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Sphaerostephanos",
+            "dwc:higherClassification": "Sphaerostephanos;Pteridophyta",
+            "dwc:specificEpithet": "arbuscula",
+            "dwc:scientificName": "Sphaerostephanos arbuscula (Willd.) Holttum",
+            "dwc:scientificNameAuthorship": "(Willd.) Holttum",
+            "dwc:taxonID": "SONNERAT|39607",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|530849",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Aspidium",
+            "dwc:higherClassification": "Aspidium;Pteridophyta",
+            "dwc:specificEpithet": "arbuscula",
+            "dwc:scientificName": "Aspidium arbuscula Willd.",
+            "dwc:scientificNameAuthorship": "Willd.",
+            "dwc:taxonID": "SONNERAT|90704",
+            "dwc:typeStatus": "isotype",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "412CE4B983EB4D0485E7D77788DBC39B",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, GF",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1442437496632YbcHvVolTIEdEKYr",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

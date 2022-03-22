@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Arabis alticola var. calvescens O.E.Schulz",
+            "dwc:taxonRank": "var.",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100249662",
+            "dwc:catalogNumber": "B 10 0249662",
+            "dwc:genus": "Arabis",
+            "dwc:specificEpithet": "alticola",
+            "dwc:country": "China",
+            "dwc:year": 1905,
+            "dwc:eventDate": "1905-07",
+            "dwc:locality": "Tibet: Chilungtal Westtibet.",
+            "dwc:recordedBy": "A. K. Meebold",
+            "dwc:infraspecificEpithet": "calvescens",
+            "setID": "B",
+            "dwc:verbatimEventDate": "07.1905",
+            "dc:typeStatus": "type ?",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "3723",
+            "dwc:scientificNameAuthorship": "O.E.Schulz",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CRUCIFERAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CRUCIFERAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Arabis amplexicaule",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "3660 m",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100249662",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

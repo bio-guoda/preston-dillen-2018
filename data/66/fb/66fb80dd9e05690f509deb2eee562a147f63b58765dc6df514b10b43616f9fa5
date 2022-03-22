@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium monanthes",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7743",
+            "dwc:catalogNumber": "EIG.7743",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "monanthes",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-01-30",
+            "dwc:locality": "Simien National Park, Geech plateau. On the banks of Djinn Bahr.",
+            "dwc:recordedBy": "Heinonen, Kirsti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "30.01.1972",
+            "dwc:stateProvince": "Amhara",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.728058",
+            "dwc:month": 1,
+            "dwc:day": 30,
+            "dwc:county": "North Gondar",
+            "dcterms:modified": "1492084221",
+            "dwc:recordNumber": "1056",
+            "dwc:otherCatalogNumbers": "H1074244",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Begemder, 3400 m above sea.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium monanthes",
+            "dwc:verbatimRecordedBy": "Heinonen, Kirsti",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7743",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

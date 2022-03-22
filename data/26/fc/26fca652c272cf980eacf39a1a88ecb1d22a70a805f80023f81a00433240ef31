@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Gentiana albescens Fr.",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100185601",
+            "dwc:catalogNumber": "B 10 0185601",
+            "dwc:genus": "Gentiana",
+            "dwc:specificEpithet": "albescens",
+            "dwc:country": "China",
+            "dwc:locality": "Provinz Yun-Nan.",
+            "dwc:recordedBy": "M. Tabbé",
+            "setID": "B",
+            "dwc:continent": "Asia",
+            "dwc:scientificNameAuthorship": "Fr.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "GENTIANACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; GENTIANACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://herbarium.bgbm.org/object/B100185601",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Croton rosmarinoides Millsp.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CU",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00634667",
+            "dwc:catalogNumber": "P00634667",
+            "dwc:genus": "Croton",
+            "dwc:specificEpithet": "rosmarinoides",
+            "dwc:country": "Cuba",
+            "dwc:year": 1860,
+            "dwc:eventDate": "1860-01-01",
+            "dwc:recordedBy": "Wright, C.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00634667",
+            "dcterms:modified": "2017-04-20",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Euphorbiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "1968",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00634667",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Euphorbiaceae",
+            "@id": "SONNERAT|1145037",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Croton",
+            "dwc:higherClassification": "Croton;Euphorbiaceae",
+            "dwc:specificEpithet": "rosmarinifolius",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Croton rosmarinifolius Salisb.",
+            "dwc:scientificNameAuthorship": "Salisb.",
+            "dwc:taxonID": "SONNERAT|237816",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Euphorbiaceae",
+            "@id": "SONNERAT|1145038",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Croton",
+            "dwc:higherClassification": "Croton;Euphorbiaceae",
+            "dwc:specificEpithet": "rosmarinoides",
+            "dwc:scientificName": "Croton rosmarinoides Millsp.",
+            "dwc:scientificNameAuthorship": "Millsp.",
+            "dwc:taxonID": "SONNERAT|237817",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "2DD809CA446B428EA9C6A8219C5A429A",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, SM",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443121696055G3vt8ktxqsgUQWyy",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

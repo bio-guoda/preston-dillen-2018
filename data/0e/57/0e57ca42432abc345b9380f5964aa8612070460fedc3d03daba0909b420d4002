@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Euodia labordei Dode",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02440827",
+            "dwc:catalogNumber": "P02440827",
+            "dwc:genus": "Tetradium",
+            "dwc:specificEpithet": "labordei",
+            "dwc:country": "China",
+            "dwc:year": 1899,
+            "dwc:eventDate": "1899-09-11",
+            "dwc:recordedBy": "Bodinier, E.|Laborde, J.",
+            "setID": "P",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Dode",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02440827",
+            "dwc:month": 9,
+            "dwc:day": 11,
+            "dcterms:modified": "2015-11-07",
+            "dwc:verbatimLocality": "Province du Kouy-Tcheou : Montagne de Koa-Po (Tsin-Gay)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Rutaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "2729",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dwc:fieldNotes": "Grand arbre, parties fort réduite d'un panicule de fruits, l'arbre est couvert d'énormes panicules de fruits, ayant une teinte rougeâtre très prononcée",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02440827",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Rutaceae",
+            "@id": "SONNERAT|8081112",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Euodia",
+            "dwc:higherClassification": "Euodia;Rutaceae",
+            "dwc:specificEpithet": "labordei",
+            "dwc:identificationRemarks": "Bulletin de la Société Botanique de France 55: 707. 1908",
+            "dwc:typeStatus": "holotype",
+            "dwc:scientificName": "Euodia labordei Dode",
+            "dwc:identifiedBy": "Dode",
+            "dwc:scientificNameAuthorship": "Dode",
+            "dwc:taxonID": "SONNERAT|4021785",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "3BD95F299BFD4E389BD30CF2F2CE418B",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, EL",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1446878644173BfGKDZTLzqrF6ybR",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Aleuritopteris farinosa",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1073986",
+            "dwc:catalogNumber": "H.1073986",
+            "dwc:genus": "Aleuritopteris",
+            "dwc:specificEpithet": "farinosa",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-01-25",
+            "dwc:locality": "Begember, Simien National Park, Geech plateau, on the dry bottom of the tributary of Djinn Bahr",
+            "dwc:recordedBy": "Heinonen, Kirsti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "25.01.1972",
+            "dwc:stateProvince": "Amhara",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.744517",
+            "dwc:month": 1,
+            "dwc:day": 25,
+            "dwc:county": "Semien Gondar",
+            "dcterms:modified": "1492084435",
+            "dwc:recordNumber": "1011",
+            "dwc:otherCatalogNumbers": "H1073986",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "3550 m above sea",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Aleuritopteris farinosa",
+            "dwc:verbatimRecordedBy": "Heinonen, Kirsti",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1073986",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

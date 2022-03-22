@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lophosoria quadripinnata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1067250",
+            "dwc:catalogNumber": "H.1067250",
+            "dwc:genus": "Lophosoria",
+            "dwc:specificEpithet": "quadripinnata",
+            "dwc:country": "Brazil",
+            "dwc:year": 1857,
+            "dwc:eventDate": "1857-03-18",
+            "dwc:recordedBy": "Regnell",
+            "setID": "H",
+            "dwc:verbatimEventDate": "18.03.1857",
+            "dwc:stateProvince": "São Paulo",
+            "dwc:continent": "Central America, South America and the Antarctic",
+            "dcterms:identifier": "http://tun.fi/MY.744346",
+            "dwc:month": 3,
+            "dwc:day": 18,
+            "dcterms:modified": "1492084431",
+            "dwc:otherCatalogNumbers": "H1067250",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Prov. S. Paulo",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Lophosoria quadripinnata",
+            "dwc:verbatimRecordedBy": "Regnell",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/H.1067250",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Borago morisiana Bigazzi & Ricceri",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "IT",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100360070",
+            "dwc:catalogNumber": "B 10 0360070",
+            "dwc:genus": "Borago",
+            "dwc:specificEpithet": "morisiana",
+            "dwc:country": "Italy",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-08-28",
+            "dwc:locality": "Sardegna: Isola di San Pietro, loc. Calavinagra, f",
+            "dwc:recordedBy": "Bigazzi,M.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1988-08-28",
+            "dwc:continent": "Europe",
+            "dwc:scientificNameAuthorship": "Bigazzi & Ricceri",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Boraginaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Boraginaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "50",
+            "dcterms:language": "ita",
+            "@id": "http://herbarium.bgbm.org/object/B100360070",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

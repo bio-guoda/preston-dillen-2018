@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pentacalia caracasana (Klatt) Cuatrec.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "VE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000005527724",
+            "dwc:catalogNumber": "BR0000005527724",
+            "dwc:genus": "Pentacalia",
+            "dwc:specificEpithet": "caracasana",
+            "dwc:country": "Venezuela, Bolivarian Republic of",
+            "dwc:locality": "prope Tovar",
+            "dwc:recordedBy": "Fendler A.",
+            "setID": "BR",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000005527724",
+            "dcterms:modified": "2010-10-14",
+            "dwc:recordNumber": "702",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "lat",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000005527724",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000005527724",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

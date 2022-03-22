@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pterosiphonia parasitica (Hudson) Falkenberg",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00734277",
+            "dwc:catalogNumber": "E00734277",
+            "dwc:genus": "Pterosiphonia",
+            "dwc:specificEpithet": "parasitica",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-05-15",
+            "dwc:locality": "Loch Fyne",
+            "dwc:recordedBy": "C.M.L.",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1982-05-15",
+            "dwc:stateProvince": "Scotland",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00734277",
+            "dwc:month": 5,
+            "dwc:day": 15,
+            "dwc:county": "(VC 98) Argyll",
+            "dcterms:modified": "2015-06-29",
+            "dwc:otherCatalogNumbers": "BGBASE:751267",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Ceramiales",
+            "dwc:family": "Rhodomelaceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Britain and Ireland",
+            "dwc:startDayOfYear": 135,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00734277",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00734277 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00734277",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNzM0LzI3Ny84ODA5MzMuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00734277",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

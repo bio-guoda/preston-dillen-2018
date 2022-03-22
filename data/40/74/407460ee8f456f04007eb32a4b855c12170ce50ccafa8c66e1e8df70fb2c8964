@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Alchornea triplinervia Müll.Arg.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001206129",
+            "dwc:catalogNumber": "K001206129",
+            "dwc:genus": "Alchornea",
+            "dwc:specificEpithet": "triplinervia",
+            "dwc:country": "Brazil",
+            "dwc:year": 1996,
+            "dwc:eventDate": "1996-09-12",
+            "dwc:locality": "Canyon Guartelá.",
+            "dwc:recordedBy": "Giraldi, C.",
+            "setID": "K",
+            "dcterms:identifier": "K001206129",
+            "dwc:month": 9,
+            "dwc:day": 12,
+            "dcterms:modified": "2015-12-01",
+            "dwc:recordNumber": "s.n.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Euphorbiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "EUPHORBIACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "No FUEL 20214",
+            "dwc:higherGeography": "Tibagi",
+            "dwc:municipality": "Tibagi",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K001206129",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001206129",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/772868.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dysoxylum pachyrhache Merr.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2153797",
+            "dwc:catalogNumber": "L.2153797",
+            "dwc:genus": "Dysoxylum",
+            "dwc:specificEpithet": "pachyrhache",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1951,
+            "dwc:eventDate": "1951-03-10",
+            "dwc:locality": "Nunukan island (off E. Borneo in Celebes Sea, near British border)",
+            "dwc:recordedBy": "Paymans K",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1951/03/10",
+            "dwc:stateProvince": "Borneo",
+            "dwc:identifiedBy": "Mabberley DJ",
+            "dwc:dateIdentified": "1982-11-15T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2153797",
+            "dwc:month": 3,
+            "dwc:day": 10,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Meliaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Sapindales|Meliaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2153797",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

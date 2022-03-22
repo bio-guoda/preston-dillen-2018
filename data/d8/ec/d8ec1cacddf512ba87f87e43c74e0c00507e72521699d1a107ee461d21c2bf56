@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arachniodes aristata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1345",
+            "dwc:catalogNumber": "EIG.1345",
+            "dwc:genus": "Arachniodes",
+            "dwc:specificEpithet": "aristata",
+            "dwc:country": "Australia",
+            "dwc:year": 1976,
+            "dwc:eventDate": "1976-10-04",
+            "dwc:locality": "O'Sullivan's Gap, 10 km northeast of Bulahdelah",
+            "dwc:geodeticDatum": "Dms",
+            "setID": "H",
+            "dwc:verbatimEventDate": "04.10.1976",
+            "dwc:stateProvince": "New South Wales",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.692227",
+            "dwc:month": 10,
+            "dwc:day": 4,
+            "dcterms:modified": "1492083477",
+            "dwc:recordNumber": "8473",
+            "dwc:otherCatalogNumbers": "H1225412",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "O'Sullivan's Gap, 10 km NE. of Bulahdelah",
+            "dwc:datasetID": "GX.2951",
+            "dwc:verbatimCoordinates": "32°20'S 152°16'E (degrees, minutes)",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arachniodes aristata",
+            "dwc:verbatimRecordedBy": "Coveny, R.; Hancock, R.; Hind, P.",
+            "dwc:verbatimLongitude": "152°16'",
+            "dwc:verbatimLatitude": "-32°20'",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1345",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

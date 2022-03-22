@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum carolinense L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "ebbcc7de-b3c3-4c77-a47d-6086a2fb0479",
+            "dwc:catalogNumber": "BM000846407",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "carolinense",
+            "dwc:country": "United States",
+            "dwc:year": 1824,
+            "dwc:eventDate": "1824-06-01",
+            "dwc:recordedBy": "Anon.",
+            "setID": "BM",
+            "dwc:stateProvince": "Carolina",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "5448415",
+            "dwc:month": 6,
+            "dcterms:modified": "2017-08-22",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448415",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Dicotyledones; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; United States; Carolina",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://data.nhm.ac.uk/object/ebbcc7de-b3c3-4c77-a47d-6086a2fb0479",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/e71dd4be08ca1fa6a1751727480ba65dfe9eca73/contents/preview",
+            "dcterms:title": "BM000846407",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

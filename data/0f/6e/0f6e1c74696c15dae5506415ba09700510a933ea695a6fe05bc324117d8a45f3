@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Quercus ilex L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06748847",
+            "dwc:catalogNumber": "P06748847",
+            "dwc:genus": "Quercus",
+            "dwc:specificEpithet": "ilex",
+            "dwc:country": "France",
+            "dwc:year": 1853,
+            "dwc:eventDate": "1853-06-05",
+            "dwc:recordedBy": "Ayraud",
+            "dwc:decimalLatitude": 46.4799,
+            "dwc:decimalLongitude": -0.8523,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "Pays-de-Loire",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06748847",
+            "dwc:month": 6,
+            "dwc:day": 5,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Longèves",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fagales",
+            "dwc:family": "Fagaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06748847",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fagaceae",
+            "@id": "SONNERAT|7684039",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Quercus",
+            "dwc:higherClassification": "Quercus;Fagaceae",
+            "dwc:specificEpithet": "ilex",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Quercus ilex L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|13222",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "70157F75E8E5489987AF64E985659289",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "70157F75E8E5489987AF64E985659289",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441448799234ahyQbusqI5FyJcPB",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

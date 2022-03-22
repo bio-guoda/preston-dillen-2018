@@ -1,0 +1,87 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Thalictrum flavum subsp. flavum",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00685937",
+            "dwc:catalogNumber": "P00685937",
+            "dwc:genus": "Thalictrum",
+            "dwc:specificEpithet": "flavum",
+            "dwc:country": "France",
+            "dwc:year": 1864,
+            "dwc:eventDate": "1864-08-01",
+            "dwc:recordedBy": "Malinvaud, E.",
+            "dwc:infraspecificEpithet": "flavum",
+            "setID": "P",
+            "dwc:stateProvince": "02 Aisne",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00685937",
+            "dwc:month": 8,
+            "dwc:day": 1,
+            "dwc:county": "Folembray",
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Folembray (Aisne)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Ranunculaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00685937",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:infraspecificEpithet": "flavum",
+            "dwc:taxonRank": "subspecies",
+            "dwc:family": "Ranunculaceae",
+            "@id": "SONNERAT|1291896",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Thalictrum",
+            "dwc:higherClassification": "Thalictrum flavum;Thalictrum;Ranunculaceae",
+            "dwc:verbatimTaxonRank": "subsp.",
+            "dwc:specificEpithet": "flavum",
+            "dwc:scientificName": "Thalictrum flavum L. subsp. flavum",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|112469",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Ranunculaceae",
+            "@id": "SONNERAT|4210362",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Thalictrum",
+            "dwc:higherClassification": "Thalictrum;Ranunculaceae",
+            "dwc:specificEpithet": "flavum",
+            "dwc:scientificName": "Thalictrum flavum L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|11675",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "D71829BDA3334632AAEBC87187A57405",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441339364239s2BJRtI3XgsPX0Ic",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

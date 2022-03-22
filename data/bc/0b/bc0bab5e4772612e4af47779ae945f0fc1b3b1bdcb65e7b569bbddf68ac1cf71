@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cladonia prancei Ahti",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9500048",
+            "dwc:catalogNumber": "HA.H9500048",
+            "dwc:genus": "Cladonia",
+            "dwc:specificEpithet": "prancei",
+            "dwc:country": "BR",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-01-01/1988-12-31",
+            "dwc:locality": "Amazonia [Amazonas], basin of Rio Negro. Road margins Camanaus-Uaupés road near Camanaus.",
+            "dwc:recordedBy": "Ramos, J. F. (15944)",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:identifiedBy": "Teuvo Ahti",
+            "dwc:dateIdentified": "1988",
+            "dcterms:identifier": "http://tun.fi/MY.132720",
+            "dcterms:modified": "1382504145",
+            "dwc:habitat": "Sandy soil, terra firme. Terrestrial on white sand.",
+            "dwc:otherCatalogNumbers": "H9500048",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "Ahti",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Cladonia prancei",
+            "dwc:measurementRemarks": "TLC: usnic, didymic, thamnolic acids.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/HA.H9500048",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

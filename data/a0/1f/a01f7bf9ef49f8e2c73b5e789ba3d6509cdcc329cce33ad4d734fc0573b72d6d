@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Baeckea trapeza A.R.Bean",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000821741",
+            "dwc:catalogNumber": "K000821741",
+            "dwc:genus": "Baeckea",
+            "dwc:specificEpithet": "trapeza",
+            "dwc:country": "Australia",
+            "dwc:year": 1996,
+            "dwc:eventDate": "1996-01-27",
+            "dwc:locality": "Two Mile Creek, Blackdown Tableland, SE of Blackwater.",
+            "dwc:recordedBy": "Bean, A.R.",
+            "dwc:decimalLatitude": -23.75,
+            "dwc:decimalLongitude": 149.1,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Bean, A.R.",
+            "dwc:dateIdentified": "1998-01-10T00:00:00.000+0000",
+            "dcterms:identifier": "K000821741",
+            "dwc:month": 1,
+            "dwc:day": 27,
+            "dcterms:modified": "2012-08-30",
+            "dwc:recordNumber": "9624",
+            "dwc:habitat": "Creekbank adjacent to open forest of Eucalyptus sphaerocarpa and Anguphora leiocarpa.",
+            "dwc:eventRemarks": "Shrub 60cm high, flowers white.",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Myrtaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "MYRTACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 800,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000821741",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000821741",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/425168.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

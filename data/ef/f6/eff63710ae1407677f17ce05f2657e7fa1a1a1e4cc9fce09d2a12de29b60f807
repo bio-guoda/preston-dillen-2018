@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum symonii H.Eichler",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "02507503-0796-48c0-ad03-ab13c869b633",
+            "dwc:catalogNumber": "BM000900424",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "symonii",
+            "dwc:country": "Australia",
+            "dwc:year": 1872,
+            "dwc:eventDate": "1872-01-01",
+            "dwc:locality": "Coolgardie district",
+            "dwc:recordedBy": "Georgina Maxwell",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:identifiedBy": "David Eric Symon",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "5451030",
+            "dcterms:modified": "2017-08-22",
+            "dwc:recordNumber": "63",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5451030",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "63",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/02507503-0796-48c0-ad03-ab13c869b633",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/bc1afb91d6dfab691e22320602b10061064f0fe2/contents/preview",
+            "dcterms:title": "BM000900424",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

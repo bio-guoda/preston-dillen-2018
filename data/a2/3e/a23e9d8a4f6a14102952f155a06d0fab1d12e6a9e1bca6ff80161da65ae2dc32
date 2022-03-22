@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cephalanthera damasonium Druce",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "b27816d5-0e2a-411a-bea4-1dcff82e8794",
+            "dwc:catalogNumber": "BM001003960",
+            "dwc:genus": "Cephalanthera",
+            "dwc:specificEpithet": "damasonium",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1960,
+            "dwc:eventDate": "1960-05-29",
+            "dwc:recordedBy": "Patricia Anne Sims",
+            "dwc:decimalLatitude": 51.7113,
+            "dwc:decimalLongitude": -0.8725,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "NEOTYPE",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "2295129",
+            "dwc:month": 5,
+            "dwc:day": 29,
+            "dwc:recordNumber": "624",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2295129",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Orchidaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England; Buckinghamshire",
+            "dwc:fieldNumber": "624",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/b27816d5-0e2a-411a-bea4-1dcff82e8794",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/fd88494898df3e59574884f0cd1865200bb2a5b6/contents/preview",
+            "dcterms:title": "BM001003960",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

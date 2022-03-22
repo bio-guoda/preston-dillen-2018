@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Barleria L.",
+            "dwc:taxonRank": "genus",
+            "dwc:countryCode": "TZ",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100190397",
+            "dwc:catalogNumber": "B 10 0190397",
+            "dwc:genus": "Barleria",
+            "dwc:country": "Tanzania",
+            "dwc:year": 1960,
+            "dwc:eventDate": "1960-07-14",
+            "dwc:locality": "Distr. Kigana, Kigoma to Kasulu, mile 23., Alt.: 1",
+            "dwc:recordedBy": "Verdcourt,B.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1960-07-14",
+            "dwc:identifiedBy": "I. Darbyshire",
+            "dwc:continent": "Africa",
+            "dwc:recordNumber": "2808",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Acanthaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Acanthaceae",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Ex Herb. Hort. Bot. Reg. Kew",
+            "dwc:higherGeography": "Africa",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "1331",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100190397",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

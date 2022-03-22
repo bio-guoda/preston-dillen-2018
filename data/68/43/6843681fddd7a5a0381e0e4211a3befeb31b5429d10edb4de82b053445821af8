@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Polystichum prionolepis",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2377",
+            "dwc:catalogNumber": "EIG.2377",
+            "dwc:genus": "Polystichum",
+            "dwc:specificEpithet": "prionolepis",
+            "dwc:country": "China",
+            "dwc:year": 1987,
+            "dwc:eventDate": "1987-12-01",
+            "dwc:locality": "Hoping-hsiang, Ta-huseh-shan forest recreation area, trail from the entrance to forest recreation area to Mt. Saolai",
+            "dwc:recordedBy": "Hyvönen, Jaakko",
+            "setID": "H",
+            "dwc:verbatimEventDate": "01.12.1987",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.710349",
+            "dwc:month": 12,
+            "dwc:day": 1,
+            "dwc:county": "Taichung",
+            "dcterms:modified": "1492083835",
+            "dwc:recordNumber": "4197",
+            "dwc:otherCatalogNumbers": "H1658624",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "CHINA. Taiwan. Taichung Co.: Hoping-hsiang, Ta-huseh-shanf orest recreation area, 35 km from Tungshih, trail from the entrance to forest recreation area to Mt. Saolai.",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Polystichum prionolepis",
+            "dwc:verbatimRecordedBy": "Hyvönen, Jaakko",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.2377",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

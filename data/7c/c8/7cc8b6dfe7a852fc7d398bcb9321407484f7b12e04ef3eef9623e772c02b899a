@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arachniodes quadripinnata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1441",
+            "dwc:catalogNumber": "EIG.1441",
+            "dwc:genus": "Arachniodes",
+            "dwc:specificEpithet": "quadripinnata",
+            "dwc:country": "China",
+            "dwc:year": 1987,
+            "dwc:eventDate": "1987-12-01",
+            "dwc:locality": "Hoping hsiang, Ta-hsueh Shan forest recreation area.",
+            "dwc:recordedBy": "Hyvönen, Jaakko",
+            "setID": "H",
+            "dwc:verbatimEventDate": "01.12.1987",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.695410",
+            "dwc:month": 12,
+            "dwc:day": 1,
+            "dwc:county": "Taichung",
+            "dcterms:modified": "1492083541",
+            "dwc:recordNumber": "4196",
+            "dwc:otherCatalogNumbers": "H1658531",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Taichung Co.: Hoping-hsiang, Ta-huseh-shan forest recreation area, 35 km from Tungshih, trail from entrance to forest recreation area to Mt. Saolai alt. ca. 2 000 m",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arachniodes quadripinnata",
+            "dwc:verbatimRecordedBy": "Hyvönen, Jaakko",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1441",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

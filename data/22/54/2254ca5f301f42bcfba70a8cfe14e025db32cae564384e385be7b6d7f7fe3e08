@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lithocarpus honbaensis A.Camus",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "VN",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06812317",
+            "dwc:catalogNumber": "P06812317",
+            "dwc:genus": "Lithocarpus",
+            "dwc:specificEpithet": "honbaensis",
+            "dwc:country": "Viet Nam",
+            "dwc:year": 1917,
+            "dwc:eventDate": "1917-01-01",
+            "dwc:recordedBy": "Forestier, Service",
+            "dwc:decimalLatitude": 19.9,
+            "dwc:decimalLongitude": 105.383,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "Thanh Hóa",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06812317",
+            "dwc:month": 1,
+            "dwc:day": 1,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Annam : Divis. de Baï Thuong",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fagales",
+            "dwc:family": "Fagaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "35718",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06812317",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:higherClassification": "Lithocarpus;Fagaceae",
+            "dwc:scientificName": "Lithocarpus honbaensis A.Camus",
+            "dwc:specificEpithet": "honbaensis",
+            "dwc:taxonID": "SONNERAT|275071",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:genus": "Lithocarpus",
+            "dwc:family": "Fagaceae",
+            "@id": "SONNERAT|7688806",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:scientificNameAuthorship": "A.Camus",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "BC4960F4C9B042788ADA06D38EBBC4A3",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "BC4960F4C9B042788ADA06D38EBBC4A3",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:type": "StillImage",
+            "dcterms:license": "cc-by",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441449008797itRbdzZ5g3pJu1o1",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

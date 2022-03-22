@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lecanora freyi Poelt",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AT",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9504229",
+            "dwc:catalogNumber": "HA.H9504229",
+            "dwc:genus": "Lecanora",
+            "dwc:specificEpithet": "freyi",
+            "dwc:country": "AT",
+            "dwc:year": 1958,
+            "dwc:eventDate": "1958-07-01/1958-07-31",
+            "dwc:locality": "Hählekopf",
+            "dwc:recordedBy": "Poelt, J.",
+            "dwc:decimalLatitude": 47.3467,
+            "dwc:decimalLongitude": 10.0706,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dwc:verbatimEventDate": "7.1958",
+            "dc:typeStatus": "Isotype",
+            "dwc:stateProvince": "Vorarlberg, Bregenz District",
+            "dwc:continent": "Europe",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5309391",
+            "dwc:month": 7,
+            "dcterms:modified": "1530276580",
+            "dwc:habitat": "Südseitig auf Kieselkalk.",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:verbatimElevation": "2000",
+            "dwc:otherCatalogNumbers": "H9504229",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "Bregenzer Wald, Ifenstock: Vorarlberg (Kleines Walsertal): Kleiner Gipfel am Hählekopf.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "47.346667 10.070556 WGS84",
+            "dwc:scientificNameAuthorship": "Poelt",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Lecanora freyi",
+            "dwc:verbatimLongitude": "10.070556",
+            "dwc:verbatimLatitude": "47.346667",
+            "dwc:georeferenceRemarks": "Coordinates: Hählekopf.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/HA.H9504229",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

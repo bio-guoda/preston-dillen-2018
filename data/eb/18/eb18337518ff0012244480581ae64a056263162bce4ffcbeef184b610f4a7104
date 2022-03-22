@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bunias orientalis L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU278510",
+            "dwc:catalogNumber": "TU278510",
+            "dwc:genus": "Bunias",
+            "dwc:specificEpithet": "orientalis",
+            "dwc:country": "Estonia",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-06-23",
+            "dwc:locality": "Tartu raj., Emajõe vasakkallas Aruküla koobaste juures.",
+            "dwc:recordedBy": "Lea Voosalu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1971-06-23",
+            "dwc:identifiedBy": "Lea Voosalu",
+            "dwc:dateIdentified": "1971-06-23T00:00:00.000+0000",
+            "dcterms:identifier": "TU278510",
+            "dwc:month": 6,
+            "dwc:day": 23,
+            "dwc:habitat": "habitat: Liivasel rägal.",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Brassicales",
+            "dwc:family": "Brassicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Brassicales; Brassicaceae; Bunias",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/550647",
+            "dwc:eventID": 805702,
+            "dwc:taxonID": 3249,
+            "dwc:locationID": 722669,
+            "dwc:identificationID": 850739,
+            "dwc:vernacularName": "harilik tõlkjas",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/550647",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/BD/06/BD067D8E8D69770220F7978191C77F7E6EF52AB98079C661406EF5D6255BEE61.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1498371",
+            "dcterms:title": "TU278510.tif",
+            "dcterms:created": "2015-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

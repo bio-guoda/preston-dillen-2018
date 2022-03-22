@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rhus cotinus L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00101087",
+            "dwc:catalogNumber": "P00101087",
+            "dwc:genus": "Cotinus",
+            "dwc:specificEpithet": "cotinus",
+            "dwc:country": "France",
+            "dwc:year": 1957,
+            "dwc:eventDate": "1957-05-01",
+            "dwc:recordedBy": "Mercurin, L.",
+            "setID": "P",
+            "dwc:stateProvince": "83 Var",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00101087",
+            "dwc:month": 5,
+            "dwc:county": "st-maximin-la-ste-baume",
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "saint Maximin",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Anacardiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "725",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00101087",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Anacardiaceae",
+            "@id": "SONNERAT|121127",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Rhus",
+            "dwc:higherClassification": "Rhus;Anacardiaceae",
+            "dwc:specificEpithet": "cotinus",
+            "dwc:scientificName": "Rhus cotinus L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|15905",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "466A5F8E3FBC4C81A0FFB4A6FDB580BA",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "B. Liu",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1463640570426M26Qksvl6QdtuKMG",
+            "dcterms:license": "cc-by-nc-nd",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Barleria sacleuxii Benoist",
+            "dwc:countryCode": "TZ",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100190534",
+            "dwc:catalogNumber": "B 10 0190534",
+            "dwc:genus": "Barleria",
+            "dwc:specificEpithet": "sacleuxii",
+            "dwc:country": "Tanzania",
+            "dwc:year": 1959,
+            "dwc:eventDate": "1959-05-25",
+            "dwc:locality": "Chukwani, onforeshore and adjacent lush.",
+            "dwc:recordedBy": "H. G. Faulkner",
+            "setID": "B",
+            "dwc:verbatimEventDate": "25.05.1959",
+            "dwc:continent": "Africa",
+            "dwc:recordNumber": "2268",
+            "dwc:scientificNameAuthorship": "Benoist",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ACANTHACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ACANTHACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Africa",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "0 m",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100190534",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

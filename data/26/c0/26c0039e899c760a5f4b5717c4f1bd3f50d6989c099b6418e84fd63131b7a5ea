@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Elleanthus graminifolius (Barb.Rodr.) Lojtnant",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02082947",
+            "dwc:catalogNumber": "P02082947",
+            "dwc:genus": "Elleanthus",
+            "dwc:specificEpithet": "graminifolius",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02082947",
+            "dcterms:modified": "2017-05-24",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02082947",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Orchidaceae",
+            "@id": "SONNERAT|2263505",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Elleanthus",
+            "dwc:higherClassification": "Elleanthus;Orchidaceae",
+            "dwc:specificEpithet": "graminifolius",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Elleanthus graminifolius (Barb.Rodr.) Lojtnant",
+            "dwc:scientificNameAuthorship": "(Barb.Rodr.) Lojtnant",
+            "dwc:taxonID": "SONNERAT|553073",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "18F2810807F54737A57FECD67B2412CE",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441305738917Lz7JjEBWVy67Kz3j",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

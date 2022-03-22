@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Comanthera xeranthemoides (Bong.) L.R.Parra & Giul.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000879910",
+            "dwc:catalogNumber": "K000879910",
+            "dwc:genus": "Comanthera",
+            "dwc:specificEpithet": "xeranthemoides",
+            "dwc:country": "Brazil",
+            "dwc:year": 1968,
+            "dwc:eventDate": "1968-06-01",
+            "dwc:locality": "4km N. of the Base Camp of the Expedition, close to Xavantina-São Felix road.",
+            "dwc:recordedBy": "Ratter, J.A.; Souza, R.; Santos, R.R.",
+            "dwc:decimalLatitude": -12.9,
+            "dwc:decimalLongitude": -51.87,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Echternacht, L.",
+            "dcterms:identifier": "K000879910",
+            "dwc:month": 6,
+            "dwc:day": 1,
+            "dcterms:modified": "2013-03-04",
+            "dwc:recordNumber": "1610",
+            "dwc:habitat": "Growing on short grassy campo close to a lake",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Eriocaulaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "ERIOCAULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Flora do Mato Grosso. Anglo/Brazilian Northern Mato Grosso Expedition 1967/69.",
+            "dwc:georeferenceProtocol": "Label",
+            "dwc:taxonRemarks": "(SPF & P)",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000879910",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "ERIOCAULACEAE",
+            "dwc:genus": "Syngonanthus",
+            "dwc:higherClassification": "ERIOCAULACEAE",
+            "dwc:specificEpithet": "xeranthemoides",
+            "dwc:scientificName": "Syngonanthus xeranthemoides Ruhland",
+            "dwc:scientificNameAuthorship": "Ruhland",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000879910",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/462656.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

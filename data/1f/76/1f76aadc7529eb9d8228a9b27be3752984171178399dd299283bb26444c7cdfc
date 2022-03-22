@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Nymphoides peltata (S.G.Gmel.) Kuntze",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3363129",
+            "dwc:catalogNumber": "L.3363129",
+            "dwc:genus": "Nymphoides",
+            "dwc:specificEpithet": "peltata",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "sloot te Dynaeker (E-Ebolland).",
+            "dwc:recordedBy": "Unknown",
+            "setID": "L",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3363129",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Menyanthaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asterales|Menyanthaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3363129",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

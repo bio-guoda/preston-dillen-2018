@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Astragalus ptychophyllus Boiss.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "IR",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1284843",
+            "dwc:catalogNumber": "HA.H1284843",
+            "dwc:genus": "Astragalus",
+            "dwc:specificEpithet": "ptychophyllus",
+            "dwc:country": "IR",
+            "dwc:year": 1994,
+            "dwc:eventDate": "1994-01-01/1994-12-31",
+            "dwc:locality": "In cacumine m. Sabst-Buschon [Sabz Pushan] pr. u. Schiras [Shiraz].",
+            "dwc:recordedBy": "Kotschy, Th. (430)",
+            "setID": "H",
+            "dc:typeStatus": "Isolectotype",
+            "dwc:identifiedBy": "D. Podlech",
+            "dwc:dateIdentified": "1994",
+            "dcterms:identifier": "http://tun.fi/MY.104180",
+            "dcterms:modified": "1382503577",
+            "dwc:otherCatalogNumbers": "H1284843",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "Boiss.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Astragalus ptychophyllus",
+            "dwc:organismRemarks": "Th. Kotschy. Pl. Pers. austr. Ed. R.F. Hohenacker. 1845. No. 430.",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H1284843",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Picris squarrosa Steetz",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100326671",
+            "dwc:catalogNumber": "B 10 0326671",
+            "dwc:genus": "Picris",
+            "dwc:specificEpithet": "squarrosa",
+            "dwc:country": "Australia",
+            "dwc:year": 1992,
+            "dwc:eventDate": "1992-02-06",
+            "dwc:locality": "South Australia, Region 11. Southern Lofty Port Noarlunga sand dunes, NW of Onkaparinga estuary regeneration area.",
+            "dwc:recordedBy": "A. S. Holzapfel & D. D. Cunningham",
+            "dwc:decimalLatitude": -35.15,
+            "dwc:decimalLongitude": 138.4667,
+            "setID": "B",
+            "dwc:verbatimEventDate": "06.02.1992",
+            "dwc:identifiedBy": "A. S. Holzapfel",
+            "dwc:dateIdentified": "06.02.1992",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "14a",
+            "dwc:habitat": "Middle of dunes, 100 m back from beach in association with Olearia axillaris, Acacia longifolia var. Sophorea, Kunzea pomifera, Calocephalus brownii, Lagurus ovatus, Carpobrotus sp., Spinifex sericeus",
+            "dwc:scientificNameAuthorship": "Steetz",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Probe entnommen H.W. Lack 25.10.2004",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100326671",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

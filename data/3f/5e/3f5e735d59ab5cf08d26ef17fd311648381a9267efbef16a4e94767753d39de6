@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Eria ferox",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100271999",
+            "dwc:catalogNumber": "B 10 0271999",
+            "dwc:genus": "Eria",
+            "dwc:specificEpithet": "ferox",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1952,
+            "dwc:eventDate": "1952-11-20",
+            "dwc:locality": "Nature Reserve Tjibodas.",
+            "dwc:recordedBy": "R. D. Hoogland",
+            "setID": "B",
+            "dwc:verbatimEventDate": "20.11.1952",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "3007",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ORCHIDACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ORCHIDACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "1500 m",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100271999",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

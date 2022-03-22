@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ophrys insectifera L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02096687",
+            "dwc:catalogNumber": "P02096687",
+            "dwc:genus": "Ophrys",
+            "dwc:specificEpithet": "insectifera",
+            "dwc:country": "France",
+            "dwc:year": 1867,
+            "dwc:eventDate": "1867-05-12",
+            "dwc:decimalLatitude": 44.5487,
+            "dwc:decimalLongitude": 6.0978,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "Provence-Alpes-Côte-d'Azur",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02096687",
+            "dwc:month": 5,
+            "dwc:day": 12,
+            "dcterms:modified": "2015-09-03",
+            "dwc:verbatimLocality": "Treschatel près Gap (Htes Alpes)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02096687",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Orchidaceae",
+            "@id": "SONNERAT|2240871",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Ophrys",
+            "dwc:higherClassification": "Ophrys;Orchidaceae",
+            "dwc:specificEpithet": "insectifera",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Ophrys insectifera L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|12610",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Orchidaceae",
+            "@id": "SONNERAT|8900033",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Ophrys",
+            "dwc:higherClassification": "Ophrys;Orchidaceae",
+            "dwc:specificEpithet": "insectifera",
+            "dwc:scientificName": "Ophrys insectifera L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|12610",
+            "dwc:identifiedBy": "Burle",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "6DB384752FF74B0487F863C6D85ACC14",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "6DB384752FF74B0487F863C6D85ACC14",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441305236326sjCiYkC39YC1lguB",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

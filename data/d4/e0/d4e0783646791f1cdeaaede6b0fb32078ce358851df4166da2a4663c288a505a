@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Anchusa versicolor Steven",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "GE",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1613656",
+            "dwc:catalogNumber": "HA.H1613656",
+            "dwc:genus": "Anchusa",
+            "dwc:specificEpithet": "versicolor",
+            "dwc:country": "GE",
+            "dwc:year": 2010,
+            "dwc:eventDate": "2010-05-04",
+            "dwc:locality": "In agris circa Kasbek [= Mt. Kazbek].",
+            "dwc:recordedBy": "Steven, C.",
+            "setID": "H",
+            "dc:typeStatus": "OriginalMaterial",
+            "dwc:identifiedBy": "A. Sennikov",
+            "dwc:dateIdentified": "4.5.2010",
+            "dcterms:identifier": "http://tun.fi/MY.109160",
+            "dwc:month": 5,
+            "dwc:day": 4,
+            "dcterms:modified": "1382503661",
+            "dwc:habitat": "In agris.",
+            "dwc:otherCatalogNumbers": "H1613656",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "Steven",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Anchusa versicolor",
+            "dwc:organismRemarks": "Mt. Kazbek = Russian Georgian border.",
+            "dwc:relationshipRemarks": "Fl. coerulei fucido albo alii violacei.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/HA.H1613656",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

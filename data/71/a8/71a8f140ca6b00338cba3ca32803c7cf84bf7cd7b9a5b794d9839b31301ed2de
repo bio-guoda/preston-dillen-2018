@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Thesium humifusum DC.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06718057",
+            "dwc:catalogNumber": "P06718057",
+            "dwc:genus": "Thesium",
+            "dwc:specificEpithet": "humifusum",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06718057",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Santalales",
+            "dwc:family": "Santalaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p06718057",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Santalaceae",
+            "@id": "SONNERAT|6570030",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Thesium",
+            "dwc:higherClassification": "Thesium;Santalaceae",
+            "dwc:specificEpithet": "humifusum",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Thesium humifusum DC.",
+            "dwc:scientificNameAuthorship": "DC.",
+            "dwc:taxonID": "SONNERAT|13256",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "11DCD4E6146C48C5B23F8BBCC7FB62EF",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441389354097AToHZL9wvD31PN81",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

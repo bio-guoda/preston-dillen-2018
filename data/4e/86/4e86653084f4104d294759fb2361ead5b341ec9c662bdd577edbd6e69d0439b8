@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bartonia tenella Muhl. ex Willd.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000005916481",
+            "dwc:catalogNumber": "BR0000005916481",
+            "dwc:genus": "Bartonia",
+            "dwc:specificEpithet": "tenella",
+            "dwc:country": "United States",
+            "dwc:locality": "S.L.",
+            "dwc:recordedBy": "Collector unknown",
+            "setID": "BR",
+            "dwc:verbatimEventDate": "S.D.",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000005916481",
+            "dcterms:modified": "2012-05-14",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Gentianaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:locationRemarks": "Country: Amer. boreal.",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "lat",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000005916481",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000005916481",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Anisotes spectabilis (Mildbr.) Vollesen",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "TZ",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100839883",
+            "dwc:catalogNumber": "B 10 0839883",
+            "dwc:genus": "Anisotes",
+            "dwc:specificEpithet": "spectabilis",
+            "dwc:country": "Tanzania",
+            "dwc:year": 1933,
+            "dwc:eventDate": "1933-04-10",
+            "dwc:locality": "Morogoro: Uluguru-Gebirge. Kiluguru: Mbadala",
+            "dwc:recordedBy": "Schlieben,H.J.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1933-04-10",
+            "dwc:identifiedBy": "P. Hein (B) 2016 (FTEA 2010: 657)",
+            "dwc:dateIdentified": "657)",
+            "dwc:continent": "Africa",
+            "dwc:recordNumber": "3755",
+            "dwc:scientificNameAuthorship": "(Mildbr.) Vollesen",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Acanthaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Acanthaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Africa",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "1300",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100839883",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

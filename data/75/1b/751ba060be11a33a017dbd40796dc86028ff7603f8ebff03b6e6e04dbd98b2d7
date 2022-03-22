@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Anthyllis vulneraria var. vulneraria",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "e328ea93-84d1-43d8-a2d5-27fa222e2e9e",
+            "dwc:catalogNumber": "BM001128561",
+            "dwc:genus": "Anthyllis",
+            "dwc:specificEpithet": "vulneraria",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1880,
+            "dwc:eventDate": "1880-01-01",
+            "dwc:recordedBy": "Anon.",
+            "dwc:infraspecificEpithet": "vulneraria",
+            "dwc:decimalLatitude": 50.5036,
+            "dwc:decimalLongitude": -4.6525,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "2814650",
+            "dwc:recordNumber": "36144",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2814650",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Fabaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England; Cornwall",
+            "dwc:georeferenceProtocol": "iCollections protocol",
+            "dwc:fieldNumber": "36144",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/e328ea93-84d1-43d8-a2d5-27fa222e2e9e",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/4c5675389b246f38922c1e2229d6fe9bb0811106/contents/preview",
+            "dcterms:title": "BM001128561",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

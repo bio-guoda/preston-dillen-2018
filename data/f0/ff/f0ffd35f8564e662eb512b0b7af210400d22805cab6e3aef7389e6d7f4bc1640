@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cystopteris bulbifera",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.5460",
+            "dwc:catalogNumber": "EIG.5460",
+            "dwc:genus": "Cystopteris",
+            "dwc:specificEpithet": "bulbifera",
+            "dwc:country": "United States",
+            "dwc:year": 1878,
+            "dwc:eventDate": "1878-05-17",
+            "dwc:locality": "Bluffs",
+            "dwc:recordedBy": "Eggert, H.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "17.05.1878",
+            "dwc:stateProvince": "Illinois",
+            "dwc:continent": "North America",
+            "dcterms:identifier": "http://tun.fi/MY.720504",
+            "dwc:month": 5,
+            "dwc:day": 17,
+            "dwc:county": "Scott",
+            "dcterms:modified": "1492084068",
+            "dwc:otherCatalogNumbers": "H1126455",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Bluffs in Illinois",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Cystopteris bulbifera",
+            "dwc:verbatimRecordedBy": "Eggert, H.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.5460",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

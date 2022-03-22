@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Wollemia nobilis W.G.Jones, K.D.Hill & J.M.Allen",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00058993",
+            "dwc:catalogNumber": "E00058993",
+            "dwc:genus": "Wollemia",
+            "dwc:specificEpithet": "nobilis",
+            "dwc:year": 1994,
+            "dwc:eventDate": "1994-11-17",
+            "dwc:recordedBy": "Jones, Allen & Turton, W.R., J.M., L.",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1994-11-17",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00058993",
+            "dwc:month": 11,
+            "dwc:day": 17,
+            "dcterms:modified": "2011-09-20",
+            "dwc:recordNumber": "NSW 362731",
+            "dwc:otherCatalogNumbers": "BGBASE:66114",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Pinales",
+            "dwc:family": "Araucariaceae",
+            "dwc:class": "Pinopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:occurrenceRemarks": "Spirit collection number 5332",
+            "dwc:startDayOfYear": 321,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:informationWithheld": "Sensitive location data withheld",
+            "dwc:fieldNotes": "Tree to 40 m tall. A stand of about 20 plants. Bark from fallen trunk. Small stands of coachwood forest in deep sheltered gorge in sandstone",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00058993",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00058993 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00058993",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMDU4Lzk5My81MTE3MjkuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00058993",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

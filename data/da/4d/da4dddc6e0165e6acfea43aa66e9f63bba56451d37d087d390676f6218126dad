@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium adiantum-nigrum  subsp. adiantum-nigrum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7147",
+            "dwc:catalogNumber": "EIG.7147",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "adiantum-nigrum",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-10-28",
+            "dwc:locality": "West Shewa, Finicha, c. 3 km W of the town",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "dwc:geodeticDatum": "Dms",
+            "setID": "H",
+            "dwc:verbatimEventDate": "28.10.1982",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.726087",
+            "dwc:month": 10,
+            "dwc:day": 28,
+            "dcterms:modified": "1492084181",
+            "dwc:recordNumber": "12400",
+            "dwc:otherCatalogNumbers": "H1489466",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Welega Adm. Reg, Fincha. 2000 m.",
+            "dwc:datasetID": "GX.231",
+            "dwc:verbatimCoordinates": "09°14'N; 37°20'E (degrees, minutes)",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium adiantum-nigrum subsp. adiantum-nigrum",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dwc:verbatimLongitude": "37°20'",
+            "dwc:verbatimLatitude": "09°14'",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7147",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

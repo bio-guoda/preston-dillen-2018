@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum calycinum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "240cf6c5-d458-49aa-af60-161e0fc26f93",
+            "dwc:catalogNumber": "BM001205340",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "calycinum",
+            "dwc:country": "Canada",
+            "dwc:year": 1951,
+            "dwc:eventDate": "1951-07-11",
+            "dwc:recordedBy": "William Bird",
+            "setID": "BM",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "8103772",
+            "dwc:month": 7,
+            "dwc:day": 11,
+            "dwc:recordNumber": "1245",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8103772",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Canada",
+            "dwc:fieldNumber": "1245",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/240cf6c5-d458-49aa-af60-161e0fc26f93",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/0f548315aed2419433310bbeeee44072f6fb3243/contents/preview",
+            "dcterms:title": "BM001205340",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

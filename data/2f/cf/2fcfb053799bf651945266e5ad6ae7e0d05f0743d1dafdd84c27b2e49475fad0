@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex leporina L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU275129",
+            "dwc:catalogNumber": "TU275129",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "leporina",
+            "dwc:country": "Estonia",
+            "dwc:year": 1960,
+            "dwc:eventDate": "1960-06-28",
+            "dwc:locality": "Lohkva tee ‰‰res, Tartust ca 0,5 km",
+            "dwc:recordedBy": "V. Lilleleht",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1960-06-28",
+            "dwc:identifiedBy": "V. Lilleleht",
+            "dwc:dateIdentified": "1960-06-28T00:00:00.000+0000",
+            "dcterms:identifier": "TU275129",
+            "dwc:month": 6,
+            "dwc:day": 28,
+            "dwc:habitat": "habitat: niit",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Monocotyledonae; Poales; Cyperaceae; Carex",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/513601",
+            "dwc:eventID": 768656,
+            "dwc:taxonID": 3436,
+            "dwc:locationID": 685745,
+            "dwc:identificationID": 795399,
+            "dwc:vernacularName": "j‰nestarn",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/513601",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/74/9B/749BF0701F04786C7BA7EF13A1945A5DA5D638DF2B6C56EDD8BF27B5A3029B38.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1478711",
+            "dcterms:title": "TU275129.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

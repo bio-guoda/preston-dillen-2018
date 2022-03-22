@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Salix laevigata var. araquipa (Jeps.) C.R.Ball",
+            "dwc:taxonRank": "var.",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100172773",
+            "dwc:catalogNumber": "B 10 0172773",
+            "dwc:genus": "Salix",
+            "dwc:specificEpithet": "laevigata",
+            "dwc:country": "USA",
+            "dwc:year": 1931,
+            "dwc:locality": "California, Los Angeles. Santa Clara River Valley, 15 km. north of Castaie.",
+            "dwc:recordedBy": "H. K. Sharsmith",
+            "dwc:infraspecificEpithet": "araquipa",
+            "setID": "B",
+            "dwc:verbatimEventDate": "26.10.1931",
+            "dwc:continent": "North America",
+            "dwc:recordNumber": "2",
+            "dwc:scientificNameAuthorship": "C.R.Ball",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "SALICACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; SALICACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "North America",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "315m",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100172773",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

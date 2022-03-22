@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Leiophyllum buxifolium (Berg.) Ell.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00710247",
+            "dwc:catalogNumber": "P00710247",
+            "dwc:genus": "Kalmia",
+            "dwc:specificEpithet": "buxifolium",
+            "dwc:year": 1833,
+            "dwc:eventDate": "1833-04-01",
+            "dwc:recordedBy": "s.c.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00710247",
+            "dwc:month": 4,
+            "dcterms:modified": "2015-09-27",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Ericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00710247",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Ericaceae",
+            "@id": "SONNERAT|1213116",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Leiophyllum",
+            "dwc:higherClassification": "Leiophyllum;Ericaceae",
+            "dwc:specificEpithet": "buxifolium",
+            "dwc:scientificName": "Leiophyllum buxifolium (Bergius) Elliott",
+            "dwc:scientificNameAuthorship": "(Bergius) Elliott",
+            "dwc:taxonID": "SONNERAT|259799",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Ericaceae",
+            "@id": "SONNERAT|1213117",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Ledum",
+            "dwc:higherClassification": "Ledum;Ericaceae",
+            "dwc:specificEpithet": "thymifolium",
+            "dwc:scientificName": "Ledum thymifolium Lam.",
+            "dwc:scientificNameAuthorship": "Lam.",
+            "dwc:taxonID": "SONNERAT|259798",
+            "dwc:typeStatus": "type",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "F00928C6426D4246AD2320BD51E32997",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Muséum National d'Histoire Naturelle, MJ",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443330131820FJtzXqpy3i5UmzCM",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

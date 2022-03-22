@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris unidentata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1074",
+            "dwc:catalogNumber": "EIG.1074",
+            "dwc:genus": "Dryopteris",
+            "dwc:specificEpithet": "unidentata",
+            "dwc:country": "United States",
+            "dwc:year": 1948,
+            "dwc:eventDate": "1948-04-06",
+            "dwc:locality": "In forest on summit of Kohala Mt.",
+            "dwc:recordedBy": "Skottsberg, Carl",
+            "setID": "H",
+            "dwc:verbatimEventDate": "06.04.1948",
+            "dwc:stateProvince": "Hawaii",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.683287",
+            "dwc:month": 4,
+            "dwc:day": 6,
+            "dwc:county": "Hawaii",
+            "dcterms:modified": "1492083321",
+            "dwc:recordNumber": "5008",
+            "dwc:otherCatalogNumbers": "H1107075",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Hawaii, in forest on summit of Kohala Mts.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris unidentata",
+            "dwc:verbatimRecordedBy": "Skottsberg, Carl",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1074",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

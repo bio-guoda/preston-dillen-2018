@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pteris ensiformis",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1056223",
+            "dwc:catalogNumber": "H.1056223",
+            "dwc:genus": "Pteris",
+            "dwc:specificEpithet": "ensiformis",
+            "dwc:country": "China",
+            "dwc:year": 1940,
+            "dwc:eventDate": "1940-06-15",
+            "dwc:locality": "Hong Kong Island, Peak Road",
+            "dwc:recordedBy": "Taam, Y. W.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "15.06.1940",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.743962",
+            "dwc:month": 6,
+            "dwc:day": 15,
+            "dcterms:modified": "1492084424",
+            "dwc:recordNumber": "1443",
+            "dwc:otherCatalogNumbers": "H1056223",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Kong Kong Island. Lugard Road, May Road, Peak Road or Chatham Road near Peak.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Pteris ensiformis",
+            "dwc:verbatimRecordedBy": "Taam, Y. W.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1056223",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

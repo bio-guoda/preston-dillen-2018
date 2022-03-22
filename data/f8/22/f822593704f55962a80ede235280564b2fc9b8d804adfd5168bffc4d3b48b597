@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum ellipticum Hook.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "f4917f30-ec9f-46a1-a08b-79bc2fdb6efe",
+            "dwc:catalogNumber": "BM001205902",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "ellipticum",
+            "dwc:country": "Canada",
+            "dwc:year": 1877,
+            "dwc:eventDate": "1877-06-01",
+            "dwc:recordedBy": "John Macoun",
+            "setID": "BM",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "8104543",
+            "dwc:month": 6,
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "345",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8104543",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Canada",
+            "dwc:fieldNumber": "345",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/f4917f30-ec9f-46a1-a08b-79bc2fdb6efe",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/00ada425d397906852320ff010e0acb85afbba39/contents/preview",
+            "dcterms:title": "BM001205902",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum dulcamara L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "0aa35b1f-b045-420d-9082-6546a1bd938a",
+            "dwc:catalogNumber": "BM000846296",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "dulcamara",
+            "dwc:country": "Canada",
+            "dwc:year": 1955,
+            "dwc:eventDate": "1955-08-05",
+            "dwc:locality": "Vancouver, Vancouver 8: Alma. Roadside",
+            "dwc:recordedBy": "William Bird",
+            "setID": "BM",
+            "dwc:stateProvince": "British Columbia",
+            "dwc:identifiedBy": "Sandra (Sandy) Diane Knapp",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "5448339",
+            "dwc:month": 8,
+            "dwc:day": 5,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "1322",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448339",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Canada; British Columbia",
+            "dwc:fieldNumber": "1322",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/0aa35b1f-b045-420d-9082-6546a1bd938a",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/16061e3568cea224a454de41b10ca2682575ddc9/contents/preview",
+            "dcterms:title": "BM000846296",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

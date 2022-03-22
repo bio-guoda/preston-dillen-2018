@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Silene conica L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1561522",
+            "dwc:catalogNumber": "WAG.1561522",
+            "dwc:genus": "Silene",
+            "dwc:specificEpithet": "conica",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Oostvoorne, Oostvoorne's duingebied, West of Breede Water.",
+            "dwc:recordedBy": "Kool A; Wieringa JJ",
+            "dwc:decimalLatitude": 51.8972,
+            "dwc:decimalLongitude": 4.045,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "2004/06/30 | 2004/06/01",
+            "dwc:stateProvince": "Zuid-Holland",
+            "dwc:identifiedBy": "Wieringa JJ; Kool A",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "WAG.1561522",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Caryophyllaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophyllales|Caryophyllaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1561522",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

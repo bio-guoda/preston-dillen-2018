@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Acacia intricata S.Moore",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "333757c3-081a-478e-803d-6b2674a42754",
+            "dwc:catalogNumber": "BM000796649",
+            "dwc:genus": "Acacia",
+            "dwc:specificEpithet": "intricata",
+            "dwc:country": "Australia",
+            "dwc:year": 1916,
+            "dwc:eventDate": "1916-01-01",
+            "dwc:recordedBy": "Frederick Stoward",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:identifiedBy": "B R. Maslin",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "4989714",
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "756",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4989714",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Leguminosae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "756",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/333757c3-081a-478e-803d-6b2674a42754",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/9173e8ec0b3bf8ab1189f14867b2352da2331662/contents/preview",
+            "dcterms:title": "BM000796649",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/b27bec7cf00c60e05237b0ce5be287a5f4a76dd5/contents/preview",
+            "dcterms:title": "BM000796649",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

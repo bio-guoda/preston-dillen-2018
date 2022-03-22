@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ouratea reticulata var. nutans Hiern",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "a4887457-02bc-4099-b1e8-9804c837d1a0",
+            "dwc:catalogNumber": "BM000798595",
+            "dwc:genus": "Campylospermum",
+            "dwc:specificEpithet": "reticulata",
+            "dwc:year": 1853,
+            "dwc:eventDate": "1853-09-01",
+            "dwc:recordedBy": "Friedrich Martin Josef Welwitsch",
+            "dwc:infraspecificEpithet": "nutans",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dcterms:identifier": "4518569",
+            "dwc:month": 9,
+            "dcterms:modified": "2017-08-21",
+            "dwc:recordNumber": "4606",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4518569",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Ochnaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Ochnaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Principe",
+            "dwc:fieldNumber": "4606",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.nhm.ac.uk/object/a4887457-02bc-4099-b1e8-9804c837d1a0",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/7600deaa85f6029e5a6733b9a48282fc1b5734bb/contents/preview",
+            "dcterms:title": "BM000798595",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pteris pteridioides",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1091939",
+            "dwc:catalogNumber": "H.1091939",
+            "dwc:genus": "Pteris",
+            "dwc:specificEpithet": "pteridioides",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1965,
+            "dwc:eventDate": "1965-08-14",
+            "dwc:locality": "Bonga, near R. C. Mission",
+            "setID": "H",
+            "dwc:verbatimEventDate": "14.08.1965",
+            "dwc:stateProvince": "Southern Nations, Nationalities and Peoples",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.744931",
+            "dwc:month": 8,
+            "dwc:day": 14,
+            "dwc:county": "Keffa",
+            "dcterms:modified": "1492084443",
+            "dwc:otherCatalogNumbers": "H1091939",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Alt. ± 2000 m",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Pteris pteridioides",
+            "dwc:verbatimRecordedBy": "de Wilde, W. J. J. O.; de Wilde-Duyhjes, B. E. E.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1091939",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

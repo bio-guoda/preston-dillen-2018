@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Baccharis aphylla DC.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001100358",
+            "dwc:catalogNumber": "K001100358",
+            "dwc:genus": "Baccharis",
+            "dwc:specificEpithet": "aphylla",
+            "dwc:country": "Brazil",
+            "dwc:year": 2006,
+            "dwc:eventDate": "2006-09-19",
+            "dwc:locality": "Parque Estadual do Ibitipo.",
+            "dwc:recordedBy": "Borges, R.A.X.",
+            "setID": "K",
+            "dcterms:identifier": "K001100358",
+            "dwc:month": 9,
+            "dwc:day": 19,
+            "dcterms:modified": "2015-05-15",
+            "dwc:recordNumber": "259",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Lima Duarte",
+            "dwc:municipality": "Lima Duarte",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K001100358",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001100358",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/727059.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

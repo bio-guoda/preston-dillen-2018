@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pedicularis L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000026835242V",
+            "dwc:catalogNumber": "BR0000026835242V",
+            "dwc:genus": "Pedicularis",
+            "dwc:country": "United States",
+            "dwc:year": 1979,
+            "dwc:eventDate": "1979-07-01",
+            "dwc:locality": "Yosemite National Park, California, U.S.A., in bos",
+            "dwc:recordedBy": "Hugo Borgoo",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000026835242V",
+            "dwc:month": 7,
+            "dcterms:modified": "2017-07-31",
+            "dwc:recordNumber": "25",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Orobanchaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dcterms:language": "nld",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000026835242V",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000026835242V",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

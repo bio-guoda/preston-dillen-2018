@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ficinia indica H.Pfeiff.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01835357",
+            "dwc:catalogNumber": "P01835357",
+            "dwc:genus": "Ficinia",
+            "dwc:specificEpithet": "indica",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01835357",
+            "dcterms:modified": "2015-09-03",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01835357",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Cyperaceae",
+            "@id": "SONNERAT|2814123",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Ficinia",
+            "dwc:higherClassification": "Ficinia;Cyperaceae",
+            "dwc:specificEpithet": "indica",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Ficinia indica (Lam.) H.Pfeiff.",
+            "dwc:scientificNameAuthorship": "(Lam.) H.Pfeiff.",
+            "dwc:taxonID": "SONNERAT|656738",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "9C0377CAF1D34486A8A508596A04E510",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/14413146282259p1KTq2QPMQQZ10Y",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

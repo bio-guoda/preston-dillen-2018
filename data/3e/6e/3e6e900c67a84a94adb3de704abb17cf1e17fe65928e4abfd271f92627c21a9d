@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Blechnum opacum Mett.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NC",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000013305864",
+            "dwc:catalogNumber": "BR0000013305864",
+            "dwc:genus": "Cranfillia",
+            "dwc:specificEpithet": "opacum",
+            "dwc:country": "New Caledonia",
+            "dwc:year": 1847,
+            "dwc:eventDate": "1847-01-01",
+            "dwc:locality": "Bagup",
+            "dwc:recordedBy": "Vieillard E.",
+            "setID": "BR",
+            "dwc:verbatimEventDate": "47",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000013305864",
+            "dcterms:modified": "2012-07-09",
+            "dwc:recordNumber": "1533",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Blechnaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "lat",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000013305864",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000013305864",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

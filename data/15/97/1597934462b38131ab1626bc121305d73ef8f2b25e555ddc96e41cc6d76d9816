@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula bononiensis L.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100506209",
+            "dwc:catalogNumber": "B 10 0506209",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "bononiensis",
+            "dwc:country": "Germany",
+            "dwc:year": 1978,
+            "dwc:locality": "Stolzenhagen.",
+            "dwc:recordedBy": "E. Koch",
+            "setID": "B",
+            "dwc:verbatimEventDate": "03.08.1978",
+            "dwc:continent": "Europe",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100506209",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

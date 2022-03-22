@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Parmelina atricha (Nyl.) P.Clerc",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9505420",
+            "dwc:catalogNumber": "HA.H9505420",
+            "dwc:genus": "Parmelina",
+            "dwc:specificEpithet": "atricha",
+            "dwc:country": "FR",
+            "dwc:year": 1872,
+            "dwc:eventDate": "1872-07-12",
+            "dwc:recordedBy": "Nylander, W.",
+            "dwc:decimalLatitude": 42.4046,
+            "dwc:decimalLongitude": 2.4783,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:stateProvince": "Languedoc-Roussillon, Pyrénées-Orientales",
+            "dwc:identifiedBy": "Ahti, T.",
+            "dwc:dateIdentified": "2008",
+            "dwc:continent": "Europe",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5072724",
+            "dwc:month": 7,
+            "dwc:day": 12,
+            "dwc:county": "Prats-de-Mollo-la-Preste",
+            "dcterms:modified": "1524663112",
+            "dwc:recordNumber": "16",
+            "dwc:coordinateUncertaintyInMeters": 6000,
+            "dwc:verbatimElevation": "1150",
+            "dwc:otherCatalogNumbers": "H9505420",
+            "dwc:collectionID": "http://tun.fi/HR.130",
+            "dwc:verbatimLocality": "Pyren. Orient., La Preste.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "42.40463 2.47827 WGS84 (6000m)",
+            "dwc:scientificNameAuthorship": "(Nyl.) P.Clerc",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Parmelina atricha",
+            "dwc:verbatimRecordedBy": "W. Nylander",
+            "dwc:verbatimLongitude": "2.47827",
+            "dwc:verbatimLatitude": "42.40463",
+            "dcterms:language": "fra",
+            "@id": "http://id.luomus.fi/HA.H9505420",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

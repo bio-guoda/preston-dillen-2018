@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Juncus L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3147619",
+            "dwc:catalogNumber": "L.3147619",
+            "dwc:genus": "Juncus",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Numspeet, achter 't Ronde Luis.",
+            "dwc:recordedBy": "Jansen P; Wachter WH",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1918/07/31 | 1918/07/01",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3147619",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Juncaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Juncaceae",
+            "dwc:verbatimTaxonRank": "unknown",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3147619",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

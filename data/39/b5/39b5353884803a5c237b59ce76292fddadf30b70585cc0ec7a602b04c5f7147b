@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Thymus serpyllum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "RU",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03020627",
+            "dwc:catalogNumber": "P03020627",
+            "dwc:genus": "Thymus",
+            "dwc:specificEpithet": "serpyllum",
+            "dwc:country": "Russian Federation",
+            "dwc:year": 1893,
+            "dwc:eventDate": "1893-05-25",
+            "dwc:recordedBy": "Faurie",
+            "dwc:decimalLatitude": 45.0175,
+            "dwc:decimalLongitude": 147.87,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "<U+0421><U+0430><U+0445><U+0430><U+043B><U+0438><U+043D><U+0441><U+043A><U+0430><U+044F> <U+043E><U+0431><U+043B><U+0430><U+0441><U+0442><U+044C>(Sakhalin oblast)",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03020627",
+            "dwc:month": 5,
+            "dwc:day": 25,
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Rebunshiri",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03020627",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Lamiaceae",
+            "@id": "SONNERAT|4998874",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Thymus",
+            "dwc:higherClassification": "Thymus;Lamiaceae",
+            "dwc:specificEpithet": "serpyllum",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Thymus serpyllum L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|12",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "BE034CC2B1844AA5BD9828B0D615A6E3",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "BE034CC2B1844AA5BD9828B0D615A6E3",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441353804742yWsSOtqJwZVKr3ve",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

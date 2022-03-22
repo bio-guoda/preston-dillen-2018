@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pteridium aquilinum  subsp. aquilinum",
+            "dwc:taxonRank": "Ssp",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1057370",
+            "dwc:catalogNumber": "H.1057370",
+            "dwc:genus": "Pteridium",
+            "dwc:specificEpithet": "aquilinum",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1965,
+            "dwc:eventDate": "1965-01-01/1965-12-31",
+            "dwc:locality": "Maragoli",
+            "dwc:recordedBy": "Stjernberg, Anders-Gustaf",
+            "dwc:infraspecificEpithet": "aquilinum",
+            "setID": "H",
+            "dwc:verbatimEventDate": "1965",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.744031",
+            "dcterms:modified": "1492084425",
+            "dwc:otherCatalogNumbers": "H1057370",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Pteridium aquilinum subsp. aquilinum",
+            "dwc:verbatimRecordedBy": "Stjernberg, Anders-Gustaf",
+            "dcterms:language": "swe",
+            "@id": "http://id.luomus.fi/H.1057370",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

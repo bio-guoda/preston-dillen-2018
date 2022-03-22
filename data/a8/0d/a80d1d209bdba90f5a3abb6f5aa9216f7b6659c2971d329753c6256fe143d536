@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris pentheri",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.381",
+            "dwc:catalogNumber": "EIG.381",
+            "dwc:genus": "Dryopteris",
+            "dwc:specificEpithet": "pentheri",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-10-27",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "dwc:geodeticDatum": "Dms",
+            "setID": "H",
+            "dwc:verbatimEventDate": "27.10.1982",
+            "dwc:stateProvince": "Oromia",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.715044",
+            "dwc:month": 10,
+            "dwc:day": 27,
+            "dwc:county": "East Shewa",
+            "dcterms:modified": "1492083940",
+            "dwc:recordNumber": "12373a",
+            "dwc:otherCatalogNumbers": "H1489446",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Shewa Adm. Reg. 26 km N of Gedo on the road to Fincha, c. 2900 m.",
+            "dwc:datasetID": "GX.2951",
+            "dwc:verbatimCoordinates": "09°07 N, 37°20 E (degrees, minutes)",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris pentheri",
+            "dwc:organismRemarks": "Label: Typed",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dwc:verbatimLongitude": "37°20",
+            "dwc:verbatimLatitude": "09°07",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.381",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

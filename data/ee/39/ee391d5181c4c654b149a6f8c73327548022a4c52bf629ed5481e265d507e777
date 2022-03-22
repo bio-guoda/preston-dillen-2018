@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pouzolzia fadenii Friis & S.Jellis",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "KE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008719041",
+            "dwc:catalogNumber": "BR0000008719041",
+            "dwc:genus": "Pouzolzia",
+            "dwc:specificEpithet": "fadenii",
+            "dwc:country": "Kenya",
+            "dwc:year": 1974,
+            "dwc:eventDate": "1974-07-01",
+            "dwc:locality": "Kitwa Pembe Hill",
+            "dwc:recordedBy": "Faden R.B. & Faden A.J.",
+            "dwc:decimalLatitude": -2.45,
+            "dwc:decimalLongitude": 40.7,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008719041",
+            "dwc:month": 7,
+            "dcterms:modified": "2007-04-11",
+            "dwc:recordNumber": "74/1092",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Rosales",
+            "dwc:family": "Urticaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "eng",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008719041",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008719041",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

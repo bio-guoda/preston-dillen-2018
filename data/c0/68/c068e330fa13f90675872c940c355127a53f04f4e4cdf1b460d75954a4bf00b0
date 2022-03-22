@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Lepyrodia monoica F.Muell.",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100278843",
+            "dwc:catalogNumber": "B 10 0278843",
+            "dwc:genus": "Lepyrodia",
+            "dwc:specificEpithet": "monoica",
+            "dwc:country": "Australia",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-10-30",
+            "dwc:locality": "WA; Darling; Base of Devils Slide, Porongurup National Park, Porongurup NP.",
+            "dwc:recordedBy": "L. A. S. Johnson & B. G. Briggs",
+            "dwc:decimalLatitude": -34.6667,
+            "dwc:decimalLongitude": 117.95,
+            "setID": "B",
+            "dwc:verbatimEventDate": "30.10.1988",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "8465",
+            "dwc:scientificNameAuthorship": "F.Muell.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "RESTIONACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; RESTIONACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100278843",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

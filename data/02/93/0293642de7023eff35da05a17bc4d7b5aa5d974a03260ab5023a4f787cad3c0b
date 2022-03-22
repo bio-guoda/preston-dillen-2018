@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Helianthemum guttatum (L.) Miller",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04637817",
+            "dwc:catalogNumber": "P04637817",
+            "dwc:genus": "Tuberaria",
+            "dwc:specificEpithet": "guttatum",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04637817",
+            "dcterms:modified": "2015-09-05",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malvales",
+            "dwc:family": "Cistaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04637817",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Cistaceae",
+            "@id": "SONNERAT|7096665",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Helianthemum",
+            "dwc:higherClassification": "Helianthemum;Cistaceae",
+            "dwc:specificEpithet": "guttatum",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Helianthemum guttatum (L.) Mill.",
+            "dwc:scientificNameAuthorship": "(L.) Mill.",
+            "dwc:taxonID": "SONNERAT|57819",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "FF3F4CCB2BC74EEFBAD4D6786837239C",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441428900922Ivz2I8Gu83qspnbz",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

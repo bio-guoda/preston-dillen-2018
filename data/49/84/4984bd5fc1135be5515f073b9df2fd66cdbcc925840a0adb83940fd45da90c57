@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rhynchospora fusca (L.) W.T.Aiton",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02228427",
+            "dwc:catalogNumber": "P02228427",
+            "dwc:genus": "Rhynchospora",
+            "dwc:specificEpithet": "fusca",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02228427",
+            "dcterms:modified": "2015-09-03",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02228427",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Cyperaceae",
+            "@id": "SONNERAT|2982142",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Rhynchospora",
+            "dwc:higherClassification": "Rhynchospora;Cyperaceae",
+            "dwc:specificEpithet": "fusca",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Rhynchospora fusca (L.) W.T.Aiton",
+            "dwc:scientificNameAuthorship": "(L.) W.T.Aiton",
+            "dwc:taxonID": "SONNERAT|2098859",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "7CA838484F33425CB5155045A4AF21B3",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441321222080xUzWDdfE9bMd6d5Y",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

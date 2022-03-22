@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Elaphoglossum rigidum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7034",
+            "dwc:catalogNumber": "EIG.7034",
+            "dwc:genus": "Elaphoglossum",
+            "dwc:specificEpithet": "rigidum",
+            "dwc:country": "United States",
+            "dwc:year": 1965,
+            "dwc:eventDate": "1965-06-01/1965-06-30",
+            "dwc:locality": "El Verde. Radiation field and its surroundings.",
+            "dwc:recordedBy": "Sorsa, Veikko",
+            "dwc:geodeticDatum": "Dms",
+            "setID": "H",
+            "dwc:verbatimEventDate": "06.1965",
+            "dwc:stateProvince": "Puerto Rico",
+            "dwc:continent": "Central America, South America and the Antarctic",
+            "dcterms:identifier": "http://tun.fi/MY.725712",
+            "dwc:month": 6,
+            "dcterms:modified": "1492084174",
+            "dwc:recordNumber": "105/1965",
+            "dwc:otherCatalogNumbers": "H1544788",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "50 m E from the radiation center.",
+            "dwc:datasetID": "GX.270",
+            "dwc:verbatimCoordinates": "18°21’ N 65°50’ W (degrees, minutes)",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Elaphoglossum rigidum",
+            "dwc:verbatimRecordedBy": "Sorsa, Veikko",
+            "dwc:verbatimLongitude": "-65°50'",
+            "dwc:verbatimLatitude": "18°21'",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7034",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

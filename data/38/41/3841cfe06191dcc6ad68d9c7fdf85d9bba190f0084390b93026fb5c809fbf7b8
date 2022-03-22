@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pyrus communis L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU302230",
+            "dwc:catalogNumber": "TU302230",
+            "dwc:genus": "Pyrus",
+            "dwc:specificEpithet": "communis",
+            "dwc:country": "Estonia",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-05-27",
+            "dwc:locality": "Põlva raj., Kanepi",
+            "dwc:recordedBy": "L. Pihlapuu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1971-05-27",
+            "dwc:identifiedBy": "L. Pihlapuu",
+            "dwc:dateIdentified": "1971-09-05T00:00:00.000+0000",
+            "dcterms:identifier": "TU302230",
+            "dwc:month": 5,
+            "dwc:day": 27,
+            "dwc:habitat": "habitat: Aias viljapuuna",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Rosales",
+            "dwc:family": "Rosaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Rosales; Rosaceae; Pyrus",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/484011",
+            "dwc:eventID": 739066,
+            "dwc:taxonID": 6668,
+            "dwc:locationID": 656155,
+            "dwc:identificationID": 752134,
+            "dwc:vernacularName": "harilik pirnipuu",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/484011",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/B6/42/B642FB4FA49CF61CAF17AAFCD8C84033EC36E8D412C7527E52007AA8A053B0EA.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1473589",
+            "dcterms:title": "TU302230.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

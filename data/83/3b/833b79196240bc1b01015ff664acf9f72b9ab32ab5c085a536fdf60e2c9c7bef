@@ -1,0 +1,105 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Clusia criuva subsp. parviflora Vesque",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001092810",
+            "dwc:catalogNumber": "K001092810",
+            "dwc:genus": "Clusia",
+            "dwc:specificEpithet": "criuva",
+            "dwc:country": "Brazil",
+            "dwc:locality": "Rio Janeiro",
+            "dwc:recordedBy": "Gaziou, A.",
+            "dwc:infraspecificEpithet": "parviflora",
+            "dwc:decimalLatitude": -22.92,
+            "dwc:decimalLongitude": -43.22,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Nascimento, J.E. Jr.",
+            "dcterms:identifier": "K001092810",
+            "dcterms:modified": "2016-01-26",
+            "dwc:recordNumber": "13577",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Clusiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CLUSIACEAE; CLUSIACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://specimens.kew.org/herbarium/K001092810",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "CLUSIACEAE",
+            "dwc:genus": "Clusia",
+            "dwc:higherClassification": "CLUSIACEAE",
+            "dwc:specificEpithet": "ildefonsiana",
+            "dwc:scientificName": "Clusia ildefonsiana A.Rich.",
+            "dwc:identifiedBy": "Engler",
+            "dwc:scientificNameAuthorship": "A.Rich.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "CLUSIACEAE",
+            "dwc:genus": "Clusia",
+            "dwc:higherClassification": "CLUSIACEAE",
+            "dwc:specificEpithet": "sellowiana",
+            "dwc:scientificName": "Clusia sellowiana Schltdl.",
+            "dwc:identifiedBy": "Glaziou, A.",
+            "dwc:scientificNameAuthorship": "Schltdl.",
+            "dwc:dateIdentified": "1883-04-00",
+            "dwc:taxonRemarks": "Author citation as on label:   Clusia near sellowiana Schltdl.",
+            "dwc:identificationQualifier": "near",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "CLUSIACEAE",
+            "dwc:genus": "Clusia",
+            "dwc:higherClassification": "CLUSIACEAE",
+            "dwc:specificEpithet": "criuva",
+            "dwc:scientificName": "Clusia criuva Cambess. subsp. criuva",
+            "dwc:identifiedBy": "Bittrich, V.",
+            "dwc:scientificNameAuthorship": "Cambess.",
+            "dwc:dateIdentified": "2008-12-00",
+            "dwc:infraspecificEpithet": "criuva",
+            "dwc:taxonRank": "subsp.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "CLUSIACEAE",
+            "dwc:genus": "Clusia",
+            "dwc:higherClassification": "CLUSIACEAE",
+            "dwc:specificEpithet": "criuva",
+            "dwc:scientificName": "Clusia criuva Cambess. subsp. ildefonsiana Vesque",
+            "dwc:identifiedBy": "Nascimento-Jr., J.E",
+            "dwc:scientificNameAuthorship": "Cambess.",
+            "dwc:dateIdentified": "2015-00-00",
+            "dwc:infraspecificEpithet": "ildefonsiana",
+            "dwc:taxonRank": "subsp.",
+            "dwc:typeStatus": "syntype",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001092810",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/834592.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

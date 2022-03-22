@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Adiantum aleuticum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "FI",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1099717",
+            "dwc:catalogNumber": "H.1099717",
+            "dwc:genus": "Adiantum",
+            "dwc:specificEpithet": "aleuticum",
+            "dwc:country": "Finland",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-06-21",
+            "dwc:recordedBy": "Alanko, Pentti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "21.06.1971",
+            "dwc:continent": "North America",
+            "dcterms:identifier": "http://tun.fi/MY.745084",
+            "dwc:month": 6,
+            "dwc:day": 21,
+            "dcterms:modified": "1492084446",
+            "dwc:recordNumber": "17,074",
+            "dwc:otherCatalogNumbers": "H1099717",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Nylandia, Elimäki, Arboretum Mustila, (60º44'N 26º29'E)",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Adiantum aleuticum",
+            "dwc:organismRemarks": "Arboretum Mustila, cultae VI:51",
+            "dwc:establishmentMeans": "MY.provenanceCultivated",
+            "dwc:verbatimRecordedBy": "Alanko, Pentti",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/H.1099717",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

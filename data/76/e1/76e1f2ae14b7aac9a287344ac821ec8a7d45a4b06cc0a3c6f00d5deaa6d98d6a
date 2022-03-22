@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Capparis sclerophylla Iltis & Cornejo",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "EC",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100375227",
+            "dwc:catalogNumber": "B 10 0375227",
+            "dwc:genus": "Capparis",
+            "dwc:specificEpithet": "sclerophylla",
+            "dwc:country": "Ecuador",
+            "dwc:year": 1997,
+            "dwc:eventDate": "1997-10-27",
+            "dwc:locality": "Ecuador: Prov. Manabí; Bahía de Caráquez a 8 km; a",
+            "dwc:recordedBy": "Cornejo,X. & Bonifaz,C.",
+            "dwc:decimalLatitude": -0.75,
+            "dwc:decimalLongitude": -80.5333,
+            "setID": "B",
+            "dwc:verbatimEventDate": "1997-10-27",
+            "dwc:identifiedBy": "anon.",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "5822",
+            "dwc:scientificNameAuthorship": "Iltis & Cornejo",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Capparaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Capparaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "30",
+            "dcterms:language": "spa",
+            "@id": "http://herbarium.bgbm.org/object/B100375227",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

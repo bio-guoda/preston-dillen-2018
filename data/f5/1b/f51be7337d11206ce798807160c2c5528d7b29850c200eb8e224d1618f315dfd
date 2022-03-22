@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dichapetalum whitei Torre",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ZM",
+            "dwc:occurrenceID": "f4c3e8b1-6492-4b91-a722-575a6814f4fb",
+            "dwc:catalogNumber": "BM000799936",
+            "dwc:genus": "Dichapetalum",
+            "dwc:specificEpithet": "whitei",
+            "dwc:country": "Zambia",
+            "dwc:year": 1952,
+            "dwc:eventDate": "1952-09-25",
+            "dwc:locality": "Nearest Named Place: Northern Rhodesia",
+            "dwc:recordedBy": "F White",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "4517119",
+            "dwc:month": 9,
+            "dwc:day": 25,
+            "dcterms:modified": "2017-08-21",
+            "dwc:recordNumber": "3364",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4517119",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Dichapetalaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Dichapetalaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Africa; Zambia",
+            "dwc:fieldNumber": "3364",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/f4c3e8b1-6492-4b91-a722-575a6814f4fb",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/71ff8aae78858655f7cdf5464531af3bcc17078c/contents/preview",
+            "dcterms:title": "BM000799936",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Knema laurina Warb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/U.1429670",
+            "dwc:catalogNumber": "U.1429670",
+            "dwc:genus": "Knema",
+            "dwc:specificEpithet": "laurina",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1920,
+            "dwc:eventDate": "1920-09-25",
+            "dwc:locality": "G. Paroengpoeng. Tjampea",
+            "dwc:recordedBy": "Bakhuizen van den Brink Jr RC",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1920/09/25",
+            "dwc:stateProvince": "Java",
+            "dwc:identifiedBy": "Sinclair J",
+            "dwc:dateIdentified": "1959-09-02T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "U.1429670",
+            "dwc:month": 9,
+            "dwc:day": 25,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Magnoliales",
+            "dwc:family": "Myristicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Magnoliales|Myristicaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/U.1429670",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

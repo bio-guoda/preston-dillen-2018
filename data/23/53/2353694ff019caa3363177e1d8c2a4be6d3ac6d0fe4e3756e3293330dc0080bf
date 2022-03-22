@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lycopodiella inundata (L.) Holub",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01227127",
+            "dwc:catalogNumber": "P01227127",
+            "dwc:genus": "Lycopodiella",
+            "dwc:specificEpithet": "inundata",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01227127",
+            "dcterms:modified": "2015-09-03",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lycopodiales",
+            "dwc:family": "Lycopodiaceae",
+            "dwc:class": "Lycopodiopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01227127",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|1497915",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Lycopodiella",
+            "dwc:higherClassification": "Lycopodiella;Pteridophyta",
+            "dwc:specificEpithet": "inundata",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Lycopodiella inundata (L.) Holub",
+            "dwc:scientificNameAuthorship": "(L.) Holub",
+            "dwc:taxonID": "SONNERAT|51355",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "3DBBC466ECA94717A38FF059A542AA7D",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441292688481jv4RRp8eSvUfg8YC",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

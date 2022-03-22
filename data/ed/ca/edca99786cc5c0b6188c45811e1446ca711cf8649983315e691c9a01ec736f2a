@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Amansia pinnatifida Harv.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "59c660df-7a51-40eb-9226-fee6a71eb60c",
+            "dwc:catalogNumber": "BM001039578",
+            "dwc:genus": "Amansia",
+            "dwc:specificEpithet": "pinnatifida",
+            "dwc:country": "Australia",
+            "dwc:recordedBy": "Anon.",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "723915",
+            "dcterms:modified": "2017-08-21",
+            "dwc:recordNumber": "S.N.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:723915",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Ceramiales",
+            "dwc:family": "Rhodomelaceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Delesseriaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "S.N.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/59c660df-7a51-40eb-9226-fee6a71eb60c",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/16d53443e534528782f53fa6e88dc39bccde8a68/contents/preview",
+            "dcterms:title": "BM001039578",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

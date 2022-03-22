@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Homalomena Schott",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1421587",
+            "dwc:catalogNumber": "L.1421587",
+            "dwc:genus": "Homalomena",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1985,
+            "dwc:eventDate": "1985-07-30",
+            "dwc:recordedBy": "Wilde WJJO de; Wilde-Duyfjes BEE de",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1985/07/30",
+            "dwc:stateProvince": "Sumatra",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1421587",
+            "dwc:month": 7,
+            "dwc:day": 30,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Alismatales",
+            "dwc:family": "Araceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Alismatales|Araceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1421587",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

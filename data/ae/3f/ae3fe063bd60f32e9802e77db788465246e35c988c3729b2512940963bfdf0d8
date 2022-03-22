@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Potalia resinifera Mart.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001049375",
+            "dwc:catalogNumber": "K001049375",
+            "dwc:genus": "Potalia",
+            "dwc:specificEpithet": "resinifera",
+            "dwc:country": "Brazil",
+            "dwc:year": 1968,
+            "dwc:eventDate": "1968-07-05",
+            "dwc:locality": "Basin of Rio Madeira. Track Between Mutumparaná and Rio Madeira.",
+            "dwc:recordedBy": "Forero, E.; Philcox, D.; Ramos, J.F.; Farias, L.G.; Coelho, L.F.; Prance, G.T.",
+            "setID": "K",
+            "dcterms:identifier": "K001049375",
+            "dwc:month": 7,
+            "dwc:day": 5,
+            "dcterms:modified": "2015-07-03",
+            "dwc:recordNumber": "5566",
+            "dwc:habitat": "Mixed forest.",
+            "dwc:eventRemarks": "Subshrub, 1m. tall. Inflorescence and young buds yellow.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Gentianaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "GENTIANACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K001049375",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "RUBIACEAE",
+            "dwc:genus": "Palicourea",
+            "dwc:higherClassification": "RUBIACEAE",
+            "dwc:scientificName": "Palicourea  Aubl.",
+            "dwc:scientificNameAuthorship": "Aubl.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001049375",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/741602.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

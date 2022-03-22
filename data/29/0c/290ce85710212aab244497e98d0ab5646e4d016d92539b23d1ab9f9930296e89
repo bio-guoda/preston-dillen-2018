@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arthropteris palisotii",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.6759",
+            "dwc:catalogNumber": "EIG.6759",
+            "dwc:genus": "Arthropteris",
+            "dwc:specificEpithet": "palisotii",
+            "dwc:country": "Australia",
+            "dwc:year": 1981,
+            "dwc:eventDate": "1981-09-10",
+            "dwc:locality": "Bellenden Ker National Park, W. of Babinda. The Boulders.",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "setID": "H",
+            "dwc:verbatimEventDate": "10.09.1981",
+            "dwc:stateProvince": "Queensland",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.724803",
+            "dwc:month": 9,
+            "dwc:day": 10,
+            "dcterms:modified": "1492084155",
+            "dwc:recordNumber": "10882",
+            "dwc:otherCatalogNumbers": "H1459261",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arthropteris palisotii",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.6759",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris schimperiana",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.595",
+            "dwc:catalogNumber": "EIG.595",
+            "dwc:genus": "Dryopteris",
+            "dwc:specificEpithet": "schimperiana",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1957,
+            "dwc:eventDate": "1957-11-16",
+            "dwc:locality": "15 km east of Shashamane",
+            "dwc:recordedBy": "Smeds, H.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "16.11.1957",
+            "dwc:stateProvince": "Oromia",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.722121",
+            "dwc:month": 11,
+            "dwc:day": 16,
+            "dwc:county": "West Arsi",
+            "dcterms:modified": "1492084102",
+            "dwc:recordNumber": "268",
+            "dwc:otherCatalogNumbers": "H1479216",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Arussi: 15 km E of Shashmanna, on Cotole road. Alt. 2100 m.",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris schimperiana",
+            "dwc:verbatimRecordedBy": "Smeds, H.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.595",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

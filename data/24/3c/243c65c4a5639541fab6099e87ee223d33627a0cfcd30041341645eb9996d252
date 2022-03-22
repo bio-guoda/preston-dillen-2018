@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pleiotaxis gombensis C.Jeffrey",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "TZ",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000252298",
+            "dwc:catalogNumber": "K000252298",
+            "dwc:genus": "Pleiotaxis",
+            "dwc:specificEpithet": "gombensis",
+            "dwc:country": "Tanzania, United Republic of",
+            "dwc:year": 1964,
+            "dwc:eventDate": "1964-03-28",
+            "dwc:locality": "Ubusunzu (Kiha) T4, Buha District. Mkenke stream valley. Gombe stream reserve. E. shore Lake Tanganyika from Gombe stream to Missonge.  Lat 4 degrees 3 '- 42' S.",
+            "dwc:recordedBy": "Pirozynski, P.A.",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Jeffrey, C.",
+            "dcterms:identifier": "K000252298",
+            "dwc:month": 3,
+            "dwc:day": 28,
+            "dcterms:modified": "2005-10-06",
+            "dwc:recordNumber": "615",
+            "dwc:habitat": "Valley forest lower grassland. Uninhabited fireswept grassland, scattered small trees on slopes, ranging from lake level (760m) to 1700m. Soil red and heavy. Remnants of evergreen forests in valleys, on rocky outcrops by lake. Rainfall c. 1250mm.,",
+            "dwc:eventRemarks": "Herb. 1 m.50. Flowers carmine.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Oct-May",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Author citation as on label: C.Jeffr.",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1230,
+            "dwc:elevationAccuracy": 470,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000252298",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "COMPOSITAE",
+            "dwc:genus": "Pleiotaxis",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:scientificName": "Pleiotaxis",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000252298",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/84040.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

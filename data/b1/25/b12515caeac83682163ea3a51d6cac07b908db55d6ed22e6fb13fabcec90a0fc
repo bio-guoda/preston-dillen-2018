@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lecidea morbifera Vain.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "RU",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9503400",
+            "dwc:catalogNumber": "HA.H9503400",
+            "dwc:genus": "Lecidea",
+            "dwc:specificEpithet": "morbifera",
+            "dwc:country": "RU",
+            "dwc:year": 1877,
+            "dwc:eventDate": "1877-01-01/1877-12-31",
+            "dwc:recordedBy": "Vainio (Wainio), E. A.",
+            "dwc:decimalLatitude": 66.0752,
+            "dwc:decimalLongitude": 30.3237,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isolectotype",
+            "dwc:stateProvince": "Murmansk Oblast",
+            "dwc:continent": "Europe",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5317429",
+            "dcterms:modified": "1530276703",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:otherCatalogNumbers": "H9503400",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "Fennia, Kuusamo, Ukonvaara [Russia].",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "66.075207 30.323723 WGS84",
+            "dwc:scientificNameAuthorship": "Vain.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Lecidea morbifera",
+            "dwc:verbatimRecordedBy": "Edw. Wainio",
+            "dwc:verbatimLongitude": "30.323723",
+            "dwc:verbatimLatitude": "66.075207",
+            "dwc:georeferenceRemarks": "Coordinates: Ukonvaara.",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/HA.H9503400",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

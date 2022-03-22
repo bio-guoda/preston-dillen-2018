@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pfaffia glabratoides Suess.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001207911",
+            "dwc:catalogNumber": "K001207911",
+            "dwc:genus": "Quaternella",
+            "dwc:specificEpithet": "glabratoides",
+            "dwc:country": "Brazil",
+            "dwc:locality": "Rio Iguaçu, prox. a barra do Perdido.",
+            "dwc:recordedBy": "Hatschbach, G.",
+            "setID": "K",
+            "dcterms:identifier": "K001207911",
+            "dcterms:modified": "2015-12-01",
+            "dwc:recordNumber": "20590",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Amaranthaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "AMARANTHACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Laranjeiras do Sul",
+            "dwc:municipality": "Laranjeiras do Sul",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K001207911",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001207911",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/774465.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

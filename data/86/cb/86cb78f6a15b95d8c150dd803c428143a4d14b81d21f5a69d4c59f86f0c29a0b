@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Astelia",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100630168",
+            "dwc:catalogNumber": "B 10 0630168",
+            "dwc:genus": "Astelia",
+            "dwc:country": "Australia",
+            "dwc:year": 1959,
+            "dwc:eventDate": "1959-01-19",
+            "dwc:locality": "Sydney, N Sw. leg.? Kasimir.",
+            "dwc:recordedBy": "Kasmiur",
+            "setID": "B",
+            "dwc:verbatimEventDate": "19.01.1959",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "2546",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "LILIACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; LILIACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100630168",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

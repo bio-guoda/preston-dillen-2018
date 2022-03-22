@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Polygonum minus var. subcontinuum Meisn.",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1669722",
+            "dwc:catalogNumber": "L.1669722",
+            "dwc:genus": "Persicaria",
+            "dwc:specificEpithet": "minus",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Sumatra.",
+            "dwc:recordedBy": "Unknown",
+            "dwc:infraspecificEpithet": "subcontinuum",
+            "setID": "L",
+            "dwc:stateProvince": "Sumatra",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1669722",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Polygonaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophyllales|Polygonaceae",
+            "dwc:verbatimTaxonRank": "var.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1669722",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Ternstroemia brasiliensis Cambess.",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100423781",
+            "dwc:catalogNumber": "B 10 0423781",
+            "dwc:genus": "Ternstroemia",
+            "dwc:specificEpithet": "brasiliensis",
+            "dwc:country": "Brazil",
+            "dwc:year": 1964,
+            "dwc:locality": "Sao Paulo. entre Iguape e Porto Sabáuna.",
+            "dwc:recordedBy": "E. Pereira & G. J. F. Pabst",
+            "setID": "B",
+            "dwc:verbatimEventDate": "12.01.1964",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "8192",
+            "dwc:scientificNameAuthorship": "Cambess.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "THEACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; THEACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://herbarium.bgbm.org/object/B100423781",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

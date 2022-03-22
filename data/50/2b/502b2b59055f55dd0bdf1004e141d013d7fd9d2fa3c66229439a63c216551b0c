@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Roccella boryi Delise",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "MU",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9504976",
+            "dwc:catalogNumber": "HA.H9504976",
+            "dwc:genus": "Roccella",
+            "dwc:specificEpithet": "boryi",
+            "dwc:country": "MU",
+            "dwc:year": 1874,
+            "dwc:eventDate": "1874-01-01/1874-12-31",
+            "dwc:recordedBy": "Balfour, I. B.",
+            "dwc:decimalLatitude": -19.7164,
+            "dwc:decimalLongitude": 63.417,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isolectotype",
+            "dwc:stateProvince": "Rodrigues",
+            "dwc:identifiedBy": "Tehler, Anders",
+            "dwc:dateIdentified": "2009",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5071463",
+            "dcterms:modified": "1524663091",
+            "dwc:coordinateUncertaintyInMeters": 10000,
+            "dwc:otherCatalogNumbers": "H9504976",
+            "dwc:collectionID": "http://tun.fi/HR.130",
+            "dwc:verbatimLocality": "Ins. Rodrigues.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "-19.71642 63.417 WGS84 (10000m)",
+            "dwc:scientificNameAuthorship": "Delise",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Roccella boryi",
+            "dwc:measurementRemarks": "Thallus K=, K(Cl)‡ rub (medulla m....-), medulli I+ caerul. (Vain. 1922).",
+            "dwc:verbatimRecordedBy": "Balfour",
+            "dwc:verbatimLongitude": "63.41700",
+            "dwc:verbatimLatitude": "-19.71642",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H9504976",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

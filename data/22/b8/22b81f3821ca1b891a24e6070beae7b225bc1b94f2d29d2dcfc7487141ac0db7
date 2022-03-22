@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Trianthema triquetra Rottler & Willd.",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100003450",
+            "dwc:catalogNumber": "B 10 0003450",
+            "dwc:genus": "Trianthema",
+            "dwc:specificEpithet": "triquetra",
+            "dwc:country": "Australia",
+            "dwc:year": 1997,
+            "dwc:eventDate": "1997-04-08",
+            "dwc:recordedBy": "T. Dürbye",
+            "setID": "B",
+            "dwc:verbatimEventDate": "08.04.1997",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "DÜR 432",
+            "dwc:scientificNameAuthorship": "Rottler & Willd.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "AIZOACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; AIZOACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100003450",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Papaver rhoeas L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03167977",
+            "dwc:catalogNumber": "P03167977",
+            "dwc:genus": "Papaver",
+            "dwc:specificEpithet": "rhoeas",
+            "dwc:country": "France",
+            "dwc:year": 1921,
+            "dwc:eventDate": "1921-06-29",
+            "dwc:recordedBy": "Toussaint, Abbé",
+            "setID": "P",
+            "dwc:stateProvince": "Haute-Normandie",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03167977",
+            "dwc:month": 6,
+            "dwc:day": 29,
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Eure : champs de Montaure",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Papaveraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03167977",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Papaveraceae",
+            "@id": "SONNERAT|3334649",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Papaver",
+            "dwc:higherClassification": "Papaver;Papaveraceae",
+            "dwc:specificEpithet": "rhoeas",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Papaver rhoeas L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|13093",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "865878F4F8F042D09E98845C47C046AC",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "865878F4F8F042D09E98845C47C046AC",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441327067485vSl5rDR4ETVpSVYr",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

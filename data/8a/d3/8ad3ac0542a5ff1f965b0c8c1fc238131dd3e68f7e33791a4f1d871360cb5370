@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rhododendron roxieanum Forrest",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00486318",
+            "dwc:catalogNumber": "E00486318",
+            "dwc:genus": "Rhododendron",
+            "dwc:specificEpithet": "roxieanum",
+            "dwc:country": "China",
+            "dwc:year": 1918,
+            "dwc:locality": "SW Szechuan. Mu-li mountains",
+            "dwc:recordedBy": "Forrest, George",
+            "setID": "E",
+            "dwc:verbatimEventDate": "June 1918",
+            "dwc:stateProvince": "Sichuan Province",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00486318",
+            "dcterms:modified": "2015-03-13",
+            "dwc:recordNumber": "16508",
+            "dwc:verbatimElevation": "12-13000 FT",
+            "dwc:otherCatalogNumbers": "BGBASE:576342",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Ericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Inner China, Korea and Taiwan",
+            "dwc:startDayOfYear": 166,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:elevation": 1983,
+            "dwc:elevationAccuracy": 1979,
+            "dwc:fieldNotes": "Shrub of 3-5 ft. Flowers creamy-white with crimson markings. Open slopes and on the margins of pine forests.",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00486318",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00486318 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00486318",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNDg2LzMxOC80OTEwMTEuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00486318",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

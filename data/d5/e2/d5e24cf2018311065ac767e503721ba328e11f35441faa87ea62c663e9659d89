@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Senecio transmarinus var. transmarinus",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "bd50dfbd-2df3-44de-a911-26fc62d94856",
+            "dwc:catalogNumber": "BM000798777",
+            "dwc:genus": "Senecio",
+            "dwc:specificEpithet": "transmarinus",
+            "dwc:locality": "Nearest Named Place: Locality Unknown",
+            "dwc:recordedBy": "George Francis Scott-Elliot",
+            "dwc:infraspecificEpithet": "transmarinus",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dcterms:identifier": "4553195",
+            "dcterms:modified": "2017-08-21",
+            "dwc:recordNumber": "7730",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4553195",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Asteraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:fieldNumber": "7730",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/bd50dfbd-2df3-44de-a911-26fc62d94856",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/d968a2164920dfe39de97931cc09273588cd1224/contents/preview",
+            "dcterms:title": "BM000798777",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

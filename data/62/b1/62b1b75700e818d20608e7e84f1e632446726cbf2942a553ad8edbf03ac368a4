@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rhododendron gaultheriifolium var. expositum Sleum.",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2608838",
+            "dwc:catalogNumber": "L.2608838",
+            "dwc:genus": "Rhododendron",
+            "dwc:specificEpithet": "gaultheriifolium",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1984,
+            "dwc:eventDate": "1984-08-18",
+            "dwc:locality": "New Guinea, Mt. Trikora/Irian Jaya, huge valley north-east of the summit.",
+            "dwc:recordedBy": "Mangen J-M",
+            "dwc:infraspecificEpithet": "expositum",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1984/08/18",
+            "dwc:stateProvince": "New Guinea",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2608838",
+            "dwc:month": 8,
+            "dwc:day": 18,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Ericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Ericales|Ericaceae",
+            "dwc:verbatimTaxonRank": "var.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2608838",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

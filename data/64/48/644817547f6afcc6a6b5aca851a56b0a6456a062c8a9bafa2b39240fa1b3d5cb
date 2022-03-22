@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Retiniphyllum laxiflorum N.E.Br.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000001916",
+            "dwc:catalogNumber": "K000001916",
+            "dwc:genus": "Retiniphyllum",
+            "dwc:specificEpithet": "laxiflorum",
+            "dwc:country": "Brazil",
+            "dwc:year": 1994,
+            "dwc:eventDate": "1994-05-02",
+            "dwc:locality": "Salão, Campos Gerais do Salao.",
+            "dwc:recordedBy": "Ganev, W.",
+            "dwc:decimalLatitude": -13.25,
+            "dwc:decimalLongitude": -41.87,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Zappi",
+            "dcterms:identifier": "K000001916",
+            "dwc:month": 5,
+            "dwc:day": 2,
+            "dcterms:modified": "2002-04-03",
+            "dwc:recordNumber": "3193",
+            "dwc:habitat": "Campo rupestre, solo areno-argiloso com muito cascalho de quartzo.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "RUBIACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Abaíra",
+            "dwc:municipality": "Abaíra",
+            "dwc:georeferenceProtocol": "Label",
+            "dwc:identificationQualifier": "cf.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K000001916",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000001916",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/756974.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

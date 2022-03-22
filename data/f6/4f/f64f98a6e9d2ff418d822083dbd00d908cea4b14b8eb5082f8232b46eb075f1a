@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Chenopodium berlandieri Moq.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3193605",
+            "dwc:catalogNumber": "L.3193605",
+            "dwc:genus": "Chenopodium",
+            "dwc:specificEpithet": "berlandieri",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1956,
+            "dwc:eventDate": "1956-08-30",
+            "dwc:locality": "Buitendijks, opgespoten terrein van Oostelijk Flevoland bij Harderwijk.",
+            "dwc:recordedBy": "Bakker D",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1956/08/30",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3193605",
+            "dwc:month": 8,
+            "dwc:day": 30,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Amaranthaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophylllales|Chenopodiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3193605",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

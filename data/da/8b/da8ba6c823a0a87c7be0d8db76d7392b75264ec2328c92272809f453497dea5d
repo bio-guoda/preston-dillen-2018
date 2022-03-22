@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Flowering plant",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "28c6c0e9-871b-411f-9c54-18925ff60c9a",
+            "dwc:catalogNumber": "BM000644348",
+            "dwc:specificEpithet": "plant",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1888,
+            "dwc:eventDate": "1888-07-01",
+            "dwc:recordedBy": "Anon.",
+            "dwc:decimalLatitude": 52.6585,
+            "dwc:decimalLongitude": 1.2997,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "4781234",
+            "dwc:month": 7,
+            "dwc:recordNumber": "1327",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4781234",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Piperales",
+            "dwc:family": "Piperaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Orchidaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England",
+            "dwc:fieldNumber": "1327",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/28c6c0e9-871b-411f-9c54-18925ff60c9a",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/c43911ebf1fd4bbb4b05b7f66fae3be50e0425fb/contents/preview",
+            "dcterms:title": "BM000644348",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

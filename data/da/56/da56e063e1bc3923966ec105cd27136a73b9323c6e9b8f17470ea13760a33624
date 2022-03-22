@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Meniscium Schreb.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000956905",
+            "dwc:catalogNumber": "K000956905",
+            "dwc:genus": "Meniscium",
+            "dwc:country": "Brazil",
+            "dwc:locality": "Montaignes des Orgaes.",
+            "dwc:recordedBy": "Wagner, M.E.R.",
+            "setID": "K",
+            "dcterms:identifier": "K000956905",
+            "dcterms:modified": "2014-02-20",
+            "dwc:recordNumber": "s.n.",
+            "dwc:habitat": "Informação não transcrita",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Thelypteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "THELYPTERIDACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "[Multiple sheets K000956906] 01/fev",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://specimens.kew.org/herbarium/K000956905",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000956905",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/505466.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

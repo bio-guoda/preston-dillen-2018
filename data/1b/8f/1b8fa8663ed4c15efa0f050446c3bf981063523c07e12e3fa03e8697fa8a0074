@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula alpina Jacq.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100460332",
+            "dwc:catalogNumber": "B 10 0460332",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "alpina",
+            "dwc:country": "Germany",
+            "dwc:year": 1850,
+            "dwc:eventDate": "1850-08-04",
+            "dwc:locality": "Germany: upper Bavaria. next to Berchtesgaden.",
+            "dwc:recordedBy": "A. Einsele",
+            "setID": "B",
+            "dwc:verbatimEventDate": "04.08.1850",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "s.n.",
+            "dwc:habitat": "limestone",
+            "dwc:scientificNameAuthorship": "Jacq.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "2000-2300 m",
+            "dcterms:language": "fra",
+            "@id": "http://herbarium.bgbm.org/object/B100460332",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Clematis hirsuta Guill. & Perr.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "SN",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00078507",
+            "dwc:catalogNumber": "P00078507",
+            "dwc:genus": "Clematis",
+            "dwc:specificEpithet": "hirsuta",
+            "dwc:country": "Senegal",
+            "dwc:year": 1899,
+            "dwc:eventDate": "1899-12-01",
+            "dwc:recordedBy": "Chevalier, A.J.B.",
+            "setID": "P",
+            "dwc:identifiedBy": "Raynal",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00078507",
+            "dwc:month": 12,
+            "dcterms:modified": "2015-09-15",
+            "dwc:verbatimLocality": "Miayes.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Ranunculaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "2536",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00078507",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Ranunculaceae",
+            "@id": "SONNERAT|92898",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Clematis",
+            "dwc:higherClassification": "Clematis;Ranunculaceae",
+            "dwc:specificEpithet": "hirsuta",
+            "dwc:scientificName": "Clematis hirsuta Guill. & Perr.",
+            "dwc:identifiedBy": "Raynal",
+            "dwc:scientificNameAuthorship": "Guill. & Perr.",
+            "dwc:taxonID": "SONNERAT|21415",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Ranunculaceae",
+            "@id": "SONNERAT|92899",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Clematis",
+            "dwc:higherClassification": "Clematis hirsuta;Clematis;Ranunculaceae",
+            "dwc:specificEpithet": "hirsuta",
+            "dwc:scientificName": "Clematis hirsuta Guill. & Perr. var. glabrescens A.Chev.",
+            "dwc:identifiedBy": "Chevalier",
+            "dwc:scientificNameAuthorship": "A.Chev.",
+            "dwc:taxonID": "SONNERAT|21416",
+            "dwc:taxonRank": "varietas",
+            "dwc:dateIdentified": "1932",
+            "dwc:verbatimTaxonRank": "var.",
+            "dwc:typeStatus": "isotype",
+            "dwc:infraspecificEpithet": "glabrescens",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "5759B29E1C4A460FBDE394E0B73A7CC0",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Muséum National d'Histoire Naturelle, VD",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1442324049693qZjc95iNVEqvPT1N",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

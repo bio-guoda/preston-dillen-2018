@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Deparia boryana",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.3642",
+            "dwc:catalogNumber": "EIG.3642",
+            "dwc:genus": "Deparia",
+            "dwc:specificEpithet": "boryana",
+            "dwc:country": "Ethiopia",
+            "dwc:eventDate": "1980-02-08/1989-02-08",
+            "dwc:locality": "Shedda, 40 km southeast of Bonga.",
+            "dwc:recordedBy": "Smeds, H.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "08.02.198[?]",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.714498",
+            "dwc:month": 2,
+            "dwc:day": 8,
+            "dcterms:modified": "1492083928",
+            "dwc:recordNumber": "661",
+            "dwc:otherCatalogNumbers": "H1480572",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dwc:verbatimLocality": "ETHIOPIA. Kaffa: Shedda, 40 km SE of Bonga. Alt. 2 400 m.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Deparia boryana",
+            "dwc:verbatimRecordedBy": "Smeds, H.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.3642",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

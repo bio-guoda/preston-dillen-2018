@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Poa L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3108058",
+            "dwc:catalogNumber": "L.3108058",
+            "dwc:genus": "Poa",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Amsterdam. grasland a/d Schubertstraat.",
+            "dwc:recordedBy": "Jansen P; Wachter WH",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1931/05/31 | 1931/05/01",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3108058",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "unknown",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3108058",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Zornia vestita Mohlenbr.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000908169",
+            "dwc:catalogNumber": "K000908169",
+            "dwc:genus": "Zornia",
+            "dwc:specificEpithet": "vestita",
+            "dwc:country": "Brazil",
+            "dwc:year": 1968,
+            "dwc:eventDate": "1968-03-03",
+            "dwc:locality": "km 265 Xavantina-Cachimbo road.",
+            "dwc:recordedBy": "Philcox, D.; Ferreira, A.",
+            "dwc:decimalLatitude": -12.82,
+            "dwc:decimalLongitude": -51.77,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Fortuna-Perez, A.P.",
+            "dcterms:identifier": "K000908169",
+            "dwc:month": 3,
+            "dwc:day": 3,
+            "dcterms:modified": "2013-03-19",
+            "dwc:recordNumber": "4402",
+            "dwc:habitat": "Cerrado",
+            "dwc:eventRemarks": "Shrub 30cm tall. Flowers yellow",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Royal Society/Royal Geographical Society Expedition 1967-1969. Central Brazilian Plateau.",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000908169",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:genus": "Zornia",
+            "dwc:dateIdentified": "1971-00-00",
+            "dwc:higherClassification": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:specificEpithet": "lanata",
+            "dwc:scientificName": "Zornia lanata Mohlenbr.",
+            "dwc:identifiedBy": "Arroyo, M.T.K.",
+            "dwc:scientificNameAuthorship": "Mohlenbr.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000908169",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/469136.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

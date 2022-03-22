@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Thymus pulegioides L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "d2faa522-511c-4b7f-aed9-5441f1b2014e",
+            "dwc:catalogNumber": "BM001037784",
+            "dwc:genus": "Thymus",
+            "dwc:specificEpithet": "pulegioides",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1901,
+            "dwc:eventDate": "1901-09-24",
+            "dwc:recordedBy": "Thomas Arthur Preston",
+            "dwc:decimalLatitude": 52.6848,
+            "dwc:decimalLongitude": -1.173,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "2296570",
+            "dwc:month": 9,
+            "dwc:day": 24,
+            "dwc:recordNumber": "1235",
+            "dwc:habitat": "Railway embankment",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2296570",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Dicotyledones; Lamiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England; Leicestershire",
+            "dwc:fieldNumber": "1235",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/d2faa522-511c-4b7f-aed9-5441f1b2014e",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/cc2dd228ed7fd8a773dcf62eee67e3f76ebda821/contents/preview",
+            "dcterms:title": "BM001037784",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Alstonia iwahigensis Elmer",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PH",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200004873",
+            "dwc:catalogNumber": "L  0004873",
+            "dwc:genus": "Alstonia",
+            "dwc:specificEpithet": "iwahigensis",
+            "dwc:country": "Philippines",
+            "dwc:locality": "Puerto Princesa (Mt. Pulgar), Province of Palawan.Island of Palawan.",
+            "dwc:recordedBy": "Elmer ADE",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1911/05/31 | 1911/05/01",
+            "dc:typeStatus": "LECTOTYPE",
+            "dwc:stateProvince": "Palawan",
+            "dwc:identifiedBy": "Sidiyasa EF",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0004873",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Apocynaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Gentianales|Apocynaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200004873",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

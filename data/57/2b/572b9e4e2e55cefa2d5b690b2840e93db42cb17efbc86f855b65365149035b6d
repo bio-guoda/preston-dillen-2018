@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Orchis palustris Jacq.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02119797",
+            "dwc:catalogNumber": "P02119797",
+            "dwc:genus": "Anacamptis",
+            "dwc:specificEpithet": "palustris",
+            "dwc:country": "France",
+            "dwc:year": 1906,
+            "dwc:eventDate": "1906-06-08",
+            "dwc:recordedBy": "Bergon, P.",
+            "dwc:decimalLatitude": 43.6673,
+            "dwc:decimalLongitude": 7.2115,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "Provence-Alpes-Côte-d'Azur",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02119797",
+            "dwc:month": 6,
+            "dwc:day": 8,
+            "dcterms:modified": "2015-09-03",
+            "dwc:verbatimLocality": "Champ de courses de Nice, près de l'embouchure du Var.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02119797",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Orchidaceae",
+            "@id": "SONNERAT|2234271",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Orchis",
+            "dwc:higherClassification": "Orchis;Orchidaceae",
+            "dwc:specificEpithet": "palustris",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Orchis palustris Jacq.",
+            "dwc:scientificNameAuthorship": "Jacq.",
+            "dwc:taxonID": "SONNERAT|53057",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "7FC1ADDCAAEC41F6B0F232CEDBF4D89C",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "7FC1ADDCAAEC41F6B0F232CEDBF4D89C",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441305091964wzrposaJQr6CYuPR",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

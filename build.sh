@@ -17,32 +17,32 @@
 #### using a corpus published through Zenodo
 
 # get meise index
-preston track "https://zenodo.org/record/6372393/files/Data%20and%20Links%20excl%20extensions.csv"
+preston track --algo md5 "https://zenodo.org/record/6372393/files/Data%20and%20Links%20excl%20extensions.csv"
 
 # find the referenced json urls
-preston ls\
-| preston grep -o --no-line "https://zenodo[^ ,]+.json"\
-| preston append
+preston ls --algo md5\
+| preston grep -o --no-line --algo md5 "https://zenodo[^ ,]+.json"\
+| preston append --algo md5
 
 # track the captured json urls
-preston ls -l tsv\
+preston ls -l tsv --algo md5\
  | grep "prov#value"\
  | cut -f3\
- | xargs -L100 preston track
+ | xargs -L100 preston track --algo md5
 
 # cat the captures json content, as described in the track
-preston ls\
+preston ls --algo md5\
  | grep -E ".json>"\
- | preston cat\
+ | preston cat --algo md5\
  | jq --compact-output . > index.json
 
  # now index the associated tiff images
-preston history\
+preston history --algo md5\
  | head -n1\
- | preston cat\
- | preston cat\
+ | preston cat --algo md5\
+ | preston cat --algo md5\
  | mlr --csv cut -f tiffURL\
  | tail -n+2\
  | grep http\
- | xargs -L100 preston track --no-cache
+ | xargs -L100 preston track --no-cache --algo md5
 

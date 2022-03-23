@@ -35,3 +35,14 @@ preston ls\
  | grep -E ".json>"\
  | preston cat\
  | jq --compact-output . > index.json
+
+ # now index the associated tiff images
+preston history\
+ | head -n1\
+ | preston cat\
+ | preston cat\
+ | mlr --csv cut -f tiffURL\
+ | tail -n+2\
+ | grep http\
+ | xargs -L100 preston track --no-cache
+

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lamanonia tomentosa Kuntze",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PY",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200019927",
+            "dwc:catalogNumber": "L  0019927",
+            "dwc:genus": "Lamanonia",
+            "dwc:specificEpithet": "tomentosa",
+            "dwc:country": "Paraguay",
+            "dwc:year": 1884,
+            "dwc:eventDate": "1884-03-15",
+            "dwc:locality": "Paraguay",
+            "dwc:recordedBy": "Balansa B",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1884/03/15",
+            "dc:typeStatus": "TYPE",
+            "dwc:identifiedBy": "Hoogland RD",
+            "dwc:dateIdentified": "1977-05-01T00:00:00.000+0000",
+            "dwc:continent": "SOUTH_AMERICA",
+            "dcterms:identifier": "L  0019927",
+            "dwc:month": 3,
+            "dwc:day": 15,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Oxalidales",
+            "dwc:family": "Cunoniaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Oxalidales|Cunoniaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200019927",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

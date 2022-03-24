@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Axonopus aureus P.Beauv.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000643211",
+            "dwc:catalogNumber": "K000643211",
+            "dwc:genus": "Axonopus",
+            "dwc:specificEpithet": "aureus",
+            "dwc:country": "Brazil",
+            "setID": "K",
+            "dcterms:identifier": "K000643211",
+            "dcterms:modified": "2009-08-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Herbarium Hookerianum 1867.",
+            "dwc:taxonRemarks": "Name on species cover",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://specimens.kew.org/herbarium/K000643211",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:scientificName": "Paspalum radiatum Trin.",
+            "dwc:specificEpithet": "radiatum",
+            "dwc:family": "POACEAE",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:genus": "Paspalum",
+            "dwc:scientificNameAuthorship": "Trin.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:scientificName": "Panicum holochrysum Trin.",
+            "dwc:specificEpithet": "holochrysum",
+            "dwc:family": "POACEAE",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:genus": "Panicum",
+            "dwc:scientificNameAuthorship": "Trin.",
+            "dwc:typeStatus": "isotype",
+            "dwc:identifiedBy": "Garofalo, B.",
+            "dwc:dateIdentified": "1987-00-00",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:scientificName": "Axonopus holochrysus (Trin.) Henrard",
+            "dwc:specificEpithet": "holochrysus",
+            "dwc:family": "POACEAE",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:genus": "Axonopus",
+            "dwc:scientificNameAuthorship": "(Trin.) Henrard",
+            "dwc:identifiedBy": "Garofalo, B.",
+            "dwc:dateIdentified": "1987-00-00",
+            "dwc:taxonRemarks": "Author citation as on label: (Trin.) Henr.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "@id": "http://www.kew.org/herbcatimg/263782.jpg",
+            "dcterms:format": "image/jpeg",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000643211",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

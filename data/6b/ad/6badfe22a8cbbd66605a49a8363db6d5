@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Combretum gracile var. glandulosum Stace",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "BO",
+            "dwc:occurrenceID": "a1584e73-9304-426d-83ae-2842c96e18d6",
+            "dwc:catalogNumber": "BM000953729",
+            "dwc:genus": "Combretum",
+            "dwc:specificEpithet": "gracile",
+            "dwc:country": "Bolivia, Plurinational State of",
+            "dwc:year": 1978,
+            "dwc:eventDate": "1978-02-10",
+            "dwc:recordedBy": "W.R. Anderson",
+            "dwc:infraspecificEpithet": "glandulosum",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Clive Anthony Stace",
+            "dwc:continent": "SOUTH_AMERICA",
+            "dcterms:identifier": "466656",
+            "dwc:month": 2,
+            "dwc:day": 10,
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "12032",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:466656",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Combretaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Combretaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "South America; Bolivia",
+            "dwc:fieldNumber": "12032",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/a1584e73-9304-426d-83ae-2842c96e18d6",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/001c53224f95953c4504c84b46a49d3cd5be5926/contents/preview",
+            "dcterms:title": "BM000953729",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Porterandia anisophylla (Jack ex Roxb.) Ridl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MY",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200649881",
+            "dwc:catalogNumber": "L  0649881",
+            "dwc:genus": "Porterandia",
+            "dwc:specificEpithet": "anisophylla",
+            "dwc:country": "Malaysia",
+            "dwc:locality": "W. Jach et Les Perter (?)",
+            "dwc:recordedBy": "Wallich N",
+            "setID": "L",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Zahid MS",
+            "dwc:dateIdentified": "2003-08-30T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0649881",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Gentianales|Rubiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200649881",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

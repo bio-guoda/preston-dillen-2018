@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "incertae sedis",
+            "dwc:taxonRank": "KINGDOM",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04450677",
+            "dwc:catalogNumber": "P04450677",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04450677",
+            "dcterms:modified": "2015-09-04",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04450677",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Famille",
+            "@id": "SONNERAT|5323833",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Genre",
+            "dwc:higherClassification": "Genre;Famille",
+            "dwc:specificEpithet": "indet.",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Genre indet.",
+            "dwc:taxonID": "SONNERAT|10527",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "2A76877090244BC7A24AC5732389802A",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441360617716NJEAu8cNqp9EMmn1",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

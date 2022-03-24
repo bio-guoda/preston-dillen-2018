@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Populus trichocarpa Torr. & A.Gray",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU302371",
+            "dwc:catalogNumber": "TU302371",
+            "dwc:genus": "Populus",
+            "dwc:specificEpithet": "trichocarpa",
+            "dwc:country": "Estonia",
+            "dwc:year": 1963,
+            "dwc:eventDate": "1963-06-04",
+            "dwc:locality": "Tartu, Maarjamõisa puukool",
+            "dwc:recordedBy": "Ü. Tamm",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1963-06-04",
+            "dcterms:identifier": "TU302371",
+            "dwc:month": 6,
+            "dwc:day": 4,
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Salicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Malpighiales; Salicaceae; Populus",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/485015",
+            "dwc:eventID": 740070,
+            "dwc:taxonID": 6506,
+            "dwc:locationID": 657159,
+            "dwc:identificationID": 753899,
+            "dwc:vernacularName": "karvaseviljane pappel",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/485015",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/E1/B4/E1B4029332C848F24928DBF2466424E1D813C43CE203DE16161E8AAF575E78A4.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1470545",
+            "dcterms:title": "TU302371.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Anthoxanthum odoratum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU351001",
+            "dwc:catalogNumber": "TU351001",
+            "dwc:genus": "Anthoxanthum",
+            "dwc:specificEpithet": "odoratum",
+            "dwc:country": "Estonia",
+            "dwc:year": 1976,
+            "dwc:eventDate": "1976-07-25",
+            "dwc:locality": "Haapsalu rajoon, Laelatu",
+            "dwc:recordedBy": "E. Adov",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1976-07-25",
+            "dwc:identifiedBy": "E. Adov",
+            "dwc:dateIdentified": "1976-07-25T00:00:00.000+0000",
+            "dcterms:identifier": "TU351001",
+            "dwc:month": 7,
+            "dwc:day": 25,
+            "dwc:habitat": "habitat: puisniidul",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Monocotyledonae; Poales; Poaceae; Anthoxanthum",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/530027",
+            "dwc:eventID": 785082,
+            "dwc:taxonID": 2808,
+            "dwc:locationID": 702171,
+            "dwc:identificationID": 819471,
+            "dwc:vernacularName": "lõhnav maarjahein",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/530027",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/9D/23/9D238FE9FDE58E2243E41587D65BD8A592613887B6AEA747C70BAE6E58678FE2.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1477820",
+            "dcterms:title": "TU351001.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

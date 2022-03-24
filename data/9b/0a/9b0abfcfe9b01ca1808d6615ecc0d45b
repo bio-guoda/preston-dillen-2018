@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Paspalum proximum Mez",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001102490",
+            "dwc:catalogNumber": "K001102490",
+            "dwc:genus": "Paspalum",
+            "dwc:specificEpithet": "proximum",
+            "dwc:country": "Brazil",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-12-05",
+            "dwc:locality": "2 km south of Paraná line, fazenda.",
+            "dwc:recordedBy": "Hatschbach, G.; Smith, L.B.; Klein, R.M.",
+            "setID": "K",
+            "dcterms:identifier": "K001102490",
+            "dwc:month": 12,
+            "dwc:day": 5,
+            "dcterms:modified": "2015-05-18",
+            "dwc:recordNumber": "15678",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Ponte Serrada",
+            "dwc:municipality": "Ponte Serrada",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K001102490",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001102490",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/729151.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

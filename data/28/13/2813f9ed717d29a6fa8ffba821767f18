@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Orchis anthropophora All.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "f8bff341-4acf-4eb2-9a04-adf7e4a70623",
+            "dwc:catalogNumber": "BM001057340",
+            "dwc:genus": "Orchis",
+            "dwc:specificEpithet": "anthropophora",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1901,
+            "dwc:eventDate": "1901-05-01",
+            "dwc:locality": "Nearest Named Place: Reigate; Township: Reigate",
+            "dwc:recordedBy": "Day",
+            "dwc:decimalLatitude": 51.2306,
+            "dwc:decimalLongitude": -0.1897,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "2302450",
+            "dwc:month": 5,
+            "dwc:recordNumber": "1162",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2302450",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Orchidaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England; Surrey",
+            "dwc:fieldNumber": "1162",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/f8bff341-4acf-4eb2-9a04-adf7e4a70623",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/cceab6b82ce9e0c4854f2a21175599848abd3819/contents/preview",
+            "dcterms:title": "BM001057340",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/ac976b40ca300b4d8e029b8789bea2c72d77d924/contents/preview",
+            "dcterms:title": "BM001057340.tif",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,90 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Saponaria vaccaria L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05106697",
+            "dwc:catalogNumber": "P05106697",
+            "dwc:genus": "Vaccaria",
+            "dwc:specificEpithet": "vaccaria",
+            "dwc:country": "France",
+            "dwc:year": 1864,
+            "dwc:eventDate": "1864-01-01",
+            "dwc:recordedBy": "Lemarié",
+            "dwc:decimalLatitude": 45.8664,
+            "dwc:decimalLongitude": -0.321,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "Poitou-Charentes",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05106697",
+            "dwc:month": 1,
+            "dwc:day": 1,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Mottroi (Chte. Inf.) dans les moissons par EL",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Caryophyllaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05106697",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Caryophyllaceae",
+            "@id": "SONNERAT|6917036",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Saponaria",
+            "dwc:higherClassification": "Saponaria;Caryophyllaceae",
+            "dwc:specificEpithet": "vaccaria",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Saponaria vaccaria L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|27534",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Caryophyllaceae",
+            "@id": "SONNERAT|8904694",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Saponaria",
+            "dwc:higherClassification": "Saponaria;Caryophyllaceae",
+            "dwc:specificEpithet": "vaccaria",
+            "dwc:scientificName": "Saponaria vaccaria L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|27534",
+            "dwc:identifiedBy": "Lemarié",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "C841C892F281419A8ED7110027751C03",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "C841C892F281419A8ED7110027751C03",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441408597939CjLfQGGqdBmbGorr",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

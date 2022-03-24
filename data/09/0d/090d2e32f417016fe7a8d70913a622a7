@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Astragalus carniolicus A.Kern.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "SI",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1283217",
+            "dwc:catalogNumber": "HA.H1283217",
+            "dwc:genus": "Astragalus",
+            "dwc:specificEpithet": "carniolicus",
+            "dwc:country": "SI",
+            "dwc:year": 1994,
+            "dwc:eventDate": "1994-01-01/1994-12-31",
+            "dwc:locality": "Carniolia [Carniola]. In pratis montis Nanos.",
+            "dwc:recordedBy": "Not on sheet",
+            "setID": "H",
+            "dc:typeStatus": "Isolectotype",
+            "dwc:identifiedBy": "D. Podlech",
+            "dwc:dateIdentified": "1994",
+            "dcterms:identifier": "http://tun.fi/MY.104014",
+            "dcterms:modified": "1382503576",
+            "dwc:habitat": "Solo calcareo.",
+            "dwc:verbatimElevation": "1 250 meters",
+            "dwc:otherCatalogNumbers": "H1283217",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "A.Kern.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Astragalus carniolicus",
+            "dwc:organismRemarks": "Flora Exsiccata Austro-Hungarica 2408.",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - multiple LA + DE",
+            "@id": "http://id.luomus.fi/HA.H1283217",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

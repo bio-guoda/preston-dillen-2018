@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Relhania viscosa L'Hér.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ZZ",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200002252",
+            "dwc:catalogNumber": "L  0002252",
+            "dwc:genus": "Oedera",
+            "dwc:specificEpithet": "viscosa",
+            "dwc:country": "unknown or invalid",
+            "dwc:recordedBy": "Unknown",
+            "setID": "L",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Bremer K",
+            "dcterms:identifier": "L  0002252",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asterales|Compositae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200002252",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

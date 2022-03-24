@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum sturtianum F.Muell.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "225a6b2a-08d5-4410-9387-afca08dfd02f",
+            "dwc:catalogNumber": "BM000846834",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "sturtianum",
+            "dwc:country": "Australia",
+            "dwc:year": 1954,
+            "dwc:eventDate": "1954-06-04",
+            "dwc:locality": "Coolgardie district",
+            "dwc:recordedBy": "H.F. Broadbent, M. Broadbent",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:identifiedBy": "David Eric Symon",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "4341963",
+            "dwc:month": 6,
+            "dwc:day": 4,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "2008",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4341963",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "2008",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/225a6b2a-08d5-4410-9387-afca08dfd02f",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/38689603d8971fbdebeee453b1f75412a1a63890/contents/preview",
+            "dcterms:title": "BM000846834",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

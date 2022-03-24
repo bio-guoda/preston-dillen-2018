@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vatica oblongifolia subsp. multinervosa Ashton",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000671318",
+            "dwc:catalogNumber": "K000671318",
+            "dwc:genus": "Vatica",
+            "dwc:specificEpithet": "oblongifolia",
+            "dwc:year": 1960,
+            "dwc:eventDate": "1960-08-21",
+            "dwc:locality": "Sandakan. Jalan Kabili. Sepilok Forest Reserve",
+            "dwc:recordedBy": "Singh, J.",
+            "dwc:infraspecificEpithet": "multinervosa",
+            "setID": "K",
+            "dc:typeStatus": "PARATYPE",
+            "dwc:identifiedBy": "Ashton, P.S.",
+            "dcterms:identifier": "K000671318",
+            "dwc:month": 8,
+            "dwc:day": 21,
+            "dcterms:modified": "2010-03-19",
+            "dwc:recordNumber": "SAN. 22509",
+            "dwc:habitat": "Primary forest, low undulating country. W1.",
+            "dwc:eventRemarks": "Tree, height 70 ft. Clearbole 60ft. Girth 36 ins. Flowers-cream corolla. Bark smooth, greyish white, with horizontal rings. Exudation present - pellucid. Outer bark hard. Inner bark yellow, mottled. Cambium, yellow.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malvales",
+            "dwc:family": "Dipterocarpaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "DIPTEROCARPACEAE; DIPTEROCARPACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Second No. on sheet: N.T.543  Vernacular name: Resak Bunga",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 6,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000671318",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000671318",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/290533.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Echium vulgare L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "dee7964f-46cb-495f-b132-c1be0dbaf2b0",
+            "dwc:catalogNumber": "BM001037513",
+            "dwc:genus": "Echium",
+            "dwc:specificEpithet": "vulgare",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1960,
+            "dwc:eventDate": "1960-08-03",
+            "dwc:recordedBy": "Edward Benedict Bangerter",
+            "dwc:decimalLatitude": 55.6351,
+            "dwc:decimalLongitude": -2.351,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dwc:stateProvince": "Scotland",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "2296387",
+            "dwc:month": 8,
+            "dwc:day": 3,
+            "dwc:recordNumber": "978",
+            "dwc:habitat": "River banks",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2296387",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Boraginales",
+            "dwc:family": "Boraginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Dicotyledones; Boraginaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; Scotland; Scottish Borders",
+            "dwc:fieldNumber": "978",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/dee7964f-46cb-495f-b132-c1be0dbaf2b0",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/6d19cc974397f71d4d5333b82c3b7c828faaab15/contents/preview",
+            "dcterms:title": "BM001037513",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

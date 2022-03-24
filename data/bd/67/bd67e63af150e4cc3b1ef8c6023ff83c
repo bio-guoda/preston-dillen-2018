@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Solena amplexicaulis (Lam.) Gandhi",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100209435",
+            "dwc:catalogNumber": "B 10 0209435",
+            "dwc:genus": "Solena",
+            "dwc:specificEpithet": "amplexicaulis",
+            "dwc:country": "China",
+            "dwc:year": 1984,
+            "dwc:eventDate": "1984-07-07",
+            "dwc:locality": "Dali Xiang. E side of Diancang Shan mountain range, Vicinity of Qingbichi.",
+            "dwc:recordedBy": "B. Bartholomew & al.",
+            "dwc:decimalLatitude": 25.6333,
+            "dwc:decimalLongitude": 100.1667,
+            "setID": "B",
+            "dwc:verbatimEventDate": "07.07.1984",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "790",
+            "dwc:habitat": "on lower slopes abouve cultivated fields, vine in a thicked among cultivated plants, flowers white",
+            "dwc:scientificNameAuthorship": "Gandhi",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CUCURBITACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CUCURBITACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "ca. 2200-2350 m",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100209435",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

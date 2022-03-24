@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vaccinium bracteatum Thunb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04474087",
+            "dwc:catalogNumber": "P04474087",
+            "dwc:genus": "Vaccinium",
+            "dwc:specificEpithet": "bracteatum",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04474087",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Ericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04474087",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Ericaceae",
+            "@id": "SONNERAT|6026322",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Vaccinium",
+            "dwc:higherClassification": "Vaccinium;Ericaceae",
+            "dwc:specificEpithet": "bracteatum",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Vaccinium bracteatum Thunb.",
+            "dwc:scientificNameAuthorship": "Thunb.",
+            "dwc:taxonID": "SONNERAT|247809",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "F92C5498C27342DA8A62F1E39CE80521",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441376537614ubUt8W2O3XB26Czy",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

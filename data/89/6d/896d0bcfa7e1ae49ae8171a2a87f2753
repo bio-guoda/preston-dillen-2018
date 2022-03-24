@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Nesaea radicans var. floribunda (Sond.) Fernandes",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "CD",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008952257",
+            "dwc:catalogNumber": "BR0000008952257",
+            "dwc:genus": "Ammannia",
+            "dwc:specificEpithet": "radicans",
+            "dwc:country": "Congo, Democratic Republic of the",
+            "dwc:year": 1912,
+            "dwc:eventDate": "1912-05-09",
+            "dwc:locality": "Dembo - Shinsenda",
+            "dwc:recordedBy": "Bequaert J.",
+            "dwc:infraspecificEpithet": "floribunda",
+            "dwc:decimalLatitude": -11.6333,
+            "dwc:decimalLongitude": 27.5167,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008952257",
+            "dwc:month": 5,
+            "dwc:day": 9,
+            "dcterms:modified": "2005-09-09",
+            "dwc:recordNumber": "432",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Lythraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "nld",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008952257",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008952257",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

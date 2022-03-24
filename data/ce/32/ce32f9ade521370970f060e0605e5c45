@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum nigrum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NZ",
+            "dwc:occurrenceID": "128c1182-0788-4922-b027-8e8ac9479215",
+            "dwc:catalogNumber": "BM000846721",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "nigrum",
+            "dwc:country": "New Zealand",
+            "dwc:year": 1768,
+            "dwc:eventDate": "1768-01-01",
+            "dwc:recordedBy": "Joseph Banks, Daniel Carl Solander",
+            "setID": "BM",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "4341600",
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4341600",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Dicotyledones; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Oceania; New Zealand",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/128c1182-0788-4922-b027-8e8ac9479215",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/6d522bdf3661502e8cf8e34f05bbba789ca88314/contents/preview",
+            "dcterms:title": "BM000846721",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

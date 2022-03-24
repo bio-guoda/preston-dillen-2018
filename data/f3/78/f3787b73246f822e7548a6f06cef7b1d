@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Salix alba L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04815467",
+            "dwc:catalogNumber": "P04815467",
+            "dwc:genus": "Salix",
+            "dwc:specificEpithet": "alba",
+            "dwc:country": "France",
+            "dwc:year": 1954,
+            "dwc:eventDate": "1954-04-25",
+            "dwc:recordedBy": "Bouby, H.",
+            "dwc:decimalLatitude": 49.011,
+            "dwc:decimalLongitude": 1.8938,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "Ile-de-France",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04815467",
+            "dwc:month": 4,
+            "dwc:day": 25,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Lieux humides, route de Gaillon, sirtie d'Hardricourt (S. et Oise)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Salicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04815467",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Salicaceae",
+            "@id": "SONNERAT|7295226",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Salix",
+            "dwc:higherClassification": "Salix;Salicaceae",
+            "dwc:specificEpithet": "alba",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Salix alba L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|10861",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "FA844396745E4E629236AEEB2FD154BC",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:subject": "erecolnat",
+            "@id": "FA844396745E4E629236AEEB2FD154BC",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/14414371761520NrejNidaLKcueCp",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rumex maritimus L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3192198",
+            "dwc:catalogNumber": "L.3192198",
+            "dwc:genus": "Rumex",
+            "dwc:specificEpithet": "maritimus",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "afvalterrein buiten de Arkelpoort te Gorinchem.",
+            "dwc:recordedBy": "Henrard JT",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1913/09/30 | 1913/09/01",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3192198",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Polygonaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophyllales|Polygonaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3192198",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

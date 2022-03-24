@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Acalypha lanceolata Willd.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2180891",
+            "dwc:catalogNumber": "L.2180891",
+            "dwc:genus": "Acalypha",
+            "dwc:specificEpithet": "lanceolata",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1949,
+            "dwc:eventDate": "1949-12-08",
+            "dwc:locality": "Bogor Botanical Garden",
+            "dwc:recordedBy": "Kern JH",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1949/12/08",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2180891",
+            "dwc:month": 12,
+            "dwc:day": 8,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Euphorbiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Malpighiales|Euphorbiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2180891",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

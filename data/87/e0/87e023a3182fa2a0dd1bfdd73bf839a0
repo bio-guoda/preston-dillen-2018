@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium dilatatum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2770",
+            "dwc:catalogNumber": "EIG.2770",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "dilatatum",
+            "dwc:country": "Australia",
+            "dwc:year": 1981,
+            "dwc:eventDate": "1981-09-10",
+            "dwc:locality": "Wooroonooran National Park west of Babinda; The Boulders.",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "setID": "H",
+            "dwc:verbatimEventDate": "10.09.1981",
+            "dwc:stateProvince": "Queensland",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.711642",
+            "dwc:month": 9,
+            "dwc:day": 10,
+            "dcterms:modified": "1492083861",
+            "dwc:recordNumber": "10879",
+            "dwc:otherCatalogNumbers": "H1459257",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "AUSTRALIA, Queensland, Bellenden Ker National Park W. of Babinda. The Boulders.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium dilatatum",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.2770",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

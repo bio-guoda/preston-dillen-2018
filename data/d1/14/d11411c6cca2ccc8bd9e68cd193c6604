@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pitcairnia campii L.B.Sm.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EC",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00713047",
+            "dwc:catalogNumber": "P00713047",
+            "dwc:genus": "Pitcairnia",
+            "dwc:specificEpithet": "campii",
+            "dwc:country": "Ecuador",
+            "dwc:year": 1945,
+            "dwc:eventDate": "1945-06-08",
+            "dwc:recordedBy": "Camp, W.H.",
+            "setID": "P",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Smith",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00713047",
+            "dwc:month": 6,
+            "dwc:day": 8,
+            "dcterms:modified": "2015-09-28",
+            "dwc:verbatimLocality": "Junction of the Provinces of Guayas, Canar, Chimborazo & Bolivar : Foothills of the western cordillera near the village of Bucay",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Bromeliaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:occurrenceRemarks": "Part 1/2",
+            "dwc:fieldNumber": "E 3661",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1125,
+            "dwc:elevationAccuracy": 125,
+            "dwc:fieldNotes": "On steep banks and cliffs. Short basal offshoots forming dense clumps. Lvs and spikes 2-3m. long; lvs arching, spikes nearly erect. Bracts pale green, with pale scurf. Calyx lobes green. Corolla, stamens, and with fls; lower half bracteate.",
+            "dcterms:language": "eng",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00713047",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Bromeliaceae",
+            "@id": "SONNERAT|1229522",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Pitcairnia",
+            "dwc:dateIdentified": "1951",
+            "dwc:higherClassification": "Pitcairnia;Bromeliaceae",
+            "dwc:specificEpithet": "campii",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Pitcairnia campii L.B.Sm.",
+            "dwc:identifiedBy": "Smith",
+            "dwc:scientificNameAuthorship": "L.B.Sm.",
+            "dwc:taxonID": "SONNERAT|264151",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "88F1EF8890A54D78B267AC1213FBEDB0",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, SM",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443422650240lP2shruvj4e0Tr0w",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

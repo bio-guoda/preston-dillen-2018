@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Musa itinerans Cheesman var. chinensis Häkkinen",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1740857",
+            "dwc:catalogNumber": "HA.H1740857",
+            "dwc:genus": "Musa",
+            "dwc:specificEpithet": "itinerans",
+            "dwc:country": "CN",
+            "dwc:year": 2008,
+            "dwc:eventDate": "2008-01-01/2008-12-31",
+            "dwc:locality": "Guangdong Province, Conghua County, Daling Mountain.",
+            "dwc:recordedBy": "Häkkinen, M. (514)",
+            "dwc:infraspecificEpithet": "chinensis",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:identifiedBy": "Markku Häkkinen",
+            "dwc:dateIdentified": "2008",
+            "dcterms:identifier": "http://tun.fi/MY.110190",
+            "dcterms:modified": "1382503669",
+            "dwc:habitat": "On the road side.",
+            "dwc:verbatimElevation": "500 meters",
+            "dwc:otherCatalogNumbers": "H1740857",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "23°38.820\"N, 113°46.066\"E",
+            "dwc:scientificNameAuthorship": "Cheesman",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Musa itinerans var. chinensis",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - multiple EN + ZH",
+            "@id": "http://id.luomus.fi/HA.H1740857",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

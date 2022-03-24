@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Deparia confluens",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.3644",
+            "dwc:catalogNumber": "EIG.3644",
+            "dwc:genus": "Deparia",
+            "dwc:specificEpithet": "confluens",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-01-01/1910-01-31",
+            "dwc:locality": "Tengger; Wonosari",
+            "dwc:recordedBy": "Mousset, J. P.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "01.1910",
+            "dwc:stateProvince": "East Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.714504",
+            "dwc:month": 1,
+            "dcterms:modified": "1492083928",
+            "dwc:otherCatalogNumbers": "H1591217",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Herbarium javanicum. Wonosari, an Flüssen im Tengger 1200 m",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Deparia confluens",
+            "dwc:verbatimRecordedBy": "Mousset, J. P.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/EIG.3644",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

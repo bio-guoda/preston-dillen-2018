@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum sisymbriifolium Lam.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "05cd0070-cade-4594-9b51-925c5a2b6372",
+            "dwc:catalogNumber": "BM000942913",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "sisymbriifolium",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2000,
+            "dwc:eventDate": "2000-08-14",
+            "dwc:locality": "Ware, Cultivated at Ware, Herts.",
+            "dwc:recordedBy": "C.G. Hanson",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "5453157",
+            "dwc:month": 8,
+            "dwc:day": 14,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "ARG-99-16*A",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5453157",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England",
+            "dwc:fieldNumber": "ARG-99-16*A",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/05cd0070-cade-4594-9b51-925c5a2b6372",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/58ba4ce4abdd03ddf547e348ab4dc860e0d97629/contents/preview",
+            "dcterms:title": "BM000942913",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

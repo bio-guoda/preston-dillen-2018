@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Oxalis corniculata L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000005849017",
+            "dwc:catalogNumber": "BR0000005849017",
+            "dwc:genus": "Oxalis",
+            "dwc:specificEpithet": "corniculata",
+            "dwc:country": "Australia",
+            "dwc:year": 1833,
+            "dwc:eventDate": "1833-01-01",
+            "dwc:locality": "VD Land",
+            "dwc:recordedBy": "Gunn R.C.",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000005849017",
+            "dcterms:modified": "2012-05-08",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Oxalidales",
+            "dwc:family": "Oxalidaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:locationRemarks": "Country: VD Land",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - unidentified",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000005849017",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000005849017",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

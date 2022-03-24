@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Dioscorea delicata R. Knuth",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100000390",
+            "dwc:catalogNumber": "B 10 0000390",
+            "dwc:genus": "Dioscorea",
+            "dwc:specificEpithet": "delicata",
+            "dwc:country": "Brazil",
+            "dwc:year": 1914,
+            "dwc:eventDate": "1914-06-09",
+            "dwc:locality": "Paraná, Serra do Mar, Volta Grande ad marginem sil",
+            "dwc:recordedBy": "Jönsson,I.G.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1914-06-09",
+            "dwc:identifiedBy": "R. S. Couto",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "651 a",
+            "dwc:scientificNameAuthorship": "R. Knuth",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Dioscoreaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Dioscoreaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "400",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100000390",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

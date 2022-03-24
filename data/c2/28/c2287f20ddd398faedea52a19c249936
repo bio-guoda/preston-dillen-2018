@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Thamnosma texana Torr.",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100327000",
+            "dwc:catalogNumber": "B 10 0327000",
+            "dwc:genus": "Thamnosma",
+            "dwc:specificEpithet": "texana",
+            "dwc:country": "USA",
+            "dwc:year": 2004,
+            "dwc:eventDate": "2004-11-14",
+            "dwc:locality": "Val Verde County; ca. 12 miles north of Del Rio on U.S. 277-U.S. 377, 7,3 miles north of junction with U.S. 90 West, 2,5 miles north of Amistad Reservoir; east side of road.",
+            "dwc:recordedBy": "J. R. Abbott & K. Gulledge",
+            "dwc:decimalLatitude": 29.5339,
+            "dwc:decimalLongitude": -100.9039,
+            "setID": "B",
+            "dwc:verbatimEventDate": "14.11.2004",
+            "dwc:identifiedBy": "J. R. Abbott",
+            "dwc:continent": "North America",
+            "dwc:recordNumber": "19557",
+            "dwc:habitat": "Clay and limestone roadcut; open with scattered small shrubs; with Polygala macradenia and P. lindheimeri",
+            "dwc:scientificNameAuthorship": "Torr.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "RUTACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; RUTACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "North America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100327000",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

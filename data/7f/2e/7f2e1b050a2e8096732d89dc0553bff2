@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Sorbus semipinnata (Roth) Hedl.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100263620",
+            "dwc:catalogNumber": "B 10 0263620",
+            "dwc:genus": "Sorbus",
+            "dwc:specificEpithet": "semipinnata",
+            "dwc:country": "Germany",
+            "dwc:year": 1963,
+            "dwc:eventDate": "1963-07-11",
+            "dwc:recordedBy": "M. Bässler",
+            "setID": "B",
+            "dwc:verbatimEventDate": "11.07.1963",
+            "dwc:continent": "Europe",
+            "dwc:scientificNameAuthorship": "Hedl.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ROSACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ROSACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100263620",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

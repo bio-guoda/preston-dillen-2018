@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rytiphlaea C.Agardh, 1817",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "8f6cd220-22b0-4861-831b-54cdcb82c8bb",
+            "dwc:catalogNumber": "BM001039439",
+            "dwc:genus": "Rytiphlaea",
+            "dwc:country": "Australia",
+            "dwc:recordedBy": "William Henry Harvey",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "714993",
+            "dwc:recordNumber": "130B",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:714993",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Ceramiales",
+            "dwc:family": "Rhodomelaceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Rhodomelaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "130B",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.nhm.ac.uk/object/8f6cd220-22b0-4861-831b-54cdcb82c8bb",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/09bcfb639ff11fc086b8faa926f7064fe15252d8/contents/preview",
+            "dcterms:title": "BM001039439",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

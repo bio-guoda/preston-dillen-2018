@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Sphaeroplea C.Agardh, 1824",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0042527",
+            "dwc:catalogNumber": "PC0042527",
+            "dwc:genus": "Sphaeroplea",
+            "dwc:country": "France",
+            "dwc:locality": "Calvi",
+            "dwc:recordedBy": "Soleirol",
+            "setID": "P",
+            "dwc:stateProvince": "20 Corse",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0042527",
+            "dcterms:modified": "2015-09-03",
+            "dwc:eventRemarks": "ad littus medit. in aquis stagnant.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Chlorophyta",
+            "dwc:order": "Chlamydomonadales",
+            "dwc:family": "Sphaeropleaceae",
+            "dwc:class": "Chlorophyceae",
+            "dwc:collectionCode": "PC",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0042527",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Algues",
+            "@id": "SONNERAT|1420984",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Sphaeroplea",
+            "dwc:higherClassification": "Sphaeroplea;Algues",
+            "dwc:specificEpithet": "sp.",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Sphaeroplea sp.",
+            "dwc:taxonID": "SONNERAT|1138796",
+            "@type": "dwc:Identification"
+        },
+        {
+            "@id": "SONNERAT|867557",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Sphaeroplethia",
+            "dwc:higherClassification": "Sphaeroplethia",
+            "dwc:specificEpithet": "soleirolii",
+            "dwc:scientificName": "Sphaeroplethia soleirolii Duby",
+            "dwc:taxonID": "SONNERAT|140227",
+            "dwc:scientificNameAuthorship": "Duby",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Famille",
+            "@id": "SONNERAT|867558",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Genre",
+            "dwc:higherClassification": "Genre;Famille",
+            "dwc:specificEpithet": "indet.",
+            "dwc:scientificName": "Genre indet.",
+            "dwc:taxonID": "SONNERAT|10527",
+            "@type": "dwc:Identification"
+        },
+        {
+            "@id": "287FCAA0669A4522A69FBF9F84FB6B29",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441291140335OZjANlZQl3rH8lC6",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

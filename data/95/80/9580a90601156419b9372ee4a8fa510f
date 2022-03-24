@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula sibirica L.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100847290",
+            "dwc:catalogNumber": "B 10 0847290",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "sibirica",
+            "dwc:country": "Germany",
+            "dwc:year": 1927,
+            "dwc:eventDate": "1927-10-02",
+            "dwc:locality": "Brandenburg. Kanonenberg at Niederfinow.",
+            "dwc:recordedBy": "O. von Linstow",
+            "setID": "B",
+            "dwc:verbatimEventDate": "02.10.1927",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "2276",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100847290",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum nummularium S.Moore",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "a97c0b10-0283-4950-bbc3-661198d6c3d4",
+            "dwc:catalogNumber": "BM000900485",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "nummularium",
+            "dwc:country": "Australia",
+            "dwc:year": 1902,
+            "dwc:eventDate": "1902-01-01",
+            "dwc:recordedBy": "Leonard Clarke Webster",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "706657",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:706657",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Angiosperm; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/a97c0b10-0283-4950-bbc3-661198d6c3d4",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/103e43e7ed742e47eb0106dddf80e7c2c88dcc28/contents/preview",
+            "dcterms:title": "BM000900485",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/e4ea963605e9b8bbc16bd7cd4b0ac24efec1b05d/contents/preview",
+            "dcterms:title": "BM000900485",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

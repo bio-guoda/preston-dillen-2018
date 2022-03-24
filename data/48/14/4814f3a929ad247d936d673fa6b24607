@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Lactuca serriola L.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100341043",
+            "dwc:catalogNumber": "B 10 0341043",
+            "dwc:genus": "Lactuca",
+            "dwc:specificEpithet": "serriola",
+            "dwc:country": "Germany",
+            "dwc:year": 1993,
+            "dwc:eventDate": "1993-08-12",
+            "dwc:locality": "Brandenburg. Havelland (Kreis), bei Schönwalde, am Havelkanal, Teufelsbruchwiesen.",
+            "dwc:recordedBy": "T. Dürbye, I. Henneken & Wilke",
+            "setID": "B",
+            "dwc:verbatimEventDate": "12.8.1993",
+            "dwc:identifiedBy": "T. Raus",
+            "dwc:dateIdentified": "02.12.1997",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "DÜR 2580",
+            "dwc:habitat": "Kanalrand",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100341043",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

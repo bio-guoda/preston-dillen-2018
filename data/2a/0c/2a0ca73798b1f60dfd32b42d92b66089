@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Catenella caespitosa (Withering) L.M.Irvine, 1976",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00713766",
+            "dwc:catalogNumber": "E00713766",
+            "dwc:genus": "Catenella",
+            "dwc:specificEpithet": "caespitosa",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-08-26",
+            "dwc:locality": "Harrow Harbour",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1982-08-26",
+            "dwc:stateProvince": "Scotland",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00713766",
+            "dwc:month": 8,
+            "dwc:day": 26,
+            "dwc:county": "(VC 109) Caithness",
+            "dcterms:modified": "2015-07-14",
+            "dwc:otherCatalogNumbers": "BGBASE:725913",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Gigartinales",
+            "dwc:family": "Caulacanthaceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Britain and Ireland",
+            "dwc:startDayOfYear": 238,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00713766",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00713766 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00713766",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNzEzLzc2Ni84MTAxNzQuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00713766",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

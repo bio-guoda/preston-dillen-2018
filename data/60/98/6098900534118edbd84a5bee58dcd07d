@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Xyris aristata N.E.Br.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CD",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008818133",
+            "dwc:catalogNumber": "BR0000008818133",
+            "dwc:genus": "Xyris",
+            "dwc:specificEpithet": "aristata",
+            "dwc:country": "Congo, Democratic Republic of the",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-01-07",
+            "dwc:locality": "Haut-Shaba, Plateau des Kundelungu,près de la source de la Lofoi",
+            "dwc:recordedBy": "Lisowski S.",
+            "dwc:decimalLatitude": -9.3333,
+            "dwc:decimalLongitude": 27.6667,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008818133",
+            "dwc:month": 1,
+            "dwc:day": 7,
+            "dcterms:modified": "2008-01-17",
+            "dwc:recordNumber": "23000A",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Xyridaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008818133",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008818133",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

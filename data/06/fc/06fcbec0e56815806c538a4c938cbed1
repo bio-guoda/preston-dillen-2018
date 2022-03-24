@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vittaria angustifolia Bl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3641779",
+            "dwc:catalogNumber": "L.3641779",
+            "dwc:genus": "Haplopteris",
+            "dwc:specificEpithet": "angustifolia",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Archip. Ind. Java.",
+            "dwc:recordedBy": "Scheffer RHCC",
+            "setID": "L",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3641779",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Pteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Pteropsida|Polypodiales|Vittariaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3641779",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Veronica tournefortii C.C.Gmelin",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU277522",
+            "dwc:catalogNumber": "TU277522",
+            "dwc:genus": "Veronica",
+            "dwc:specificEpithet": "tournefortii",
+            "dwc:country": "Estonia",
+            "dwc:year": 1933,
+            "dwc:eventDate": "1933-07-10",
+            "dwc:locality": "Saaremaa, Sõrve, Mõntu mõisa juures odrapõllul.",
+            "dwc:recordedBy": "B. Saarson",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1933-07-10",
+            "dwc:identifiedBy": "B. Saarson",
+            "dwc:dateIdentified": "1933-07-10T00:00:00.000+0000",
+            "dcterms:identifier": "TU277522",
+            "dwc:month": 7,
+            "dwc:day": 10,
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Plantaginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Lamiales; Plantaginaceae; Veronica",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dwc:occurrenceRemarks": "Nr. 239i.",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/491873",
+            "dwc:eventID": 746928,
+            "dwc:taxonID": 10010,
+            "dwc:locationID": 664017,
+            "dwc:identificationID": 764061,
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/491873",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/3F/F9/3FF901C6A7087977645DB88216CD00B0E3596A16E2A01E22272B52D6F917F28F.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1466853",
+            "dcterms:title": "TU277522.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

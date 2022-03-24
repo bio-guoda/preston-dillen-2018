@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bryum subventricosum Broth.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H3301752",
+            "dwc:catalogNumber": "HA.H3301752",
+            "dwc:genus": "Bryum",
+            "dwc:specificEpithet": "subventricosum",
+            "dwc:country": "AU",
+            "dwc:year": 1900,
+            "dwc:eventDate": "1900-01-01/1900-12-31",
+            "dwc:recordedBy": "Forsyth bis, William (725)",
+            "dwc:decimalLatitude": 35.7772,
+            "dwc:decimalLongitude": 148.0114,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dwc:verbatimEventDate": "9/ 1900",
+            "dc:typeStatus": "Holotype",
+            "dwc:stateProvince": "New South Wales",
+            "dwc:identifiedBy": "[Brotherus, Viktor Ferdinand]",
+            "dwc:continent": "Australasia",
+            "dcterms:identifier": "http://tun.fi/MY.128374",
+            "dwc:county": "Tumbarumba",
+            "dcterms:modified": "1382504115",
+            "dwc:coordinateUncertaintyInMeters": 20000,
+            "dwc:otherCatalogNumbers": "H3301752",
+            "dwc:collectionID": "http://tun.fi/HR.189",
+            "dwc:verbatimLocality": "N. S. Wales, Tumbarumba distr.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "35.77724 148.01137 WGS84 (20000m)",
+            "dwc:scientificNameAuthorship": "Broth.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Bryum subventricosum",
+            "dwc:organismRemarks": "Not on sheet",
+            "dwc:verbatimRecordedBy": "W. Forsyth",
+            "dwc:verbatimLongitude": "148.01137",
+            "dwc:verbatimLatitude": "35.77724",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/HA.H3301752",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

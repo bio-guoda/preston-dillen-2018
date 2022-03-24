@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Miconia friedmaniorum F.Almeda & G.Umaña Dodero",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CR",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000005207022",
+            "dwc:catalogNumber": "BR0000005207022",
+            "dwc:genus": "Conostegia",
+            "dwc:specificEpithet": "friedmaniorum",
+            "dwc:country": "Costa Rica",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-04-28",
+            "dwc:locality": "Upala, Colonia Libertad Subiendo hasta el Llano Aguacatales",
+            "dwc:recordedBy": "Herrera G.",
+            "setID": "BR",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000005207022",
+            "dwc:month": 4,
+            "dwc:day": 28,
+            "dcterms:modified": "2010-02-18",
+            "dwc:recordNumber": "1900",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Melastomataceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "spa",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000005207022",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000005207022",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

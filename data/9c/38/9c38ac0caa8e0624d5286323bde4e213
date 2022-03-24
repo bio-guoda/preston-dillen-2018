@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Sporobolus indicus (L.) R.Br.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02214217",
+            "dwc:catalogNumber": "P02214217",
+            "dwc:genus": "Sporobolus",
+            "dwc:specificEpithet": "indicus",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02214217",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "spa",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02214217",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Poaceae",
+            "@id": "SONNERAT|3024825",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Sporobolus",
+            "dwc:higherClassification": "Sporobolus;Poaceae",
+            "dwc:specificEpithet": "indicus",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Sporobolus indicus (L.) R.Br.",
+            "dwc:scientificNameAuthorship": "(L.) R.Br.",
+            "dwc:taxonID": "SONNERAT|12488",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "C19C65A084AC4D579394C7B22CA5E7AB",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441322755336igCXqxuXxJLsjyKn",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum ichelense N.Robson",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "74db406a-0f6d-4150-94f3-b81817165bd7",
+            "dwc:catalogNumber": "BM000946465",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "ichelense",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-06-19",
+            "dwc:locality": "Nearest Named Place: Asia",
+            "dwc:recordedBy": "Dr F. Sorger",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "N. K. B. Robson",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "473319",
+            "dwc:month": 6,
+            "dwc:day": 19,
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:473319",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Guttiferae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://data.nhm.ac.uk/object/74db406a-0f6d-4150-94f3-b81817165bd7",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/54e8874d5f1884946bf0cac5aa2719271d32069f/contents/preview",
+            "dcterms:title": "BM000946465",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

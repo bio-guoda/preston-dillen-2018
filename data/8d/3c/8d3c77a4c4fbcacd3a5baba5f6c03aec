@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Trifolium fucatum Lindl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02733867",
+            "dwc:catalogNumber": "P02733867",
+            "dwc:genus": "Trifolium",
+            "dwc:specificEpithet": "fucatum",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02733867",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02733867",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|3441177",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Trifolium",
+            "dwc:higherClassification": "Trifolium;Fabaceae",
+            "dwc:specificEpithet": "fucatum",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Trifolium fucatum Lindl.",
+            "dwc:scientificNameAuthorship": "Lindl.",
+            "dwc:taxonID": "SONNERAT|742905",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "AA5435F3296749AA98D5E2D784E1E6B0",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441329549265vKMoUdNlt61gjrzo",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

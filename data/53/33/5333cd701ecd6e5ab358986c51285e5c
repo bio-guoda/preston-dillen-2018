@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mycelis muralis (L.) Dum.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU305278",
+            "dwc:catalogNumber": "TU305278",
+            "dwc:genus": "Lactuca",
+            "dwc:specificEpithet": "muralis",
+            "dwc:country": "Estonia",
+            "dwc:year": 1990,
+            "dwc:eventDate": "1990-07-21",
+            "dwc:recordedBy": "K. Henno",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1990-07-21",
+            "dwc:identifiedBy": "K. Henno",
+            "dwc:dateIdentified": "1990-07-21T00:00:00.000+0000",
+            "dcterms:identifier": "TU305278",
+            "dwc:month": 7,
+            "dwc:day": 21,
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Asterales; Asteraceae; Mycelis",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/598004",
+            "dwc:eventID": 853075,
+            "dwc:taxonID": 5817,
+            "dwc:locationID": 770002,
+            "dwc:identificationID": 931864,
+            "dwc:vernacularName": "harilik jänesesalat",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/598004",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/5C/9D/5C9DCC74D92F8FE70FD513AA9933C404E0EA5123A99EA551BA1228DBD802C0D8.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1491924",
+            "dcterms:title": "TU305278.tif",
+            "dcterms:created": "2015-08",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

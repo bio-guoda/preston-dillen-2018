@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Digitaria radicosa Miq.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1245206",
+            "dwc:catalogNumber": "L.1245206",
+            "dwc:genus": "Digitaria",
+            "dwc:specificEpithet": "radicosa",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1928,
+            "dwc:eventDate": "1928-05-19",
+            "dwc:locality": "Island N.Sumatra. Serdang, bei pantei-tjermin, verschiedenes sonniges öd - und Weideland.",
+            "dwc:recordedBy": "Lörzing JA",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1928/05/19",
+            "dwc:stateProvince": "Sumatra",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1245206",
+            "dwc:month": 5,
+            "dwc:day": 19,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1245206",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

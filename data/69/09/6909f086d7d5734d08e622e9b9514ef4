@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Orthosia scoparia (Nutt.) Liede & Meve",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000096528",
+            "dwc:catalogNumber": "K000096528",
+            "dwc:genus": "Orthosia",
+            "dwc:specificEpithet": "scoparia",
+            "dwc:country": "Brazil",
+            "dwc:recordedBy": "Burchell",
+            "setID": "K",
+            "dcterms:identifier": "K000096528",
+            "dcterms:modified": "2015-02-06",
+            "dwc:recordNumber": "2050",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Apocynaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "APOCYNACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Catalogus Geographicus Plantarum Brasiliae Tropicae. Herbarium of the late W.J. Burchell, D.C.L. Presented by Miss Burchell, May 1865.",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://specimens.kew.org/herbarium/K000096528",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "APOCYNACEAE",
+            "dwc:genus": "Ditassa",
+            "dwc:higherClassification": "APOCYNACEAE",
+            "dwc:scientificName": "Ditassa",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000096528",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/601408.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

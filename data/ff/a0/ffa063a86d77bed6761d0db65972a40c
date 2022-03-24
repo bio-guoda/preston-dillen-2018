@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Tectaria holttumii C.Chr.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MY",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000237156",
+            "dwc:catalogNumber": "K000237156",
+            "dwc:genus": "Tectaria",
+            "dwc:specificEpithet": "holttumii",
+            "dwc:country": "Malaysia",
+            "dwc:year": 1931,
+            "dwc:eventDate": "1931-11-19",
+            "dwc:locality": "B. N. Borneo, near Menetendok; Minitinduk",
+            "dwc:recordedBy": "Holttum, Dr. R.E.",
+            "dwc:decimalLatitude": 6.08,
+            "dwc:decimalLongitude": 116.72,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Christensen, C.",
+            "dcterms:identifier": "K000237156",
+            "dwc:month": 11,
+            "dwc:day": 19,
+            "dcterms:modified": "2014-08-14",
+            "dwc:recordNumber": "25570",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Tectariaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "DRYOPTERIDACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "Gazetteer",
+            "dwc:taxonRemarks": "Gard. Bull. Straits Settlem. 7 (1934) 259 pl.55.",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 914,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000237156",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000237156",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/682120.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

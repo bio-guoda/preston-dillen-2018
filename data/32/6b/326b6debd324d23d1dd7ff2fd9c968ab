@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex hirta L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000025383805V",
+            "dwc:catalogNumber": "BR0000025383805V",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "hirta",
+            "dwc:country": "Belgium",
+            "dwc:year": 1981,
+            "dwc:eventDate": "1981-06-18",
+            "dwc:locality": "Meerbeek (Brabant)",
+            "dwc:recordedBy": "Luk De Ronde",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000025383805V",
+            "dwc:month": 6,
+            "dwc:day": 18,
+            "dcterms:modified": "2017-05-03",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "nld",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000025383805V",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000025383805V",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

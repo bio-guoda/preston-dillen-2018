@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lasianthus africanus subsp. biokoensis Jannerup",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "GQ",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008847782",
+            "dwc:catalogNumber": "BR0000008847782",
+            "dwc:genus": "Lasianthus",
+            "dwc:specificEpithet": "africanus",
+            "dwc:country": "Equatorial Guinea",
+            "dwc:year": 1986,
+            "dwc:eventDate": "1986-12-10",
+            "dwc:locality": "Moca, entre Cascata do rio Iladyi e Moca, 32NMJ6377",
+            "dwc:recordedBy": "de Carvalho M.F.",
+            "dwc:infraspecificEpithet": "biokoensis",
+            "setID": "BR",
+            "dc:typeStatus": "HOLOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008847782",
+            "dwc:month": 12,
+            "dwc:day": 10,
+            "dcterms:modified": "2008-02-01",
+            "dwc:recordNumber": "2780",
+            "dwc:habitat": "zona pantanosa",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "por",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008847782",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008847782",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

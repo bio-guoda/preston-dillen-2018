@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Calypogeia fauriana Steph.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "JP",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0102077",
+            "dwc:catalogNumber": "PC0102077",
+            "dwc:genus": "Calypogeia",
+            "dwc:specificEpithet": "fauriana",
+            "dwc:country": "Japan",
+            "dwc:year": 1905,
+            "dwc:eventDate": "1905-10-01",
+            "dwc:recordedBy": "Faurie, U.",
+            "setID": "P",
+            "dc:typeStatus": "TYPE",
+            "dwc:identifiedBy": "Stephani",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0102077",
+            "dwc:month": 10,
+            "dcterms:modified": "2015-09-26",
+            "dwc:verbatimLocality": "Propre Aomori, ex balneis Jimbo",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Marchantiophyta",
+            "dwc:order": "Jungermanniales",
+            "dwc:family": "Calypogeiaceae",
+            "dwc:class": "Jungermanniopsida",
+            "dwc:collectionCode": "PC",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "1887",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0102077",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Calypogeiaceae",
+            "@id": "SONNERAT|1174298",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Calypogeia",
+            "dwc:higherClassification": "Calypogeia;Calypogeiaceae",
+            "dwc:specificEpithet": "fauriana",
+            "dwc:identificationRemarks": "Inédit",
+            "dwc:typeStatus": "type",
+            "dwc:scientificName": "Calypogeia fauriana Steph.",
+            "dwc:identifiedBy": "Stephani",
+            "dwc:scientificNameAuthorship": "Steph.",
+            "dwc:taxonID": "SONNERAT|247834",
+            "@type": "dwc:Identification"
+        },
+        {
+            "@id": "7D83924E81CA4F3AB5EFBF9DFF48CA9A",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, MB",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443216324375WpMAtF6VkbkD2vbz",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, MB",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443216391645DnAtt3X6zH4ERZYG",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

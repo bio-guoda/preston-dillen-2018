@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Curtia verticillaris Knobl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001048710",
+            "dwc:catalogNumber": "K001048710",
+            "dwc:genus": "Curtia",
+            "dwc:specificEpithet": "verticillaris",
+            "dwc:country": "Brazil",
+            "dwc:year": 1992,
+            "dwc:eventDate": "1992-08-27",
+            "dwc:locality": "Serra da Tromba, próximo à ponte caída do Rio de Contas.",
+            "dwc:recordedBy": "Ganev, W.",
+            "setID": "K",
+            "dcterms:identifier": "K001048710",
+            "dwc:month": 8,
+            "dwc:day": 27,
+            "dcterms:modified": "2015-07-03",
+            "dwc:recordNumber": "969",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Gentianaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "GENTIANACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Piatã",
+            "dwc:municipality": "Piatã",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K001048710",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001048710",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/745054.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

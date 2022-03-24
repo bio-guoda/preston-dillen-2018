@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dinochloa hirsuta S.Dransf.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000290665",
+            "dwc:catalogNumber": "K000290665",
+            "dwc:genus": "Dinochloa",
+            "dwc:specificEpithet": "hirsuta",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1984,
+            "dwc:eventDate": "1984-04-10",
+            "dwc:locality": "South Celebes, Wae Atue, Manurung 7km from Malili",
+            "dwc:recordedBy": "Ramlanto",
+            "setID": "K",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Dransfield, S.",
+            "dwc:dateIdentified": "1993-08-20T00:00:00.000+0000",
+            "dcterms:identifier": "K000290665",
+            "dwc:month": 4,
+            "dwc:day": 10,
+            "dcterms:modified": "2013-03-19",
+            "dwc:recordNumber": "136",
+            "dwc:habitat": "secondary forest",
+            "dwc:eventRemarks": "common, climbing on the tree",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "sheet 1/2",
+            "dwc:taxonRemarks": "Author citation as on label: S.Dransfield",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 10,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000290665",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "POACEAE",
+            "dwc:genus": "Dinochloa",
+            "dwc:taxonRemarks": "Author citation as on label: (Blume ex Nees.) O.K.",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:specificEpithet": "scandens",
+            "dwc:scientificName": "Dinochloa scandens (Blume ex Nees) Kuntze",
+            "dwc:identifiedBy": "Ramlanto",
+            "dwc:scientificNameAuthorship": "(Blume ex Nees) Kuntze",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000290665",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/3315.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cyathea horrida Sm.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "JM",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00414415",
+            "dwc:catalogNumber": "E00414415",
+            "dwc:genus": "Cyathea",
+            "dwc:specificEpithet": "horrida",
+            "dwc:country": "Jamaica",
+            "dwc:year": 1874,
+            "dwc:eventDate": "1874-01-01",
+            "dwc:recordedBy": "Jenman, George Samuel",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1874",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00414415",
+            "dcterms:modified": "2011-02-21",
+            "dwc:otherCatalogNumbers": "BGBASE:454552",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Cyatheales",
+            "dwc:family": "Cyatheaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Caribbean",
+            "dwc:startDayOfYear": 182,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00414415",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00414415 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00414415",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNDE0LzQxNS80MjEzNTUuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00414415",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

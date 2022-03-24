@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Thymus pseudopallidus H.Lindb.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "MA",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1665498",
+            "dwc:catalogNumber": "HA.H1665498",
+            "dwc:genus": "Thymus",
+            "dwc:specificEpithet": "pseudopallidus",
+            "dwc:country": "MA",
+            "dwc:year": 1926,
+            "dwc:eventDate": "1926-05-24",
+            "dwc:locality": "Above Amismiz",
+            "dwc:recordedBy": "Lindberg, H. (2692)",
+            "setID": "H",
+            "dc:typeStatus": "Lectotype",
+            "dwc:stateProvince": "Marrakech-Tensift-Al Haouz",
+            "dwc:identifiedBy": "Harald Lindberg",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.109686",
+            "dwc:month": 5,
+            "dwc:day": 24,
+            "dcterms:modified": "1382503665",
+            "dwc:habitat": "decliv. vallis",
+            "dwc:verbatimElevation": "1 200 meters",
+            "dwc:otherCatalogNumbers": "H1665498",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:verbatimLocality": "Atlas magnum, Amismiz, in decliv. vallis supra pagum.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "31.2134, -8.2361",
+            "dwc:scientificNameAuthorship": "H.Lindb.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Thymus pseudopallidus",
+            "dwc:organismRemarks": "Not on sheet Expedition sisältö: Harald Lindberg, Iter Maroccanum 1926",
+            "dwc:verbatimRecordedBy": "Harald Lindberg",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H1665498",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

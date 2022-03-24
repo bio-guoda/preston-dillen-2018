@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris celsa",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1027349",
+            "dwc:catalogNumber": "H.1027349",
+            "dwc:genus": "Dryopteris",
+            "dwc:specificEpithet": "celsa",
+            "dwc:country": "United States",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971-05-06",
+            "dwc:locality": "Green Mountain, W of Keene, 650´ ( c. 13 mi SE of Charlottesville)",
+            "setID": "H",
+            "dwc:verbatimEventDate": "06.05.1971",
+            "dwc:stateProvince": "Virginia",
+            "dcterms:identifier": "http://tun.fi/MY.742882",
+            "dwc:month": 5,
+            "dwc:day": 6,
+            "dwc:county": "Albemarle County",
+            "dcterms:modified": "1492084399",
+            "dwc:otherCatalogNumbers": "H1027349",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "grown at Guelph",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris celsa",
+            "dwc:organismRemarks": "grown at Guelph, Aug. 28, 1971; 4x",
+            "dwc:establishmentMeans": "MY.provenanceCultivated",
+            "dwc:verbatimRecordedBy": "Britton, D. M.; Stevens, Charles E.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1027349",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

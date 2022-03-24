@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ebenus pinnata Ait.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02881107",
+            "dwc:catalogNumber": "P02881107",
+            "dwc:genus": "Ebenus",
+            "dwc:specificEpithet": "pinnata",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02881107",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02881107",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|4849632",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Ebenus",
+            "dwc:higherClassification": "Ebenus;Fabaceae",
+            "dwc:specificEpithet": "pinnata",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Ebenus pinnata Aiton",
+            "dwc:scientificNameAuthorship": "Aiton",
+            "dwc:taxonID": "SONNERAT|251190",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "84210D8FC3D246869CFAB3C9C16287F4",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441350809411ocyMybdscweDMNd4",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

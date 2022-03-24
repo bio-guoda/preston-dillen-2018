@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hemidictyum marginatum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.5353",
+            "dwc:catalogNumber": "EIG.5353",
+            "dwc:genus": "Hemidictyum",
+            "dwc:specificEpithet": "marginatum",
+            "dwc:country": "Brazil",
+            "dwc:year": 1906,
+            "dwc:eventDate": "1906-01-01/1906-12-31",
+            "dwc:locality": "Serra do Mar",
+            "dwc:recordedBy": "Waket, I.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "1906",
+            "dwc:stateProvince": "Southeast",
+            "dwc:continent": "Central America, South America and the Antarctic",
+            "dcterms:identifier": "http://tun.fi/MY.720147",
+            "dwc:county": "São Paulo",
+            "dcterms:modified": "1492084060",
+            "dwc:otherCatalogNumbers": "H1127463",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Est. S. Paulo, Serra do Mar",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Hemidictyum marginatum",
+            "dwc:verbatimRecordedBy": "Waket, I.",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/EIG.5353",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Senna coimbrae M.Nee & Barneby",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BO",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000264066",
+            "dwc:catalogNumber": "K000264066",
+            "dwc:genus": "Senna",
+            "dwc:specificEpithet": "coimbrae",
+            "dwc:country": "Bolivia, Plurinational State of",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-02-09",
+            "dwc:locality": "Depto. Santa Cruz, Prov. Andres Ibanez, 12km E. of center of Santa Cruz on road to Cotoca",
+            "dwc:recordedBy": "Nee, M.",
+            "dwc:decimalLatitude": -17.77,
+            "dwc:decimalLongitude": -63,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Nee, M; Barneby, R.",
+            "dcterms:identifier": "K000264066",
+            "dwc:month": 2,
+            "dwc:day": 9,
+            "dcterms:modified": "2006-04-06",
+            "dwc:recordNumber": "36255",
+            "dwc:habitat": "Edge of subtropical semi-deciduous forest (Celba samauma, Scheelea princeps) and the \"curiche\", a swampy clearing with standing water after rains, scattered gnarled trees, Solanum glaucophyllum, Ipomoea carnea.",
+            "dwc:eventRemarks": "Shrub 1.5m tall, rare.  Petals yellow.  Young fruit curved, erect.",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 375,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000264066",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000264066",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/144490.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

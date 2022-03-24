@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arthropteris tenella",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.6763",
+            "dwc:catalogNumber": "EIG.6763",
+            "dwc:genus": "Arthropteris",
+            "dwc:specificEpithet": "tenella",
+            "dwc:country": "Australia",
+            "dwc:year": 1981,
+            "dwc:eventDate": "1981-09-13",
+            "dwc:locality": "Atherton Tableland, Lamin's Hill, E. of Malanda",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "setID": "H",
+            "dwc:verbatimEventDate": "13.09.1981",
+            "dwc:stateProvince": "Queensland",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.724818",
+            "dwc:month": 9,
+            "dwc:day": 13,
+            "dcterms:modified": "1492084155",
+            "dwc:recordNumber": "11003",
+            "dwc:otherCatalogNumbers": "H1459190",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arthropteris tenella",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.6763",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

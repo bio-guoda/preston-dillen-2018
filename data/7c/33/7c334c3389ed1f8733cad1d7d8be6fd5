@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Agrostis tenuis Sibth.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000027501016V",
+            "dwc:catalogNumber": "BR0000027501016V",
+            "dwc:genus": "Agrostis",
+            "dwc:specificEpithet": "tenuis",
+            "dwc:country": "Belgium",
+            "dwc:year": 1958,
+            "dwc:eventDate": "1958-07-23",
+            "dwc:locality": "Renaix",
+            "dwc:recordedBy": "Gérard Lebailly",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000027501016V",
+            "dwc:month": 7,
+            "dwc:day": 23,
+            "dcterms:modified": "2017-10-09",
+            "dwc:recordNumber": "81",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:acceptedNameUsage": "Agrostis capillaris L.",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000027501016V",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000027501016V",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

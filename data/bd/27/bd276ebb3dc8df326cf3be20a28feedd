@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Croton verbenifolia Muell.Arg.",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100253813",
+            "dwc:catalogNumber": "B 10 0253813",
+            "dwc:genus": "Croton",
+            "dwc:specificEpithet": "verbenifolia",
+            "dwc:country": "Brazil",
+            "dwc:year": 1952,
+            "dwc:eventDate": "1952-01-15",
+            "dwc:locality": "RGS, Passo da Guarda.",
+            "dwc:recordedBy": "B. Rambo",
+            "setID": "B",
+            "dwc:verbatimEventDate": "15.1.1952",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "51913",
+            "dwc:scientificNameAuthorship": "Muell.Arg.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "EUPHORBIACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; EUPHORBIACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100253813",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Parmelia ahtii Essl.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9503354",
+            "dwc:catalogNumber": "HA.H9503354",
+            "dwc:genus": "Parmelia",
+            "dwc:specificEpithet": "ahtii",
+            "dwc:country": "US",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-06-05",
+            "dwc:recordedBy": "Giles, L. J.",
+            "dwc:decimalLatitude": 33.8443,
+            "dwc:decimalLongitude": -111.2845,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:stateProvince": "Arizona",
+            "dwc:continent": "Northern America",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5319284",
+            "dwc:month": 6,
+            "dwc:day": 5,
+            "dwc:county": "Gila County",
+            "dcterms:modified": "1530276731",
+            "dwc:recordNumber": "1127",
+            "dwc:habitat": "Growing on sandstone rocks, common.",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:verbatimElevation": "1800",
+            "dwc:otherCatalogNumbers": "H9503354",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "U.S.A., Arizona. Gila Co.: Natanes Plateau, Tonto National Forest, near U.S. route 60 about 11 miles SW of the Salt River; alt. 5900 feet.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "33.844324 -111.284503 WGS84",
+            "dwc:scientificNameAuthorship": "Essl.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Parmelia ahtii",
+            "dwc:verbatimRecordedBy": "Lawrence J. Giles",
+            "dwc:verbatimLongitude": "-111.284503",
+            "dwc:verbatimLatitude": "33.844324",
+            "dwc:georeferenceRemarks": "Coordinates: Tonto National Forest.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/HA.H9503354",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

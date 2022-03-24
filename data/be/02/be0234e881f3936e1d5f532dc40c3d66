@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Xylopia L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3728020",
+            "dwc:catalogNumber": "L.3728020",
+            "dwc:genus": "Xylopia",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Sarawak, Malaysia. Lowland Mixed Dipterocarp Forest.",
+            "dwc:recordedBy": "LaFrankie JV",
+            "dwc:decimalLatitude": -4.3333,
+            "dwc:decimalLongitude": 113.8333,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1992/04/30 | 1992/04/01",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3728020",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Magnoliales",
+            "dwc:family": "Annonaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Magnoliales|Annonaceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3728020",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

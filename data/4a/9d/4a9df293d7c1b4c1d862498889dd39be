@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Pseudoxandra spiritus-sancti Maas",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100030420",
+            "dwc:catalogNumber": "B 10 0030420",
+            "dwc:genus": "Pseudoxandra",
+            "dwc:specificEpithet": "spiritus-sancti",
+            "dwc:country": "Brazil",
+            "dwc:year": 1999,
+            "dwc:eventDate": "1999-02-16",
+            "dwc:locality": "Est. Espírito Santo, Muncipio de Santa Teresa, Est",
+            "dwc:recordedBy": "Maas,P.J.M., Maas,H. & Kollmann,L.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1999-02-16",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "8833",
+            "dwc:scientificNameAuthorship": "Maas",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Annonaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Annonaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100030420",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

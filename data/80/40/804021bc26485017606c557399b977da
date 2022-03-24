@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum mutilum subsp. mutilum",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "100a37fb-19ad-4e7a-aabd-71a6254be11c",
+            "dwc:catalogNumber": "BM001205647",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "mutilum",
+            "dwc:country": "Canada",
+            "dwc:year": 1921,
+            "dwc:eventDate": "1921-08-01",
+            "dwc:recordedBy": "F Rolland",
+            "dwc:infraspecificEpithet": "mutilum",
+            "setID": "BM",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "8104197",
+            "dwc:month": 8,
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "15921",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8104197",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Canada",
+            "dwc:fieldNumber": "15921",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://data.nhm.ac.uk/object/100a37fb-19ad-4e7a-aabd-71a6254be11c",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/95f55e70982b0f18e3fd59d62ba1f3a511474385/contents/preview",
+            "dcterms:title": "BM001205647",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

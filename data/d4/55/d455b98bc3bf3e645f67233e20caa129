@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Psychotria nutans Sw.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04017077",
+            "dwc:catalogNumber": "P04017077",
+            "dwc:genus": "Margaritopsis",
+            "dwc:specificEpithet": "nutans",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04017077",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04017077",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Rubiaceae",
+            "@id": "SONNERAT|5893736",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Psychotria",
+            "dwc:higherClassification": "Psychotria;Rubiaceae",
+            "dwc:specificEpithet": "nutans",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Psychotria nutans Sw.",
+            "dwc:scientificNameAuthorship": "Sw.",
+            "dwc:taxonID": "SONNERAT|3742746",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "F09BBC5948AF4D31A79B20209E326197",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441373125484Ie0sa2i4ghPCOrnd",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

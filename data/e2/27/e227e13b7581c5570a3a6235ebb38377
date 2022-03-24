@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Thelypteris confluens",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1084145",
+            "dwc:catalogNumber": "H.1084145",
+            "dwc:genus": "Thelypteris",
+            "dwc:specificEpithet": "confluens",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1965,
+            "dwc:eventDate": "1965-06-03",
+            "dwc:locality": "About 30 km E of Jimma, along mainroad",
+            "setID": "H",
+            "dwc:verbatimEventDate": "03.06.1965",
+            "dwc:stateProvince": "Oromia",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.744838",
+            "dwc:month": 6,
+            "dwc:day": 3,
+            "dcterms:modified": "1492084441",
+            "dwc:recordNumber": "6935",
+            "dwc:otherCatalogNumbers": "H1084145",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Alt. ± 2000 m",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Thelypteris confluens",
+            "dwc:verbatimRecordedBy": "de Wilde, W. J. J. O.; et al.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1084145",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

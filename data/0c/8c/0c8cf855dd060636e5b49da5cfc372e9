@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum gramineum G.Forst.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "ad0b2894-9889-4a8c-a5fc-9994a998d1c4",
+            "dwc:catalogNumber": "BM001205291",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "gramineum",
+            "dwc:country": "Australia",
+            "dwc:year": 1977,
+            "dwc:eventDate": "1977-05-26",
+            "dwc:recordedBy": "P K. Latz",
+            "setID": "BM",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "8103697",
+            "dwc:month": 5,
+            "dwc:day": 26,
+            "dwc:recordNumber": "7118",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8103697",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia",
+            "dwc:fieldNumber": "7118",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/ad0b2894-9889-4a8c-a5fc-9994a998d1c4",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/d2998cffab809d3848783827603402de9fe4b6b0/contents/preview",
+            "dcterms:title": "BM001205291",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

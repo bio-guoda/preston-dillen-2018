@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vicia americana Muhl. ex Willd.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02963357",
+            "dwc:catalogNumber": "P02963357",
+            "dwc:genus": "Vicia",
+            "dwc:specificEpithet": "americana",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02963357",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02963357",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|3459993",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Vicia",
+            "dwc:higherClassification": "Vicia;Fabaceae",
+            "dwc:specificEpithet": "americana",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Vicia americana Muhl. ex Willd.",
+            "dwc:scientificNameAuthorship": "Muhl. ex Willd.",
+            "dwc:taxonID": "SONNERAT|761913",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "4CDF1CAC52C643FD99BD957CC3DAF28A",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441329972789nv9XY3i6qK6RzYVq",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

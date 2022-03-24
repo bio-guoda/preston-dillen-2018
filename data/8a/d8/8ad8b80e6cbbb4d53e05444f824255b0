@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Trichomanes reniforme G.Forst.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NZ",
+            "dwc:occurrenceID": "cc9e9c59-5d0d-4e77-b9f7-91e51a646fdb",
+            "dwc:catalogNumber": "BM001048446",
+            "dwc:genus": "Hymenophyllum",
+            "dwc:specificEpithet": "reniforme",
+            "dwc:country": "New Zealand",
+            "dwc:year": 1769,
+            "dwc:eventDate": "1769-01-01",
+            "dwc:recordedBy": "Sir Joseph Banks & Daniel Solander",
+            "setID": "BM",
+            "dwc:stateProvince": "Southland",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "1766454",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:1766454",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Hymenophyllales",
+            "dwc:family": "Hymenophyllaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Hymenophyllaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Oceania; New Zealand; Southland",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.nhm.ac.uk/object/cc9e9c59-5d0d-4e77-b9f7-91e51a646fdb",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/3771778bd2bb94bd60053b278fe578710480bc47/contents/preview",
+            "dcterms:title": "BM001048446",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

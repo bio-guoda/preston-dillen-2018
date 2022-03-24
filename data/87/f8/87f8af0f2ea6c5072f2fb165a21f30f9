@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vitex seretii De Wild.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CD",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008906212",
+            "dwc:catalogNumber": "BR0000008906212",
+            "dwc:genus": "Vitex",
+            "dwc:specificEpithet": "seretii",
+            "dwc:country": "Congo, Democratic Republic of the",
+            "dwc:year": 1907,
+            "dwc:eventDate": "1907-03-01",
+            "dwc:locality": "Nala",
+            "dwc:recordedBy": "Seret F.",
+            "dwc:decimalLatitude": 2.8667,
+            "dwc:decimalLongitude": 27.6333,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008906212",
+            "dwc:month": 3,
+            "dcterms:modified": "2014-05-20",
+            "dwc:recordNumber": "847",
+            "dwc:habitat": "Lisière forêt",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008906212",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008906212",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

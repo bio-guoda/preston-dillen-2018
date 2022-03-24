@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Petrocosmea flaccida Craib",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00067488",
+            "dwc:catalogNumber": "E00067488",
+            "dwc:genus": "Petrocosmea",
+            "dwc:specificEpithet": "flaccida",
+            "dwc:country": "China",
+            "dwc:year": 1922,
+            "dwc:locality": "S.w. Szechuan.  Mountains S.E. of Yunguing.",
+            "dwc:recordedBy": "Forrest, George",
+            "dwc:decimalLatitude": 27.8333,
+            "dwc:decimalLongitude": 101,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "E",
+            "dwc:verbatimEventDate": "September 1922",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00067488",
+            "dcterms:modified": "2012-12-04",
+            "dwc:recordNumber": "22401",
+            "dwc:otherCatalogNumbers": "BGBASE:74797",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Gesneriaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Inner China, Korea and Taiwan",
+            "dwc:startDayOfYear": 258,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00067488",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00067488 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00067488",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMDY3LzQ4OC84MzM5MTYuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00067488",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

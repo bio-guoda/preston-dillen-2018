@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex spicata Huds.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2074028",
+            "dwc:catalogNumber": "L.2074028",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "spicata",
+            "dwc:country": "Netherlands",
+            "dwc:year": 2011,
+            "dwc:eventDate": "2011-06-21",
+            "dwc:locality": "Sliedrechtse Biesbosch, Kop van den Ouden Wiel.",
+            "dwc:recordedBy": "Weeda EJ",
+            "dwc:decimalLatitude": 51.8161,
+            "dwc:decimalLongitude": 4.8789,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "2011/06/21",
+            "dwc:stateProvince": "Zuid-Holland",
+            "dwc:identifiedBy": "Weeda EJ",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.2074028",
+            "dwc:month": 6,
+            "dwc:day": 21,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Cyperaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2074028",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

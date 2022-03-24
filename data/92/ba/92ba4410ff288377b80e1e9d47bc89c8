@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Ligustrum sinense Lour.",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100070040",
+            "dwc:catalogNumber": "B 10 0070040",
+            "dwc:genus": "Ligustrum",
+            "dwc:specificEpithet": "sinense",
+            "dwc:country": "Brazil",
+            "dwc:year": 2001,
+            "dwc:eventDate": "2001-05-27",
+            "dwc:locality": "Rio Grande do Sul.",
+            "dwc:recordedBy": "R. Wasum",
+            "setID": "B",
+            "dwc:verbatimEventDate": "27.05.2001",
+            "dwc:identifiedBy": "S. F. Smith",
+            "dwc:dateIdentified": "12.2001",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "1092",
+            "dwc:scientificNameAuthorship": "Lour.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "OLEACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; OLEACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "830 m",
+            "dcterms:language": "por",
+            "@id": "http://herbarium.bgbm.org/object/B100070040",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

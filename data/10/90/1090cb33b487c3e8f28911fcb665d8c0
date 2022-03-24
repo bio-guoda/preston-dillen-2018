@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Begonia longipetiolata Gilg",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1163030",
+            "dwc:catalogNumber": "WAG.1163030",
+            "dwc:genus": "Begonia",
+            "dwc:specificEpithet": "longipetiolata",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Wageningen. Agric. University. Dep. of Horticulture.",
+            "dwc:recordedBy": "Arends JC",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1985/03/31 | 1985/03/01",
+            "dwc:stateProvince": "Gelderland",
+            "dwc:identifiedBy": "Arends JC",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "WAG.1163030",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Cucurbitales",
+            "dwc:family": "Begoniaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Cucurbitales|Begoniaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1163030",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

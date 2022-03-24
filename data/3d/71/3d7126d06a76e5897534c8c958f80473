@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ficus eximia Schott",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000946331",
+            "dwc:catalogNumber": "K000946331",
+            "dwc:genus": "Ficus",
+            "dwc:specificEpithet": "eximia",
+            "dwc:country": "Brazil",
+            "dwc:year": 1964,
+            "dwc:eventDate": "1964-03-31",
+            "dwc:locality": "Guanabara, Botafogo, Mourisco.",
+            "dwc:recordedBy": "Carauta, J.P.P.",
+            "setID": "K",
+            "dwc:identifiedBy": "Pelissari, G.; Romaniuc Neto, S.",
+            "dwc:dateIdentified": "2013-06-05T00:00:00.000+0000",
+            "dcterms:identifier": "K000946331",
+            "dwc:month": 3,
+            "dwc:day": 31,
+            "dcterms:modified": "2013-09-01",
+            "dwc:recordNumber": "215",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Rosales",
+            "dwc:family": "Moraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "MORACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K000946331",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "MORACEAE",
+            "dwc:genus": "Ficus",
+            "dwc:higherClassification": "MORACEAE",
+            "dwc:specificEpithet": "glabra",
+            "dwc:scientificName": "Ficus glabra Vell.",
+            "dwc:identifiedBy": "Duarte, A.P.",
+            "dwc:scientificNameAuthorship": "Vell.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000946331",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/492662.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

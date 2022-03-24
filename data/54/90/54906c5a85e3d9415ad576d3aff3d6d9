@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula glomerata L.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100847813",
+            "dwc:catalogNumber": "B 10 0847813",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "glomerata",
+            "dwc:country": "Germany",
+            "dwc:year": 1926,
+            "dwc:eventDate": "1926-08-15",
+            "dwc:locality": "Jena.",
+            "dwc:recordedBy": "J. F. N. Bornmüller",
+            "setID": "B",
+            "dwc:verbatimEventDate": "15.08.1926",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "s.n.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100847813",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

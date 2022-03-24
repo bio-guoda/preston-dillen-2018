@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Huperzia bampsiana Pic.Serm.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "RW",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008054524",
+            "dwc:catalogNumber": "BR0000008054524",
+            "dwc:genus": "Phlegmariurus",
+            "dwc:specificEpithet": "bampsiana",
+            "dwc:country": "Rwanda",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-01-20",
+            "dwc:locality": "Selle entre le Karisimbi et le Visoke | Préfect[ure] Ruhengeri",
+            "dwc:recordedBy": "Bamps P.",
+            "dwc:decimalLatitude": -1.4833,
+            "dwc:decimalLongitude": 29.4833,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008054524",
+            "dwc:month": 1,
+            "dwc:day": 20,
+            "dcterms:modified": "2014-05-16",
+            "dwc:recordNumber": "2964",
+            "dwc:habitat": "Forêt-prairie à vieux Hagenia | [É]piphyte [] sur Hagenia",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lycopodiales",
+            "dwc:family": "Lycopodiaceae",
+            "dwc:class": "Lycopodiopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:locationRemarks": "Country: Rwanda  Description: [É]piphyte pendant",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008054524",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008054524",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

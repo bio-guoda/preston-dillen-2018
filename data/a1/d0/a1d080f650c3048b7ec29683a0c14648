@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Viola riviniana Rchb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3330247",
+            "dwc:catalogNumber": "L.3330247",
+            "dwc:genus": "Viola",
+            "dwc:specificEpithet": "riviniana",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1977,
+            "dwc:eventDate": "1977-09-03",
+            "dwc:locality": "Krommenie, vuilnisstortplaats.",
+            "dwc:recordedBy": "Akkerman J",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1977/09/03",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3330247",
+            "dwc:month": 9,
+            "dwc:day": 3,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Violaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Malpighiales|Violaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3330247",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

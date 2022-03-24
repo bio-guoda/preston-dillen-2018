@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cuphea brachiata Mart. ex Koehne",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000533059",
+            "dwc:catalogNumber": "K000533059",
+            "dwc:genus": "Cuphea",
+            "dwc:specificEpithet": "brachiata",
+            "dwc:country": "Brazil",
+            "dwc:locality": "near Piassabassú, banks of the Rio [Rio St. Francisco]",
+            "dwc:recordedBy": "Gardner",
+            "setID": "K",
+            "dcterms:identifier": "K000533059",
+            "dcterms:modified": "2007-12-28",
+            "dwc:recordNumber": "1286",
+            "dwc:habitat": "very common in dry open sandy places",
+            "dwc:eventRemarks": "A diffuse fruticose plant about 1 1/2 feet high",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Lythraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LYTHRACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Herbarium Hookerianum 1867",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Author citation as on label: Mart, named by Koehne  Compared with specimen in Herb. Berlin, by W.B.Hemsley & N.E.Brown. Aug. 1879.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000533059",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000533059",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/222947.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

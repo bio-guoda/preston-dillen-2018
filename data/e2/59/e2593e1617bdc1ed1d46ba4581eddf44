@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cruciata mixta Ehrend. & Schönb.-Tem.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "TR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000772682",
+            "dwc:catalogNumber": "K000772682",
+            "dwc:genus": "Cruciata",
+            "dwc:specificEpithet": "mixta",
+            "dwc:country": "Turkey",
+            "dwc:year": 1957,
+            "dwc:eventDate": "1957-04-19",
+            "dwc:locality": "Prov. Adana Distr. Bahce (N. Amanus), Dumanli Dag near Haruniye",
+            "dwc:recordedBy": "Davis, A.P.; Hedge, I.C.",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "K000772682",
+            "dwc:month": 4,
+            "dwc:day": 19,
+            "dcterms:modified": "2011-12-06",
+            "dwc:recordNumber": "26883",
+            "dwc:habitat": "Ostrya scrub on N. slope",
+            "dwc:eventRemarks": "Perennial",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "RUBIACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "D. 26883",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1000,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000772682",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "RUBIACEAE",
+            "dwc:genus": "Galium",
+            "dwc:taxonRemarks": "Author citation as on label: [no author]",
+            "dwc:higherClassification": "RUBIACEAE",
+            "dwc:scientificName": "Galium  L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000772682",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/380370.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

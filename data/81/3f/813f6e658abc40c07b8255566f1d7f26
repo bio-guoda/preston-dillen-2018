@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pedicularis semibarbata var. charlestonensis Pennell & Clokey",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1824880",
+            "dwc:catalogNumber": "WAG.1824880",
+            "dwc:genus": "Pedicularis",
+            "dwc:specificEpithet": "semibarbata",
+            "dwc:country": "United States",
+            "dwc:year": 1936,
+            "dwc:eventDate": "1936-05-11",
+            "dwc:locality": "Charleston Mts.Clark Co., Nevada.Charleston Park.",
+            "dwc:recordedBy": "Clokey IW",
+            "dwc:infraspecificEpithet": "charlestonensis",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1936/05/11",
+            "dc:typeStatus": "TYPE",
+            "dwc:stateProvince": "Nevada",
+            "dcterms:identifier": "WAG.1824880",
+            "dwc:month": 5,
+            "dwc:day": 11,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Orobanchaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Lamiales|Scrophulariaceae",
+            "dwc:verbatimTaxonRank": "var.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/WAG.1824880",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

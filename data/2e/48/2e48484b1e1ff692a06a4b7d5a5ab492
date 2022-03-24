@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris campyloptera",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/H.1027364",
+            "dwc:catalogNumber": "H.1027364",
+            "dwc:genus": "Dryopteris",
+            "dwc:specificEpithet": "campyloptera",
+            "dwc:country": "United States",
+            "dwc:year": 1961,
+            "dwc:eventDate": "1961-06-20",
+            "dwc:locality": "Mount Washington, White Mountains",
+            "setID": "H",
+            "dwc:verbatimEventDate": "20.06.1961",
+            "dwc:stateProvince": "New Hampshire",
+            "dwc:continent": "North America",
+            "dcterms:identifier": "http://tun.fi/MY.742897",
+            "dwc:month": 6,
+            "dwc:day": 20,
+            "dcterms:modified": "1492084399",
+            "dwc:recordNumber": "5692",
+            "dwc:otherCatalogNumbers": "H1027364",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "3700 ft.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris campyloptera",
+            "dwc:verbatimRecordedBy": "Tryon, Rolla; Tryon, Alice",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/H.1027364",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

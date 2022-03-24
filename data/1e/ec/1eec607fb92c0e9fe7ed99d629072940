@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hieracium murorum C.B.Clarke",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3450861",
+            "dwc:catalogNumber": "L.3450861",
+            "dwc:genus": "Hieracium",
+            "dwc:specificEpithet": "murorum",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Omnia in pappo.",
+            "dwc:recordedBy": "Buse LH; Gildemeester Buse HD",
+            "setID": "L",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3450861",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asterales|Compositae",
+            "dwc:verbatimTaxonRank": "subsp.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3450861",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

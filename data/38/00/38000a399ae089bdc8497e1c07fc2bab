@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Orchis ustulata L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000773916",
+            "dwc:catalogNumber": "K000773916",
+            "dwc:genus": "Neotinea",
+            "dwc:specificEpithet": "ustulata",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1898,
+            "dwc:eventDate": "1898-05-25",
+            "dwc:locality": "Dry Chalk Downs.",
+            "dwc:recordedBy": "Waterfall, W.B.",
+            "setID": "K",
+            "dcterms:identifier": "K000773916",
+            "dwc:month": 5,
+            "dwc:day": 25,
+            "dcterms:modified": "2012-03-28",
+            "dwc:recordNumber": "1264",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "ORCHIDACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "East Sussex",
+            "dwc:municipality": "East Sussex",
+            "dwc:taxonRemarks": "Burnt Orchid",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://specimens.kew.org/herbarium/K000773916",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000773916",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/365128.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

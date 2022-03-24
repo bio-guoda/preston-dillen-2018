@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum japonicum Thunb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NZ",
+            "dwc:occurrenceID": "14e66080-d324-4072-8a2c-046715ac431c",
+            "dwc:catalogNumber": "BM000810206",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "japonicum",
+            "dwc:country": "New Zealand",
+            "dwc:year": 1875,
+            "dwc:eventDate": "1875-01-01",
+            "dwc:recordedBy": "Sven Berggren",
+            "setID": "BM",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "8103739",
+            "dwc:month": 1,
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8103739",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Oceania; New Zealand",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/14e66080-d324-4072-8a2c-046715ac431c",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/dbe89349d55b88bc882a2716061232b779b6468d/contents/preview",
+            "dcterms:title": "BM000810206",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

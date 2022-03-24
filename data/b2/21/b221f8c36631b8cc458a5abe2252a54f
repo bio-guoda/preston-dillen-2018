@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Centaurea caroli-henrici Gabrieljan & Dittrich",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AM",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100088191",
+            "dwc:catalogNumber": "B 10 0088191",
+            "dwc:genus": "Centaurea",
+            "dwc:specificEpithet": "caroli-henrici",
+            "dwc:country": "Armenia",
+            "dwc:year": 1989,
+            "dwc:eventDate": "1989-07-12",
+            "dwc:locality": "Vaikh distr., near Djermuk.",
+            "dwc:recordedBy": "Gabrielian & Dittrich",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1989-07-12",
+            "dwc:identifiedBy": "Gabrielian & Dittrich",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "D 4253a",
+            "dwc:scientificNameAuthorship": "Gabrieljan & Dittrich",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Asteraceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Asteraceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "2100",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100088191",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Trema aspera Blume",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100066610",
+            "dwc:catalogNumber": "B 10 0066610",
+            "dwc:genus": "Trema",
+            "dwc:specificEpithet": "aspera",
+            "dwc:country": "Australia",
+            "dwc:year": 1973,
+            "dwc:eventDate": "1973-02-19",
+            "dwc:locality": "Queensland.",
+            "dwc:recordedBy": "L. Durrington",
+            "dwc:decimalLatitude": -27.5333,
+            "dwc:decimalLongitude": 153.4667,
+            "setID": "B",
+            "dwc:verbatimEventDate": "19.02.1973",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "s.n.",
+            "dwc:scientificNameAuthorship": "Blume",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ULMACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ULMACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100066610",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

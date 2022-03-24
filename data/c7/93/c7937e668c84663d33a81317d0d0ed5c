@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Hennecartia omphalandra Poiss.",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100375136",
+            "dwc:catalogNumber": "B 10 0375136",
+            "dwc:genus": "Hennecartia",
+            "dwc:specificEpithet": "omphalandra",
+            "dwc:country": "Brazil",
+            "dwc:year": 1952,
+            "dwc:eventDate": "1952-11-20",
+            "dwc:locality": "RGS, Cerro Largo p.s. Luiz. in silva primavera.",
+            "dwc:recordedBy": "B. Rambo",
+            "setID": "B",
+            "dwc:verbatimEventDate": "20.11.1952",
+            "dwc:identifiedBy": "Emrich-Rambo",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "53153",
+            "dwc:scientificNameAuthorship": "Poiss.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "MONIMIACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; MONIMIACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100375136",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

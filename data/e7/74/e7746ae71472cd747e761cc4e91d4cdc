@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Podolepis siemssenia F.Müll. ex Benth.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02707767",
+            "dwc:catalogNumber": "P02707767",
+            "dwc:genus": "Podolepis",
+            "dwc:specificEpithet": "siemssenia",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02707767",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02707767",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Asteraceae",
+            "@id": "SONNERAT|4298756",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Podolepis",
+            "dwc:higherClassification": "Podolepis;Asteraceae",
+            "dwc:specificEpithet": "siemssenia",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Podolepis siemssenia F.Muell. ex Benth.",
+            "dwc:scientificNameAuthorship": "F.Muell. ex Benth.",
+            "dwc:taxonID": "SONNERAT|3420096",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "F8C97474907E496E99FCBFB101D8D246",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441340940767yrVKytbnHaxcCpkY",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

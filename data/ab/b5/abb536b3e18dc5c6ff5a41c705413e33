@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bolbitis subcordata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.6930",
+            "dwc:catalogNumber": "EIG.6930",
+            "dwc:genus": "Bolbitis",
+            "dwc:specificEpithet": "subcordata",
+            "dwc:country": "China",
+            "dwc:year": 1940,
+            "dwc:eventDate": "1940-10-02",
+            "dwc:locality": "Hong Kong, Lantau Island, Lantao Peak and Vicinity",
+            "dwc:recordedBy": "Taam, Y. W.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "02.10.1940",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.725367",
+            "dwc:month": 10,
+            "dwc:day": 2,
+            "dcterms:modified": "1492084167",
+            "dwc:recordNumber": "1845",
+            "dwc:otherCatalogNumbers": "H1123931",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Bolbitis subcordata",
+            "dwc:verbatimRecordedBy": "Taam, Y. W.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.6930",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Gypsophila tuberculosa Hub.-Mor.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05075897",
+            "dwc:catalogNumber": "P05075897",
+            "dwc:genus": "Gypsophila",
+            "dwc:specificEpithet": "tuberculosa",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05075897",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Caryophyllaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05075897",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Caryophyllaceae",
+            "@id": "SONNERAT|6891215",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Gypsophila",
+            "dwc:higherClassification": "Gypsophila;Caryophyllaceae",
+            "dwc:specificEpithet": "tuberculosa",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Gypsophila tuberculosa Hub.-Mor.",
+            "dwc:scientificNameAuthorship": "Hub.-Mor.",
+            "dwc:taxonID": "SONNERAT|2835471",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "4842C7FB37074CEAA4EB9FCA0655D970",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441405785670HsDhVNXv9bMGEnia",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

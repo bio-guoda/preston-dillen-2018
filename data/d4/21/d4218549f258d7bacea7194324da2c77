@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lunaria rediviva L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU254768",
+            "dwc:catalogNumber": "TU254768",
+            "dwc:genus": "Lunaria",
+            "dwc:specificEpithet": "rediviva",
+            "dwc:country": "Estonia",
+            "dwc:year": 1978,
+            "dwc:eventDate": "1978-06-08",
+            "dwc:locality": "Harju rajoon, Kostiranna",
+            "dwc:recordedBy": "S. Asu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1978-06-08",
+            "dwc:identifiedBy": "Ü. Kukk",
+            "dwc:dateIdentified": "1978-06-08T00:00:00.000+0000",
+            "dcterms:identifier": "TU254768",
+            "dwc:month": 6,
+            "dwc:day": 8,
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Brassicales",
+            "dwc:family": "Brassicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Brassicales; Brassicaceae; Lunaria",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dwc:occurrenceRemarks": "LK III",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/156652",
+            "dwc:eventID": 411705,
+            "dwc:taxonID": 5576,
+            "dwc:locationID": 332574,
+            "dwc:identificationID": 168366,
+            "dwc:vernacularName": "mets-kuukress",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/156652",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/C5/1F/C51F6BD273B63D9689265FA242364C08C40F09F1CBE54C0F914D58B28E484CE2.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1664494",
+            "dcterms:title": "TU254768.tif",
+            "dcterms:created": "2013-09-04",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

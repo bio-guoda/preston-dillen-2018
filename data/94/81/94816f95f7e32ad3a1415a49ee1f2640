@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pinus armandii var. mastersiana (Hayata) Hayata",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00184113",
+            "dwc:catalogNumber": "E00184113",
+            "dwc:genus": "Pinus",
+            "dwc:specificEpithet": "armandii",
+            "dwc:year": 1995,
+            "dwc:eventDate": "1995-05-27",
+            "dwc:recordedBy": "Ickert-bond, S.",
+            "dwc:infraspecificEpithet": "mastersiana",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1995-05-27",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00184113",
+            "dwc:month": 5,
+            "dwc:day": 27,
+            "dcterms:modified": "2004-03-21",
+            "dwc:recordNumber": "104",
+            "dwc:otherCatalogNumbers": "BGBASE:189379",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Pinales",
+            "dwc:family": "Pinaceae",
+            "dwc:class": "Pinopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:startDayOfYear": 147,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:informationWithheld": "Sensitive location data withheld",
+            "dwc:fieldNotes": "Large tree, branches horizontally widespread and galbrous. Montane vegetation, pine forest, _Pinus taiwanensis_ - _Pinus armandii_ ver. _masteriana_ community, both being co-dominant species.",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00184113",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

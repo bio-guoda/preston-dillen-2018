@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Medicago suffruticosa Ramond ex DC.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03064967",
+            "dwc:catalogNumber": "P03064967",
+            "dwc:genus": "Medicago",
+            "dwc:specificEpithet": "suffruticosa",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03064967",
+            "dcterms:modified": "2016-03-09",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03064967",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|4732946",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Medicago",
+            "dwc:higherClassification": "Medicago;Fabaceae",
+            "dwc:specificEpithet": "suffruticosa",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Medicago suffruticosa Ramond ex DC.",
+            "dwc:scientificNameAuthorship": "Ramond ex DC.",
+            "dwc:taxonID": "SONNERAT|92012",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "8576877EFC2F4073B1569D7D38241D85",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441348835786BRLVhPbBQxCzcqAi",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

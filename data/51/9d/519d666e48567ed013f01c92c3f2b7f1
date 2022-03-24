@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Megalastrum Holttum",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000957109",
+            "dwc:catalogNumber": "K000957109",
+            "dwc:genus": "Megalastrum",
+            "dwc:country": "Brazil",
+            "dwc:recordedBy": "Preston, T.A.",
+            "setID": "K",
+            "dwc:identifiedBy": "Viveros, R.S.",
+            "dcterms:identifier": "K000957109",
+            "dcterms:modified": "2014-02-25",
+            "dwc:recordNumber": "s.n.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Dryopteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "DRYOPTERIDACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Petrópolis",
+            "dwc:municipality": "Petrópolis",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://specimens.kew.org/herbarium/K000957109",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:scientificName": "Ctenitis",
+            "dwc:family": "DRYOPTERIDACEAE",
+            "dwc:higherClassification": "DRYOPTERIDACEAE",
+            "dwc:genus": "Ctenitis",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:scientificName": "Lastrea",
+            "dwc:family": "DRYOPTERIDACEAE",
+            "dwc:higherClassification": "DRYOPTERIDACEAE",
+            "dwc:genus": "Lastrea",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:scientificName": "Nephrodium villosum (L.) C.Presl",
+            "dwc:family": "DRYOPTERIDACEAE",
+            "dwc:higherClassification": "DRYOPTERIDACEAE",
+            "dwc:genus": "Nephrodium",
+            "dwc:specificEpithet": "villosum",
+            "dwc:scientificNameAuthorship": "(L.) C.Presl",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "@id": "http://www.kew.org/herbcatimg/516452.jpg",
+            "dcterms:format": "image/jpeg",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000957109",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

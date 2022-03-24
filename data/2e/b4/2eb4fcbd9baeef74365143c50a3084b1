@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Litsea diversifolia Blume",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1794692",
+            "dwc:catalogNumber": "L.1794692",
+            "dwc:genus": "Litsea",
+            "dwc:specificEpithet": "diversifolia",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1961,
+            "dwc:eventDate": "1961-04-12",
+            "dwc:locality": "Island W. Sumbawa. Batudulang, Batu lanteh Mt.; secondary vegetation.",
+            "dwc:recordedBy": "Kostermans AJGH",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1961/04/12",
+            "dwc:stateProvince": "Lesser Sunda Islands",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1794692",
+            "dwc:month": 4,
+            "dwc:day": 12,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Laurales",
+            "dwc:family": "Lauraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Laurales|Lauraceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1794692",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

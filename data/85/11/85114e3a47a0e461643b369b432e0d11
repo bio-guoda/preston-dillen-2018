@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Fraxinus excelsior L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914636",
+            "dwc:catalogNumber": "K000914636",
+            "dwc:genus": "Fraxinus",
+            "dwc:specificEpithet": "excelsior",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2015,
+            "dwc:eventDate": "2015-08-20",
+            "dwc:locality": "Kew Gardens; Thames Bank: towpath south of Brentford Gate ('The Strip') (zone STR)",
+            "dwc:recordedBy": "Cope, T.A.",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914636",
+            "dwc:month": 8,
+            "dwc:day": 20,
+            "dcterms:modified": "2016-01-14",
+            "dwc:recordNumber": "RBG 588",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Oleaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "OLEACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Ash",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914636",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914636",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/847464.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Begonia strachwitzii Warb.",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100217762",
+            "dwc:catalogNumber": "B 10 0217762",
+            "dwc:genus": "Begonia",
+            "dwc:specificEpithet": "strachwitzii",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1888,
+            "dwc:eventDate": "1888",
+            "dwc:locality": "Celebres Minahassa. N. Celebres Boyjong.",
+            "dwc:recordedBy": "Warburg",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1888",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "15191",
+            "dwc:scientificNameAuthorship": "Warb.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "BEGONIACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; BEGONIACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100217762",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

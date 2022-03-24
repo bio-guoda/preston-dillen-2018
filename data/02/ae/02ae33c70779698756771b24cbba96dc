@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium nidus",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7773",
+            "dwc:catalogNumber": "EIG.7773",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "nidus",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-02-01/1910-02-28",
+            "dwc:locality": "Nongko djadjar",
+            "dwc:recordedBy": "Mousset, J. P.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "02.1910",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.728157",
+            "dwc:month": 2,
+            "dcterms:modified": "1492084223",
+            "dwc:otherCatalogNumbers": "H1591220",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "1250 m",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium nidus",
+            "dwc:verbatimRecordedBy": "Mousset, J. P.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/EIG.7773",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

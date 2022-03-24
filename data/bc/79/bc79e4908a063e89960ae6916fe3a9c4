@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium diversifolium",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7451",
+            "dwc:catalogNumber": "EIG.7451",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "diversifolium",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-02-01/1910-02-28",
+            "dwc:locality": "Pogal[?]",
+            "dwc:recordedBy": "Mousset, J. P.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "02.1910",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.727086",
+            "dwc:month": 2,
+            "dcterms:modified": "1492084201",
+            "dwc:otherCatalogNumbers": "H1591098",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "300 m",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium diversifolium",
+            "dwc:verbatimRecordedBy": "Mousset, J. P.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/EIG.7451",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Briza maxima L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000011476405",
+            "dwc:catalogNumber": "BR0000011476405",
+            "dwc:genus": "Briza",
+            "dwc:specificEpithet": "maxima",
+            "dwc:country": "Belgium",
+            "dwc:year": 1890,
+            "dwc:eventDate": "1890-07-02",
+            "dwc:locality": "Hoevenen",
+            "dwc:recordedBy": "Hennen J.",
+            "setID": "BR",
+            "dwc:verbatimEventDate": "2 juillet 1890",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000011476405",
+            "dwc:month": 7,
+            "dwc:day": 2,
+            "dcterms:modified": "2012-07-19",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000011476405",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000011476405",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

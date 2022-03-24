@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rhizogonium vallis-gratiae (Hampe ex Müll.Hal.) Hampe",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ZA",
+            "dwc:occurrenceID": "2cce7494-497d-426f-81cb-82bc9837218d",
+            "dwc:catalogNumber": "BM000668630",
+            "dwc:genus": "Pyrrhobryum",
+            "dwc:specificEpithet": "vallis-gratiae",
+            "dwc:country": "South Africa",
+            "dwc:year": 1894,
+            "dwc:eventDate": "1894-01-01",
+            "dwc:recordedBy": "Breutel, J.",
+            "dwc:decimalLatitude": -28.9985,
+            "dwc:decimalLongitude": 25.0925,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "4520889",
+            "dcterms:modified": "2017-10-13",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4520889",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Bryophyta",
+            "dwc:order": "Bryales",
+            "dwc:family": "Rhizogoniaceae",
+            "dwc:class": "Bryopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Bryophyta; Rhizogoniaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Africa; South Africa",
+            "dwc:georeferenceProtocol": "Google Earth",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.nhm.ac.uk/object/2cce7494-497d-426f-81cb-82bc9837218d",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/fda0683fd1540a9d3ab2923dfedaf39855768e5f/contents/preview",
+            "dcterms:title": "BM000668630",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

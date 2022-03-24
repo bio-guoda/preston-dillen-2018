@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Schizaea attenuata Beyr.",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B200142848",
+            "dwc:catalogNumber": "B 20 0142848",
+            "dwc:genus": "Schizaea",
+            "dwc:specificEpithet": "attenuata",
+            "dwc:country": "Brazil",
+            "dwc:year": 1962,
+            "dwc:eventDate": "1962-05-31",
+            "dwc:locality": "Parana; Paranagua; Rio Pereque.",
+            "dwc:recordedBy": "G. Hatschbach",
+            "setID": "B",
+            "dwc:verbatimEventDate": "31.05.1962",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "9150",
+            "dwc:scientificNameAuthorship": "Beyr.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "SCHIZAEACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; SCHIZAEACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Herbario Hatschbach",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "3/5 ms",
+            "dcterms:language": "por",
+            "@id": "http://herbarium.bgbm.org/object/B200142848",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Fragaria iturupensis Staudt",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100295747",
+            "dwc:catalogNumber": "B 10 0295747",
+            "dwc:genus": "Fragaria",
+            "dwc:specificEpithet": "iturupensis",
+            "dwc:country": "Germany",
+            "dwc:year": 1971,
+            "dwc:eventDate": "1971",
+            "dwc:locality": "cult. Germany; origin: südliche Kurilen, Insel Iturup, steinig-sandiger Abhang des Vulkans Atsonupuri.",
+            "dwc:recordedBy": "G. Staudt",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1971",
+            "dc:typeStatus": "type",
+            "dwc:continent": "Europe",
+            "dwc:scientificNameAuthorship": "Staudt",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ROSACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ROSACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "cult. in Siebeldingen, Germany",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100295747",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

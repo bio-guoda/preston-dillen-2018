@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ipomoea tiliacea (Willd.) Choisy",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03538527",
+            "dwc:catalogNumber": "P03538527",
+            "dwc:genus": "Ipomoea",
+            "dwc:specificEpithet": "tiliacea",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03538527",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Convolvulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p03538527",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Convolvulaceae",
+            "@id": "SONNERAT|5699758",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Ipomoea",
+            "dwc:higherClassification": "Ipomoea;Convolvulaceae",
+            "dwc:specificEpithet": "tiliacea",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Ipomoea tiliacea (Willd.) Choisy",
+            "dwc:scientificNameAuthorship": "(Willd.) Choisy",
+            "dwc:taxonID": "SONNERAT|75386",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "9670FB32654A46A697BE52551BA0ED64",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441367860836569Vs9KPCbD6IoZb",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

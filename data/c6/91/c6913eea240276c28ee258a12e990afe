@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Sonchus ustulatus subsp. maderensis Aldridge",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "PT",
+            "dwc:occurrenceID": "5a1676c8-d67c-45d2-bb7d-f6b66d716047",
+            "dwc:catalogNumber": "BM001041597",
+            "dwc:genus": "Sonchus",
+            "dwc:specificEpithet": "ustulatus",
+            "dwc:country": "Portugal",
+            "dwc:year": 1857,
+            "dwc:eventDate": "1857-01-01",
+            "dwc:recordedBy": "Nathaniel Haslope Mason",
+            "dwc:infraspecificEpithet": "maderensis",
+            "dwc:decimalLatitude": 31.5626,
+            "dwc:decimalLongitude": -16.2399,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Madeira",
+            "dwc:identifiedBy": "Johannes Lid",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "1184204",
+            "dcterms:modified": "2017-10-17",
+            "dwc:recordNumber": "249",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:1184204",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Asteraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; Portugal; Madeira",
+            "dwc:georeferenceProtocol": "Google Earth",
+            "dwc:fieldNumber": "249",
+            "dwc:islandGroup": "Madeira Archipelago",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.nhm.ac.uk/object/5a1676c8-d67c-45d2-bb7d-f6b66d716047",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/9f49bab0dcb60484ff16f179eb112e6ab212ca20/contents/preview",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:title": "BM001041597",
+            "dcterms:format": "image/tiff",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

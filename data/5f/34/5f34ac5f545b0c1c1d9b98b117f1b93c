@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Clerodendrum tomentosum (Vent.) R.Br.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000013495312",
+            "dwc:catalogNumber": "BR0000013495312",
+            "dwc:genus": "Clerodendrum",
+            "dwc:specificEpithet": "tomentosum",
+            "dwc:country": "Australia",
+            "dwc:locality": "Melbourn",
+            "dwc:recordedBy": "Müller Fred.",
+            "setID": "BR",
+            "dwc:verbatimEventDate": "S.D.",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000013495312",
+            "dcterms:modified": "2014-07-22",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000013495312",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000013495312",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

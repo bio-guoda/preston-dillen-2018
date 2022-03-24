@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Salvia L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "BZ",
+            "dwc:occurrenceID": "3ebdc278-cc1b-4a66-8503-e1521b542ab9",
+            "dwc:catalogNumber": "BM000648870",
+            "dwc:genus": "Salvia",
+            "dwc:country": "Belize",
+            "dwc:year": 1995,
+            "dwc:eventDate": "1995-04-20",
+            "dwc:locality": "New Maria Camp, Chiquibul",
+            "dwc:recordedBy": "Caroline Whitefoord",
+            "dwc:decimalLatitude": 16.8272,
+            "dwc:decimalLongitude": -89.0167,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Cayo",
+            "dwc:identifiedBy": "Bente Klitgaard",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "4584537",
+            "dwc:month": 4,
+            "dwc:day": 20,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "9100",
+            "dwc:habitat": "Forest clearing",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4584537",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Lamiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Belize; Cayo",
+            "dwc:georeferenceProtocol": "Online Gazetteer",
+            "dwc:fieldNumber": "9100",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 550,
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/3ebdc278-cc1b-4a66-8503-e1521b542ab9",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/6581a5f04912c0f82c6f69e13fe05897adc081d9/contents/preview",
+            "dcterms:title": "BM000648870",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Parmelia perlata (Huds.) Ach.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "dfdbbcd3-bcb3-460c-bbb0-6330b2505439",
+            "dwc:catalogNumber": "BM000500117",
+            "dwc:genus": "Parmotrema",
+            "dwc:specificEpithet": "perlata",
+            "dwc:country": "Australia",
+            "dwc:year": 1980,
+            "dwc:eventDate": "1980-07-20",
+            "dwc:recordedBy": "Gintaras Kantvilas",
+            "dwc:decimalLatitude": -42.0214,
+            "dwc:decimalLongitude": 146.5933,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Tasmania",
+            "dwc:identifiedBy": "Sergey Kondratyuk",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "4913917",
+            "dwc:month": 7,
+            "dwc:day": 20,
+            "dcterms:modified": "2017-10-20",
+            "dwc:recordNumber": "277/80",
+            "dwc:habitat": "common on dolerite in open dry sclerophyll forest",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4913917",
+            "dwc:kingdom": "Fungi",
+            "dwc:phylum": "Ascomycota",
+            "dwc:order": "Lecanorales",
+            "dwc:family": "Parmeliaceae",
+            "dwc:class": "Lecanoromycetes",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Ascomycota; Xanthopyreniaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Tasmania",
+            "dwc:georeferenceProtocol": "Google Earth",
+            "dwc:fieldNumber": "277/80",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/dfdbbcd3-bcb3-460c-bbb0-6330b2505439",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/3bb590f725219d9062aeb96f7e0232b7a6523528/contents/preview",
+            "dcterms:title": "BM000500117",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/777c38bbe10a2811cdaf1e6f969680601d0fa844/contents/preview",
+            "dcterms:title": "BM000500117_a",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

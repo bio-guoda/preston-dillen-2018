@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ophrys oestrifera subsp. montis-gargani Van de Vijver & W.Van Looken",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "IT",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000006918378",
+            "dwc:catalogNumber": "BR0000006918378",
+            "dwc:genus": "Ophrys",
+            "dwc:specificEpithet": "oestrifera",
+            "dwc:country": "Italy",
+            "dwc:year": 2007,
+            "dwc:eventDate": "2007-04-25",
+            "dwc:locality": "Promontorio del Gargano, Madonna di Loreto, behind the Chapel of Madonna di Loreto",
+            "dwc:recordedBy": "Van de Vijver B.",
+            "dwc:infraspecificEpithet": "montis-gargani",
+            "setID": "BR",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000006918378",
+            "dwc:month": 4,
+            "dwc:day": 25,
+            "dcterms:modified": "2010-11-26",
+            "dwc:recordNumber": "S.N.",
+            "dwc:habitat": "macchia-shrub with Cistus and Pinus",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "eng",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000006918378",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000006918378",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

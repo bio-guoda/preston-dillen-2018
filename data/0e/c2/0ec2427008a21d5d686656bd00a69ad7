@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arthropteris beckleri",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.6742",
+            "dwc:catalogNumber": "EIG.6742",
+            "dwc:genus": "Arthropteris",
+            "dwc:specificEpithet": "beckleri",
+            "dwc:country": "Australia",
+            "dwc:year": 1955,
+            "dwc:eventDate": "1955-01-21",
+            "dwc:locality": "Kiama, Saddleback Mountain",
+            "dwc:recordedBy": "Constable, E. F.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "21.01.1955",
+            "dwc:stateProvince": "New South Wales",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.724749",
+            "dwc:month": 1,
+            "dwc:day": 21,
+            "dwc:county": "Illawarra",
+            "dcterms:modified": "1492084154",
+            "dwc:otherCatalogNumbers": "H1225831",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Altitude 495 m.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Arthropteris beckleri",
+            "dwc:verbatimRecordedBy": "Constable, E. F.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.6742",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

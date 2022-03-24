@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Aeschynomene sensitiva Sw.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00758207",
+            "dwc:catalogNumber": "P00758207",
+            "dwc:genus": "Aeschynomene",
+            "dwc:specificEpithet": "sensitiva",
+            "dwc:country": "Brazil",
+            "dwc:recordedBy": "Saint-Hilaire, A. de",
+            "setID": "P",
+            "dwc:stateProvince": "Rio de Janeiro",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00758207",
+            "dwc:county": "rio de janeiro",
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Province de Rio de Janeiro",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "A2 40",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00758207",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|1229033",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Aeschynomene",
+            "dwc:higherClassification": "Aeschynomene;Fabaceae",
+            "dwc:specificEpithet": "sensitiva",
+            "dwc:scientificName": "Aeschynomene sensitiva Sw.",
+            "dwc:scientificNameAuthorship": "Sw.",
+            "dwc:taxonID": "SONNERAT|5496",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|3436640",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Aeschynomene",
+            "dwc:higherClassification": "Aeschynomene;Fabaceae",
+            "dwc:specificEpithet": "sensitiva",
+            "dwc:scientificName": "Aeschynomene sensitiva Sw.",
+            "dwc:scientificNameAuthorship": "Sw.",
+            "dwc:taxonID": "SONNERAT|5496",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "D69F1A21D2004757BDE98AE5C58DBDCF",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441329406241yHI0OgeBfXniKZxN",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Cratoxylum arborescens (Vahl) Blume",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100355192",
+            "dwc:catalogNumber": "B 10 0355192",
+            "dwc:genus": "Cratoxylum",
+            "dwc:specificEpithet": "arborescens",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1960,
+            "dwc:eventDate": "1960-08-19",
+            "dwc:locality": "Island Sumatra, Upper Kiauw, Pakanbaru, Tenajan. Fresh water swamp, .",
+            "dwc:recordedBy": "E. Soepadmo",
+            "setID": "B",
+            "dwc:verbatimEventDate": "19.08.1960",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "127",
+            "dwc:scientificNameAuthorship": "Blume",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "GUTTIFERAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; GUTTIFERAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Tree 35 m, Ø 80 cm. Bark greyish brown, mengelupas, 1 cm thick. L.b. 0.5 cm, dark reddish brown. Sapwood dirty whide. Frs. Dark reddish-brown.",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100355192",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

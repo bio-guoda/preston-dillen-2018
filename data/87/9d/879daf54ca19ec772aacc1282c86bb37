@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Calpurnia glabrata Brummitt",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ZA",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000555694",
+            "dwc:catalogNumber": "K000555694",
+            "dwc:genus": "Calpurnia",
+            "dwc:specificEpithet": "glabrata",
+            "dwc:country": "South Africa",
+            "dwc:year": 1957,
+            "dwc:eventDate": "1957-10-20",
+            "dwc:locality": "Swaziland, Mbabane",
+            "dwc:recordedBy": "Compton, R.H.",
+            "setID": "K",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Brummitt, R.K.",
+            "dwc:dateIdentified": "1968-12-16T00:00:00.000+0000",
+            "dcterms:identifier": "K000555694",
+            "dwc:month": 10,
+            "dwc:day": 20,
+            "dcterms:modified": "2010-01-14",
+            "dwc:recordNumber": "27153",
+            "dwc:eventRemarks": "'Sheba's veil'.  Small tree; yellow",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:institutionCode": "K",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 914,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000555694",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000555694",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/289653.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Trianosperma tayuya (Vell.) Cogn.",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100261992",
+            "dwc:catalogNumber": "B 10 0261992",
+            "dwc:genus": "Trianosperma",
+            "dwc:specificEpithet": "tayuya",
+            "dwc:country": "Brazil",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-05-22",
+            "dwc:locality": "Rio-Claro, S.Paulo.",
+            "dwc:recordedBy": "A. Loefgren",
+            "setID": "B",
+            "dwc:verbatimEventDate": "22.05.1988",
+            "dwc:identifiedBy": "M. Nee",
+            "dwc:dateIdentified": "2010",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "10854",
+            "dwc:scientificNameAuthorship": "Cogn.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CUCURBITACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CUCURBITACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://herbarium.bgbm.org/object/B100261992",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

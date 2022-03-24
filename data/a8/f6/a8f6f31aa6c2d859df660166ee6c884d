@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Stipa anisotricha P. A. Smirn.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AM",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100048981",
+            "dwc:catalogNumber": "B 10 0048981",
+            "dwc:genus": "Stipa",
+            "dwc:specificEpithet": "anisotricha",
+            "dwc:country": "Armenia",
+            "dwc:year": 1929,
+            "dwc:eventDate": "1929-07-23",
+            "dwc:locality": "s.l.",
+            "dwc:recordedBy": "Smirnow,P.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1929-07-23",
+            "dwc:identifiedBy": "P. Smirnow",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "83",
+            "dwc:scientificNameAuthorship": "P. A. Smirn.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Poaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Poaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100048981",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

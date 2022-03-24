@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mimosa dolens var. latifolia (Benth.) Barneby",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000864487",
+            "dwc:catalogNumber": "K000864487",
+            "dwc:genus": "Mimosa",
+            "dwc:specificEpithet": "dolens",
+            "dwc:country": "Brazil",
+            "dwc:recordedBy": "Glaziou, A.F.M.",
+            "dwc:infraspecificEpithet": "latifolia",
+            "setID": "K",
+            "dcterms:identifier": "K000864487",
+            "dcterms:modified": "2013-01-16",
+            "dwc:recordNumber": "1432",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Coll e Comm. M. Glaziou Recd. Sept. 1876",
+            "dwc:georeferenceProtocol": "Label",
+            "dwc:taxonRemarks": "Determination as on label: Mimosa dolens Vellozo subsp. acerba (Bentham) Barneby var. latifolia (Bentham) Barneby; Ex. num. cit. Barneby exsiccatae: (795) 1991",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000864487",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:genus": "Mimosa",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:specificEpithet": "dolens",
+            "dwc:scientificName": "Mimosa dolens Vell.",
+            "dwc:scientificNameAuthorship": "Vell.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000864487",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/570726.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

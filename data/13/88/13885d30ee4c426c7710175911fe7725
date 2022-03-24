@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Kalanchoe latisepala N.E.Br.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000232911",
+            "dwc:catalogNumber": "K000232911",
+            "dwc:genus": "Kalanchoe",
+            "dwc:specificEpithet": "latisepala",
+            "dwc:year": 1907,
+            "dwc:eventDate": "1907-03-22",
+            "dwc:locality": "See \"Other Comments\"",
+            "dwc:recordedBy": "Brown, N.E.",
+            "setID": "K",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Brown, N.E.",
+            "dwc:dateIdentified": "1907-03-22T00:00:00.000+0000",
+            "dcterms:identifier": "K000232911",
+            "dwc:month": 3,
+            "dwc:day": 22,
+            "dcterms:modified": "2004-04-23",
+            "dwc:recordNumber": "s.n.",
+            "dwc:eventRemarks": "See information on label",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Saxifragales",
+            "dwc:family": "Crassulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CRASSULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Raised from seeds sent from Nyasaland (Malawi) in 1905 by Mr. J. McClounie. Cultivated at Kew Gardens.",
+            "dwc:taxonRemarks": "type",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000232911",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000232911",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/42511.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Rhynchosia gabonensis Jongkind",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GA",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000263710",
+            "dwc:catalogNumber": "K000263710",
+            "dwc:genus": "Rhynchosia",
+            "dwc:specificEpithet": "gabonensis",
+            "dwc:country": "Gabon",
+            "dwc:year": 1991,
+            "dwc:eventDate": "1991-01-22",
+            "dwc:locality": "About 10km on the road from Tchimbele to Assok.",
+            "dwc:recordedBy": "van Nek; de Wilde, J.J., Sosef",
+            "dwc:decimalLatitude": 0.07,
+            "dwc:decimalLongitude": 10.38,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "K000263710",
+            "dwc:month": 1,
+            "dwc:day": 22,
+            "dcterms:modified": "2005-11-01",
+            "dwc:recordNumber": "10130",
+            "dwc:habitat": "in tree in roadside",
+            "dwc:eventRemarks": "Vine 7m long.  Pods silvery-grey.  Seeds glossy, dark blue.  Leaflets thick leathery, dull green above, beneath paler green with reddish nervation.",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 580,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000263710",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000263710",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/64394.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

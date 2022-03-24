@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Narthecium ossifragum Huds.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3160178",
+            "dwc:catalogNumber": "L.3160178",
+            "dwc:genus": "Narthecium",
+            "dwc:specificEpithet": "ossifragum",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1955,
+            "dwc:eventDate": "1955-07-08",
+            "dwc:locality": "Rand langs vennetje weg Hoogerheide-Putte. Hoogerheide.",
+            "dwc:recordedBy": "Visser A de",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1955/07/08",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3160178",
+            "dwc:month": 7,
+            "dwc:day": 8,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Dioscoreales",
+            "dwc:family": "Nartheciaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Dioscoreales|Nartheciaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3160178",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

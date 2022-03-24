@@ -1,0 +1,83 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Manihot tripartita Müll.Arg.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PY",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00648647",
+            "dwc:catalogNumber": "P00648647",
+            "dwc:genus": "Manihot",
+            "dwc:specificEpithet": "tripartita",
+            "dwc:country": "Paraguay",
+            "dwc:year": 1901,
+            "dwc:eventDate": "1901-01-01",
+            "dwc:recordedBy": "Hassler, E.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00648647",
+            "dcterms:modified": "2015-09-25",
+            "dwc:verbatimLocality": "Iter ad Paraguariam septentrionalem. In regione cursus superioris fluminis Apa.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Euphorbiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "7955",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00648647",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:taxonRank": "varietas",
+            "dwc:family": "Euphorbiaceae",
+            "@id": "SONNERAT|1172195",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:verbatimTaxonRank": "var.",
+            "dwc:typeStatus": "isotype",
+            "dwc:infraspecificEpithet": "apaensis",
+            "dwc:genus": "Manihot",
+            "dwc:higherClassification": "Manihot tripartita;Manihot;Euphorbiaceae",
+            "dwc:specificEpithet": "tripartita",
+            "dwc:scientificName": "Manihot tripartita (Spreng.) Müll.Arg. var. apaensis Chodat & Hassl.",
+            "dwc:scientificNameAuthorship": "Chodat & Hassl.",
+            "dwc:taxonID": "SONNERAT|247038",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Euphorbiaceae",
+            "@id": "SONNERAT|1172197",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Manihot",
+            "dwc:higherClassification": "Manihot;Euphorbiaceae",
+            "dwc:specificEpithet": "tripartita",
+            "dwc:scientificName": "Manihot tripartita (Spreng.) Müll.Arg.",
+            "dwc:scientificNameAuthorship": "(Spreng.) Müll.Arg.",
+            "dwc:taxonID": "SONNERAT|247026",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "D2DE0053100E42858A89DFFD94E86FEF",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, SM",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/144330025601142iWE5u5K5kgrb0S",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

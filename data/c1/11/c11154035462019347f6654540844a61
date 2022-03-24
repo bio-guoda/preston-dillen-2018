@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Grazielia nummularia (Hook. & Arn.) R.M.King & H.Rob.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000941566",
+            "dwc:catalogNumber": "K000941566",
+            "dwc:genus": "Grazielia",
+            "dwc:specificEpithet": "nummularia",
+            "dwc:country": "Brazil",
+            "dwc:recordedBy": "Richter, E.",
+            "setID": "K",
+            "dwc:identifiedBy": "Nakajima, J.N.",
+            "dcterms:identifier": "K000941566",
+            "dcterms:modified": "2013-08-05",
+            "dwc:recordNumber": "s.n.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Canela",
+            "dwc:municipality": "Canela",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K000941566",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "COMPOSITAE",
+            "dwc:genus": "Eupatorium",
+            "dwc:dateIdentified": "1969-00-00",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:specificEpithet": "nummularia",
+            "dwc:scientificName": "Eupatorium nummularia Hook. & Arn.",
+            "dwc:identifiedBy": "Barroso, G.M.",
+            "dwc:scientificNameAuthorship": "Hook. & Arn.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000941566",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/485977.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

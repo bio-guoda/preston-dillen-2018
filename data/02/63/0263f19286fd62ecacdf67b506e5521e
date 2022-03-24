@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium cordifolium",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2709",
+            "dwc:catalogNumber": "EIG.2709",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "cordifolium",
+            "dwc:country": "Indonesia",
+            "setID": "H",
+            "dwc:stateProvince": "Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.711438",
+            "dcterms:modified": "1492083857",
+            "dwc:otherCatalogNumbers": "H1127396",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium cordifolium",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/EIG.2709",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

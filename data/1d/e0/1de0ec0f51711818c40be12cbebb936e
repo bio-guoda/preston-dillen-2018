@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum lasiophyllum Dunal",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "3eeeb182-572f-438e-bb6b-1e4cfed78010",
+            "dwc:catalogNumber": "BM000846821",
+            "dwc:genus": "Brachistus",
+            "dwc:specificEpithet": "lasiophyllum",
+            "dwc:country": "Australia",
+            "dwc:year": 1897,
+            "dwc:eventDate": "1897-11-01",
+            "dwc:locality": "Minilya River",
+            "dwc:recordedBy": "G J. Brockman",
+            "setID": "BM",
+            "dwc:stateProvince": "Western Australia",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "5448576",
+            "dwc:month": 11,
+            "dcterms:modified": "2017-08-22",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448576",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Angiosperm; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Australia; Australia; Western Australia",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/3eeeb182-572f-438e-bb6b-1e4cfed78010",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/39370bae7478c9fea822880cc50dc628292286b7/contents/preview",
+            "dcterms:title": "BM000846821",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

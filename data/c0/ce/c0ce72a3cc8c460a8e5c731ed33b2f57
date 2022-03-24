@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Artemisia vulgaris L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU304800",
+            "dwc:catalogNumber": "TU304800",
+            "dwc:genus": "Artemisia",
+            "dwc:specificEpithet": "vulgaris",
+            "dwc:country": "Estonia",
+            "dwc:year": 1977,
+            "dwc:eventDate": "1977-06-25",
+            "dwc:locality": "Võru, Kõrgula koolist 200 m lõunasse",
+            "dwc:recordedBy": "J. Jaagus",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1977-06-25",
+            "dwc:identifiedBy": "J. Jaagus",
+            "dwc:dateIdentified": "1977-06-25T00:00:00.000+0000",
+            "dcterms:identifier": "TU304800",
+            "dwc:month": 6,
+            "dwc:day": 25,
+            "dwc:habitat": "habitat: kruusaauk",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Asterales; Asteraceae; Artemisia",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/570783",
+            "dwc:eventID": 825854,
+            "dwc:taxonID": 2912,
+            "dwc:locationID": 742811,
+            "dwc:identificationID": 885800,
+            "dwc:vernacularName": "harilik puju",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/570783",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/76/9B/769B38906B35E304C03BC22CA70B1C8CE150B2D7BC8CF0919CC3EF785AA87EE6.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1489544",
+            "dcterms:title": "TU304800.tif",
+            "dcterms:created": "2015-05",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

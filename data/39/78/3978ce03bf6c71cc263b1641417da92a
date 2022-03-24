@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bonamia burchellii Hallier f.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000945563",
+            "dwc:catalogNumber": "K000945563",
+            "dwc:genus": "Bonamia",
+            "dwc:specificEpithet": "burchellii",
+            "dwc:country": "Brazil",
+            "dwc:recordedBy": "Lindley",
+            "setID": "K",
+            "dcterms:identifier": "K000945563",
+            "dcterms:modified": "2013-08-20",
+            "dwc:recordNumber": "19",
+            "dwc:habitat": "Informação não transcrita",
+            "dwc:eventRemarks": "Informação não transcrita",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Convolvulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CONVOLVULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Herbarium Benthamianum 1854. Lindley 1840",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000945563",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "CONVOLVULACEAE",
+            "dwc:genus": "Bonamia",
+            "dwc:dateIdentified": "1952-12-00",
+            "dwc:taxonRemarks": "Confirmado T. Myint 01/1964",
+            "dwc:higherClassification": "CONVOLVULACEAE",
+            "dwc:specificEpithet": "burchellii",
+            "dwc:scientificName": "Bonamia burchellii (Choisy) Hallier f.",
+            "dwc:identifiedBy": "O'Donell",
+            "dwc:scientificNameAuthorship": "(Choisy) Hallier f.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000945563",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/499653.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

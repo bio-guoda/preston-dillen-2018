@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium radicans var. cirrhatum (Rich. ex Willd.) Rosenst.",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "VE",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00220127",
+            "dwc:catalogNumber": "P00220127",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "radicans",
+            "dwc:country": "Venezuela, Bolivarian Republic of",
+            "dwc:recordedBy": "Moritz, J.W.K.",
+            "dwc:infraspecificEpithet": "cirrhatum",
+            "setID": "P",
+            "dwc:identifiedBy": "Cremers",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00220127",
+            "dcterms:modified": "2015-09-24",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Aspleniaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "366",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - unidentified",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00220127",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:taxonRank": "varietas",
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|248273",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:dateIdentified": "2001",
+            "dwc:verbatimTaxonRank": "var.",
+            "dwc:infraspecificEpithet": "cirrhatum",
+            "dwc:genus": "Asplenium",
+            "dwc:higherClassification": "Asplenium radicans;Asplenium;Pteridophyta",
+            "dwc:specificEpithet": "radicans",
+            "dwc:scientificName": "Asplenium radicans L. var. cirrhatum (Rich. ex Willd.) Rosenst.",
+            "dwc:identifiedBy": "Cremers",
+            "dwc:scientificNameAuthorship": "(Rich. ex Willd.) Rosenst.",
+            "dwc:taxonID": "SONNERAT|46077",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|248274",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:dateIdentified": "2001",
+            "dwc:genus": "Asplenium",
+            "dwc:higherClassification": "Asplenium;Pteridophyta",
+            "dwc:specificEpithet": "galipanense",
+            "dwc:scientificName": "Asplenium galipanense Hieron.",
+            "dwc:identifiedBy": "R. Viane & G. Cremers",
+            "dwc:scientificNameAuthorship": "Hieron.",
+            "dwc:taxonID": "SONNERAT|46079",
+            "dwc:typeStatus": "isotype",
+            "dwc:identificationRemarks": "Hedwigia 44:195 (1905)",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "88D8595409164CFE96B5FC68863E2BFE",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Muséum National d'Histoire Naturelle, BC",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443111168759PfddDukGdcq3C1m2",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

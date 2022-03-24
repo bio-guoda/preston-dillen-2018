@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pseudocyphellaria intricata (Delise) Vain.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CL",
+            "dwc:occurrenceID": "9837cd5e-ede5-490f-bbc2-3819629be720",
+            "dwc:catalogNumber": "BM000852784",
+            "dwc:genus": "Pseudocyphellaria",
+            "dwc:specificEpithet": "intricata",
+            "dwc:country": "Chile",
+            "dwc:year": 1990,
+            "dwc:eventDate": "1990-02-02",
+            "dwc:locality": "Region XI",
+            "dwc:recordedBy": "David John Galloway",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Aisén del General Carlos Ibáñez del Campo",
+            "dwc:identifiedBy": "Damien Ertz",
+            "dwc:continent": "SOUTH_AMERICA",
+            "dcterms:identifier": "4962434",
+            "dwc:month": 2,
+            "dwc:day": 2,
+            "dcterms:modified": "2017-10-20",
+            "dwc:recordNumber": "9270",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4962434",
+            "dwc:kingdom": "Fungi",
+            "dwc:phylum": "Ascomycota",
+            "dwc:order": "Peltigerales",
+            "dwc:family": "Lobariaceae",
+            "dwc:class": "Lecanoromycetes",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Ascomycota; Roccellaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "South America; Chile; Aisén del General Carlos Ibáñez del Campo",
+            "dwc:fieldNumber": "9270",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/9837cd5e-ede5-490f-bbc2-3819629be720",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/d96a13d976849b05db029334678d3716c708eda3/contents/preview",
+            "dcterms:title": "BM000852784",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/424980ac873d4de3797749697b60085297785013/contents/preview",
+            "dcterms:title": "BM000852784_a",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

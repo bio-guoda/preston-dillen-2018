@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ionopsis utricularioides (Sw.) Lindl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PR",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000006572044",
+            "dwc:catalogNumber": "BR0000006572044",
+            "dwc:genus": "Ionopsis",
+            "dwc:specificEpithet": "utricularioides",
+            "dwc:country": "Puerto Rico",
+            "dwc:year": 1886,
+            "dwc:eventDate": "1886-05-22",
+            "dwc:locality": "prope Adjuntas",
+            "dwc:recordedBy": "Sintenis P.",
+            "setID": "BR",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000006572044",
+            "dwc:month": 5,
+            "dwc:day": 22,
+            "dcterms:modified": "2008-04-24",
+            "dwc:recordNumber": "4407",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "lat",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000006572044",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000006572044",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

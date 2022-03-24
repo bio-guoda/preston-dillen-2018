@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Primula sikkimensis var. pudibunda (W.W.Sm.) W.W.Sm. & H.R.Fletcher",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00024816",
+            "dwc:catalogNumber": "E00024816",
+            "dwc:genus": "Primula",
+            "dwc:specificEpithet": "sikkimensis",
+            "dwc:country": "China",
+            "dwc:year": 1903,
+            "dwc:locality": "Province de Batang, Yargong",
+            "dwc:recordedBy": "Soulie, Jean André",
+            "dwc:infraspecificEpithet": "pudibunda",
+            "setID": "E",
+            "dwc:verbatimEventDate": "July 1903",
+            "dwc:stateProvince": "Xizang (Tibet) Autonomous Region",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00024816",
+            "dcterms:modified": "2008-10-24",
+            "dwc:recordNumber": "3406",
+            "dwc:otherCatalogNumbers": "BGBASE:51996",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Primulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Outer China incl. Tibet",
+            "dwc:startDayOfYear": 196,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:fieldNotes": "Bords de rivulets des montangnes",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "fra",
+            "@id": "http://data.rbge.org.uk/herb/E00024816",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00024816 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00024816",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMDI0LzgxNi8zNDE0Mi5qcGc=",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00024816",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

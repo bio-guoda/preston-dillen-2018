@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Glebionis segetum Fourr.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000790598",
+            "dwc:catalogNumber": "K000790598",
+            "dwc:genus": "Glebionis",
+            "dwc:specificEpithet": "segetum",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1958,
+            "dwc:eventDate": "1958-06-10",
+            "dwc:recordedBy": "Robinson, E.",
+            "setID": "K",
+            "dcterms:identifier": "K000790598",
+            "dwc:month": 6,
+            "dwc:day": 10,
+            "dcterms:modified": "2012-03-28",
+            "dwc:recordNumber": "s.n.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "South Devon",
+            "dwc:municipality": "South Devon",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000790598",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000790598",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/381819.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

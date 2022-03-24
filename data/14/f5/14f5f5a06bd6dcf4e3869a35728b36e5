@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium adiantum-nigrum  subsp. adiantum-nigrum",
+            "dwc:taxonRank": "Ssp",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7240",
+            "dwc:catalogNumber": "EIG.7240",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "adiantum-nigrum",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-11-08",
+            "dwc:locality": "Sanetti Plateau and Mount Batu, on foot of the highest point of Mount Batu",
+            "dwc:recordedBy": "Kukkonen, Ilkka",
+            "dwc:infraspecificEpithet": "adiantum-nigrum",
+            "dwc:geodeticDatum": "Dms",
+            "setID": "H",
+            "dwc:verbatimEventDate": "08.11.1982",
+            "dwc:stateProvince": "Oromia",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.726399",
+            "dwc:month": 11,
+            "dwc:day": 8,
+            "dwc:county": "Bale",
+            "dcterms:modified": "1492084188",
+            "dwc:recordNumber": "12603 A",
+            "dwc:otherCatalogNumbers": "H1489742",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Bale Adm. Reg.; Saneti plateau, alt. c. 4100 m",
+            "dwc:datasetID": "GX.270",
+            "dwc:verbatimCoordinates": "06°55'N; 39°40'E (degrees, minutes)",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium adiantum-nigrum subsp. adiantum-nigrum",
+            "dwc:verbatimRecordedBy": "Kukkonen, Ilkka",
+            "dwc:verbatimLongitude": "39°40'",
+            "dwc:verbatimLatitude": "06°55'",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7240",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

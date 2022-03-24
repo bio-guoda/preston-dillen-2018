@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Linaria heterophylla (Schousboe) Steudel",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "YE",
+            "dwc:occurrenceID": "50881717-4d29-4d16-913d-6a1291d4679e",
+            "dwc:catalogNumber": "BM000522091",
+            "dwc:genus": "Nanorrhinum",
+            "dwc:specificEpithet": "heterophylla",
+            "dwc:country": "Yemen",
+            "dwc:year": 1978,
+            "dwc:eventDate": "1978-02-08",
+            "dwc:recordedBy": "John Richard Ironside Wood",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "4976815",
+            "dwc:month": 2,
+            "dwc:day": 8,
+            "dwc:recordNumber": "2223",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4976815",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Plantaginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Scrophulariaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; Yemen",
+            "dwc:fieldNumber": "2223",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/50881717-4d29-4d16-913d-6a1291d4679e",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/397cd2c516b0e3d447e87c057fd4c828626dff5a/contents/preview",
+            "dcterms:title": "BM000522091",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

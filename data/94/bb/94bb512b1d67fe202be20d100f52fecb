@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Salix calyculata Hook.f. ex Andersson",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "IN",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000335073",
+            "dwc:catalogNumber": "K000335073",
+            "dwc:genus": "Salix",
+            "dwc:specificEpithet": "calyculata",
+            "dwc:country": "India",
+            "dwc:year": 1849,
+            "dwc:eventDate": "1849-08-22",
+            "dwc:locality": "[Karkala]",
+            "dwc:recordedBy": "s.coll.",
+            "setID": "K",
+            "dwc:verbatimEventDate": "Aug 22/49",
+            "dc:typeStatus": "SYNTYPE",
+            "dwc:identifiedBy": "Belyaeva, I.",
+            "dwc:dateIdentified": "2005-08-02T00:00:00.000+0000",
+            "dcterms:identifier": "K000335073",
+            "dwc:month": 8,
+            "dwc:day": 22,
+            "dcterms:modified": "2014-08-19",
+            "dwc:recordNumber": "s.n.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Salicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "SALICACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "[With K000335074, associated to K000335288, K000335075]",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 3962,
+            "dcterms:language": "lat",
+            "@id": "http://specimens.kew.org/herbarium/K000335073",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000335073",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/162722.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

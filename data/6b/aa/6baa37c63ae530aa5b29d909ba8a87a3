@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Alopecurus arundinaceus Poir.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU278215",
+            "dwc:catalogNumber": "TU278215",
+            "dwc:genus": "Alopecurus",
+            "dwc:specificEpithet": "arundinaceus",
+            "dwc:country": "Estonia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-06-17",
+            "dwc:locality": "Haapsalu raj., Matsalu, Penijıe ‰‰rsel niidul.",
+            "dwc:recordedBy": "L. Pihlapuu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1972-06-17",
+            "dwc:identifiedBy": "L. Pihlapuu",
+            "dwc:dateIdentified": "1972-06-17T00:00:00.000+0000",
+            "dcterms:identifier": "TU278215",
+            "dwc:month": 6,
+            "dwc:day": 17,
+            "dwc:habitat": "habitat: Niidul.",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Monocotyledonae; Poales; Poaceae; Alopecurus",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/534013",
+            "dwc:eventID": 789068,
+            "dwc:taxonID": 2700,
+            "dwc:locationID": 706157,
+            "dwc:identificationID": 824801,
+            "dwc:vernacularName": "mustjas rebasesaba",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/534013",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/B8/4E/B84ED8034009CCE0ACD28EA84A3CC2660DD0874FE53491824156B9228FA69610.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1473593",
+            "dcterms:title": "TU278215.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Rulingia corylifolia Graham",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100127220",
+            "dwc:catalogNumber": "B 10 0127220",
+            "dwc:genus": "Rulingia",
+            "dwc:specificEpithet": "corylifolia",
+            "dwc:country": "Australia",
+            "dwc:year": 1964,
+            "dwc:eventDate": "1964-05-29",
+            "dwc:recordedBy": "A. S. George",
+            "setID": "B",
+            "dwc:verbatimEventDate": "29.05.1964",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "6310",
+            "dwc:scientificNameAuthorship": "Graham",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "STERCULIACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; STERCULIACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100127220",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

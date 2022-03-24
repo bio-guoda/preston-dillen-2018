@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bombax balanoides Ulbrich",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PE",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/U%20%200043911",
+            "dwc:catalogNumber": "U  0043911",
+            "dwc:genus": "Pseudobombax",
+            "dwc:specificEpithet": "balanoides",
+            "dwc:country": "Peru",
+            "dwc:locality": "Peru. Seringal Auristella.",
+            "dwc:recordedBy": "Ule EHG",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1911/06/30 | 1911/06/01",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:stateProvince": "Amazonas",
+            "dwc:continent": "SOUTH_AMERICA",
+            "dcterms:identifier": "U  0043911",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malvales",
+            "dwc:family": "Malvaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Malvales|Bombacaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/U%20%200043911",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

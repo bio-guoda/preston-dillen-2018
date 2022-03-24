@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Petrophile septemfida Rye & K.A.Sheph.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000543516",
+            "dwc:catalogNumber": "K000543516",
+            "dwc:genus": "Petrophile",
+            "dwc:specificEpithet": "septemfida",
+            "dwc:country": "Australia",
+            "dwc:year": 2008,
+            "dwc:eventDate": "2008-08-16",
+            "dwc:locality": "Boothendarra Nature Reserve, off Boothendarra road, 5.2 km E of Dewar road, NE of Badgingarra",
+            "dwc:recordedBy": "Hislop, M.",
+            "dwc:decimalLatitude": -30.25,
+            "dwc:decimalLongitude": 115.62,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Rye, B.L.",
+            "dwc:dateIdentified": "2012-04-04T00:00:00.000+0000",
+            "dcterms:identifier": "K000543516",
+            "dwc:month": 8,
+            "dwc:day": 16,
+            "dcterms:modified": "2014-06-04",
+            "dwc:recordNumber": "3804",
+            "dwc:habitat": "Upland. Dry white sand over laterite. Mixed heath mostly 1.5-2 m. Banskia glaucifolia, Lambertia multiflora, Daviesia incrassata, Hakea smilacifolia. Frequency: occasional.",
+            "dwc:eventRemarks": "Erect shrub to 120 cm high x 80 cm wide. Flowers pale yellow. Single stemmed at ground level.",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Proteales",
+            "dwc:family": "Proteaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "PROTEACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000543516",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000543516",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/654617.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lavandula vera DC.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04468077",
+            "dwc:catalogNumber": "P04468077",
+            "dwc:genus": "Lavandula",
+            "dwc:specificEpithet": "vera",
+            "dwc:country": "France",
+            "dwc:year": 1843,
+            "dwc:eventDate": "1843-07-16",
+            "dwc:recordedBy": "Jordan",
+            "dwc:decimalLatitude": 45.8443,
+            "dwc:decimalLongitude": 4.8276,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "P",
+            "dwc:stateProvince": "69 Rhône",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04468077",
+            "dwc:month": 7,
+            "dwc:day": 16,
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Lieux arides des collines calcaires à Couzon, près Lyon ;",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04468077",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Lamiaceae",
+            "@id": "SONNERAT|6039902",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Lavandula",
+            "dwc:higherClassification": "Lavandula;Lamiaceae",
+            "dwc:specificEpithet": "vera",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Lavandula vera DC.",
+            "dwc:scientificNameAuthorship": "DC.",
+            "dwc:taxonID": "SONNERAT|49481",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "D48EC3D2EC8842FEB9E850D8C183B867",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441376859325EhafglttfoiPnEJ4",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Polystichum tenggerense",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2557",
+            "dwc:catalogNumber": "EIG.2557",
+            "dwc:genus": "Polystichum",
+            "dwc:specificEpithet": "tenggerense",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1910,
+            "dwc:eventDate": "1910-02-01/1910-02-28",
+            "dwc:locality": "Mount Bromo",
+            "dwc:recordedBy": "Moussel, J. P.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "02.1910",
+            "dwc:stateProvince": "East Java",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.710940",
+            "dwc:month": 2,
+            "dcterms:modified": "1492083847",
+            "dwc:otherCatalogNumbers": "H1590541",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Pangonan Djewe am Wege zum Vulkan Bromo via Berg - Urwald zone 1600 m",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Polystichum tenggerense",
+            "dwc:verbatimRecordedBy": "Moussel, J. P.",
+            "dcterms:language": "deu",
+            "@id": "http://id.luomus.fi/EIG.2557",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

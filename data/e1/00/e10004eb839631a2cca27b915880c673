@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lycopodium nummulariifolium Bl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3474871",
+            "dwc:catalogNumber": "L.3474871",
+            "dwc:genus": "Phlegmariurus",
+            "dwc:specificEpithet": "nummulariifolium",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1973,
+            "dwc:eventDate": "1973-02-15",
+            "dwc:locality": "Island N. Sumatra, Bt. Lawang, Bohorok, langkat.",
+            "dwc:recordedBy": "Dransfield J",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1973/02/15",
+            "dwc:stateProvince": "Sumatra",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3474871",
+            "dwc:month": 2,
+            "dwc:day": 15,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lycopodiales",
+            "dwc:family": "Lycopodiaceae",
+            "dwc:class": "Lycopodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Lycopsida|Lycopodiales|Lycopodiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3474871",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

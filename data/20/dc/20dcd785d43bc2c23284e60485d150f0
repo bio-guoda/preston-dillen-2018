@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum triflorum Nutt.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "f4029d0e-38c8-4c7c-a2eb-a119d2676041",
+            "dwc:catalogNumber": "BM000934746",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "triflorum",
+            "dwc:country": "United States",
+            "dwc:year": 1884,
+            "dwc:eventDate": "1884-08-06",
+            "dwc:locality": "Flagstaff.",
+            "dwc:recordedBy": "Marcus Eugene Jones",
+            "setID": "BM",
+            "dwc:stateProvince": "Arizona",
+            "dwc:identifiedBy": "Tiina Särkinen",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "5451082",
+            "dwc:month": 8,
+            "dwc:day": 6,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "4009",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5451082",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; United States; Arizona",
+            "dwc:fieldNumber": "4009",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/f4029d0e-38c8-4c7c-a2eb-a119d2676041",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/43833ac764e730ec102d4af62d27ce7dc8657f09/contents/preview",
+            "dcterms:title": "BM000934746",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

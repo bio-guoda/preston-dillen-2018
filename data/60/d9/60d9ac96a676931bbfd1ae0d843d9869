@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Xyris paraensis var. longiceps (Malme) L.B.Sm. & Downs",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000837269",
+            "dwc:catalogNumber": "K000837269",
+            "dwc:genus": "Xyris",
+            "dwc:specificEpithet": "paraensis",
+            "dwc:country": "Brazil",
+            "dwc:year": 1984,
+            "dwc:eventDate": "1984-02-07",
+            "dwc:locality": "Base of Serra Aaraca, 0-3km South of Central. Massif, 3km E of Rio Juari.",
+            "dwc:recordedBy": "Silva, M.G.; Mota, C.D.A.; Cisneros, L.A.; Prance, G.T.",
+            "dwc:infraspecificEpithet": "longiceps",
+            "dwc:decimalLatitude": 0.82,
+            "dwc:decimalLongitude": -63.32,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Kral, R.",
+            "dcterms:identifier": "K000837269",
+            "dwc:month": 2,
+            "dwc:day": 7,
+            "dcterms:modified": "2013-03-07",
+            "dwc:recordNumber": "28878",
+            "dwc:habitat": "Caatinga forest. Growing in sandy soil",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Xyridaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "XYRIDACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Projeto Flora Amazônica. Plants collected under the joint sponsorship of the National Science Foundation latin-American collaborative program and the Conselho Nacional de Desenvolvimento Científico e Tecnológico in collaboration with the Instituto Naciona",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000837269",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000837269",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/464751.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

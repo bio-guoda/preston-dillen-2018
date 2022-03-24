@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Neea constricta Spruce ex J.A.Schmidt",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000572855",
+            "dwc:catalogNumber": "K000572855",
+            "dwc:genus": "Neea",
+            "dwc:specificEpithet": "constricta",
+            "dwc:country": "Brazil",
+            "dwc:locality": "Santarem- near the Amazon",
+            "dwc:recordedBy": "Spruce, R.",
+            "setID": "K",
+            "dcterms:identifier": "K000572855",
+            "dcterms:modified": "2008-09-29",
+            "dwc:recordNumber": "992",
+            "dwc:eventRemarks": "Small tree of 15 ft.  Perianth grsh white. in fruit red  More information given",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Nyctaginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "NYCTAGINACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Author citation as on label: [author illegible}",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://specimens.kew.org/herbarium/K000572855",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000572855",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/229206.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

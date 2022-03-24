@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bauhinia forficata Link",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000807303",
+            "dwc:catalogNumber": "K000807303",
+            "dwc:genus": "Bauhinia",
+            "dwc:specificEpithet": "forficata",
+            "dwc:country": "Brazil",
+            "dwc:year": 1965,
+            "dwc:eventDate": "1965-02-14",
+            "dwc:locality": "15km due NW of Registro ( or 1 km due S of SETE BARRAS). Near roadfork.",
+            "dwc:recordedBy": "Clayton, W.D.; Eiten, G.",
+            "dwc:decimalLatitude": -24.4,
+            "dwc:decimalLongitude": -47.92,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dcterms:identifier": "K000807303",
+            "dwc:month": 2,
+            "dwc:day": 14,
+            "dcterms:modified": "2012-08-07",
+            "dwc:recordNumber": "6057",
+            "dwc:habitat": "\"In broad, flat alluvial valley plain. Area originally forested now cleared. Scrub of low trees at roadside.\"",
+            "dwc:eventRemarks": "Shrub 4-5m tall. Sepals light green, petals whute, filaments white, style green below to white above, stigma light green",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Flora of Brazil. State of São Paulo",
+            "dwc:higherGeography": "Registro",
+            "dwc:municipality": "Registro",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Confirmada por R.P. Wunderlin em 1983",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 50,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000807303",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000807303",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/409040.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Acer pseudoplatanus L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000026817637V",
+            "dwc:catalogNumber": "BR0000026817637V",
+            "dwc:genus": "Acer",
+            "dwc:specificEpithet": "pseudoplatanus",
+            "dwc:country": "Belgium",
+            "dwc:year": 1979,
+            "dwc:eventDate": "1979-10-27",
+            "dwc:locality": "Laken (Brussel; Prov. Brabant)",
+            "dwc:recordedBy": "Studenten 2e kandidatuur Academiejaar 1979 - 1980",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000026817637V",
+            "dwc:month": 10,
+            "dwc:day": 27,
+            "dcterms:modified": "2017-05-17",
+            "dwc:recordNumber": "I / 8",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Sapindaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "nld",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000026817637V",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000026817637V",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

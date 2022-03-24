@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium australe",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2748",
+            "dwc:catalogNumber": "EIG.2748",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "australe",
+            "dwc:country": "Australia",
+            "dwc:locality": "East of Cann River town; Mount Drummer; Head of Soda Greek",
+            "setID": "H",
+            "dwc:stateProvince": "Victoria",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.711567",
+            "dcterms:modified": "1492083860",
+            "dwc:otherCatalogNumbers": "H1280994",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Australia, Victoria, Head of Soda Greck, Mt. Drummer, E of Cam River.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium australe",
+            "dwc:organismRemarks": "Canberra Botanic Gardens seed list nr. 1597. Spores taken for cultivation in Botanical Garden, University of Helsinki, Finland.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.2748",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

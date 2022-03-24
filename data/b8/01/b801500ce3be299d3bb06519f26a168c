@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum triflorum var. triflorum",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "BE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000012074808",
+            "dwc:catalogNumber": "BR0000012074808",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "triflorum",
+            "dwc:country": "Belgium",
+            "dwc:year": 1968,
+            "dwc:eventDate": "1968-08-07",
+            "dwc:locality": "De Panne, zeeduinen aan de Westhoek",
+            "dwc:recordedBy": "Cnops N.",
+            "dwc:infraspecificEpithet": "triflorum",
+            "setID": "BR",
+            "dwc:verbatimEventDate": "7.8.68",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000012074808",
+            "dwc:month": 8,
+            "dwc:day": 7,
+            "dcterms:modified": "2011-08-04",
+            "dwc:recordNumber": "68.279",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "unchecked name",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000012074808",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000012074808",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

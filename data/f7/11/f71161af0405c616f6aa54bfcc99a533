@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Diplazium dilatatum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2751",
+            "dwc:catalogNumber": "EIG.2751",
+            "dwc:genus": "Diplazium",
+            "dwc:specificEpithet": "dilatatum",
+            "dwc:country": "China",
+            "dwc:year": 1968,
+            "dwc:eventDate": "1968-05-15",
+            "dwc:locality": "Chi-ton to chi-ti",
+            "dwc:recordedBy": "Kao, M. T.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "15.05.1968",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.711579",
+            "dwc:month": 5,
+            "dwc:day": 15,
+            "dwc:county": "Nantou",
+            "dcterms:modified": "1492083860",
+            "dwc:otherCatalogNumbers": "H1012991",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "FLORA OF TAIWAN. LOC.: Chi-ton to chi-ti, Nantou Co.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Diplazium dilatatum",
+            "dwc:verbatimRecordedBy": "Kao, M. T.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.2751",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

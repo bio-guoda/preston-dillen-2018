@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Potentilla argentea L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04327377",
+            "dwc:catalogNumber": "P04327377",
+            "dwc:genus": "Potentilla",
+            "dwc:specificEpithet": "argentea",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04327377",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Rosales",
+            "dwc:family": "Rosaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04327377",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Rosaceae",
+            "@id": "SONNERAT|5076053",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Potentilla",
+            "dwc:higherClassification": "Potentilla;Rosaceae",
+            "dwc:specificEpithet": "argentea",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Potentilla argentea L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|10973",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "BD3E43ECF40D4D1D89456B4D6AD17F02",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441354943941WiFNVj5cGYw2YDm0",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Mimosa albolanata var. albolanata",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000851935",
+            "dwc:catalogNumber": "K000851935",
+            "dwc:genus": "Mimosa",
+            "dwc:specificEpithet": "albolanata",
+            "dwc:country": "Brazil",
+            "dwc:locality": "Near Goyaz.",
+            "dwc:recordedBy": "Burchell, W.J.",
+            "dwc:infraspecificEpithet": "albolanata",
+            "setID": "K",
+            "dwc:identifiedBy": "Barneby, R.C.",
+            "dcterms:identifier": "K000851935",
+            "dcterms:modified": "2012-12-20",
+            "dwc:recordNumber": "6848",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "[with K000851936] Catalogus Geographicus Plantarum Brasilia Tropicae. Herbarium of the late W.J. Burchell, D.C.L. Presented by Missi Burchell, May 1865. Herbarium Hookerianum 1867",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Cit RCB",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://specimens.kew.org/herbarium/K000851935",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000851935",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/435229.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

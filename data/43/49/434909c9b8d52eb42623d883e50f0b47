@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Persicaria minor Opiz",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3179057",
+            "dwc:catalogNumber": "L.3179057",
+            "dwc:genus": "Persicaria",
+            "dwc:specificEpithet": "minor",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1903,
+            "dwc:eventDate": "1903-08-30",
+            "dwc:locality": "Enschede, Hooten.",
+            "dwc:recordedBy": "Blijdenstein MJ",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1903/08/30",
+            "dwc:stateProvince": "Overijssel",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3179057",
+            "dwc:month": 8,
+            "dwc:day": 30,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Polygonaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophyllales|Polygonaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3179057",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

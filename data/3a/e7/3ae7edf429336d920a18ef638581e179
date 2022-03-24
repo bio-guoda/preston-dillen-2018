@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Spigelia flava Zappi & Harley",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000573362",
+            "dwc:catalogNumber": "K000573362",
+            "dwc:genus": "Spigelia",
+            "dwc:specificEpithet": "flava",
+            "dwc:country": "Brazil",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-11-08",
+            "dwc:locality": "Rio de Contas. Pico das Almas. Vertente leste. Perto da Faz Brumadinho. 16 km ao N-O da Cidade  Campo rupestre, entre rochas.",
+            "dwc:recordedBy": "Stannard, B.L.; Hind, D.J.N.; Giulietti, A.M.; Harley, R.M.",
+            "dwc:decimalLatitude": -13.53,
+            "dwc:decimalLongitude": -41.92,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "K000573362",
+            "dwc:month": 11,
+            "dwc:day": 8,
+            "dcterms:modified": "2008-12-02",
+            "dwc:recordNumber": "25976",
+            "dwc:eventRemarks": "Arbusto bastante ramificado, 50-60cm de altura. Flores amarelas, anteras amerelas, filetes alvos.",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Loganiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LOGANIACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1250,
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K000573362",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000573362",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/236306.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Aloe patersonii B.Mathew",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000256371",
+            "dwc:catalogNumber": "K000256371",
+            "dwc:genus": "Aloe",
+            "dwc:specificEpithet": "patersonii",
+            "dwc:year": 1975,
+            "dwc:eventDate": "1975-11-24",
+            "dwc:locality": "About 30-35 km from Kolwezi on road to Muso-Kantanda.",
+            "dwc:recordedBy": "Paterson, A.",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "B.Mathew",
+            "dwc:dateIdentified": "1976-03-26T00:00:00.000+0000",
+            "dcterms:identifier": "K000256371",
+            "dwc:month": 11,
+            "dwc:day": 24,
+            "dcterms:modified": "2004-10-27",
+            "dwc:recordNumber": "515",
+            "dwc:eventRemarks": "Flowers salmon with white margin to lobes. Leaves spotted white above, lined darker green below.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Asphodelaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "ALOACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000256371",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000256371",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/175239.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

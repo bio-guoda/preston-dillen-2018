@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Acer davidii subsp. grosseri (Pax) P.C.de Jong",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00144488",
+            "dwc:catalogNumber": "E00144488",
+            "dwc:genus": "Acer",
+            "dwc:specificEpithet": "davidii",
+            "dwc:country": "China",
+            "dwc:locality": "Daba Shan",
+            "dwc:recordedBy": "Sichuan Expedition (1994)",
+            "dwc:infraspecificEpithet": "grosseri",
+            "setID": "E",
+            "dwc:stateProvince": "Sichuan",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00144488",
+            "dcterms:modified": "2001-12-04",
+            "dwc:recordNumber": "1788",
+            "dwc:verbatimElevation": "1270 M",
+            "dwc:otherCatalogNumbers": "BGBASE:146539",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Sapindaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Inner China, Korea and Taiwan",
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:elevation": 1270,
+            "dwc:elevationAccuracy": 0,
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00144488",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00144488 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00144488",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMTQ0LzQ4OC8xMDMzMDk4LmpwZw==",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00144488",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

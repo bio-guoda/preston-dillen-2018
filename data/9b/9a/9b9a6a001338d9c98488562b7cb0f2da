@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Salix hegetschweileri subsp. vosegiaca E.Lautenschlager",
+            "dwc:taxonRank": "SUBSPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000005327270",
+            "dwc:catalogNumber": "BR0000005327270",
+            "dwc:genus": "Salix",
+            "dwc:specificEpithet": "hegetschweileri",
+            "dwc:country": "France",
+            "dwc:year": 1979,
+            "dwc:eventDate": "1979-06-30",
+            "dwc:locality": "Wormspel-Kar unterhalb Gr. Hohneck",
+            "dwc:recordedBy": "Lautenschlager Ernst",
+            "dwc:infraspecificEpithet": "vosegiaca",
+            "setID": "BR",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000005327270",
+            "dwc:month": 6,
+            "dwc:day": 30,
+            "dcterms:modified": "2010-12-07",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Salicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "deu",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000005327270",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000005327270",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

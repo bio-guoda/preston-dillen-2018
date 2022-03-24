@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Sesbania virgata (Cav.) Pers.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000931764",
+            "dwc:catalogNumber": "K000931764",
+            "dwc:genus": "Sesbania",
+            "dwc:specificEpithet": "virgata",
+            "dwc:country": "Brazil",
+            "dwc:year": 1928,
+            "dwc:eventDate": "1928-09-06",
+            "dwc:recordedBy": "Bourke-Borrowes, D.",
+            "setID": "K",
+            "dwc:identifiedBy": "Monteiro, R.",
+            "dcterms:identifier": "K000931764",
+            "dwc:month": 9,
+            "dwc:day": 6,
+            "dcterms:modified": "2013-07-16",
+            "dwc:recordNumber": "13",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Flora of Brazil.",
+            "dwc:higherGeography": "Corumbá",
+            "dwc:municipality": "Corumbá",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000931764",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "LEGUMINOSAE",
+            "dwc:genus": "Sesbania",
+            "dwc:higherClassification": "LEGUMINOSAE",
+            "dwc:specificEpithet": "marginata",
+            "dwc:scientificName": "Sesbania marginata Benth.",
+            "dwc:scientificNameAuthorship": "Benth.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000931764",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/550263.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula glomerata L.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100847842",
+            "dwc:catalogNumber": "B 10 0847842",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "glomerata",
+            "dwc:country": "Germany",
+            "dwc:year": 1980,
+            "dwc:eventDate": "1980-06-03",
+            "dwc:locality": "Baden- Wuerttemberg. Mindelsee.",
+            "dwc:recordedBy": "H. Ern",
+            "setID": "B",
+            "dwc:verbatimEventDate": "03.06.1980",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "M 145",
+            "dwc:habitat": "Moss",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100847842",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Juncus capitatus Weigel",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02191357",
+            "dwc:catalogNumber": "P02191357",
+            "dwc:genus": "Juncus",
+            "dwc:specificEpithet": "capitatus",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02191357",
+            "dcterms:modified": "2015-09-03",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Juncaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p02191357",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Juncaceae",
+            "@id": "SONNERAT|2617643",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Juncus",
+            "dwc:higherClassification": "Juncus;Juncaceae",
+            "dwc:specificEpithet": "capitatus",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Juncus capitatus Weigel",
+            "dwc:scientificNameAuthorship": "Weigel",
+            "dwc:taxonID": "SONNERAT|12170",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "8DC6CD906C6E4CC9B2AD708FF1C20731",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441311628424yImtPfrNastoOAMR",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum majus Britton",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "6e915766-2ee5-4776-8edf-2044a6eaec5d",
+            "dwc:catalogNumber": "BM001206098",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "majus",
+            "dwc:country": "Canada",
+            "dwc:year": 1951,
+            "dwc:eventDate": "1951-08-13",
+            "dwc:recordedBy": "Claude Eugene Garton",
+            "setID": "BM",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "8104812",
+            "dwc:month": 8,
+            "dwc:day": 13,
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "1581",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8104812",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Canada",
+            "dwc:fieldNumber": "1581",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/6e915766-2ee5-4776-8edf-2044a6eaec5d",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/15619b516cd74d6ce2dee28bc9aafa66f0427ba5/contents/preview",
+            "dcterms:title": "BM001206098",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

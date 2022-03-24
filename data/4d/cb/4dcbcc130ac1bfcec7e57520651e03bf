@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Berberis vulgaris L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00614877",
+            "dwc:catalogNumber": "P00614877",
+            "dwc:genus": "Berberis",
+            "dwc:specificEpithet": "vulgaris",
+            "dwc:country": "France",
+            "dwc:year": 1959,
+            "dwc:eventDate": "1959-06-17",
+            "dwc:recordedBy": "Raynal, J.",
+            "setID": "P",
+            "dwc:stateProvince": "05 Hautes-Alpes",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00614877",
+            "dwc:month": 6,
+            "dwc:day": 17,
+            "dcterms:modified": "2018-01-23",
+            "dwc:verbatimLocality": "Villar-d'Arène (Hautes-Alpes)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Berberidaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "4618",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00614877",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Berberidaceae",
+            "@id": "SONNERAT|1196591",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Berberis",
+            "dwc:higherClassification": "Berberis;Berberidaceae",
+            "dwc:specificEpithet": "vulgaris",
+            "dwc:scientificName": "Berberis vulgaris L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|56410",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Berberidaceae",
+            "@id": "SONNERAT|4314860",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Berberis",
+            "dwc:higherClassification": "Berberis vulgaris;Berberis;Berberidaceae",
+            "dwc:specificEpithet": "vulgaris",
+            "dwc:scientificName": "Berberis vulgaris L. subsp. alpestris Rikli",
+            "dwc:scientificNameAuthorship": "Rikli",
+            "dwc:taxonID": "SONNERAT|10762",
+            "dwc:taxonRank": "subspecies",
+            "dwc:verbatimTaxonRank": "subsp.",
+            "dwc:infraspecificEpithet": "alpestris",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "B187090605504DAA8200B6E116B9B975",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441341297747l1J50MKA5wk7V0hG",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum humifusum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NZ",
+            "dwc:occurrenceID": "b5f3594f-2a90-43eb-8977-7ae49a293fc5",
+            "dwc:catalogNumber": "BM001205321",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "humifusum",
+            "dwc:country": "New Zealand",
+            "dwc:year": 1983,
+            "dwc:eventDate": "1983-02-04",
+            "dwc:recordedBy": "Per Arne Krister (Arne) Strid",
+            "setID": "BM",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "8103743",
+            "dwc:month": 2,
+            "dwc:day": 4,
+            "dwc:recordNumber": "22275",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8103743",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Malpighiales; Clusiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Oceania; New Zealand",
+            "dwc:fieldNumber": "22275",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/b5f3594f-2a90-43eb-8977-7ae49a293fc5",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/703c936553b76562861b5914e736ddbacc73d9a3/contents/preview",
+            "dcterms:title": "BM001205321",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Crotalaria brevidens var. dorumaensis (R.Wilczek) Polhill",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "CD",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000008932464",
+            "dwc:catalogNumber": "BR0000008932464",
+            "dwc:genus": "Crotalaria",
+            "dwc:specificEpithet": "brevidens",
+            "dwc:country": "Congo, Democratic Republic of the",
+            "dwc:year": 1933,
+            "dwc:eventDate": "1933-09-21",
+            "dwc:locality": "Doruma",
+            "dwc:recordedBy": "De Graer A.M.",
+            "dwc:infraspecificEpithet": "dorumaensis",
+            "dwc:decimalLatitude": 4.7167,
+            "dwc:decimalLongitude": 27.6833,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BR",
+            "dc:typeStatus": "HOLOTYPE",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000008932464",
+            "dwc:month": 9,
+            "dwc:day": 21,
+            "dcterms:modified": "2012-10-09",
+            "dwc:recordNumber": "326",
+            "dwc:habitat": "Brousse",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000008932464",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000008932464",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

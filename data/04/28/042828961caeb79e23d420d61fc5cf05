@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Adiantum wilsonii Hook.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "JM",
+            "dwc:occurrenceID": "cc637cd5-0cad-4972-a950-073bc4e32961",
+            "dwc:catalogNumber": "BM000936708",
+            "dwc:genus": "Adiantum",
+            "dwc:specificEpithet": "wilsonii",
+            "dwc:country": "Jamaica",
+            "dwc:year": 1847,
+            "dwc:eventDate": "1847-01-01",
+            "dwc:recordedBy": "Nathaniel Wilson",
+            "dwc:decimalLatitude": 18.1514,
+            "dwc:decimalLongitude": -77.319,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "457986",
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "32",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:457986",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Pteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Pteridaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; Jamaica",
+            "dwc:fieldNumber": "32",
+            "dwc:islandGroup": "West Indies",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/cc637cd5-0cad-4972-a950-073bc4e32961",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/5b82f4d2d65f9ae1888ff44c7033aeead52da156/contents/preview",
+            "dcterms:title": "BM000936708",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

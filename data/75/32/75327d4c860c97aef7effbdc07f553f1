@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bromopsis inermis (Leyss.) Holub",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3065450",
+            "dwc:catalogNumber": "L.3065450",
+            "dwc:genus": "Bromus",
+            "dwc:specificEpithet": "inermis",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Waaldijk bij Bommel.",
+            "dwc:recordedBy": "Wttewaall J",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1833/08/31 | 1833/08/01",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3065450",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3065450",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

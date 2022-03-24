@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Cremanthodium humile Maxim.",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100049341",
+            "dwc:catalogNumber": "B 10 0049341",
+            "dwc:genus": "Cremanthodium",
+            "dwc:specificEpithet": "humile",
+            "dwc:country": "China",
+            "dwc:year": 2001,
+            "dwc:eventDate": "2001-07-24",
+            "dwc:locality": "Province: Qinghai, 40 km W Menyuan, Schuttflur auf Pass.",
+            "dwc:recordedBy": "H. Kürschner & M. Sonnentag",
+            "setID": "B",
+            "dwc:verbatimEventDate": "24.7.2001",
+            "dwc:identifiedBy": "U. Herzschuh",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "01-436",
+            "dwc:scientificNameAuthorship": "Maxim.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100049341",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

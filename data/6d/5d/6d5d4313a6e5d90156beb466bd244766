@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Hypericum socotranum R.D.Good",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "YE",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00389007",
+            "dwc:catalogNumber": "P00389007",
+            "dwc:genus": "Hypericum",
+            "dwc:specificEpithet": "socotranum",
+            "dwc:country": "Yemen",
+            "dwc:year": 1880,
+            "dwc:eventDate": "1880-01-01",
+            "dwc:recordedBy": "Balfour, I.B.",
+            "setID": "P",
+            "dc:typeStatus": "SYNTYPE",
+            "dwc:identifiedBy": "Moggi et Pisacch",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00389007",
+            "dcterms:modified": "2015-09-15",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Hypericaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "246",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00389007",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Hypericaceae",
+            "@id": "SONNERAT|449201",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Hypericum",
+            "dwc:dateIdentified": "1964",
+            "dwc:higherClassification": "Hypericum;Hypericaceae",
+            "dwc:specificEpithet": "socotranum",
+            "dwc:typeStatus": "syntype",
+            "dwc:scientificName": "Hypericum socotranum Good",
+            "dwc:identifiedBy": "Moggi et Pisacch",
+            "dwc:scientificNameAuthorship": "Good",
+            "dwc:taxonID": "SONNERAT|75986",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "B80A8DC028B744BB919DCCC2DDCA9B67",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Muséum National d'Histoire Naturelle, VD",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/14423411266952m6aceYaKsvSCeOo",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

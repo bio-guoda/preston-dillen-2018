@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vaccaria liniflora Bornm.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04982787",
+            "dwc:catalogNumber": "P04982787",
+            "dwc:genus": "Vaccaria",
+            "dwc:specificEpithet": "liniflora",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04982787",
+            "dcterms:modified": "2015-09-04",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Caryophyllaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04982787",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Caryophyllaceae",
+            "@id": "SONNERAT|6362602",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Vaccaria",
+            "dwc:higherClassification": "Vaccaria;Caryophyllaceae",
+            "dwc:specificEpithet": "liniflora",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Vaccaria liniflora Bornm.",
+            "dwc:scientificNameAuthorship": "Bornm.",
+            "dwc:taxonID": "SONNERAT|2872849",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "47F922C9E96D49D69870FD2DFFAD4E3E",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441384097838brZ06SV9XAMfSiyX",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

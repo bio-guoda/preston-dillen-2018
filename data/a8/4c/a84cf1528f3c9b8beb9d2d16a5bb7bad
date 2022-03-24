@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Argostemma timorense Benn.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PH",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200000129",
+            "dwc:catalogNumber": "L  0000129",
+            "dwc:genus": "Argostemma",
+            "dwc:specificEpithet": "timorense",
+            "dwc:country": "Philippines",
+            "dwc:locality": "Los Banos (Mt. Maquiling) Province of Laguna, Luzon Philippines",
+            "dwc:recordedBy": "Elmer ADE",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1917/06/30 | 1917/06/01",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:stateProvince": "Luzon",
+            "dwc:identifiedBy": "; Bakhuizen van den Brink Jr RC",
+            "dwc:dateIdentified": "1951-10-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0000129",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Rubiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Gentianales|Rubiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200000129",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

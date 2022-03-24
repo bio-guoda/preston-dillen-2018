@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pterosiphonia pennata (C.Agardh) Falkenb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0556627",
+            "dwc:catalogNumber": "PC0556627",
+            "dwc:genus": "Pterosiphonia",
+            "dwc:specificEpithet": "pennata",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0556627",
+            "dcterms:modified": "2015-09-03",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Rhodophyta",
+            "dwc:order": "Ceramiales",
+            "dwc:family": "Rhodomelaceae",
+            "dwc:class": "Florideophyceae",
+            "dwc:collectionCode": "PC",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/pc/pc0556627",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Algues",
+            "@id": "SONNERAT|1419821",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Pterosiphonia",
+            "dwc:higherClassification": "Pterosiphonia;Algues",
+            "dwc:specificEpithet": "pennata",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Pterosiphonia pennata",
+            "dwc:taxonID": "SONNERAT|142165",
+            "@type": "dwc:Identification"
+        },
+        {
+            "@id": "A4DF2FD98DCC4C38A8E285B88ED2B51E",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441291112161A2cvcLoyHfFlZSGE",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

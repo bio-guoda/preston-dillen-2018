@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Fagraea volubilis Wall.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MY",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00438256",
+            "dwc:catalogNumber": "E00438256",
+            "dwc:genus": "Utania",
+            "dwc:specificEpithet": "volubilis",
+            "dwc:country": "Malaysia",
+            "dwc:year": 1895,
+            "dwc:eventDate": "1895-04-20",
+            "dwc:locality": "Miri River",
+            "dwc:recordedBy": "Hose, Charles",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1895-04-20",
+            "dc:typeStatus": "ISOTYPE",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00438256",
+            "dwc:month": 4,
+            "dwc:day": 20,
+            "dcterms:modified": "2010-03-18",
+            "dwc:recordNumber": "742",
+            "dwc:otherCatalogNumbers": "BGBASE:425425",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Gentianaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Malay Islands",
+            "dwc:startDayOfYear": 110,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00438256",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00438256 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00438256",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNDM4LzI1Ni8yOTM3NzguanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00438256",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Trisetum spicatum (L.) K.Richt.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CA",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000013237158",
+            "dwc:catalogNumber": "BR0000013237158",
+            "dwc:genus": "Trisetum",
+            "dwc:specificEpithet": "spicatum",
+            "dwc:country": "Canada",
+            "dwc:year": 1978,
+            "dwc:eventDate": "1978-09-01",
+            "dwc:locality": "Mt. Torquay, Banff",
+            "dwc:recordedBy": "Bouharmont J.",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000013237158",
+            "dwc:month": 9,
+            "dwc:day": 1,
+            "dcterms:modified": "2014-01-23",
+            "dwc:recordNumber": "12125",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "fra",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000013237158",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000013237158",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

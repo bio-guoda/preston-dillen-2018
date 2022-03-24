@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dendrobium Sw.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1499291",
+            "dwc:catalogNumber": "L.1499291",
+            "dwc:genus": "Dendrobium",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-08-05",
+            "dwc:locality": "Gunung Leuser Nature Reserve, Atjeh, North Sumatra. Gunung Ketambe and vicinity, 8-15 km SW from the mouth of Lau Ketambe, c.40km NW of Kutatjane, Camp 3-4.",
+            "dwc:recordedBy": "Wilde WJJO de; Wilde-Duyfjes BEE de",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1972/08/05",
+            "dwc:stateProvince": "Sumatra",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1499291",
+            "dwc:month": 8,
+            "dwc:day": 5,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asparagales",
+            "dwc:family": "Orchidaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asparagales|Orchidaceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1499291",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

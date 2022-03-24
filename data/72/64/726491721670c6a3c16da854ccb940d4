@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Litsea cubeba Pers.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1805455",
+            "dwc:catalogNumber": "L.1805455",
+            "dwc:genus": "Litsea",
+            "dwc:specificEpithet": "cubeba",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1899,
+            "dwc:eventDate": "1899-10-23",
+            "dwc:locality": "Indonesia, Jawa Timur, Ngadisari",
+            "dwc:recordedBy": "Koorders SH",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1899/10/23",
+            "dwc:stateProvince": "Java",
+            "dwc:identifiedBy": "Unknown",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1805455",
+            "dwc:month": 10,
+            "dwc:day": 23,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Laurales",
+            "dwc:family": "Lauraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Laurales|Lauraceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1805455",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

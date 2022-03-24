@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vicia tetrasperma (L.) Schreb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3314051",
+            "dwc:catalogNumber": "L.3314051",
+            "dwc:genus": "Vicia",
+            "dwc:specificEpithet": "tetrasperma",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1950,
+            "dwc:eventDate": "1950-06-04",
+            "dwc:locality": "Beek bij Nijmegen, Duinels bergcomplex, annexatiegebied: Vosselberg. *.",
+            "dwc:recordedBy": "Soest JL van",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1950/06/04",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3314051",
+            "dwc:month": 6,
+            "dwc:day": 4,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Fabales|Leguminosae-Pap.",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3314051",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

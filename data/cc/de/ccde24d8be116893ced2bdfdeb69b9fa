@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium harpeodes",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7565",
+            "dwc:catalogNumber": "EIG.7565",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "harpeodes",
+            "dwc:country": "Brazil",
+            "dwc:year": 1928,
+            "dwc:eventDate": "1928-04-06",
+            "dwc:locality": "Mantiqueira Mountains, Itatiaia",
+            "dwc:recordedBy": "Lahtivirta, K. I.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "06.04.1928",
+            "dwc:stateProvince": "Southeast Region",
+            "dwc:continent": "Central America, South America and the Antarctic",
+            "dcterms:identifier": "http://tun.fi/MY.727464",
+            "dwc:month": 4,
+            "dwc:day": 6,
+            "dcterms:modified": "1492084210",
+            "dwc:otherCatalogNumbers": "H1568230",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Serra de Mantiqueira, Itatiaya; Walter, ca 1000 m. s.m.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium harpeodes",
+            "dwc:verbatimRecordedBy": "Lahtivirta, K. I.",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/EIG.7565",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum dulcamara L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "72f7831c-ff79-442f-8cef-b3763041c24a",
+            "dwc:catalogNumber": "BM000846347",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "dulcamara",
+            "dwc:country": "United States",
+            "dwc:year": 1983,
+            "dwc:eventDate": "1983-09-24",
+            "dwc:locality": "in creekbed of Taughannock Creek upstream from the falls",
+            "dwc:recordedBy": "C Kearney",
+            "setID": "BM",
+            "dwc:stateProvince": "New York",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "5448380",
+            "dwc:month": 9,
+            "dwc:day": 24,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "132",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448380",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; United States; New York; Tompkins",
+            "dwc:fieldNumber": "132",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/72f7831c-ff79-442f-8cef-b3763041c24a",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/8772730dae3c85191f32a002ebed800fa9ffaaa4/contents/preview",
+            "dcterms:title": "BM000846347",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

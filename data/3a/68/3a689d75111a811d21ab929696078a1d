@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Anchusa arvensis (L.) M.Bieb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00595097",
+            "dwc:catalogNumber": "P00595097",
+            "dwc:genus": "Lycopsis",
+            "dwc:specificEpithet": "arvensis",
+            "dwc:country": "France",
+            "dwc:year": 1903,
+            "dwc:eventDate": "1903-01-01",
+            "dwc:recordedBy": "Thomas, C.",
+            "setID": "P",
+            "dwc:stateProvince": "51 Marne",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00595097",
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Fismes (Marne)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Boraginales",
+            "dwc:family": "Boraginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00595097",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|5632667",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Anchusa",
+            "dwc:higherClassification": "Anchusa;Boraginaceae",
+            "dwc:specificEpithet": "arvensis",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Anchusa arvensis (L.) M.Bieb.",
+            "dwc:scientificNameAuthorship": "(L.) M.Bieb.",
+            "dwc:taxonID": "SONNERAT|13625",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|694439",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Anchusa",
+            "dwc:higherClassification": "Anchusa;Boraginaceae",
+            "dwc:specificEpithet": "arvensis",
+            "dwc:scientificName": "Anchusa arvensis (L.) M.Bieb.",
+            "dwc:scientificNameAuthorship": "(L.) M.Bieb.",
+            "dwc:taxonID": "SONNERAT|13625",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "2479BD036F184A1A90F582549B464428",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441366429690v9o98fCWe9TGESd6",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

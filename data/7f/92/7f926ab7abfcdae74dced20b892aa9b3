@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Melicope belahe (Baill.) T.G.Hartley",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04759127",
+            "dwc:catalogNumber": "P04759127",
+            "dwc:genus": "Melicope",
+            "dwc:specificEpithet": "belahe",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04759127",
+            "dcterms:modified": "2015-09-05",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Rutaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p04759127",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Rutaceae",
+            "@id": "SONNERAT|7104690",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Melicope",
+            "dwc:higherClassification": "Melicope;Rutaceae",
+            "dwc:specificEpithet": "belahe",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Melicope belahe (Baill.) T.G.Hartley",
+            "dwc:scientificNameAuthorship": "(Baill.) T.G.Hartley",
+            "dwc:taxonID": "SONNERAT|3881855",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "FCF05A8899FE4DA8A0E0FF50E5D377A0",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441429687482lXoNYUhqDV8jgR1Z",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Piper L.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1537752",
+            "dwc:catalogNumber": "L.1537752",
+            "dwc:genus": "Piper",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Plants of Dutch New Guinea. Bele river, 18 km NE. of Lake Habbema, 2200m. camp.",
+            "dwc:recordedBy": "Brass LJ; Third New Guinea Expedition American Museum of Natural History",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1938/11/30 | 1938/11/01",
+            "dwc:stateProvince": "New Guinea",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.1537752",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Piperales",
+            "dwc:family": "Piperaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Piperales|Piperaceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1537752",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

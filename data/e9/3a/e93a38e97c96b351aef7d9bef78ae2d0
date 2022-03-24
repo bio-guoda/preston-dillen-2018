@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Murdannia clarkeana Brenan",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "KE",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000345684",
+            "dwc:catalogNumber": "K000345684",
+            "dwc:genus": "Murdannia",
+            "dwc:specificEpithet": "clarkeana",
+            "dwc:country": "Kenya",
+            "dwc:year": 1950,
+            "dwc:eventDate": "1950-05-07",
+            "dwc:locality": "Nairobi, French Mission, Nairobi: slopes of Nairobi River Valley near St. Austin's Mission bridge.",
+            "dwc:recordedBy": "Rayner",
+            "setID": "K",
+            "dc:typeStatus": "HOLOTYPE",
+            "dcterms:identifier": "K000345684",
+            "dwc:month": 5,
+            "dwc:day": 7,
+            "dcterms:modified": "2005-06-15",
+            "dwc:recordNumber": "305",
+            "dwc:habitat": "On shallow, yellow-red soil overlying larva rock; seasonally waterlogged.",
+            "dwc:eventRemarks": "More information given.  A very detailed description is provided.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Commelinales",
+            "dwc:family": "Commelinaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "COMMELINACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1737,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000345684",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "COMMELINACEAE",
+            "dwc:genus": "Aneilema",
+            "dwc:higherClassification": "COMMELINACEAE",
+            "dwc:specificEpithet": "delicatula",
+            "dwc:scientificName": "Aneilema delicatula",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000345684",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/70242.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

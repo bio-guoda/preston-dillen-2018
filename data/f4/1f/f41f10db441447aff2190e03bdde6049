@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Arenaria pseudostellaria C.Y.Wu, Lihua Zhou & W.L.Wagner",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05142947",
+            "dwc:catalogNumber": "P05142947",
+            "dwc:genus": "Odontostemma",
+            "dwc:specificEpithet": "pseudostellaria",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05142947",
+            "dcterms:modified": "2015-09-05",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Caryophyllaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p05142947",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Caryophyllaceae",
+            "@id": "SONNERAT|6926102",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Arenaria",
+            "dwc:higherClassification": "Arenaria;Caryophyllaceae",
+            "dwc:specificEpithet": "pseudostellaria",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Arenaria pseudostellaria C.Y.Wu, L.H.Zhou & W.L.Wagner",
+            "dwc:scientificNameAuthorship": "C.Y.Wu, L.H.Zhou & W.L.Wagner",
+            "dwc:taxonID": "SONNERAT|2832739",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "35CEE0D227B94B2FAFC76113A51B2D1A",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441409721272fkqtcxZt6GhGqtUq",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

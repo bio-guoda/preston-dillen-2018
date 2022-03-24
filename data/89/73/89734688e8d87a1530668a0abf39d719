@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Polystichum hancockii",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.2190",
+            "dwc:catalogNumber": "EIG.2190",
+            "dwc:genus": "Polystichum",
+            "dwc:specificEpithet": "hancockii",
+            "dwc:country": "China",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-01-22",
+            "dwc:locality": "Tengchih",
+            "dwc:recordedBy": "Kuo, C. M.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "22.01.1972",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.709740",
+            "dwc:month": 1,
+            "dwc:day": 22,
+            "dwc:county": "Kaohsiung",
+            "dcterms:modified": "1492083822",
+            "dwc:recordNumber": "715",
+            "dwc:otherCatalogNumbers": "H1281387",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "FLORA OF TAIWAN. Kaohsiung Co.:Tengchih",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Polystichum hancockii",
+            "dwc:verbatimRecordedBy": "Kuo, C. M.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.2190",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

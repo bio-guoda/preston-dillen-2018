@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Panicum sarmentosum Roxb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200044849",
+            "dwc:catalogNumber": "L  0044849",
+            "dwc:genus": "Panicum",
+            "dwc:specificEpithet": "sarmentosum",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Java en Sumatra",
+            "dwc:recordedBy": "Junghuhn FW",
+            "setID": "L",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Java",
+            "dwc:identifiedBy": "Henrard JT",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0044849",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200044849",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

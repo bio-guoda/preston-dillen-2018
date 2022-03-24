@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Trifolium resupinatum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3310424",
+            "dwc:catalogNumber": "L.3310424",
+            "dwc:genus": "Trifolium",
+            "dwc:specificEpithet": "resupinatum",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Gursbergen. Pettelaar. *.",
+            "dwc:recordedBy": "Unknown",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1935/01/31 | 1935/01/01",
+            "dwc:stateProvince": "Noord-Holland",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3310424",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Fabales|Leguminosae-Pap.",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3310424",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

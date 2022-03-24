@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium bullatum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7313",
+            "dwc:catalogNumber": "EIG.7313",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "bullatum",
+            "dwc:country": "China",
+            "dwc:year": 1979,
+            "dwc:eventDate": "1979-02-14",
+            "dwc:locality": "Peitawushan",
+            "dwc:recordedBy": "Yang, H. N.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "14.02.1979",
+            "dwc:stateProvince": "Taiwan",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.726639",
+            "dwc:month": 2,
+            "dwc:day": 14,
+            "dwc:county": "Taitung",
+            "dcterms:modified": "1492084192",
+            "dwc:otherCatalogNumbers": "H1228026",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Taitung Co.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium bullatum",
+            "dwc:verbatimRecordedBy": "Yang, H. N.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7313",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

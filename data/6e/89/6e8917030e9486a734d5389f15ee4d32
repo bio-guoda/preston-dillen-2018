@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Convolvulus glomeratus Choisy",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "SA",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00507154",
+            "dwc:catalogNumber": "E00507154",
+            "dwc:genus": "Convolvulus",
+            "dwc:specificEpithet": "glomeratus",
+            "dwc:country": "Saudi Arabia",
+            "dwc:year": 1836,
+            "dwc:eventDate": "1836-01-29",
+            "dwc:locality": "In deserti planitie prope Dscheddam",
+            "dwc:recordedBy": "Schimper, W.P.H.",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1836-01-29",
+            "dc:typeStatus": "ISOLECTOTYPE",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00507154",
+            "dwc:month": 1,
+            "dwc:day": 29,
+            "dcterms:modified": "2011-10-14",
+            "dwc:recordNumber": "784",
+            "dwc:otherCatalogNumbers": "BGBASE:516878",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Convolvulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Arabian Peninsula",
+            "dwc:startDayOfYear": 29,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:fieldNotes": "prostratis ramis recta linea diffusis",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "lat",
+            "@id": "http://data.rbge.org.uk/herb/E00507154",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00507154 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00507154",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNTA3LzE1NC81MjU2NzguanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00507154",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

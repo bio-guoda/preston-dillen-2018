@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Glyphochloa acuminata (Hack.) Clayton",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "IN",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200044478",
+            "dwc:catalogNumber": "L  0044478",
+            "dwc:genus": "Glyphochloa",
+            "dwc:specificEpithet": "acuminata",
+            "dwc:country": "India",
+            "dwc:locality": "Ind. Or.Maisor & Carnatic",
+            "dwc:recordedBy": "Thomson G",
+            "setID": "L",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:stateProvince": "Karnataka",
+            "dwc:identifiedBy": "Veldkamp JF",
+            "dwc:dateIdentified": "1981-11-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0044478",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200044478",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

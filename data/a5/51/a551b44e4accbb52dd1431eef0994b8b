@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Willia Müller Hal., 1890",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.1152156",
+            "dwc:catalogNumber": "L.1152156",
+            "dwc:genus": "Willia",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1969,
+            "dwc:eventDate": "1969-08-17",
+            "dwc:locality": "Leiden, Dak LUMC.",
+            "dwc:recordedBy": "Unknown",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1969/08/17",
+            "dwc:stateProvince": "Zuid-Holland",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.1152156",
+            "dwc:month": 8,
+            "dwc:day": 17,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Bryophyta",
+            "dwc:order": "Pottiales",
+            "dwc:family": "Pottiaceae",
+            "dwc:class": "Bryopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|?",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.1152156",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

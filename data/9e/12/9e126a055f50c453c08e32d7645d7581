@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Apodocephala radula Humbert",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MG",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/WAG0000507",
+            "dwc:catalogNumber": "WAG0000507",
+            "dwc:genus": "Apodocephala",
+            "dwc:specificEpithet": "radula",
+            "dwc:country": "Madagascar",
+            "dwc:year": 1947,
+            "dwc:eventDate": "1947-03-27",
+            "dwc:locality": "Madagascar. Bassin de la Manampanihy (sud-est), rochers du sommet Mont Vohimavo au nord d'Ampasimena.",
+            "dwc:recordedBy": "Humbert J-H",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1947/03/27",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:stateProvince": "Toliara (Tulear)",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "WAG0000507",
+            "dwc:month": 3,
+            "dwc:day": 27,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asterales|Compositae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/WAG0000507",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

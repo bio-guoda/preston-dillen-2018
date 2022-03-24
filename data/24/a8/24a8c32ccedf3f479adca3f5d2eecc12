@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Scirpus fluitans L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.4270069",
+            "dwc:catalogNumber": "L.4270069",
+            "dwc:genus": "Isolepis",
+            "dwc:specificEpithet": "fluitans",
+            "dwc:country": "Netherlands",
+            "dwc:locality": "Borculo CRM-res Roeterinks Broek.",
+            "dwc:recordedBy": "Wijlens BFM",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1980/08/31 | 1980/08/01",
+            "dwc:stateProvince": "Gelderland",
+            "dwc:identifiedBy": "Wijlens BFM",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.4270069",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Cyperaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.4270069",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

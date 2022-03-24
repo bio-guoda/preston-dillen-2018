@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dryopteris unidentata",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.1068",
+            "dwc:catalogNumber": "EIG.1068",
+            "dwc:genus": "Dryopteris",
+            "dwc:specificEpithet": "unidentata",
+            "dwc:country": "United States",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-02-28",
+            "dwc:locality": "West of Waikapu, forest on south shoulder of Hanaula mountain.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "28.02.1988",
+            "dwc:stateProvince": "Hawaii",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.683086",
+            "dwc:month": 2,
+            "dwc:day": 28,
+            "dwc:county": "Maui",
+            "dcterms:modified": "1492083318",
+            "dwc:recordNumber": "14872",
+            "dwc:otherCatalogNumbers": "H1669872",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dwc:verbatimLocality": "W. Maui, W of Waikapu, forest on S shoulder of Hana'aula mountain. Alt: 4000 ft s.m.",
+            "dwc:datasetID": "GX.2951",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Dryopteris unidentata",
+            "dwc:verbatimRecordedBy": "Fraser-Jenkins, C. R; Hobdy, R. W.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.1068",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

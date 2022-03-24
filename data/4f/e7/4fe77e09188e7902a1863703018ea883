@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Kernera saxatilis",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100072587",
+            "dwc:catalogNumber": "B 10 0072587",
+            "dwc:genus": "Kernera",
+            "dwc:specificEpithet": "saxatilis",
+            "dwc:country": "Germany",
+            "dwc:year": 2003,
+            "dwc:eventDate": "2003-05-13",
+            "dwc:locality": "cult. Hort. bot. Berol.",
+            "dwc:recordedBy": "M. Cubr",
+            "setID": "B",
+            "dwc:verbatimEventDate": "13.5.2003",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "40488 (= 39546 )",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CRUCIFERAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CRUCIFERAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100072587",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

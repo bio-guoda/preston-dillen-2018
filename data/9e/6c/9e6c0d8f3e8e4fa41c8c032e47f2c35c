@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Euphrasia iranica O. Schwarz & Bornm.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "IR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100001772",
+            "dwc:catalogNumber": "B 10 0001772",
+            "dwc:genus": "Euphrasia",
+            "dwc:specificEpithet": "iranica",
+            "dwc:country": "Iran, Islamic Republic of",
+            "dwc:year": 1935,
+            "dwc:eventDate": "1935-07-06",
+            "dwc:locality": "Persia borealis, Gatschesar, Alt.: 2200 m.",
+            "dwc:recordedBy": "Gauba,E.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1935-07-06",
+            "dwc:identifiedBy": "J. Bornmüller",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "866",
+            "dwc:scientificNameAuthorship": "O. Schwarz & Bornm.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Scrophulariaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Scrophulariaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "2200",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100001772",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

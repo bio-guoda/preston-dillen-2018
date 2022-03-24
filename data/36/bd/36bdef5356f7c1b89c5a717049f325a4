@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Inga punctata Willd.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000876695",
+            "dwc:catalogNumber": "K000876695",
+            "dwc:genus": "Inga",
+            "dwc:specificEpithet": "punctata",
+            "dwc:country": "Brazil",
+            "dwc:locality": "4 dap up river from manaos.",
+            "dwc:recordedBy": "Sanderman, C.",
+            "setID": "K",
+            "dwc:identifiedBy": "Pennington, T.D.",
+            "dcterms:identifier": "K000876695",
+            "dcterms:modified": "2013-01-30",
+            "dwc:recordNumber": "2230",
+            "dwc:habitat": "growing near small settlement in full exposure",
+            "dwc:eventRemarks": "Shrub tree with cream colored flowers very bright green foliage",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Manaus",
+            "dwc:municipality": "Manaus",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 91,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000876695",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:genus": "Inga",
+            "dwc:higherClassification": "LEGUMINOSAE-MIMOSOIDEAE",
+            "dwc:specificEpithet": "strigillosa",
+            "dwc:scientificName": "Inga strigillosa Spruce ex Benth.",
+            "dwc:scientificNameAuthorship": "Spruce ex Benth.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000876695",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/445436.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

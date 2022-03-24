@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Caloplaca brunneola Wetmore",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9502487",
+            "dwc:catalogNumber": "HA.H9502487",
+            "dwc:genus": "Caloplaca",
+            "dwc:specificEpithet": "brunneola",
+            "dwc:country": "US",
+            "dwc:year": 1976,
+            "dwc:eventDate": "1976-07-05",
+            "dwc:recordedBy": "Anderson, R. A.",
+            "dwc:decimalLatitude": 46.8206,
+            "dwc:decimalLongitude": -93.9481,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:stateProvince": "Minnesota",
+            "dwc:identifiedBy": "Vitikainen, Orvo",
+            "dwc:dateIdentified": "1995",
+            "dwc:continent": "Northern America",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5318965",
+            "dwc:month": 7,
+            "dwc:day": 5,
+            "dwc:county": "Cass County",
+            "dcterms:modified": "1530276725",
+            "dwc:recordNumber": "9678",
+            "dwc:habitat": "Mixed forest, on Betula papyrifera.",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:otherCatalogNumbers": "H9502487",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "Minnesota, U.S.A. Cass County: near Ben Draper Tower road, 0.8 km from Hwy 6, 11.6 km N of Outing.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "46.820556 -93.948056 WGS84",
+            "dwc:scientificNameAuthorship": "Wetmore",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Caloplaca brunneola",
+            "dwc:verbatimLongitude": "-93.948056",
+            "dwc:verbatimLatitude": "46.820556",
+            "dwc:georeferenceRemarks": "Coordinates: Outing.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/HA.H9502487",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

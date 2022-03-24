@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Rapanea ferruginea",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100001916",
+            "dwc:catalogNumber": "B 10 0001916",
+            "dwc:genus": "Rapanea",
+            "dwc:specificEpithet": "ferruginea",
+            "dwc:country": "Brazil",
+            "dwc:year": 1949,
+            "dwc:eventDate": "1949-07-18",
+            "dwc:recordedBy": "B. Rambo",
+            "setID": "B",
+            "dwc:verbatimEventDate": "18.7.1949",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "42586",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "MYRSINACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; MYRSINACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100001916",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Acer buergerianum Miq.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "JP",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200329805",
+            "dwc:catalogNumber": "L  0329805",
+            "dwc:genus": "Acer",
+            "dwc:specificEpithet": "buergerianum",
+            "dwc:country": "Japan",
+            "dwc:locality": "Japonia.",
+            "dwc:recordedBy": "Siebold PF von",
+            "setID": "L",
+            "dc:typeStatus": "LECTOTYPE",
+            "dwc:identifiedBy": "Murray E",
+            "dwc:dateIdentified": "1965-08-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L  0329805",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Sapindaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Sapindales|Aceraceae",
+            "dwc:verbatimTaxonRank": "cv.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L%20%200329805",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

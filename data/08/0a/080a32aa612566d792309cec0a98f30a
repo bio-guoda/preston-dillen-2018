@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vicia villosa Roth",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3313527",
+            "dwc:catalogNumber": "L.3313527",
+            "dwc:genus": "Vicia",
+            "dwc:specificEpithet": "villosa",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1991,
+            "dwc:eventDate": "1991-07-23",
+            "dwc:locality": "Rotterdam. Geluidswal Ijsselmonde km,37.48.34. *.",
+            "dwc:recordedBy": "Andeweg RWG",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1991/07/23",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3313527",
+            "dwc:month": 7,
+            "dwc:day": 23,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Fabales|Leguminosae-Pap.",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3313527",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

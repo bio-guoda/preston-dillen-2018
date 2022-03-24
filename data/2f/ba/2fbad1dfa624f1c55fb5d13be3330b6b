@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Annamocalamus kontumensis H.N.Nguyen, N.H.Xia & V.T.Tran",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "VN",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00451097",
+            "dwc:catalogNumber": "P00451097",
+            "dwc:genus": "Annamocalamus",
+            "dwc:specificEpithet": "kontumensis",
+            "dwc:country": "Viet Nam",
+            "dwc:year": 1995,
+            "dwc:eventDate": "1995-02-23",
+            "dwc:recordedBy": "Averyanov, L.|Ban, N.T.|Binh, N.Q.|Budantzev, A.|Budantzev, L.|Hiep, N.T.|Huyen, D.D.|Loc, P.K.|Tam, N.X.|Yakovlev",
+            "setID": "P",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:identifiedBy": "Haevermans",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00451097",
+            "dwc:month": 2,
+            "dwc:day": 23,
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "S. Vietnam, prov. Kontum. NW slopes of Ngoc Linh mountain system",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "vh 20",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1200,
+            "dcterms:language": "eng",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00451097",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Poaceae",
+            "@id": "SONNERAT|4191040",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Dendrocalamus",
+            "dwc:higherClassification": "Dendrocalamus;Poaceae",
+            "dwc:specificEpithet": "sp.",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Dendrocalamus sp.",
+            "dwc:taxonID": "SONNERAT|85505",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Poaceae",
+            "@id": "SONNERAT|497113",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Dendrocalamus",
+            "dwc:higherClassification": "Dendrocalamus;Poaceae",
+            "dwc:specificEpithet": "sp.",
+            "dwc:scientificName": "Dendrocalamus sp.",
+            "dwc:taxonID": "SONNERAT|85505",
+            "dwc:dateIdentified": "06-05-1999",
+            "dwc:identifiedBy": "Dransfield",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Poaceae",
+            "@id": "SONNERAT|7982444",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Annamocalamus",
+            "dwc:higherClassification": "Annamocalamus;Poaceae",
+            "dwc:specificEpithet": "kontumensis",
+            "dwc:scientificName": "Annamocalamus kontumensis H.N.Nguyen, N.H.Xia & V.T.Tran",
+            "dwc:taxonID": "SONNERAT|4008731",
+            "dwc:dateIdentified": "02-2014",
+            "dwc:identifiedBy": "Haevermans",
+            "dwc:typeStatus": "holotype",
+            "dwc:scientificNameAuthorship": "H.N.Nguyen, N.H.Xia & V.T.Tran",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "A3D49C49E0DC4551AEC60AE31B23267C",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441338954833ofvjMPBtgvg47xFO",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1446817524932xDf4izklpWqWZIp2",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, VDa",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

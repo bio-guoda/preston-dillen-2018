@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Senna oblongifolia",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100005607",
+            "dwc:catalogNumber": "B 10 0005607",
+            "dwc:genus": "Senna",
+            "dwc:specificEpithet": "oblongifolia",
+            "dwc:country": "Brazil",
+            "dwc:year": 1956,
+            "dwc:eventDate": "1956-10-30",
+            "dwc:recordedBy": "O. Camargo",
+            "setID": "B",
+            "dwc:verbatimEventDate": "30.10.1956",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "59571",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; LEGUMINOSAE-CAESALPINIOIDEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100005607",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

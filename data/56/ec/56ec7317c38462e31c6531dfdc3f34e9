@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pseudobombax grandiflorum (Cav.) A.Robyns",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000913925",
+            "dwc:catalogNumber": "K000913925",
+            "dwc:genus": "Pseudobombax",
+            "dwc:specificEpithet": "grandiflorum",
+            "dwc:country": "Brazil",
+            "dwc:year": 1930,
+            "dwc:eventDate": "1930-05-17",
+            "dwc:locality": "Viçosa. Agricultural College lands; Chacha Valley, near Chacha House; low ground in remnant of original forest.",
+            "dwc:recordedBy": "Mexia, Y.",
+            "setID": "K",
+            "dcterms:identifier": "K000913925",
+            "dwc:month": 5,
+            "dwc:day": 17,
+            "dcterms:modified": "2014-05-21",
+            "dwc:recordNumber": "4711",
+            "dwc:eventRemarks": "Tree 15 m. high; leafless when in flower; corolla dull green exteriorly, pure white within. 5181 in fruit.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malvales",
+            "dwc:family": "Malvaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "BOMBACACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "associated with K000913924",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 675,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000913925",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:infraspecificEpithet": "majus",
+            "dwc:taxonRank": "var.",
+            "dwc:family": "BOMBACACEAE",
+            "dwc:genus": "Pseudobombax",
+            "dwc:taxonRemarks": "Determination as on label: Pseudobombax grandiflorum [no author] var. majus A.Robyns",
+            "dwc:higherClassification": "BOMBACACEAE",
+            "dwc:specificEpithet": "grandiflorum",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Pseudobombax grandiflorum (Cav.) A.Robyns var. majus A.Robyns",
+            "dwc:scientificNameAuthorship": "(Cav.) A.Robyns",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "BOMBACACEAE",
+            "dwc:genus": "Bombax",
+            "dwc:taxonRemarks": "Author citation as on label: (Casar.) Schum.",
+            "dwc:higherClassification": "BOMBACACEAE",
+            "dwc:specificEpithet": "cyathophorum",
+            "dwc:scientificName": "Bombax cyathophorum K.Schum.",
+            "dwc:scientificNameAuthorship": "K.Schum.",
+            "dwc:identifiedBy": "Standley",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000913925",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/660379.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

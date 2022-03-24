@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Dracontomelon dao (Blanco) Merr. & Rolfe",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2259981",
+            "dwc:catalogNumber": "L.2259981",
+            "dwc:genus": "Dracontomelon",
+            "dwc:specificEpithet": "dao",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1991,
+            "dwc:eventDate": "1991-12-12",
+            "dwc:locality": "East Kalimantan, Wanariset I area, of km 38, Balikpapan-Samarinda road.",
+            "dwc:recordedBy": "Ambriansyah; Arifin Z",
+            "dwc:decimalLatitude": -1,
+            "dwc:decimalLongitude": 117,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1991/12/12",
+            "dwc:stateProvince": "Borneo",
+            "dwc:identifiedBy": "Sidiyasa K",
+            "dwc:dateIdentified": "1991-12-01T00:00:00.000+0000",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2259981",
+            "dwc:month": 12,
+            "dwc:day": 12,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Sapindales",
+            "dwc:family": "Anacardiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Sapindales|Anacardiaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2259981",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

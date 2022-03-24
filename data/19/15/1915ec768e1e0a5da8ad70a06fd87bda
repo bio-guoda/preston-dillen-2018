@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Anthyllis vulneraria var. vulneraria",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00618767",
+            "dwc:catalogNumber": "P00618767",
+            "dwc:genus": "Anthyllis",
+            "dwc:specificEpithet": "vulneraria",
+            "dwc:country": "France",
+            "dwc:year": 1947,
+            "dwc:eventDate": "1947-06-12",
+            "dwc:recordedBy": "Raynal, J.",
+            "dwc:infraspecificEpithet": "vulneraria",
+            "setID": "P",
+            "dwc:stateProvince": "76 Seine-Maritime",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00618767",
+            "dwc:month": 6,
+            "dwc:day": 12,
+            "dcterms:modified": "2016-09-27",
+            "dwc:verbatimLocality": "Belbeuf (Seine-Maritime) : les Roches St Adrien",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "95",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00618767",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|4744196",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Anthyllis",
+            "dwc:higherClassification": "Anthyllis;Fabaceae",
+            "dwc:specificEpithet": "vulneraria",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "dwc:scientificName": "Anthyllis vulneraria L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|31114",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Fabaceae",
+            "@id": "SONNERAT|7207",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Anthyllis",
+            "dwc:higherClassification": "Anthyllis vulneraria;Anthyllis;Fabaceae",
+            "dwc:specificEpithet": "vulneraria",
+            "dwc:scientificName": "Anthyllis vulneraria L. subsp. vulneraria",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|9801",
+            "dwc:infraspecificEpithet": "vulneraria",
+            "dwc:taxonRank": "subspecies",
+            "dwc:verbatimTaxonRank": "subsp.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "CD4AF530C0EE46649B54A0F032CB42B1",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441349055950YAGFhKLu9a19Vsrm",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

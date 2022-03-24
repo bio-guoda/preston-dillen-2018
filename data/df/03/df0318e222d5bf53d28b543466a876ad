@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Verrucaria conformis Nyl. f. rhypontoides Nyl.",
+            "dwc:taxonRank": "Forma",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9505188",
+            "dwc:catalogNumber": "HA.H9505188",
+            "dwc:genus": "Verrucaria",
+            "dwc:specificEpithet": "conformis",
+            "dwc:country": "GB",
+            "dwc:year": 1868,
+            "dwc:eventDate": "1868-01-01/1868-12-31",
+            "dwc:recordedBy": "Larbalestier, C.",
+            "dwc:infraspecificEpithet": "rhypontoides",
+            "dwc:decimalLatitude": 49.2215,
+            "dwc:decimalLongitude": -2.128,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Possible",
+            "dwc:stateProvince": "Jersey",
+            "dwc:identifiedBy": "Nylander, W.",
+            "dwc:continent": "Europe",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5307109",
+            "dcterms:modified": "1530276075",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:otherCatalogNumbers": "H9505188",
+            "dwc:collectionID": "http://tun.fi/HR.130",
+            "dwc:verbatimLocality": "Jersey.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "49.221523 -2.128004 WGS84",
+            "dwc:scientificNameAuthorship": "Nyl.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Verrucaria conformis f. rhypontoides",
+            "dwc:relationshipRemarks": "c. pycnid.",
+            "dwc:verbatimLongitude": "-2.128004",
+            "dwc:verbatimLatitude": "49.221523",
+            "dwc:georeferenceRemarks": "Coordinates: Jersey.",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/HA.H9505188",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

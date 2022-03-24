@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lycopodium clavatum L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU256992",
+            "dwc:catalogNumber": "TU256992",
+            "dwc:genus": "Lycopodium",
+            "dwc:specificEpithet": "clavatum",
+            "dwc:country": "Estonia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-06-26",
+            "dwc:locality": "Põlva raj. Taevaskoja. TA Biol. jaam.",
+            "dwc:recordedBy": "T. Uustalu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1972-06-26",
+            "dwc:identifiedBy": "T. Uustalu",
+            "dcterms:identifier": "TU256992",
+            "dwc:month": 6,
+            "dwc:day": 26,
+            "dwc:habitat": "habitat: palumets",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lycopodiales",
+            "dwc:family": "Lycopodiaceae",
+            "dwc:class": "Lycopodiopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Lycopodiophyta; Lycopodiopsida; Lycopodiales; Lycopodiaceae; Lycopodium",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dwc:occurrenceRemarks": "LKIII",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/147369",
+            "dwc:eventID": 402422,
+            "dwc:taxonID": 5601,
+            "dwc:locationID": 323340,
+            "dwc:identificationID": 154137,
+            "dwc:vernacularName": "karukold",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/147369",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/7E/83/7E83D0EBC192F8A5CC94ACB6DCE55093F5F20200BB34097436E7D17D1EB8A461.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1665202",
+            "dcterms:title": "TU256992.tif",
+            "dcterms:created": "2013-10-14",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

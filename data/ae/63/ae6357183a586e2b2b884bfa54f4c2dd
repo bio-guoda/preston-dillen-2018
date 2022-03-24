@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Galactia crassifolia Taub.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000930539",
+            "dwc:catalogNumber": "K000930539",
+            "dwc:genus": "Galactia",
+            "dwc:specificEpithet": "crassifolia",
+            "dwc:country": "Brazil",
+            "dwc:year": 1968,
+            "dwc:eventDate": "1968-05-03",
+            "dwc:locality": "Fazenda Água Limpa, 25km SSE Brasília.",
+            "dwc:recordedBy": "Onishi, E.; Philcox, D.",
+            "setID": "K",
+            "dwc:identifiedBy": "Lewis, G.P.",
+            "dwc:dateIdentified": "1978-12-04T00:00:00.000+0000",
+            "dcterms:identifier": "K000930539",
+            "dwc:month": 5,
+            "dwc:day": 3,
+            "dcterms:modified": "2013-07-23",
+            "dwc:recordNumber": "4883",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LEGUMINOSAE-PAPILIONOIDEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Royal Society/Royal Geographical Society Expedition 1967/1969. Central Brazilian Plateau.",
+            "dwc:higherGeography": "Brasília",
+            "dwc:municipality": "Brasília",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000930539",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000930539",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/591412.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

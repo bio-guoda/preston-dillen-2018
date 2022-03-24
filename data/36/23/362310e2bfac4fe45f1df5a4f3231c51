@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Rubus stormanicus H.E.Weber",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100278180",
+            "dwc:catalogNumber": "B 10 0278180",
+            "dwc:genus": "Rubus",
+            "dwc:specificEpithet": "stormanicus",
+            "dwc:country": "Germany",
+            "dwc:year": 1970,
+            "dwc:eventDate": "1970",
+            "dwc:locality": "Schleswig-Holstein: Wegrand zwischen Hoisdorf und Gölm.",
+            "dwc:recordedBy": "H. E. Weber",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1970",
+            "dc:typeStatus": "isotype",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "70.902.2",
+            "dwc:scientificNameAuthorship": "H.E.Weber",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ROSACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ROSACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "fol. collected 02.09.1970, flor. collected 16.07.1970; label on leaf: no. 70902/1",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100278180",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Astragalus szovitsii Fisch. & C.A.Mey.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "AZ",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H1284824",
+            "dwc:catalogNumber": "HA.H1284824",
+            "dwc:genus": "Astragalus",
+            "dwc:specificEpithet": "szovitsii",
+            "dwc:country": "AZ",
+            "dwc:year": 1994,
+            "dwc:eventDate": "1994-01-01/1994-12-31",
+            "dwc:locality": "In collibus siccissimis lapidosis secus fl. Nakitschivan tschai [Nakhichevanchai].",
+            "dwc:recordedBy": "Szovits, J. N.",
+            "setID": "H",
+            "dc:typeStatus": "Isolectotype",
+            "dwc:identifiedBy": "D. Podlech",
+            "dwc:dateIdentified": "1994",
+            "dcterms:identifier": "http://tun.fi/MY.104174",
+            "dcterms:modified": "1382503577",
+            "dwc:otherCatalogNumbers": "H1284824",
+            "dwc:collectionID": "http://tun.fi/HR.129",
+            "dcterms:rightsHolder": "Luomus",
+            "dwc:datasetID": "GX.22",
+            "dwc:scientificNameAuthorship": "Fisch. & C.A.Mey.",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Astragalus szovitsii",
+            "dwc:organismRemarks": "Astragalus physaloudes, Astragalus polycystis nom. Nud.",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H1284824",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

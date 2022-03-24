@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Dontostemon glandulosus (Kar. & Kir.) O.E.Schulz",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100272166",
+            "dwc:catalogNumber": "B 10 0272166",
+            "dwc:genus": "Dontostemon",
+            "dwc:specificEpithet": "glandulosus",
+            "dwc:country": "China",
+            "dwc:year": 1880,
+            "dwc:eventDate": "1880",
+            "dwc:locality": "China occidentalis; Regio Tangut; Prov. Kansu.",
+            "dwc:recordedBy": "N. M. Przewalski",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1880",
+            "dwc:continent": "Asia",
+            "dwc:scientificNameAuthorship": "O.E.Schulz",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CRUCIFERAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CRUCIFERAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Arabis glandulosa",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://herbarium.bgbm.org/object/B100272166",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

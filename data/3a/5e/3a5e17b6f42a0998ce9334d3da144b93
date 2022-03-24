@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Indigofera ichangensis Craib",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00284633",
+            "dwc:catalogNumber": "E00284633",
+            "dwc:genus": "Indigofera",
+            "dwc:specificEpithet": "ichangensis",
+            "dwc:country": "China",
+            "dwc:year": 1907,
+            "dwc:recordedBy": "Wilson, Ernest Henry",
+            "setID": "E",
+            "dwc:verbatimEventDate": "May 1907",
+            "dwc:stateProvince": "Western Hupeh",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00284633",
+            "dcterms:modified": "2008-10-29",
+            "dwc:recordNumber": "3082",
+            "dwc:otherCatalogNumbers": "BGBASE:298414",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Fabales",
+            "dwc:family": "Fabaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Inner China, Korea and Taiwan",
+            "dwc:startDayOfYear": 135,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00284633",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00284633 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00284633",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMjg0LzYzMy8zNjQxMC5qcGc=",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00284633",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

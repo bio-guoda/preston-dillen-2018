@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Phyllarthron megaphyllum Capuron",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "MG",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00093937",
+            "dwc:catalogNumber": "P00093937",
+            "dwc:genus": "Phyllarthron",
+            "dwc:specificEpithet": "megaphyllum",
+            "dwc:country": "Madagascar",
+            "dwc:year": 1954,
+            "dwc:eventDate": "1954-11-01",
+            "dwc:recordedBy": "Service Forestier Madagascar|Capuron, R.",
+            "setID": "P",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Capuron",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00093937",
+            "dwc:month": 11,
+            "dcterms:modified": "2015-09-16",
+            "dwc:verbatimLocality": "Sambirano: massif de l'Antsatrotra (Manongarivo), vallon frais vers 700 mètres d'altitude",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Bignoniaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "11488 -SF",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dwc:fieldNotes": "Grand arbuste ou petit arbre à tige simple ou peu ramifiée; feuilles 2-3-4 nées",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00093937",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Bignoniaceae",
+            "@id": "SONNERAT|107124",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Phyllarthron",
+            "dwc:dateIdentified": "1960",
+            "dwc:higherClassification": "Phyllarthron;Bignoniaceae",
+            "dwc:specificEpithet": "megaphyllum",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Phyllarthron megaphyllum Capuron",
+            "dwc:identifiedBy": "Capuron",
+            "dwc:scientificNameAuthorship": "Capuron",
+            "dwc:taxonID": "SONNERAT|25251",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "474A23EA429840EC97FE727327E3CEC6",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, XF",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1442365500176teGqM98DmSQwxmdp",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

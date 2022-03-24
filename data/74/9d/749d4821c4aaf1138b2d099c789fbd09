@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Artemisia dracunculus L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU300194",
+            "dwc:catalogNumber": "TU300194",
+            "dwc:genus": "Artemisia",
+            "dwc:specificEpithet": "dracunculus",
+            "dwc:country": "Estonia",
+            "dwc:year": 1956,
+            "dwc:eventDate": "1956-08-08",
+            "dwc:locality": "Räpina raj., Piusa-Veski raudteejaama vahel põhjapoolsel raudtee tammil, Orava teest 0,5 km Piusa jaama poole",
+            "dwc:recordedBy": "E. Lellep",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1956-08-08",
+            "dwc:identifiedBy": "E. Lellep",
+            "dwc:dateIdentified": "1956-08-08T00:00:00.000+0000",
+            "dcterms:identifier": "TU300194",
+            "dwc:month": 8,
+            "dwc:day": 8,
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Asterales; Asteraceae; Artemisia",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/439376",
+            "dwc:eventID": 694431,
+            "dwc:taxonID": 2902,
+            "dwc:locationID": 611520,
+            "dwc:identificationID": 698117,
+            "dwc:vernacularName": "estragonpuju",
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/439376",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/9E/AB/9EAB7257CC738B70B8E6ED359BD75510A8C9EAAE1EC98AA352D29D36E5313D2F.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1480263",
+            "dcterms:title": "TU300194.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

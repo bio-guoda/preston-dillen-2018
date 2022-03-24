@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Orthotrichum spiculatum F.Lara, Garilleti & Mazimpaka",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "AR",
+            "dwc:occurrenceID": "88b33b03-346d-43a9-ac1e-3334182f354a",
+            "dwc:catalogNumber": "BM000964660",
+            "dwc:genus": "Orthotrichum",
+            "dwc:specificEpithet": "spiculatum",
+            "dwc:country": "Argentina",
+            "dwc:year": 2005,
+            "dwc:eventDate": "2005-12-04",
+            "dwc:recordedBy": "Francisco Lara",
+            "dwc:decimalLatitude": -32.2054,
+            "dwc:decimalLongitude": -63.8421,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Córdoba",
+            "dwc:continent": "SOUTH_AMERICA",
+            "dcterms:identifier": "478261",
+            "dwc:month": 12,
+            "dwc:day": 4,
+            "dwc:recordNumber": "s.n.",
+            "dwc:habitat": "Epífito, en ramas de Salix fragilis",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:478261",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Bryophyta",
+            "dwc:order": "Orthotrichales",
+            "dwc:family": "Orthotrichaceae",
+            "dwc:class": "Bryopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Orthotrichaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "South America; Argentina; Córdoba",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "spa",
+            "@id": "http://data.nhm.ac.uk/object/88b33b03-346d-43a9-ac1e-3334182f354a",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/d1bb22d62af89e933e8176e70ca9735485eda780/contents/preview",
+            "dcterms:title": "BM000964660",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

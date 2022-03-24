@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lepisorus mehrae Fraser-Jenk.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "IN",
+            "dwc:occurrenceID": "84a3de1f-2004-4cdf-943a-9171f7c0d00c",
+            "dwc:catalogNumber": "BM001022812",
+            "dwc:genus": "Lepisorus",
+            "dwc:specificEpithet": "mehrae",
+            "dwc:country": "India",
+            "dwc:year": 1996,
+            "dwc:eventDate": "1996-09-22",
+            "dwc:recordedBy": "Christopher Roy Fraser-Jenkins",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Uttar Pradesh",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "2337082",
+            "dwc:month": 9,
+            "dwc:day": 22,
+            "dwc:recordNumber": "24390 (FN 368)",
+            "dwc:habitat": "Forested stream-gorge with cliffs etc.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:2337082",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Polypodiaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Polypodiaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; India; Uttar Pradesh",
+            "dwc:fieldNumber": "24390 (FN 368)",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 2000,
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/84a3de1f-2004-4cdf-943a-9171f7c0d00c",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/0b77dabdcf7aa83fa745a1fe57f59fe6f61011c8/contents/preview",
+            "dcterms:title": "BM001022812",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/ffbaf468dab5d005597d6950fe00d0991c15c2aa/contents/preview",
+            "dcterms:title": "BM001022812",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

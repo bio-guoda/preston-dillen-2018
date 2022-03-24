@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Vernonia arborea var. javanica (Bl.) C.B.Cl.",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2414475",
+            "dwc:catalogNumber": "L.2414475",
+            "dwc:genus": "Strobocalyx",
+            "dwc:specificEpithet": "arborea",
+            "dwc:country": "Indonesia",
+            "dwc:locality": "Proargen Regalthy.",
+            "dwc:recordedBy": "Unknown",
+            "dwc:infraspecificEpithet": "javanica",
+            "setID": "L",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2414475",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Asterales|Compositae",
+            "dwc:verbatimTaxonRank": "var.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2414475",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

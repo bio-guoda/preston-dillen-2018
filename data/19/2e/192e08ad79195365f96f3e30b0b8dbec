@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pilea rubiacea Ridl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "f58817fd-fe68-431b-b0e3-4985aa54c7b6",
+            "dwc:catalogNumber": "BM000951643",
+            "dwc:genus": "Pilea",
+            "dwc:specificEpithet": "rubiacea",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1998,
+            "dwc:eventDate": "1998-08-02",
+            "dwc:recordedBy": "Martin Jonathan Southgate Sands",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Papua",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "466963",
+            "dwc:month": 8,
+            "dwc:day": 2,
+            "dwc:recordNumber": "7049",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:466963",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Rosales",
+            "dwc:family": "Urticaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Urticaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; Indonesia; Papua",
+            "dwc:fieldNumber": "7049",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/f58817fd-fe68-431b-b0e3-4985aa54c7b6",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/e482af53cd5f0ecdf271679c59f4b2903801bebd/contents/preview",
+            "dcterms:title": "BM000951643",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

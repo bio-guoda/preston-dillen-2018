@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Matthiola elliptica R.Br. ex DC.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "d7c2e187-b87e-4187-b503-da7c638f0a7e",
+            "dwc:catalogNumber": "BM000583717",
+            "dwc:genus": "Diceratella",
+            "dwc:specificEpithet": "elliptica",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1810,
+            "dwc:eventDate": "1810-01-01",
+            "dwc:recordedBy": "H Salt",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "AFRICA",
+            "dcterms:identifier": "4517700",
+            "dcterms:modified": "2018-02-01",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4517700",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Brassicales",
+            "dwc:family": "Brassicaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Brassicaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Africa; Ethiopia",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/d7c2e187-b87e-4187-b503-da7c638f0a7e",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/a88a1c418e36cfdb2c6ac9db8d9ff8fe809506b1/contents/preview",
+            "dcterms:title": "BM000583717",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/b2ada80136460433dcff9acddfc5fbfc39409c34/contents/preview",
+            "dcterms:title": "BM000583717",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

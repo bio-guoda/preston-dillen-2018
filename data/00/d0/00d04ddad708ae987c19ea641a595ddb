@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Impatiens siculifer Hook.f.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00120084",
+            "dwc:catalogNumber": "E00120084",
+            "dwc:genus": "Impatiens",
+            "dwc:specificEpithet": "siculifer",
+            "dwc:country": "China",
+            "dwc:year": 1912,
+            "dwc:locality": "Mingkwong valley",
+            "dwc:recordedBy": "Forrest, George",
+            "setID": "E",
+            "dwc:verbatimEventDate": "May 1912",
+            "dwc:stateProvince": "Yunnan",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00120084",
+            "dcterms:modified": "2000-10-31",
+            "dwc:recordNumber": "7687",
+            "dwc:verbatimElevation": "6-7000 FT",
+            "dwc:otherCatalogNumbers": "BGBASE:125628",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ericales",
+            "dwc:family": "Balsaminaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Inner China, Korea and Taiwan",
+            "dwc:startDayOfYear": 136,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:elevation": 1068,
+            "dwc:elevationAccuracy": 1066,
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.rbge.org.uk/herb/E00120084",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00120084 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00120084",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMTIwLzA4NC85ODAwNDQuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00120084",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

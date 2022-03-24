@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Salix laevigata Bebb",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100172760",
+            "dwc:catalogNumber": "B 10 0172760",
+            "dwc:genus": "Salix",
+            "dwc:specificEpithet": "laevigata",
+            "dwc:country": "USA",
+            "dwc:year": 1930,
+            "dwc:eventDate": "1930-04-18",
+            "dwc:locality": "Great Falls Canyon. Argus Mountains.",
+            "dwc:recordedBy": "Ellison L. Epling C. & H. Anderson",
+            "setID": "B",
+            "dwc:verbatimEventDate": "18.04.1930",
+            "dwc:continent": "North America",
+            "dwc:scientificNameAuthorship": "Bebb",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "SALICACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; SALICACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "North America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100172760",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

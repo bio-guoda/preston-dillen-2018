@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carex goodenowii J.Gay",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "EE",
+            "dwc:occurrenceID": "TU303682",
+            "dwc:catalogNumber": "TU303682",
+            "dwc:genus": "Carex",
+            "dwc:specificEpithet": "goodenowii",
+            "dwc:country": "Estonia",
+            "dwc:year": 1958,
+            "dwc:eventDate": "1958-07-16",
+            "dwc:locality": "Pärnust lõunas Rannaküla ja Tahku vahel",
+            "dwc:recordedBy": "L. Pihlapuu",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "1958-07-16",
+            "dwc:identifiedBy": "L. Pihlapuu",
+            "dwc:dateIdentified": "1958-07-16T00:00:00.000+0000",
+            "dcterms:identifier": "TU303682",
+            "dwc:month": 7,
+            "dwc:day": 16,
+            "dwc:habitat": "habitat: rannaniidul",
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Cyperaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Monocotyledonae; Poales; Cyperaceae; Carex",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/520724",
+            "dwc:eventID": 775779,
+            "dwc:taxonID": 205696,
+            "dwc:locationID": 692868,
+            "dwc:identificationID": 806858,
+            "dcterms:language": "est",
+            "@id": "https://plutof.ut.ee/#/specimen/view/520724",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/AB/79/AB79E5E9BBD69B4F32CE07BD95B7A0F55C334043BE5624C53F353CCF76338478.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1480744",
+            "dcterms:title": "TU303682.tif",
+            "dcterms:created": "2014-09",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

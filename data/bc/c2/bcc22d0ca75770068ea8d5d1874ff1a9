@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Oplismenus hirtellus (L.) P.Beauv.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001055317",
+            "dwc:catalogNumber": "K001055317",
+            "dwc:genus": "Oplismenus",
+            "dwc:specificEpithet": "hirtellus",
+            "dwc:country": "Brazil",
+            "dwc:recordedBy": "Riedel",
+            "setID": "K",
+            "dwc:identifiedBy": "Oliveira, R.C.; Dórea, M.C.",
+            "dcterms:identifier": "K001055317",
+            "dcterms:modified": "2014-11-03",
+            "dwc:recordNumber": "43(115)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Recd 11/73",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://specimens.kew.org/herbarium/K001055317",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "POACEAE",
+            "dwc:genus": "Panicum",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:specificEpithet": "sylvaticum",
+            "dwc:scientificName": "Panicum sylvaticum Lam.",
+            "dwc:scientificNameAuthorship": "Lam.",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001055317",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/600850.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

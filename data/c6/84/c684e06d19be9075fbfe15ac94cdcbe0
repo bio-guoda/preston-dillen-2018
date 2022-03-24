@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Erigeron muralis Lapeyr.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100057440",
+            "dwc:catalogNumber": "B 10 0057440",
+            "dwc:genus": "Erigeron",
+            "dwc:specificEpithet": "muralis",
+            "dwc:country": "Germany",
+            "dwc:year": 1879,
+            "dwc:locality": "Thüringen.",
+            "dwc:recordedBy": "Bandra",
+            "setID": "B",
+            "dwc:verbatimEventDate": "04.08.1879",
+            "dwc:continent": "Europe",
+            "dwc:scientificNameAuthorship": "Lapeyr.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100057440",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

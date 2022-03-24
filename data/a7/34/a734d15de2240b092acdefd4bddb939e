@@ -1,0 +1,90 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Kanakomyrtus myrtopsidoides (Guillaum.) N.Snow",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NC",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00602547",
+            "dwc:catalogNumber": "P00602547",
+            "dwc:genus": "Kanakomyrtus",
+            "dwc:specificEpithet": "myrtopsidoides",
+            "dwc:country": "New Caledonia",
+            "dwc:year": 1951,
+            "dwc:eventDate": "1951-05-08",
+            "dwc:recordedBy": "Hürlimann, H.",
+            "setID": "P",
+            "dwc:identifiedBy": "Snow",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00602547",
+            "dwc:month": 5,
+            "dwc:day": 8,
+            "dcterms:modified": "2015-09-04",
+            "dwc:verbatimLocality": "Pic de la Sunshine",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Myrtaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:occurrenceRemarks": "Type mss & signature A. Guillaumin",
+            "dwc:fieldNumber": "Mission Franco-Suisse/1320",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00602547",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Myrtaceae",
+            "@id": "SONNERAT|707139",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:dateIdentified": "1962",
+            "dwc:typeStatus": "holotype",
+            "dwc:genus": "Eugenia",
+            "dwc:higherClassification": "Eugenia;Myrtaceae",
+            "dwc:specificEpithet": "myrtopsidoides",
+            "dwc:identificationRemarks": "Mémoires du Muséum d'Histoire Naturelle 8: 294",
+            "dwc:scientificName": "Eugenia myrtopsidoides Guillaumin",
+            "dwc:identifiedBy": "Guillaumin",
+            "dwc:scientificNameAuthorship": "Guillaumin",
+            "dwc:taxonID": "SONNERAT|123048",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Myrtaceae",
+            "@id": "SONNERAT|707141",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:dateIdentified": "08-11-2006",
+            "dwc:genus": "Kanakomyrtus",
+            "dwc:higherClassification": "Kanakomyrtus;Myrtaceae",
+            "dwc:specificEpithet": "myrtopsidoides",
+            "dwc:identificationRemarks": "University of Northern Colorado (GREE), ined.",
+            "dwc:scientificName": "Kanakomyrtus myrtopsidoides (Guillaumin) N.Snow",
+            "dwc:identifiedBy": "Snow",
+            "dwc:scientificNameAuthorship": "(Guillaumin) N.Snow",
+            "dwc:taxonID": "SONNERAT|87523",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "4E55F30594C94C78BB956B9716FFB60F",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, EL",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1442689419197xaq9g5XzIeZTKsdt",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Athyrium microphyllum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.4866",
+            "dwc:catalogNumber": "EIG.4866",
+            "dwc:genus": "Athyrium",
+            "dwc:specificEpithet": "microphyllum",
+            "dwc:country": "United States",
+            "dwc:year": 1938,
+            "dwc:eventDate": "1938-05-11",
+            "dwc:locality": "Ka<U+02BB>ala",
+            "setID": "H",
+            "dwc:verbatimEventDate": "11.05.1938",
+            "dwc:stateProvince": "Hawaii",
+            "dwc:continent": "Australia and Oceania",
+            "dcterms:identifier": "http://tun.fi/MY.718527",
+            "dwc:month": 5,
+            "dwc:day": 11,
+            "dwc:county": "Oahu",
+            "dcterms:modified": "1492084021",
+            "dwc:recordNumber": "12031",
+            "dwc:otherCatalogNumbers": "H1550847",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Summit of Koala, Oahu, T. H.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Athyrium microphyllum",
+            "dwc:verbatimRecordedBy": "Degener, Otto; Salucop, Felix",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.4866",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

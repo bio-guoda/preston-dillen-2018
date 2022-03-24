@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Leptochilus Kaulf.",
+            "dwc:taxonRank": "GENUS",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3548739",
+            "dwc:catalogNumber": "L.3548739",
+            "dwc:genus": "Leptochilus",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1931,
+            "dwc:eventDate": "1931-05-10",
+            "dwc:locality": "Mount Kinabalu, B.N. Borneo,Tenompok.",
+            "dwc:recordedBy": "Clemens J; Clemens MS",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1931/05/10",
+            "dwc:stateProvince": "Borneo",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.3548739",
+            "dwc:month": 5,
+            "dwc:day": 10,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Polypodiaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Pteropsida|Polypodiales|Lomariopsidaceae",
+            "dwc:verbatimTaxonRank": "genus",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3548739",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

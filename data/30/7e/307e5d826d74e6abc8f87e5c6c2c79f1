@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Tococa undabunda J.F.Macbr.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PE",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000536956",
+            "dwc:catalogNumber": "K000536956",
+            "dwc:genus": "Tococa",
+            "dwc:specificEpithet": "undabunda",
+            "dwc:country": "Peru",
+            "dwc:year": 1923,
+            "dwc:eventDate": "1923-08-27",
+            "dwc:locality": "La Merced, Hacienda Schunke",
+            "dwc:recordedBy": "Macbride, J.F.",
+            "setID": "K",
+            "dc:typeStatus": "ISOTYPE",
+            "dwc:identifiedBy": "Michelangeli, F.A.",
+            "dcterms:identifier": "K000536956",
+            "dwc:month": 8,
+            "dwc:day": 27,
+            "dcterms:modified": "2008-05-16",
+            "dwc:recordNumber": "5734",
+            "dwc:habitat": "Montaña slope",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Myrtales",
+            "dwc:family": "Melastomataceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "MELASTOMATACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:georeferenceProtocol": "label",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1219,
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000536956",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000536956",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/203144.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

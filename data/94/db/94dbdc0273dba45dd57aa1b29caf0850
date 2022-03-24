@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cupressus funebris Endl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00762441",
+            "dwc:catalogNumber": "E00762441",
+            "dwc:genus": "Cupressus",
+            "dwc:specificEpithet": "funebris",
+            "dwc:country": "China",
+            "dwc:locality": "At Tali, Lichiang etc Yunnan",
+            "dwc:recordedBy": "Kingdon-Ward, F.",
+            "setID": "E",
+            "dwc:stateProvince": "Yunnan Province",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00762441",
+            "dcterms:modified": "2016-03-26",
+            "dwc:recordNumber": "226",
+            "dwc:otherCatalogNumbers": "BGBASE:787832",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Pinales",
+            "dwc:family": "Cupressaceae",
+            "dwc:class": "Pinopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Inner China, Korea and Taiwan",
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:fieldNotes": "Tree of 30-35 ft In temples",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00762441",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00762441 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00762441",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvNzYyLzQ0MS85OTMxNTEuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00762441",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

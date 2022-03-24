@@ -1,0 +1,98 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Ctenitis propinqua (J.Sm. ex Presl) Copel.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "PH",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01410187",
+            "dwc:catalogNumber": "P01410187",
+            "dwc:genus": "Ctenitis",
+            "dwc:specificEpithet": "propinqua",
+            "dwc:country": "Philippines",
+            "dwc:recordedBy": "Cuming, H.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01410187",
+            "dcterms:modified": "2016-07-15",
+            "dwc:verbatimLocality": "Luzon",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Polypodiales",
+            "dwc:family": "Dryopteridaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "255",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01410187",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|8367262",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Lastrea",
+            "dwc:higherClassification": "Lastrea;Pteridophyta",
+            "dwc:specificEpithet": "propinqua",
+            "dwc:typeStatus": "syntype",
+            "dwc:scientificName": "Lastrea propinqua J. Sm.",
+            "dwc:scientificNameAuthorship": "J. Sm.",
+            "dwc:taxonID": "SONNERAT|4037563",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|8367263",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Nephrodium",
+            "dwc:higherClassification": "Nephrodium;Pteridophyta",
+            "dwc:specificEpithet": "preslii",
+            "dwc:typeStatus": "type",
+            "dwc:scientificName": "Nephrodium preslii Baker",
+            "dwc:scientificNameAuthorship": "Baker",
+            "dwc:taxonID": "SONNERAT|786677",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|8404960",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Ctenitis",
+            "dwc:higherClassification": "Ctenitis;Pteridophyta",
+            "dwc:specificEpithet": "propinqua",
+            "dwc:scientificName": "Ctenitis propinqua (J.Sm.) Copel.",
+            "dwc:scientificNameAuthorship": "(J.Sm.) Copel.",
+            "dwc:taxonID": "SONNERAT|415447",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "CC649E64A4A9400F9AF77326283BCA6F",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441297316769Nta4c2H9UPFAv38B",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1466168440626SvN556v6IRheNzbw",
+            "dcterms:license": "cc-by-nc-nd",
+            "dcterms:type": "StillImage",
+            "dcterms:creator": "B. Liu",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Mallotus paniculatus Müll.Arg.",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100069251",
+            "dwc:catalogNumber": "B 10 0069251",
+            "dwc:genus": "Mallotus",
+            "dwc:specificEpithet": "paniculatus",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1988,
+            "dwc:eventDate": "1988-12-21",
+            "dwc:locality": "Sarawak. 1st Division, Base of Gunung Pueh.",
+            "dwc:recordedBy": "P. J. A. Kessler",
+            "setID": "B",
+            "dwc:verbatimEventDate": "21.12.1988",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "283",
+            "dwc:habitat": "Secondary vegetation along the road.",
+            "dwc:scientificNameAuthorship": "Müll.Arg.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "EUPHORBIACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; EUPHORBIACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "ca. 200m",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100069251",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

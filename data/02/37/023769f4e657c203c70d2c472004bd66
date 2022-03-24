@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Cuscuta epithymum (L.) L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000790215",
+            "dwc:catalogNumber": "K000790215",
+            "dwc:genus": "Cuscuta",
+            "dwc:specificEpithet": "epithymum",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1930,
+            "dwc:eventDate": "1930-08-07",
+            "dwc:locality": "No Man's Land.",
+            "dwc:recordedBy": "Marsden-Jones, E.M.",
+            "setID": "K",
+            "dcterms:identifier": "K000790215",
+            "dwc:month": 8,
+            "dwc:day": 7,
+            "dcterms:modified": "2012-03-28",
+            "dwc:recordNumber": "s.n.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Convolvulaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "CONVOLVULACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Albino. On Ulex.",
+            "dwc:higherGeography": "South Hampshire",
+            "dwc:municipality": "South Hampshire",
+            "dwc:taxonRemarks": "Dodder",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000790215",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000790215",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/372682.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

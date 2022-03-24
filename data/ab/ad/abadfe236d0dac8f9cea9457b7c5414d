@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula barbata L.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100848694",
+            "dwc:catalogNumber": "B 10 0848694",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "barbata",
+            "dwc:country": "Germany",
+            "dwc:year": 1999,
+            "dwc:eventDate": "1999-08-13",
+            "dwc:locality": "Deutschland: Bayern; LK Oberallgäu. N Weiherkop (Bay 83).",
+            "dwc:recordedBy": "R. Eisenblätter & E. Willing",
+            "setID": "B",
+            "dwc:verbatimEventDate": "13.08.1999",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "9.799 D",
+            "dwc:habitat": "Bergwiesen, Hangsumpf",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "1580m",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100848694",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

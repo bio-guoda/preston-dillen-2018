@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Begonia semperflorens Link & Otto",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100002801",
+            "dwc:catalogNumber": "B 10 0002801",
+            "dwc:genus": "Begonia",
+            "dwc:specificEpithet": "semperflorens",
+            "dwc:country": "Brazil",
+            "dwc:year": 1856,
+            "dwc:eventDate": "1856-00-00",
+            "dwc:recordedBy": "Sellow,F.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1856-00-00",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "d1856",
+            "dwc:scientificNameAuthorship": "Link & Otto",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Begoniaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Begoniaceae",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "H.G. gestempelt ! Bleistift : 800",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100002801",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

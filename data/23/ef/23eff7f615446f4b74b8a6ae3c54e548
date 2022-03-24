@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Hieracium pilosella var. pseudangustissimum Touton",
+            "dwc:taxonRank": "var.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100097463",
+            "dwc:catalogNumber": "B 10 0097463",
+            "dwc:genus": "Hieracium",
+            "dwc:specificEpithet": "pilosella",
+            "dwc:country": "Germany",
+            "dwc:year": 1922,
+            "dwc:locality": "Rheinprovinz. Stromberg - Dörrebach.",
+            "dwc:recordedBy": "K. Touton",
+            "dwc:infraspecificEpithet": "pseudangustissimum",
+            "setID": "B",
+            "dwc:verbatimEventDate": "13.09.1922",
+            "dwc:continent": "Europe",
+            "dwc:scientificNameAuthorship": "Touton",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100097463",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

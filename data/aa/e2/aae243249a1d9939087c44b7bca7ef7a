@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Aloë sabaea Schweinf.",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "YE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100841256",
+            "dwc:catalogNumber": "B 10 0841256",
+            "dwc:genus": "Aloë",
+            "dwc:specificEpithet": "sabaea",
+            "dwc:country": "Yemen",
+            "dwc:year": 1889,
+            "dwc:eventDate": "1889-02-01",
+            "dwc:locality": "Agara bei Uossil",
+            "dwc:recordedBy": "Schweinfurth,G.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1889-02-01",
+            "dwc:identifiedBy": "G.Schweinfurth",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "1010",
+            "dwc:scientificNameAuthorship": "Schweinf.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Aloaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Aloaceae",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "nomen vern. Geschb  sheet II of 2",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://herbarium.bgbm.org/object/B100841256",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

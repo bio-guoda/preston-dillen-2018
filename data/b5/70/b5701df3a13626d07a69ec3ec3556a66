@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Barleria diacantha Nees",
+            "dwc:countryCode": "TZ",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100190438",
+            "dwc:catalogNumber": "B 10 0190438",
+            "dwc:genus": "Barleria",
+            "dwc:specificEpithet": "diacantha",
+            "dwc:country": "Tanzania",
+            "dwc:year": 1894,
+            "dwc:eventDate": "1894-09-10",
+            "dwc:locality": "Dar es Salaam.",
+            "dwc:recordedBy": "F. L. Stuhlmann",
+            "setID": "B",
+            "dwc:verbatimEventDate": "10.09.1894",
+            "dwc:continent": "Africa",
+            "dwc:recordNumber": "8530",
+            "dwc:scientificNameAuthorship": "Nees",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "ACANTHACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; ACANTHACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Africa",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100190438",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

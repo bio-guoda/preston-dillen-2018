@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Tinnea zambesiaca Baker",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "none",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000414594",
+            "dwc:catalogNumber": "K000414594",
+            "dwc:genus": "Tinnea",
+            "dwc:specificEpithet": "zambesiaca",
+            "dwc:year": 1879,
+            "dwc:eventDate": "1879-07-06",
+            "dwc:locality": "Blantyre,  Shiri Highlands.",
+            "dwc:recordedBy": "Buchanan, J.",
+            "setID": "K",
+            "dc:typeStatus": "SYNTYPE",
+            "dwc:identifiedBy": "Vollesen, K.",
+            "dwc:dateIdentified": "1973-11-23T00:00:00.000+0000",
+            "dcterms:identifier": "K000414594",
+            "dwc:month": 7,
+            "dwc:day": 6,
+            "dcterms:modified": "2005-10-17",
+            "dwc:recordNumber": "65",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "LABIATAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "\"Not plentiful: have only seen a few plants.\"",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000414594",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "LABIATAE",
+            "dwc:genus": "Tinnea",
+            "dwc:higherClassification": "LABIATAE",
+            "dwc:scientificName": "Tinnea",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000414594",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/98003.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Pulicaria vulgaris Gaertn.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100553322",
+            "dwc:catalogNumber": "B 10 0553322",
+            "dwc:genus": "Pulicaria",
+            "dwc:specificEpithet": "vulgaris",
+            "dwc:country": "Germany",
+            "dwc:year": 2014,
+            "dwc:eventDate": "2014-08-07",
+            "dwc:locality": "Sachsen-Anhalt. Vockerode, Elbeufer nahe Sportboothafen, Buhnenbereich.",
+            "dwc:recordedBy": "R. Hand & H. Möhler",
+            "dwc:decimalLatitude": 51.8481,
+            "dwc:decimalLongitude": 12.3592,
+            "setID": "B",
+            "dwc:verbatimEventDate": "07.08.2014",
+            "dwc:identifiedBy": "R. Hand",
+            "dwc:dateIdentified": "2014",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "RH 6925",
+            "dwc:habitat": "im Buhnenpflaster",
+            "dwc:scientificNameAuthorship": "Gaertn.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "COMPOSITAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; COMPOSITAE",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Duplum; GBOL1328, GBOL, Silikaprobe genommen, beprobtes Exemplar mit * markiert",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "56 m",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100553322",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

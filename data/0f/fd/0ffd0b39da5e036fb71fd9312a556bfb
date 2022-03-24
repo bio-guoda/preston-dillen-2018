@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Marsilea quadrifolia L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00334327",
+            "dwc:catalogNumber": "P00334327",
+            "dwc:genus": "Marsilea",
+            "dwc:specificEpithet": "quadrifolia",
+            "dwc:country": "France",
+            "dwc:year": 1850,
+            "dwc:eventDate": "1850-06-01",
+            "dwc:recordedBy": "Delaunay, J.",
+            "setID": "P",
+            "dwc:stateProvince": "37 Indre-et-Loire",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00334327",
+            "dwc:month": 6,
+            "dcterms:modified": "2015-09-03",
+            "dwc:verbatimLocality": "Indre-et-Loire: entre le Cher et la levée de Rochepinard, canton de Tours",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Salviniales",
+            "dwc:family": "Marsileaceae",
+            "dwc:class": "Polypodiopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00334327",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|1869846",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Marsilea",
+            "dwc:higherClassification": "Marsilea;Pteridophyta",
+            "dwc:specificEpithet": "quadrifolia",
+            "dwc:identificationRemarks": "chantier de numerisation 2010-2012",
+            "dwc:scientificName": "Marsilea quadrifolia L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|28214",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|367934",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Marsilea",
+            "dwc:higherClassification": "Marsilea;Pteridophyta",
+            "dwc:specificEpithet": "quadrifoliata",
+            "dwc:scientificName": "Marsilea quadrifoliata L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|60378",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Pteridophyta",
+            "@id": "SONNERAT|367939",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Marsilea",
+            "dwc:higherClassification": "Marsilea;Pteridophyta",
+            "dwc:specificEpithet": "quadrifolia",
+            "dwc:scientificName": "Marsilea quadrifolia L.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:taxonID": "SONNERAT|28214",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "BD4791A42FCF4B55B75ADF0674070307",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1441298029486GYaIwOb79iB45OUh",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

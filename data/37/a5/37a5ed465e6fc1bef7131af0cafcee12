@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Caloplaca volkii V.Wirth & Vezda",
+            "dwc:taxonRank": "species",
+            "dwc:occurrenceID": "http://id.luomus.fi/HA.H9504528",
+            "dwc:catalogNumber": "HA.H9504528",
+            "dwc:genus": "Caloplaca",
+            "dwc:specificEpithet": "volkii",
+            "dwc:year": 1974,
+            "dwc:eventDate": "1974-08-27",
+            "dwc:recordedBy": "Volk, A.",
+            "dwc:decimalLatitude": -22.6833,
+            "dwc:decimalLongitude": 14.5333,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "H",
+            "dc:typeStatus": "Isotype",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://id.luomus.fi/MY.5315639",
+            "dwc:month": 8,
+            "dwc:day": 27,
+            "dcterms:modified": "1530276676",
+            "dwc:habitat": "Ad terram gypsaceam in desertis.",
+            "dwc:coordinateUncertaintyInMeters": 1,
+            "dwc:otherCatalogNumbers": "H9504528",
+            "dwc:collectionID": "http://tun.fi/HR.85",
+            "dwc:verbatimLocality": "Africa Austro-Occidentalis. Swakopmund, 10 km in septentrione a Swakopmund.",
+            "dwc:datasetID": "GX.22",
+            "dwc:verbatimCoordinates": "-22.683333 14.533333 WGS84",
+            "dwc:scientificNameAuthorship": "V.Wirth & Vezda",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Caloplaca volkii",
+            "dwc:verbatimLongitude": "14.533333",
+            "dwc:verbatimLatitude": "-22.683333",
+            "dwc:georeferenceRemarks": "Coordinates: Swakopmund.",
+            "dcterms:language": "lat",
+            "@id": "http://id.luomus.fi/HA.H9504528",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Saussurea kawakarpo Raab-Straube",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100185596",
+            "dwc:catalogNumber": "B 10 0185596",
+            "dwc:genus": "Saussurea",
+            "dwc:specificEpithet": "kawakarpo",
+            "dwc:country": "China",
+            "dwc:year": 2000,
+            "dwc:eventDate": "2000-09-08",
+            "dwc:locality": "Yunnan, Deqen Xian, Meili Xueshan on provincial bo",
+            "dwc:recordedBy": "Raab-Straube,E. von & M. Smalla & Sun Hang",
+            "dwc:decimalLatitude": 28.6167,
+            "dwc:decimalLongitude": 98.6306,
+            "setID": "B",
+            "dwc:verbatimEventDate": "2000-09-08",
+            "dwc:identifiedBy": "E. von Raab-Straube",
+            "dwc:continent": "Asia",
+            "dwc:recordNumber": "715",
+            "dwc:scientificNameAuthorship": "Raab-Straube",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Asteraceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Asteraceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Asia",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "4450",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100185596",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

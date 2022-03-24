@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum chenopodioides Lam.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "07ce1a05-7f86-4e56-bc58-62ec3d87f4b1",
+            "dwc:catalogNumber": "BM000900373",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "chenopodioides",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1995,
+            "dwc:eventDate": "1995-07-27",
+            "dwc:locality": "cultivated under glass at Ware, originally collected at Santana roadside N Madeira in May 1993",
+            "dwc:recordedBy": "B Lox",
+            "setID": "BM",
+            "dwc:stateProvince": "England",
+            "dwc:identifiedBy": "Tiina Särkinen",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "5451010",
+            "dwc:month": 7,
+            "dwc:day": 27,
+            "dcterms:modified": "2017-10-19",
+            "dwc:recordNumber": "Q94-01",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5451010",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Europe; United Kingdom; England",
+            "dwc:fieldNumber": "Q94-01",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/07ce1a05-7f86-4e56-bc58-62ec3d87f4b1",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/feaac533fdc940fc9d1ad2e1a8fcec1310f2afef/contents/preview",
+            "dcterms:title": "BM000900373",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

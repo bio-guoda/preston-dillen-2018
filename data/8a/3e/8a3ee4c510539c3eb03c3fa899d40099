@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Picea abies (L.) H.Karst.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BE",
+            "dwc:occurrenceID": "http://www.botanicalcollections.be/specimen/BR0000011219040",
+            "dwc:catalogNumber": "BR0000011219040",
+            "dwc:genus": "Picea",
+            "dwc:specificEpithet": "abies",
+            "dwc:country": "Belgium",
+            "dwc:year": 1949,
+            "dwc:eventDate": "1949-09-03",
+            "dwc:locality": "Blankedelle, Zoniënwoud",
+            "dwc:recordedBy": "Michiels É.",
+            "setID": "BR",
+            "dcterms:identifier": "http://www.botanicalcollections.be/specimen/BR0000011219040",
+            "dwc:month": 9,
+            "dwc:day": 3,
+            "dcterms:modified": "2017-06-15",
+            "dwc:recordNumber": "S.N.",
+            "dcterms:rightsHolder": "Meise Botanic Garden",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Pinales",
+            "dwc:family": "Pinaceae",
+            "dwc:class": "Pinopsida",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "BR",
+            "dwc:preparations": "HerbariumSheet",
+            "dc:type": "PhysicalObject",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:15605",
+            "dwc:taxonomicStatus": "accepted name",
+            "dcterms:language": "nld",
+            "@id": "http://www.botanicalcollections.be/specimen/BR0000011219040",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:references": "http://www.botanicalcollections.be/specimen/BR0000011219040",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

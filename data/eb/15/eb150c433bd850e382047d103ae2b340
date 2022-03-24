@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum corymbiflorum (Sendtn.) Bohs",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K001058213",
+            "dwc:catalogNumber": "K001058213",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "corymbiflorum",
+            "dwc:country": "Brazil",
+            "dwc:year": 1993,
+            "dwc:eventDate": "1993-01-09",
+            "dwc:locality": "Fazenda Batavo.",
+            "dwc:recordedBy": "Silva, F.C.",
+            "setID": "K",
+            "dcterms:identifier": "K001058213",
+            "dwc:month": 1,
+            "dwc:day": 9,
+            "dcterms:modified": "2014-11-06",
+            "dwc:recordNumber": "s.n.",
+            "dwc:eventRemarks": "Data not transcribed",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "SOLANACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:higherGeography": "Tibagi",
+            "dwc:municipality": "Tibagi",
+            "dwc:georeferenceProtocol": "Label",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "por",
+            "@id": "http://specimens.kew.org/herbarium/K001058213",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "SOLANACEAE",
+            "dwc:genus": "Cyphomandra",
+            "dwc:dateIdentified": "1993-00-00",
+            "dwc:higherClassification": "SOLANACEAE",
+            "dwc:specificEpithet": "patrum",
+            "dwc:scientificName": "Cyphomandra patrum L.B.Sm. & Downs",
+            "dwc:identifiedBy": "Silva, L.H.S.",
+            "dwc:scientificNameAuthorship": "L.B.Sm. & Downs",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K001058213",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/901891.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

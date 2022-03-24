@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Klarobelia subglobosa Chatrou",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "VE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100030508",
+            "dwc:catalogNumber": "B 10 0030508",
+            "dwc:genus": "Klarobelia",
+            "dwc:specificEpithet": "subglobosa",
+            "dwc:country": "Venezuela",
+            "dwc:year": 1993,
+            "dwc:eventDate": "1993-04-16",
+            "dwc:locality": "Distrito Federal, Estado Miranda: Cordillera de la",
+            "dwc:recordedBy": "Meier,W. & Llamozas,S.",
+            "setID": "B",
+            "dwc:verbatimEventDate": "1993-04-16",
+            "dwc:continent": "Middle and South America",
+            "dwc:recordNumber": "3685",
+            "dwc:scientificNameAuthorship": "Chatrou",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Annonaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Annonaceae",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Middle and South America",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "500",
+            "dcterms:language": "spa",
+            "@id": "http://herbarium.bgbm.org/object/B100030508",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

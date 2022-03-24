@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Potentilla potaninii Th.Wolf",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://data.rbge.org.uk/herb/E00065427",
+            "dwc:catalogNumber": "E00065427",
+            "dwc:genus": "Potentilla",
+            "dwc:specificEpithet": "potaninii",
+            "dwc:country": "China",
+            "dwc:year": 1996,
+            "dwc:eventDate": "1996-08-24",
+            "dwc:recordedBy": "Sino-American-British Yushu Expedition (1996)",
+            "setID": "E",
+            "dwc:verbatimEventDate": "1996-08-24",
+            "dcterms:identifier": "http://data.rbge.org.uk/herb/E00065427",
+            "dwc:month": 8,
+            "dwc:day": 24,
+            "dcterms:modified": "1998-07-15",
+            "dwc:recordNumber": "2323",
+            "dwc:otherCatalogNumbers": "BGBASE:70434",
+            "dwc:collectionID": "http://biocol.org/urn:lsid:biocol.org:col:15670",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Rosales",
+            "dwc:family": "Rosaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "E",
+            "dwc:nomenclaturalCode": "ICBN",
+            "dwc:institutionCode": "E",
+            "dwc:higherGeography": "Outer China incl. Tibet",
+            "dwc:startDayOfYear": 237,
+            "dwc:preparations": "herbarium specimen of unspecified type",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Royal Botanic Garden Edinburgh Herbarium",
+            "dwc:verbatimCoordinateSystem": "degrees minutes seconds",
+            "dwc:ownerInstitutionCode": "E",
+            "dcterms:language": "eng",
+            "@id": "http://data.rbge.org.uk/herb/E00065427",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:creator": "Specimen Digitisation Pipeline",
+            "dcterms:description": "Image of herbarium specimen E00065427 by Specimen Digitisation Pipeline",
+            "dcterms:title": "E00065427",
+            "dcterms:publisher": "Royal Botanic Garden Edinburgh",
+            "@id": "http://repo.rbge.org.uk/image_server.php?kind=1500&path_base64=L2hlcmJhcml1bV9zcGVjaW1lbl9zY2Fucy9FMDAvMDY1LzQyNy82OTMwNTMuanBn",
+            "dcterms:rightsHolder": "Copyright Royal Botanic Garden Edinburgh. Contact us for rights to commercial use.",
+            "dcterms:type": "StillImage",
+            "dcterms:references": "http://data.rbge.org.uk/herb/E00065427",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "dcterms:format": "image/jpeg",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

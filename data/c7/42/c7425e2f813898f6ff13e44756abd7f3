@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Campanula glomerata L.",
+            "dwc:countryCode": "DE",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100847808",
+            "dwc:catalogNumber": "B 10 0847808",
+            "dwc:genus": "Campanula",
+            "dwc:specificEpithet": "glomerata",
+            "dwc:country": "Germany",
+            "dwc:year": 1907,
+            "dwc:eventDate": "1907-08-09",
+            "dwc:locality": "Schwedt. at Schäferberg near low-kränig.",
+            "dwc:recordedBy": "R. Schulz",
+            "setID": "B",
+            "dwc:verbatimEventDate": "09.08.1907",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "s.n.",
+            "dwc:scientificNameAuthorship": "L.",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CAMPANULACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CAMPANULACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100847808",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

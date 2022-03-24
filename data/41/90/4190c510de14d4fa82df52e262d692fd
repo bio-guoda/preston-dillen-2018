@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Parsonsia buruensis (Teijsm. & Binn.) Boerl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2706483",
+            "dwc:catalogNumber": "L.2706483",
+            "dwc:genus": "Parsonsia",
+            "dwc:specificEpithet": "buruensis",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1918,
+            "dwc:eventDate": "1918-03-01",
+            "dwc:locality": "[Indonesia,] Moluccas, N Seram, Ternate, Wai Ahe.",
+            "dwc:recordedBy": "Kornassi",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1918/03/01",
+            "dwc:stateProvince": "Moluccas",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2706483",
+            "dwc:month": 3,
+            "dwc:day": 1,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Gentianales",
+            "dwc:family": "Apocynaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Gentianales|Apocynaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2706483",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Meconopsis gracilipes G.Taylor",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NP",
+            "dwc:occurrenceID": "cb635ab9-48e2-453c-b551-59ed3c387601",
+            "dwc:catalogNumber": "BM000547082",
+            "dwc:genus": "Meconopsis",
+            "dwc:specificEpithet": "gracilipes",
+            "dwc:country": "Nepal",
+            "dwc:year": 1976,
+            "dwc:eventDate": "1976-08-28",
+            "dwc:recordedBy": "Rebecca G. Troth",
+            "dwc:decimalLatitude": 28.253,
+            "dwc:decimalLongitude": 83.9385,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "4977812",
+            "dwc:month": 8,
+            "dwc:day": 28,
+            "dwc:recordNumber": "947",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:4977812",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Ranunculales",
+            "dwc:family": "Papaveraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Papaveraceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Asia; Nepal",
+            "dwc:georeferenceProtocol": "Google Earth",
+            "dwc:fieldNumber": "947",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/cb635ab9-48e2-453c-b551-59ed3c387601",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/07b564ff30fbd7f058b5e02a5a5e7fd39e40f754/contents/preview",
+            "dcterms:title": "BM000547082",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

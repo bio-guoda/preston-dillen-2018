@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium normale",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7879",
+            "dwc:catalogNumber": "EIG.7879",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "normale",
+            "dwc:country": "China",
+            "dwc:year": 1969,
+            "dwc:eventDate": "1969-11-16",
+            "dwc:locality": "Mount Alishan",
+            "dwc:recordedBy": "Kao, M. T.",
+            "setID": "H",
+            "dwc:verbatimEventDate": "16.11.1969",
+            "dwc:continent": "Asia",
+            "dcterms:identifier": "http://tun.fi/MY.728502",
+            "dwc:month": 11,
+            "dwc:day": 16,
+            "dwc:county": "Chiayi",
+            "dcterms:modified": "1492084231",
+            "dwc:otherCatalogNumbers": "H1128191",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Mt. A-li, Chinyi Co.",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium normale",
+            "dwc:verbatimRecordedBy": "Kao, M. T.",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7879",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

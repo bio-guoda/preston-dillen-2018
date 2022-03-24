@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Solanum elaeagnifolium Cav.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "US",
+            "dwc:occurrenceID": "918e8391-82a6-469c-83de-2b961e5ab09b",
+            "dwc:catalogNumber": "BM000846319",
+            "dwc:genus": "Solanum",
+            "dwc:specificEpithet": "elaeagnifolium",
+            "dwc:country": "United States",
+            "dwc:year": 1883,
+            "dwc:eventDate": "1883-08-01",
+            "dwc:locality": "Santa Catalina Mts, Oakland. Mts [?]",
+            "dwc:recordedBy": "Hb. Lemmon",
+            "setID": "BM",
+            "dwc:stateProvince": "Arizona",
+            "dwc:identifiedBy": "Eva Sagona",
+            "dwc:continent": "NORTH_AMERICA",
+            "dcterms:identifier": "5448356",
+            "dwc:month": 8,
+            "dcterms:modified": "2017-08-22",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5448356",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "North America; United States; Arizona",
+            "dwc:fieldNumber": "s.n.",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/918e8391-82a6-469c-83de-2b961e5ab09b",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/9d3681091c581610ad9a27b82854374e94fbdc53/contents/preview",
+            "dcterms:title": "BM000846319",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

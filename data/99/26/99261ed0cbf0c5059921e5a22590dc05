@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Pera bumeliifolia Griseb.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "DO",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00640247",
+            "dwc:catalogNumber": "P00640247",
+            "dwc:genus": "Pera",
+            "dwc:specificEpithet": "bumeliifolia",
+            "dwc:country": "Dominican Republic",
+            "dwc:year": 1911,
+            "dwc:eventDate": "1911-09-01",
+            "dwc:recordedBy": "Fuertes, M.",
+            "setID": "P",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00640247",
+            "dwc:month": 9,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Prov. Barahona",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Malpighiales",
+            "dwc:family": "Peraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "1022",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "deu",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00640247",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Peraceae",
+            "@id": "SONNERAT|1168424",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Pera",
+            "dwc:higherClassification": "Pera;Peraceae",
+            "dwc:specificEpithet": "domingensis",
+            "dwc:typeStatus": "isotype",
+            "dwc:scientificName": "Pera domingensis Urb.",
+            "dwc:scientificNameAuthorship": "Urb.",
+            "dwc:taxonID": "SONNERAT|245587",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Peraceae",
+            "@id": "SONNERAT|1168428",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Pera",
+            "dwc:higherClassification": "Pera;Peraceae",
+            "dwc:specificEpithet": "bumeliifolia",
+            "dwc:scientificName": "Pera bumeliifolia Griseb.",
+            "dwc:scientificNameAuthorship": "Griseb.",
+            "dwc:taxonID": "SONNERAT|245588",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "ACEC8F53DDB44DB98091B99A2897343B",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, SM",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/144335433306276LgLpNpOiIArXam",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

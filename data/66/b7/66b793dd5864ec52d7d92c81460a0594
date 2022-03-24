@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium divergens",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7449",
+            "dwc:catalogNumber": "EIG.7449",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "divergens",
+            "dwc:country": "Brazil",
+            "dwc:year": 1993,
+            "dwc:eventDate": "1993-07-21",
+            "dwc:locality": "Volta Grande",
+            "setID": "H",
+            "dwc:verbatimEventDate": "21.07.1993",
+            "dwc:stateProvince": "Paraná",
+            "dwc:continent": "Central America, South America and the Antarctic",
+            "dcterms:identifier": "http://tun.fi/MY.727077",
+            "dwc:month": 7,
+            "dwc:day": 21,
+            "dwc:county": "Lapa",
+            "dcterms:modified": "1492084201",
+            "dwc:recordNumber": "1263",
+            "dwc:otherCatalogNumbers": "H1677691",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Volta Grande (mun. Lapa) Parana",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium divergens",
+            "dwc:verbatimRecordedBy": "Silva, J. M.; Sobral, M.",
+            "dcterms:language": "por",
+            "@id": "http://id.luomus.fi/EIG.7449",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Persicaria amphibia (L.) Delarbre",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.3190216",
+            "dwc:catalogNumber": "L.3190216",
+            "dwc:genus": "Persicaria",
+            "dwc:specificEpithet": "amphibia",
+            "dwc:country": "Netherlands",
+            "dwc:year": 1952,
+            "dwc:eventDate": "1952-08-14",
+            "dwc:locality": "Noorden, N4 34.32.",
+            "dwc:recordedBy": "Voo EE van der",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1952/08/14",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.3190216",
+            "dwc:month": 8,
+            "dwc:day": 14,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Caryophyllales",
+            "dwc:family": "Polygonaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Caryophyllales|Polygonaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.3190216",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

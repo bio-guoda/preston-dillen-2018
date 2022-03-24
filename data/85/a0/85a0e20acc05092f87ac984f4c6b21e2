@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Chrysanthemum erubescens Stapf",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "CN",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00760207",
+            "dwc:catalogNumber": "P00760207",
+            "dwc:genus": "Chrysanthemum",
+            "dwc:specificEpithet": "erubescens",
+            "dwc:country": "China",
+            "dwc:year": 1931,
+            "dwc:eventDate": "1931-08-28",
+            "dwc:recordedBy": "Licent, E.",
+            "setID": "P",
+            "dc:typeStatus": "TYPE",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00760207",
+            "dwc:month": 8,
+            "dwc:day": 28,
+            "dcterms:modified": "2015-09-03",
+            "dwc:verbatimLocality": "Shantung",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "10214",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00760207",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Asteraceae",
+            "@id": "SONNERAT|1245195",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Chrysanthemum",
+            "dwc:higherClassification": "Chrysanthemum;Asteraceae",
+            "dwc:specificEpithet": "erubescens",
+            "dwc:identificationRemarks": "Bot. Mag.  156:sub t.9330.1933",
+            "dwc:typeStatus": "type",
+            "dwc:scientificName": "Chrysanthemum erubescens Stapf",
+            "dwc:scientificNameAuthorship": "Stapf",
+            "dwc:taxonID": "SONNERAT|268913",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "D741FEC6D195472C9567A3F9272620DC",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:creator": "Paris, Museum National d'Histoire Naturelle, GLB",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/1443462469442h6yKKwNALENWeJsq",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Nicotiana macgillivrayi Seem.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NC",
+            "dwc:occurrenceID": "38bad0dd-1685-4ba3-845f-e55ba49e4e2f",
+            "dwc:catalogNumber": "BM000940953",
+            "dwc:genus": "Nicotiana",
+            "dwc:specificEpithet": "macgillivrayi",
+            "dwc:country": "New Caledonia",
+            "dwc:year": 1854,
+            "dwc:eventDate": "1854-01-01",
+            "dwc:recordedBy": "John MacGillivray",
+            "dwc:decimalLatitude": -22.5945,
+            "dwc:decimalLongitude": 167.4575,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "BM",
+            "dc:typeStatus": "HOLOTYPE",
+            "dwc:stateProvince": "Sud",
+            "dwc:identifiedBy": "Maarten Joost Maria Christenhusz",
+            "dwc:continent": "OCEANIA",
+            "dcterms:identifier": "5451832",
+            "dcterms:modified": "2017-04-11",
+            "dwc:recordNumber": "s.n.",
+            "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:5451832",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Solanales",
+            "dwc:family": "Solanaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "BOT",
+            "dwc:higherClassification": "Magnoliophyta; Magnoliopsida; Solanales; Solanaceae",
+            "dwc:institutionCode": "NHMUK",
+            "dwc:higherGeography": "Oceania; New Caledonia; Sud",
+            "dwc:georeferenceProtocol": "Google Earth",
+            "dwc:fieldNumber": "s.n.",
+            "dwc:island": "Isle of Pines",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.nhm.ac.uk/object/38bad0dd-1685-4ba3-845f-e55ba49e4e2f",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "http://www.nhm.ac.uk/services/media-store/asset/53af8c39de5d65ca0282bf977c42e6ab3adc2cc0/contents/preview",
+            "dcterms:title": "BM000940953",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "The Trustees of the Natural History Museum, London",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Carduus crispus L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000914401",
+            "dwc:catalogNumber": "K000914401",
+            "dwc:genus": "Carduus",
+            "dwc:specificEpithet": "crispus",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 2008,
+            "dwc:eventDate": "2008-07-14",
+            "dwc:locality": "Kew Gardens; South Arboretum",
+            "dwc:recordedBy": "Cope, T.A.",
+            "dwc:decimalLatitude": 51.48,
+            "dwc:decimalLongitude": -0.31,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Cope, T.A.",
+            "dcterms:identifier": "K000914401",
+            "dwc:month": 7,
+            "dwc:day": 14,
+            "dcterms:modified": "2014-01-21",
+            "dwc:recordNumber": "RBG 163",
+            "dwc:habitat": "on the edge of the Brick Pit in the Conservation Area (zone 310, OS monad 17.76)",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Vern. name:  Welted Thistle",
+            "dwc:georeferenceProtocol": "Within Park",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000914401",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000914401",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/641198.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

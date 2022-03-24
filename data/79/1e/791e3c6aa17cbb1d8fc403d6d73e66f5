@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Trixis divaricata (Kunth) Spreng.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000054541",
+            "dwc:catalogNumber": "K000054541",
+            "dwc:genus": "Trixis",
+            "dwc:specificEpithet": "divaricata",
+            "dwc:country": "Brazil",
+            "dwc:locality": "In woods near Crato.",
+            "dwc:recordedBy": "Gardner, G.",
+            "dwc:decimalLatitude": -7.23,
+            "dwc:decimalLongitude": -39.38,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "K",
+            "dwc:identifiedBy": "Hind, D.J.N.",
+            "dcterms:identifier": "K000054541",
+            "dcterms:modified": "2013-09-09",
+            "dwc:recordNumber": "1748",
+            "dwc:coordinateUncertaintyInMeters": 0.2,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Asterales",
+            "dwc:family": "Asteraceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "COMPOSITAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "Herbarium Benthamianum 1854",
+            "dwc:higherGeography": "Mun.?",
+            "dwc:municipality": "Mun.?",
+            "dwc:georeferenceProtocol": "Gazetteer",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "lat",
+            "@id": "http://specimens.kew.org/herbarium/K000054541",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000054541",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/610448.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

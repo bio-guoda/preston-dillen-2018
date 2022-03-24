@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium laetum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "BR",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7702",
+            "dwc:catalogNumber": "EIG.7702",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "laetum",
+            "dwc:country": "Brazil",
+            "dwc:year": 1873,
+            "dwc:eventDate": "1873-08-25",
+            "dwc:recordedBy": "Mosen",
+            "setID": "H",
+            "dwc:verbatimEventDate": "25.08.1873",
+            "dwc:stateProvince": "Minas Gerais",
+            "dwc:continent": "Central America, South America and the Antarctic",
+            "dcterms:identifier": "http://tun.fi/MY.727923",
+            "dwc:month": 8,
+            "dwc:day": 25,
+            "dwc:county": "Caldas",
+            "dcterms:modified": "1492084219",
+            "dwc:otherCatalogNumbers": "H1128129",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Minas Geraes",
+            "dwc:datasetID": "GX.231",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium laetum",
+            "dwc:verbatimRecordedBy": "Mosen",
+            "dcterms:language": "und",
+            "languageRemarks": "ZZ - translingual",
+            "@id": "http://id.luomus.fi/EIG.7702",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

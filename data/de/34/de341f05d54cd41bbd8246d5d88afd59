@@ -1,0 +1,95 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Lappula deflexa (Wahlenb.) Garcke",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "FR",
+            "dwc:occurrenceID": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00597667",
+            "dwc:catalogNumber": "P00597667",
+            "dwc:genus": "Hackelia",
+            "dwc:specificEpithet": "deflexa",
+            "dwc:country": "France",
+            "dwc:year": 1927,
+            "dwc:eventDate": "1927-07-31",
+            "dwc:recordedBy": "Thiébaut, C.",
+            "setID": "P",
+            "dwc:stateProvince": "73 Savoie",
+            "dcterms:identifier": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00597667",
+            "dwc:month": 7,
+            "dwc:day": 31,
+            "dcterms:modified": "2015-09-05",
+            "dwc:verbatimLocality": "Termignon (Savoie) : forêt de conifères",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Boraginales",
+            "dwc:family": "Boraginaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "P",
+            "dwc:institutionCode": "MNHN",
+            "dwc:fieldNumber": "5535",
+            "dwc:preparations": "hb",
+            "dc:type": "PhysicalObject",
+            "dwc:elevation": 1700,
+            "dcterms:language": "fra",
+            "@id": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00597667",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|31499",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Echinospermum",
+            "dwc:higherClassification": "Echinospermum;Boraginaceae",
+            "dwc:specificEpithet": "deflexum",
+            "dwc:scientificName": "Echinospermum deflexum (Wahlenb.) Lehm.",
+            "dwc:scientificNameAuthorship": "(Wahlenb.) Lehm.",
+            "dwc:taxonID": "SONNERAT|94493",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|5682504",
+            "dwc:identificationVerificationStatus": "0",
+            "dwc:genus": "Echinospermum",
+            "dwc:higherClassification": "Echinospermum;Boraginaceae",
+            "dwc:specificEpithet": "deflexum",
+            "dwc:scientificName": "Echinospermum deflexum (Wahlenb.) Lehm.",
+            "dwc:scientificNameAuthorship": "(Wahlenb.) Lehm.",
+            "dwc:taxonID": "SONNERAT|94493",
+            "dwc:identificationRemarks": "operation de numerisation 2010-2012",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dwc:family": "Boraginaceae",
+            "@id": "SONNERAT|709568",
+            "dwc:identificationVerificationStatus": "1",
+            "dwc:genus": "Lappula",
+            "dwc:higherClassification": "Lappula;Boraginaceae",
+            "dwc:specificEpithet": "deflexa",
+            "dwc:scientificName": "Lappula deflexa (Wahlenb.) Garcke",
+            "dwc:scientificNameAuthorship": "(Wahlenb.) Garcke",
+            "dwc:taxonID": "SONNERAT|94492",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:subject": "e-recolnat",
+            "@id": "BC064A3D9E8943CEA572433873BD6694",
+            "@type": "gbif:Identifier"
+        },
+        {
+            "dcterms:format": "image/jpeg",
+            "@id": "http://mediaphoto.mnhn.fr/media/14413674594748zYBX6BUKIt7fZK0",
+            "dcterms:license": "cc-by",
+            "dcterms:type": "StillImage",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Ophrys oestrifera var. grandiflora B. Willing & E. Willing",
+            "dwc:taxonRank": "variety",
+            "dwc:countryCode": "GR",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100170216",
+            "dwc:catalogNumber": "B 10 0170216",
+            "dwc:genus": "Ophrys",
+            "dwc:specificEpithet": "oestrifera",
+            "dwc:country": "Greece",
+            "dwc:year": 1985,
+            "dwc:eventDate": "1985-05-27",
+            "dwc:locality": "Imathía, Imathias, 1,6 km SW Georgiani",
+            "dwc:recordedBy": "Willing,R. & Willing,E.",
+            "dwc:infraspecificEpithet": "grandiflora",
+            "dwc:decimalLatitude": 40.4378,
+            "dwc:decimalLongitude": 22.1672,
+            "setID": "B",
+            "dwc:verbatimEventDate": "1985-05-27",
+            "dwc:identifiedBy": "E. Willing",
+            "dwc:continent": "Europe",
+            "dwc:recordNumber": "1736",
+            "dwc:scientificNameAuthorship": "B. Willing & E. Willing",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "Orchidaceae",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; Orchidaceae",
+            "dwc:institutionCode": "B",
+            "dwc:occurrenceRemarks": "Herbariumnummer in Berlin: B 10 0170216; utm: EK 97.97",
+            "dwc:higherGeography": "Europe",
+            "dc:type": "PhysicalObject",
+            "dwc:minimumElevationInMeters": "550",
+            "dcterms:language": "deu",
+            "@id": "http://herbarium.bgbm.org/object/B100170216",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

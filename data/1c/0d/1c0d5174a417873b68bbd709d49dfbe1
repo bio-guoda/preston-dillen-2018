@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Phyllostachys nigra var. henonis (Mitford) Rendle",
+            "dwc:taxonRank": "VARIETY",
+            "dwc:countryCode": "GB",
+            "dwc:occurrenceID": "http://specimens.kew.org/herbarium/K000912223",
+            "dwc:catalogNumber": "K000912223",
+            "dwc:genus": "Phyllostachys",
+            "dwc:specificEpithet": "nigra",
+            "dwc:country": "United Kingdom",
+            "dwc:year": 1902,
+            "dwc:eventDate": "1902-03-17",
+            "dwc:locality": "Hort. Kew",
+            "dwc:recordedBy": "s.coll.",
+            "dwc:infraspecificEpithet": "henonis",
+            "setID": "K",
+            "dwc:identifiedBy": "Chao, C.S.",
+            "dwc:dateIdentified": "1986-04-16T00:00:00.000+0000",
+            "dcterms:identifier": "K000912223",
+            "dwc:month": 3,
+            "dwc:day": 17,
+            "dcterms:modified": "2013-05-14",
+            "dwc:recordNumber": "s.n.",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Herbarium",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:institutionCode": "K",
+            "dwc:occurrenceRemarks": "possibly cult; Type of Bot. Mag. t.",
+            "dwc:georeferenceProtocol": "label",
+            "dwc:taxonRemarks": "Determination as on label: Phyllostachys nigra var. henonis (Mitf.) Stapf ex Rendle",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://specimens.kew.org/herbarium/K000912223",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "dwc:infraspecificEpithet": "punctata",
+            "dwc:taxonRank": "var.",
+            "dwc:family": "POACEAE",
+            "dwc:genus": "Phyllostachys",
+            "dwc:taxonRemarks": "Determination as on label: Phyllostachys nigra-punctata = P. Henonis",
+            "dwc:higherClassification": "POACEAE",
+            "dwc:specificEpithet": "nigra",
+            "dwc:typeStatus": "Unknown type material",
+            "dwc:scientificName": "Phyllostachys nigra (Lodd. ex Lindl.) Munro var. punctata Bean",
+            "dwc:scientificNameAuthorship": "(Lodd. ex Lindl.) Munro",
+            "@type": "dwc:Identification"
+        },
+        {
+            "dcterms:rightsHolder": "Royal Botanic Gardens, Kew",
+            "dcterms:references": "http://specimens.kew.org/herbarium/K000912223",
+            "dcterms:format": "image/jpeg",
+            "@id": "http://www.kew.org/herbcatimg/483923.jpg",
+            "dcterms:license": "http://creativecommons.org/licenses/by/4.0/",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

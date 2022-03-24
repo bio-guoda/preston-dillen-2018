@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PreservedSpecimen",
+            "dwc:scientificName": "Chenopodium melanocarpum (J.M.Black) J.M.Black",
+            "dwc:countryCode": "AU",
+            "dwc:occurrenceID": "http://herbarium.bgbm.org/object/B100114359",
+            "dwc:catalogNumber": "B 10 0114359",
+            "dwc:genus": "Chenopodium",
+            "dwc:specificEpithet": "melanocarpum",
+            "dwc:country": "Australia",
+            "dwc:year": 1998,
+            "dwc:eventDate": "1998-08-12",
+            "dwc:recordedBy": "C. R. Michell & J. Risler",
+            "setID": "B",
+            "dwc:verbatimEventDate": "12.08.1998",
+            "dwc:continent": "Australia and Oceania",
+            "dwc:recordNumber": "1921",
+            "dwc:scientificNameAuthorship": "J.M.Black",
+            "dwc:kingdom": "Plantae",
+            "dwc:family": "CHENOPODIACEAE",
+            "dwc:collectionCode": "Herbarium Berolinense",
+            "dwc:higherClassification": "Plantae; CHENOPODIACEAE",
+            "dwc:institutionCode": "B",
+            "dwc:higherGeography": "Australia and Oceania",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://herbarium.bgbm.org/object/B100114359",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Bromopsis erecta (Huds.) Fourr.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "NL",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2074481",
+            "dwc:catalogNumber": "L.2074481",
+            "dwc:genus": "Bromus",
+            "dwc:specificEpithet": "erecta",
+            "dwc:country": "Netherlands",
+            "dwc:year": 2011,
+            "dwc:eventDate": "2011-08-17",
+            "dwc:locality": "Eys, Eyserbosschen Piepert.",
+            "dwc:recordedBy": "Slikke WJ van der; Beringen R",
+            "dwc:decimalLatitude": 50.8286,
+            "dwc:decimalLongitude": 5.921,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "2011/08/17",
+            "dwc:stateProvince": "Limburg",
+            "dwc:identifiedBy": "Beringen R",
+            "dwc:continent": "EUROPE",
+            "dcterms:identifier": "L.2074481",
+            "dwc:month": 8,
+            "dwc:day": 17,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Poales",
+            "dwc:family": "Poaceae",
+            "dwc:class": "Liliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Poales|Gramineae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "nld",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2074481",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

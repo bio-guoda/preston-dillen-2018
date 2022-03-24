@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Gonocaryum crassifolium Ridl.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "ID",
+            "dwc:occurrenceID": "http://data.biodiversitydata.nl/naturalis/specimen/L.2291420",
+            "dwc:catalogNumber": "L.2291420",
+            "dwc:genus": "Gonocaryum",
+            "dwc:specificEpithet": "crassifolium",
+            "dwc:country": "Indonesia",
+            "dwc:year": 1982,
+            "dwc:eventDate": "1982-11-26",
+            "dwc:locality": "Indonesia, Kalimantan Tengah, Bukit Raya",
+            "dwc:recordedBy": "Nooteboom HP",
+            "dwc:decimalLatitude": -0.75,
+            "dwc:decimalLongitude": 112.75,
+            "dwc:geodeticDatum": "WGS84",
+            "setID": "L",
+            "dwc:verbatimEventDate": "1982/11/26",
+            "dwc:stateProvince": "Borneo",
+            "dwc:continent": "ASIA",
+            "dcterms:identifier": "L.2291420",
+            "dwc:month": 11,
+            "dwc:day": 26,
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Aquifoliales",
+            "dwc:family": "Cardiopteridaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "Botany",
+            "dwc:nomenclaturalCode": "ICN",
+            "dwc:higherClassification": "Plantae|Magnoliopsidae|Aquifoliales|Cardiopteridaceae",
+            "dwc:verbatimTaxonRank": "species",
+            "dc:type": "PhysicalObject",
+            "dcterms:language": "eng",
+            "@id": "http://data.biodiversitydata.nl/naturalis/specimen/L.2291420",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

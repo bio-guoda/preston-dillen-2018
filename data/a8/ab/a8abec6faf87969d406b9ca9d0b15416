@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "gbif": "http://rs.gbif.org/terms/1.0"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Stachys recta L.",
+            "dwc:taxonRank": "SPECIES",
+            "dwc:countryCode": "RU",
+            "dwc:occurrenceID": "TU271134",
+            "dwc:catalogNumber": "TU271134",
+            "dwc:genus": "Stachys",
+            "dwc:specificEpithet": "recta",
+            "dwc:country": "Russian Federation",
+            "dwc:year": 2011,
+            "dwc:eventDate": "2011-06-18",
+            "dwc:locality": "Lipetskaja obl",
+            "dwc:recordedBy": "Annika Karusion",
+            "setID": "TU",
+            "dwc:verbatimEventDate": "2011-06-18",
+            "dwc:identifiedBy": "Annika Karusion",
+            "dwc:dateIdentified": "2011-06-18T00:00:00.000+0000",
+            "dcterms:identifier": "TU271134",
+            "dwc:month": 6,
+            "dwc:day": 18,
+            "dcterms:rightsHolder": "Natural History Museum, University of Tartu",
+            "dwc:datasetID": "4",
+            "dwc:kingdom": "Plantae",
+            "dwc:phylum": "Tracheophyta",
+            "dwc:order": "Lamiales",
+            "dwc:family": "Lamiaceae",
+            "dwc:class": "Magnoliopsida",
+            "dwc:collectionCode": "TU",
+            "dwc:higherClassification": "Viridiplantae; Anthophyta; Eudicotyledonae; Lamiales; Lamiaceae; Stachys",
+            "dwc:verbatimTaxonRank": "Species",
+            "dwc:institutionCode": "UTE",
+            "dc:type": "PhysicalObject",
+            "dwc:datasetName": "Specimen: plant",
+            "dwc:institutionID": "http://biocol.org/urn:lsid:biocol.org:col:34384",
+            "dcterms:references": "https://plutof.ut.ee/#/specimen/view/780327",
+            "dwc:eventID": 1038750,
+            "dwc:taxonID": 7459,
+            "dwc:locationID": 947750,
+            "dwc:identificationID": 638242,
+            "dcterms:language": "rus",
+            "@id": "https://plutof.ut.ee/#/specimen/view/780327",
+            "@type": "dwc:Occurrence"
+        },
+        {
+            "@id": "https://files.plutof.ut.ee/public/large/2C/A0/2CA00D2EA879E0BFC0F0BC6A1DC431F5FECE2EDF4C404C8051B14D520316E515.jpg",
+            "dcterms:references": "https://plutof.ut.ee/#/filerepository/view/1503347",
+            "dcterms:title": "TU271134.tif",
+            "dcterms:created": "2015-11",
+            "dcterms:format": "image/tiff",
+            "dcterms:rightsHolder": "University of Tartu; Natural History Museum and Botanic Garden; Botanical and Mycological Museum; Department of Botany",
+            "dcterms:license": "http://creativecommons.org/licenses/by-nc/4.0",
+            "dcterms:type": "Image",
+            "@type": "gbif:Multimedia"
+        }
+    ]
+}
+

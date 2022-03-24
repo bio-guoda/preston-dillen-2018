@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/"
+    },
+    "@graph": [
+        {
+            "dwc:basisOfRecord": "PRESERVED_SPECIMEN",
+            "dwc:scientificName": "Asplenium abyssinicum",
+            "dwc:taxonRank": "species",
+            "dwc:countryCode": "ET",
+            "dwc:occurrenceID": "http://id.luomus.fi/EIG.7053",
+            "dwc:catalogNumber": "EIG.7053",
+            "dwc:genus": "Asplenium",
+            "dwc:specificEpithet": "abyssinicum",
+            "dwc:country": "Ethiopia",
+            "dwc:year": 1972,
+            "dwc:eventDate": "1972-01-30",
+            "dwc:locality": "Simien Mountains National Park, Geech. On the banks of Djinn Bahr.",
+            "dwc:recordedBy": "Heinonen, Kirsti",
+            "setID": "H",
+            "dwc:verbatimEventDate": "30.01.1972",
+            "dwc:stateProvince": "Begember",
+            "dwc:continent": "Africa",
+            "dcterms:identifier": "http://tun.fi/MY.725775",
+            "dwc:month": 1,
+            "dwc:day": 30,
+            "dcterms:modified": "1492084175",
+            "dwc:recordNumber": "1061",
+            "dwc:otherCatalogNumbers": "H1074231",
+            "dwc:collectionID": "http://tun.fi/HR.168",
+            "dcterms:rightsHolder": "Luomus, University of Eastern Finland",
+            "dwc:verbatimLocality": "Begemder, Simien National Park. 3400 m above sea.",
+            "dwc:datasetID": "GX.270",
+            "dc:type": "PhysicalObject",
+            "dwc:canonicalName": "Asplenium abyssinicum",
+            "dwc:verbatimRecordedBy": "Heinonen, Kirsti",
+            "dcterms:language": "eng",
+            "@id": "http://id.luomus.fi/EIG.7053",
+            "@type": "dwc:Occurrence"
+        }
+    ]
+}
+

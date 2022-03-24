@@ -25,7 +25,7 @@ and associated publications using [Preston](https://preston.guoda.bio), a biodiv
 
 ### update
 
-to update the data associated with the Dillen 2018 corpus, install Preston, jq, and re-run:
+to update the data associated with the Dillen 2018 corpus, install Preston (>= v0.3.6), jq, and re-run:
 
 ```shell
 ./build.sh 

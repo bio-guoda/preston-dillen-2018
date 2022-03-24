@@ -31,8 +31,7 @@ to update the data associated with the Dillen 2018 corpus, install Preston, jq, 
 ./build.sh 
 ```
 
-Depending on your network connectivity and Zenodo server response times, this process may take a while. If you don't want to rely on the internet, suggest to use the clone feature described next. 
-
+Depending on your network connectivity and Zenodo server response times, this process may take a while. If you don't want to rely on the internet, suggest to use the clone feature described next. If you'd rather work with a pre-compiled version, please skip to the next section: [clone](#clone). 
 
 ### clone
 To work with a previously captured version of the image corpus (and it's associated images) locally, suggest to run:
@@ -43,7 +42,15 @@ preston clone --algo md5 --remote https://raw.githubusercontent.com/bio-guoda/pr
 
 Please note that the associated (heavy) images are stored in Zenodo, whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository. Note that downloading the >200GB corpus may take awhile depending on your internet connection speed or the load on Zenodo's valuable web services.   
 
-Alternatively, you can use git/github to clone the metadata, then retrieve the (heavy) image object from Zenodo if needed:
+Alternatively, you can use git/github to clone the metadata, then retrieve the (heavy) image object from Zenodo if needed.
+
+If all goes well, you should have a data folder that contains just over 200G in data:
+
+```
+$ du -d1 -h 
+203G	./data
+203G	.
+```
 
 ### find 
 

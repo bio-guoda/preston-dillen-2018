@@ -38,10 +38,10 @@ Depending on your network connectivity and Zenodo server response times, this pr
 To work with a previously captured version of the image corpus (and it's associated images) locally, suggest to run:
 
 ```shell
-preston clone --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org
+preston clone --algo md5 --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org
 ```
 
-Please note that the associated (heavy) images are stored in Zenodo, whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository.
+Please note that the associated (heavy) images are stored in Zenodo, whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository. Note that downloading the >200GB corpus may take awhile depending on your internet connection speed or the load on Zenodo's valuable web services.   
 
 Alternatively, you can use git/github to clone the metadata, then retrieve the (heavy) image object from Zenodo if needed:
 
@@ -148,4 +148,47 @@ with expected output:
 ```
 
 would select all available specimen records. 
+
+
+### image processing
+
+Now, select some tiff images using:
+
+```
+preston ls --algo md5 -l tsv\
+| grep hasVersion\
+| grep tif\
+| cut -f3\
+| grep hash://\
+| head
+ ```
+
+ produces:
+
+```
+hash://md5/a5ccffe5fe22aca505acdaf41c42906b
+hash://md5/b35348aa71090a1f80e9d3fe8def8371
+hash://md5/37fde5ff1d29e2f21fdb6bcfaef2fe19
+hash://md5/56407fa802d0189b9b69f24b30d0242b
+hash://md5/349696f3a0fda2ceb798fabfdb367262
+hash://md5/0eb416c5561818003c37c211691fb455
+hash://md5/9029736abb31c1f01646cd5d41d55c8d
+hash://md5/9c0fddd7529d5d114bb716dac40106be
+hash://md5/96d0349faf932032f43a7e90ec73ab3e
+hash://md5/00127099bf5e2035ad76b45979ca5504
+```
+
+These are hashes (or content ids) associated with tracked tiff images. 
+
+Exact one into a file using Zenodo as a remote image repository (i.e. ```--remote https://zenodo.org```) without caching a local copy (i.e. ```---no-cache```) :  
+
+```
+preston cat --algo md5 hash://md5/a5ccffe5fe22aca505acdaf41c42906b --remote https://zenodo.org --no-cache > some.tiff
+```
+
+and open the large image file (> 100MB) in your favorite images processing program, or process it futher.
+
+Note that this uses Zenodo to lookup the image by their md5 hash (for background, see https://github.com/bio-guoda/preston/issues/149). In other words, Preston asks for content with a specific content hash, and Zenodo finds one if it has it.
+
+Also note that this ```preston cat ...``` example above would work anywhere as long as: (1) you have an internet connection (2) Zenodo is up and running, and (3) installed a version of Preston. 
 

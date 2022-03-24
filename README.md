@@ -192,3 +192,19 @@ Note that this uses Zenodo to lookup the image by their md5 hash (for background
 
 Also note that this ```preston cat ...``` example above would work anywhere as long as: (1) you have an internet connection (2) Zenodo is up and running, and (3) installed a version of Preston. 
 
+### image processing: creating a thumbnail
+
+Now that you can _stream_ data from your image corpus, you could generate a thumbnail ```thumbnail.jpg``` using Imagemagick's convert, Preston, and the first tif image found in the Dillen 2018 Herbarium corpus:
+
+```
+preston ls --algo md5\
+| grep hasVersion\
+| grep "\.tif"\
+| head -n1\
+| preston cat --remote https://zenodo.org --no-cache --algo md5\
+| convert tiff:- -thumbnail 120x90 thumbnail.jpg
+```
+
+This example can be extended to include *all* images in the corpus with *any* command-line image processing tool (e.g., tesseract, automl, opencv). And, optionally, you can add the thumbnail into the preston archive, and associate them with Prov's http://www.w3.org/ns/prov#wasDerivedFrom relation.
+
+

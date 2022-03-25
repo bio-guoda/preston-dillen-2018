@@ -29,7 +29,7 @@ to update the data associated with the Dillen 2018 corpus, install Preston (>= v
 ./build.sh 
 ```
 
-Depending on your network connectivity and Zenodo server response times, this process may take a while. If you don't want to rely on the internet, suggest to use the clone feature described next. If you'd rather work with a pre-compiled version, please skip to the next section: [clone](#clone). 
+Depending on your network connectivity and Zenodo server response times, this process may take a while. If you'd rather work with a pre-compiled version, please skip to the next section: [clone](#clone). 
 
 ### clone
 To work with a previously captured version of the image corpus (and it's associated images) locally, suggest to run:

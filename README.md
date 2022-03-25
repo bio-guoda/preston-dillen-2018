@@ -4,6 +4,10 @@ This repository provides a way to track the image corpus and associated metadata
 
 Dillen Mathias. (2018). A benchmark dataset of herbarium specimen images with label data: Summary [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6372393
 
+and related data paper:
+
+Dillen M, Groom Q, Chagnoux S, Güntsch A, Hardisty A, Haston E, Livermore L, Runnel V, Schulman L, Willemse L, Wu Z, Phillips S (2019) A benchmark dataset of herbarium specimen images with label data. Biodiversity Data Journal 7: e31817. https://doi.org/10.3897/BDJ.7.e31817
+
 and associated publications using [Preston](https://preston.guoda.bio), a biodiversity dataset tracker. 
 
 :warning: this is an experimental data repository :warning: 

@@ -38,7 +38,7 @@ To work with a previously captured version of the image corpus (and it's associa
 preston clone --algo md5 --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org
 ```
 
-Please note that the associated (heavy) images are stored in Zenodo, whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository. Note that downloading the >200GB corpus may take awhile depending on your internet connection speed or the load on Zenodo's valuable web services.   
+Please note that the associated (heavy) images are stored in Zenodo, whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository via https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data (a webview onto this repository) or by cloning the repo locally using git. The latter is much faster because git is pretty good getting many files from a remote location. Also, note that downloading the >200GB corpus may take awhile depending on your internet connection speed or the load on Zenodo's valuable web services.   
 
 Alternatively, you can use git/github to clone the metadata, then retrieve the (heavy) image object from Zenodo if needed.
 

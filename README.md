@@ -39,12 +39,10 @@ Depending on your network connectivity and Zenodo server response times, this pr
 To work with a previously captured version of the image corpus (and it's associated images) locally, suggest to run:
 
 ```shell
-preston clone --algo md5 --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org
+preston clone --algo md5 --remote https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data,https://zenodo.org,https://archive.org/download/herbarium-specimen-images-dillen-2018/data.zip/data
 ```
 
-Please note that the associated (heavy) images are stored in Zenodo, whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository via https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data (a webview onto this repository) or by cloning the repo locally using git. The latter is much faster because git is pretty good getting many files from a remote location. Also, note that downloading the >200GB corpus may take awhile depending on your internet connection speed or the load on Zenodo's valuable web services.   
-
-Alternatively, you can use git/github to clone the metadata, then retrieve the (heavy) image object from Zenodo if needed.
+Please note that the associated (heavy) images are stored in [Zenodo](https://doi.org/10.5281/zenodo.6372393) and the [Internet Archive](https://archive.org/details/herbarium-specimen-images-dillen-2018), whereas (lightweight) indexes, metadata and json snippets can be retrieved from this repository via https://raw.githubusercontent.com/bio-guoda/preston-dillen-2018/main/data (a webview onto this repository) or by cloning the repo locally using git. The latter is much faster because git is pretty good getting many files from a remote location. Also, note that downloading the >200GB corpus may take a while depending on your internet connection speed or the load on Zenodo's valuable web services.   
 
 If all goes well, you should have a data folder that contains just over 200G in data:
 

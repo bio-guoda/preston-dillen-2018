@@ -230,7 +230,7 @@ This example can be extended to include *all* images in the corpus with *any* co
 
 See the thumbnail.jpg derived from [4] below for resulting thumbnail.
 
-![http://data.rbge.org.uk/herb/E00633257](./thumbnail.jpg)
+![http://data.rbge.org.uk/herb/E00633257](https://github.com/bio-guoda/preston-dillen-2018/blob/main/thumbnail.jpg?raw=true)
 
 
 # References

@@ -56,6 +56,50 @@ $ du -d1 -h
 203G	.
 ```
 
+with the following version / provenance / hash identifiers describing the dataset:
+
+```
+$ preston history --algo md5
+<urn:uuid:0659a54f-b713-4f86-a917-5be166a14110> <http://purl.org/pav/hasVersion> <hash://md5/c07addfcbb5b8711da6e3da4e9a50481> .
+<hash://md5/3cf86993aeb3d6deec14423af63dd4ac> <http://purl.org/pav/previousVersion> <hash://md5/c07addfcbb5b8711da6e3da4e9a50481> .
+<hash://md5/df8083ceb1c45410a6382550a6f8fefe> <http://purl.org/pav/previousVersion> <hash://md5/3cf86993aeb3d6deec14423af63dd4ac> .
+<hash://md5/dfd76204ef0ac239b596c65eb07879cf> <http://purl.org/pav/previousVersion> <hash://md5/df8083ceb1c45410a6382550a6f8fefe> .
+<hash://md5/3a0765ad1b60bd0f08f4b5cba1908a11> <http://purl.org/pav/previousVersion> <hash://md5/dfd76204ef0ac239b596c65eb07879cf> .
+<hash://md5/882fbfbd7ea8a7f4cfe26c3b35de44f5> <http://purl.org/pav/previousVersion> <hash://md5/3a0765ad1b60bd0f08f4b5cba1908a11> .
+<hash://md5/f64dc1613e3ab43d64ebf8ca0a26a3e6> <http://purl.org/pav/previousVersion> <hash://md5/882fbfbd7ea8a7f4cfe26c3b35de44f5> .
+<hash://md5/9f5dfdf6eec79fff6dbf11cb5d7d1cba> <http://purl.org/pav/previousVersion> <hash://md5/f64dc1613e3ab43d64ebf8ca0a26a3e6> .
+<hash://md5/ff885e9653ef6c23511b72dfbe0eba24> <http://purl.org/pav/previousVersion> <hash://md5/9f5dfdf6eec79fff6dbf11cb5d7d1cba> .
+<hash://md5/272ea5431b9e3d7a6274684ef99cbd9c> <http://purl.org/pav/previousVersion> <hash://md5/ff885e9653ef6c23511b72dfbe0eba24> .
+<hash://md5/cad7bd4421ce0acf585098c2e122d70f> <http://purl.org/pav/previousVersion> <hash://md5/272ea5431b9e3d7a6274684ef99cbd9c> .
+<hash://md5/c889d083a2d0ba1337d2bfb080a333ad> <http://purl.org/pav/previousVersion> <hash://md5/cad7bd4421ce0acf585098c2e122d70f> .
+<hash://md5/2dbeff0b55db59f51ffd2f7a8a641169> <http://purl.org/pav/previousVersion> <hash://md5/c889d083a2d0ba1337d2bfb080a333ad> .
+<hash://md5/ee30b0fd4b019b2b9a7553a17c6537c2> <http://purl.org/pav/previousVersion> <hash://md5/2dbeff0b55db59f51ffd2f7a8a641169> .
+<hash://md5/0103ec2541a148c79237144da5e34afd> <http://purl.org/pav/previousVersion> <hash://md5/ee30b0fd4b019b2b9a7553a17c6537c2> .
+<hash://md5/9921568355e467b6f1c2ca2f21730b30> <http://purl.org/pav/previousVersion> <hash://md5/0103ec2541a148c79237144da5e34afd> .
+<hash://md5/04073a68f963e3e7051bdc67c13c85f6> <http://purl.org/pav/previousVersion> <hash://md5/9921568355e467b6f1c2ca2f21730b30> .
+<hash://md5/af22f5f9ad14cf542fa6b8ac2e1f8911> <http://purl.org/pav/previousVersion> <hash://md5/04073a68f963e3e7051bdc67c13c85f6> .
+<hash://md5/06674c38ecb7ba1d650123d65adece16> <http://purl.org/pav/previousVersion> <hash://md5/af22f5f9ad14cf542fa6b8ac2e1f8911> .
+<hash://md5/6d237cf6801f0687722e19551dd7ae03> <http://purl.org/pav/previousVersion> <hash://md5/06674c38ecb7ba1d650123d65adece16> .
+<hash://md5/39341df2ac85327498a87c57243109a9> <http://purl.org/pav/previousVersion> <hash://md5/6d237cf6801f0687722e19551dd7ae03> .
+<hash://md5/867860e02b2f5d5892e07125ff3979c0> <http://purl.org/pav/previousVersion> <hash://md5/39341df2ac85327498a87c57243109a9> .
+<hash://md5/aa08a8968a0907a0d473710d274c8cb9> <http://purl.org/pav/previousVersion> <hash://md5/867860e02b2f5d5892e07125ff3979c0> .
+<hash://md5/24d20067e22238b761e726cc6f80453e> <http://purl.org/pav/previousVersion> <hash://md5/aa08a8968a0907a0d473710d274c8cb9> .
+<hash://md5/2d1fcfe8666031a4d2fd5c78d516ac64> <http://purl.org/pav/previousVersion> <hash://md5/24d20067e22238b761e726cc6f80453e> .
+<hash://md5/4d6b606aa921a6a699ad3e3792b59722> <http://purl.org/pav/previousVersion> <hash://md5/2d1fcfe8666031a4d2fd5c78d516ac64> .
+<hash://md5/6b06d3e21f13afe20a3785a533ab8b8f> <http://purl.org/pav/previousVersion> <hash://md5/4d6b606aa921a6a699ad3e3792b59722> .
+<hash://md5/8bdfdcf54862db47f7f2baf878550833> <http://purl.org/pav/previousVersion> <hash://md5/6b06d3e21f13afe20a3785a533ab8b8f> .
+<hash://md5/eafad91644074f5ce6ef4f9d4f5b4308> <http://purl.org/pav/previousVersion> <hash://md5/8bdfdcf54862db47f7f2baf878550833> .
+<hash://md5/fd03eade4bcf6f306aad5fdb67838dfb> <http://purl.org/pav/previousVersion> <hash://md5/eafad91644074f5ce6ef4f9d4f5b4308> .
+<hash://md5/cb2acbcc55bdcda0541135529eeb2b9e> <http://purl.org/pav/previousVersion> <hash://md5/fd03eade4bcf6f306aad5fdb67838dfb> .
+<hash://md5/76287abcf23de3e0b5ed7a18d2c28adc> <http://purl.org/pav/previousVersion> <hash://md5/cb2acbcc55bdcda0541135529eeb2b9e> .
+<hash://md5/f55f8f9877170ade28a14740be4c34d1> <http://purl.org/pav/previousVersion> <hash://md5/76287abcf23de3e0b5ed7a18d2c28adc> .
+<hash://md5/13bb5c5b6c85a3a4d59dac77965184f9> <http://purl.org/pav/previousVersion> <hash://md5/f55f8f9877170ade28a14740be4c34d1> .
+<hash://md5/68b04e71c97f76331b65d03c0f734c41> <http://purl.org/pav/previousVersion> <hash://md5/13bb5c5b6c85a3a4d59dac77965184f9> .
+<hash://md5/721e8329e1cdffa06398bc5214a14d3e> <http://purl.org/pav/previousVersion> <hash://md5/68b04e71c97f76331b65d03c0f734c41> .
+<hash://md5/332db3767562e20b399949cd39027e61> <http://purl.org/pav/previousVersion> <hash://md5/721e8329e1cdffa06398bc5214a14d3e> .
+```
+
+```
 ### find 
 
 You can use the generated index.json to find the specimen records that you are interested in. 

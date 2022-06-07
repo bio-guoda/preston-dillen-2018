@@ -99,7 +99,6 @@ $ preston history --algo md5
 <hash://md5/332db3767562e20b399949cd39027e61> <http://purl.org/pav/previousVersion> <hash://md5/721e8329e1cdffa06398bc5214a14d3e> .
 ```
 
-```
 ### find 
 
 You can use the generated index.json to find the specimen records that you are interested in. 
